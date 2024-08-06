@@ -1,6 +1,8 @@
 # SPIRIT
 Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
 
+![logo-github-black-on-white](https://github.com/user-attachments/assets/60e87523-02cf-482b-8433-5f611e48ca2d)
+
 # Contents
 1. [General Specifications](https://github.com/barbarjan/SPIRIT#general-specifications)
 1. [Architecture](https://github.com/barbarjan/SPIRIT#architecture)
