@@ -12,13 +12,33 @@ Open source smartphone, from available components. Prioritizing user experience,
 
 # General Specifications
 
+### RAM
+
+- 4GB
+
+### Storage
+
+- 256 GB NVMe SSD
+
 ### Connectivity (IO)
 
-- 1 x micro HDMI
 - 1 x USB 3.0
+- 1 x micro HDMI
 - 2.4/5GHz dual-band 802.11ac Wi-Fi 5 (300Mb/s)
 - Bluetooth 5, Bluetooth Low Energy (BLE)
 - microSD card slot
+
+### Screen
+
+- 5.5" Capacitive Touch AMOLED Display
+- resolution: 1080x1920 pixels
+- https://pl.aliexpress.com/item/1005004285641847.html
+or
+- https://www.ebay.com/itm/256002984375?chn=ps&mkevt=1&mkcid=28
+
+### Battery
+
+around 3400 mAh Li-Ion
 
 # Architecture
 
