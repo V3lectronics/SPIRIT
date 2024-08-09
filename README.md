@@ -12,6 +12,14 @@ Open source smartphone, from available components. Prioritizing user experience,
 
 # General Specifications
 
+### Connectivity (IO)
+
+- 1 x micro HDMI
+- 1 x USB 3.0
+- 2.4/5GHz dual-band 802.11ac Wi-Fi 5 (300Mb/s)
+- Bluetooth 5, Bluetooth Low Energy (BLE)
+- microSD card slot
+
 # Architecture
 
 # Hardware And Electronics
@@ -19,6 +27,8 @@ Open source smartphone, from available components. Prioritizing user experience,
 # Software And Operating System
 
 # Build Guide
+
+# Cost
 
 # Known Problems
 
