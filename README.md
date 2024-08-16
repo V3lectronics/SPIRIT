@@ -69,6 +69,7 @@ around 3400 mAh Li-Ion
 # Resources
 
 - [Rpi CM4 datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
-- [Rpi CM4 pinout](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf#page=18)
+- [Rpi CM4 pinout from datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf#page=18)
+- [Rpi CM4 useful interactive pinout](https://atctwo.net/projects/pinout/index.html)
 
 
