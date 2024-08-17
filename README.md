@@ -54,6 +54,8 @@ around 3400 mAh Li-Ion
 
 # Architecture
 
+![image](https://github.com/user-attachments/assets/72e48e5e-6249-4870-9c5f-a0e1d5bcfc7d)
+
 # Hardware And Electronics
     
 ### Carrier PCB
