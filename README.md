@@ -79,7 +79,7 @@ The battery is mounted such that it can be easily uninstalled for replacing or p
 
 ### Camera Module
 
-SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you need to take a selfie use the wide camera and crop the image ☺.
+SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you need to take a selfie use the wide camera and crop the image.
 
 ### Speaker system
 
