@@ -57,8 +57,58 @@ around 3400 mAh Li-Ion
 ![image](https://github.com/user-attachments/assets/72e48e5e-6249-4870-9c5f-a0e1d5bcfc7d)
 
 # Hardware And Electronics
-    
+
+### Raspberry Pi Compute Module 4
+
+"The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications". [Product website](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000)
+SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to increase the RAM to 8GB simply by using a different CM4 variant.
+
 ### Carrier PCB
+
+Custom carrier board that interfaces between the CM4 and the rest of the electronics.
+
+### Touchscreen
+    
+### Replaceable Battery
+
+The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons.
+
+### GSM Module
+
+### GPS Module
+
+### Camera Module
+
+SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you need to take a selfie use the wide camera and crop the image ☺.
+
+### Speaker system
+
+### Biometric Module
+
+### Headphone Jack
+
+Yes, this phone has a headphone jack. This way the user can decide between wireless, usb C, jack.
+
+### Microphone
+
+### Buttons
+
+#### Power Button
+
+#### Programmable Button
+
+The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, toggling the flashlight, toggling sound settings (silent, vibrate, sound) etc. 
+
+#### Volume Buttons
+
+### Flashlight
+
+### Rotation Sensor
+
+### Temperature Sensor
+
+1W 3V white, cool LED (SMD) [datasheet](https://otmm.lumileds.com/adaptivemedia/a8d0a06da712a5d9b12e577ab53c49b2cdd1e434).
+Toggling on/off can be binded to the programmable button.
 
 # Software And Operating System
 
