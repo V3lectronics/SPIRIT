@@ -11,8 +11,10 @@ and feedback is very welcome!
 1. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
 3. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
 4. [Build Guide](https://github.com/barbarjan/SPIRIT#build-guide)
-5. [Known Problems](https://github.com/barbarjan/SPIRIT#known-problems)
-6. [Resources](https://github.com/barbarjan/SPIRIT#resources)
+5. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
+6. [Cost](https://github.com/barbarjan/SPIRIT#cost)
+7. [Known Problems](https://github.com/barbarjan/SPIRIT#known-problems)
+8. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
 # General Specifications
 
@@ -31,20 +33,16 @@ and feedback is very welcome!
 
 #### Connectivity (IO)
 
-- 1 x USB 3.0
+- 1 x USB C 2.0
 - 1 x micro HDMI
 - 2.4 GHz, 5.0 GHz IEEE 802.11 b/g/n/ac wireless;
 - Bluetooth 5
 
 #### Screen
 
-- 5.5" Capacitive Touch AMOLED Display
-- resolution: 1080x1920 pixels
-- https://pl.aliexpress.com/item/1005004285641847.html
-
-or
-
-- https://www.ebay.com/itm/256002984375?chn=ps&mkevt=1&mkcid=28
+- 5.5" Capacitive Touch TFT Display
+- resolution: 720x1280 pixels
+- [datasheet](https://www.nxp.com/docs/en/supporting-information/RK055AHD091-CTG.pdf)
 
 #### Battery
 
@@ -123,9 +121,6 @@ Yes, this phone has a headphone jack. This way the user can decide between wirel
 
 #### Power Button
 
-The PCB layout, schematics and other files related to the board are exported
-from Kicad 6.0.11+dfsg-1 (Debian adapted package that excludes any non-free components).
-
 The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, toggling the flashlight, toggling sound settings (silent, vibrate, sound) etc. 
 
 -This way all newer versions (6 and up) can open the project after . If
@@ -133,20 +128,23 @@ the files where in Kicad 8 people with say kicad 7 could not open them.
 
 ### Flashlight
 
-The project will probably be migrated to version 8. After Kicad 8 becomes more
-stable or when there will be more contributors and switching versions will
-become annoying. For now this doesn't matter.
-
-If you are wondering "+dfsg" indicates that the package has been repackaged to remove any
-non-free or non-redistributable components, in accordance with Debian's Free Software
-Guidelines (DFSG).
-
 1W 3V white, cool LED (SMD) [datasheet](https://otmm.lumileds.com/adaptivemedia/a8d0a06da712a5d9b12e577ab53c49b2cdd1e434).
 Toggling on/off can be binded to the programmable button.
 
 # Software And Operating System
 
 # Build Guide
+
+# Parts List
+
+| Amount | Name | Price($) | Digikey Link |
+|--------|------|-------|--------------|
+|1      |CM4   |65     | https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
+|3 | FFC connector FH12-22S-0.5SH|2,21      |https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321
+
+
+- CM4
+- 3xFCC connector
 
 # Cost
 
