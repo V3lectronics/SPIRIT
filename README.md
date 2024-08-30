@@ -78,8 +78,8 @@ from Kicad 6.0.11+dfsg-1 (Debian adapted package that excludes any non-free comp
 
 Why Kicad 6?
 
--This way all newer versions (6 and up) can open the project after . If
-the files where in Kicad 8 people with say kicad 7 could not open them.
+-This way all newer versions (6 and up) can open the project. If
+the files where made in Kicad 8 people with say kicad 7 could not open them.
 
 -Stable as a rock (tested by Debian )
 
