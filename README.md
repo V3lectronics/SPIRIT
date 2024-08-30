@@ -52,6 +52,8 @@ around 3400 mAh Li-Ion
 
 #### Dimensions
 
+#### Camera
+
 # Architecture
 
 ![image](https://github.com/user-attachments/assets/72e48e5e-6249-4870-9c5f-a0e1d5bcfc7d)
@@ -65,10 +67,36 @@ SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to increase
 
 ### Carrier PCB
 
+#### EDA Software
+
+All design files are openly available through this repository.
+
+There should be no issues with opening them with newer versions of Kicad (6 and up).
+
+The PCB layout, schematics and other files related to the board are exported
+from Kicad 6.0.11+dfsg-1 (Debian adapted package that excludes any non-free components).
+
+Why Kicad 6?
+
+-This way all newer versions (6 and up) can open the project after . If
+the files where in Kicad 8 people with say kicad 7 could not open them.
+
+-Stable as a rock (tested by Debian )
+
+The project will probably be migrated to version 8. After Kicad 8 becomes more
+stable or when there will be more contributors and switching versions will
+become annoying. For now this doesn't matter.
+
+If you are wondering "+dfsg" indicates that the package has been repackaged to remove any
+non-free or non-redistributable components, in accordance with Debian's Free Software
+Guidelines (DFSG).
+
+#### Carrier PCB
+
 Custom carrier board that interfaces between the CM4 and the rest of the electronics.
 
 ### Touchscreen
-    
+
 ### Replaceable Battery
 
 The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons.
@@ -95,17 +123,23 @@ Yes, this phone has a headphone jack. This way the user can decide between wirel
 
 #### Power Button
 
-#### Programmable Button
+The PCB layout, schematics and other files related to the board are exported
+from Kicad 6.0.11+dfsg-1 (Debian adapted package that excludes any non-free components).
 
 The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, toggling the flashlight, toggling sound settings (silent, vibrate, sound) etc. 
 
-#### Volume Buttons
+-This way all newer versions (6 and up) can open the project after . If
+the files where in Kicad 8 people with say kicad 7 could not open them.
 
 ### Flashlight
 
-### Rotation Sensor
+The project will probably be migrated to version 8. After Kicad 8 becomes more
+stable or when there will be more contributors and switching versions will
+become annoying. For now this doesn't matter.
 
-### Temperature Sensor
+If you are wondering "+dfsg" indicates that the package has been repackaged to remove any
+non-free or non-redistributable components, in accordance with Debian's Free Software
+Guidelines (DFSG).
 
 1W 3V white, cool LED (SMD) [datasheet](https://otmm.lumileds.com/adaptivemedia/a8d0a06da712a5d9b12e577ab53c49b2cdd1e434).
 Toggling on/off can be binded to the programmable button.
