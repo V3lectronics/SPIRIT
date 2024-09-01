@@ -46,22 +46,25 @@ and feedback is very welcome!
 
 #### Battery
 
-around 3400 mAh Li-Ion
+Around 3400 mAh Li-Ion (undecided yet)
 
 #### Dimensions
 
 #### Camera
 
+
+
 # Architecture
 
-![image](https://github.com/user-attachments/assets/72e48e5e-6249-4870-9c5f-a0e1d5bcfc7d)
+(Ticks represent that the component/subsystem has been chosen and/or implemented) 
+![image](https://github.com/user-attachments/assets/582c2459-ce2a-44ca-8861-d7eb2b4fadfe)
 
 # Hardware And Electronics
 
 ### Raspberry Pi Compute Module 4
 
-"The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications". [(Product website)](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000)
-SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to increase the RAM to 8GB simply by using a different CM4 variant.
+"The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications" [(CM4 website)](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000).
+SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to use a different CM4 variant (for example to increase the RAM to 8GB).
 
 ### Carrier PCB
 
@@ -74,16 +77,13 @@ There should be no issues with opening them with newer versions of Kicad (6 and 
 The PCB layout, schematics and other files related to the board are exported
 from Kicad 6.0.11+dfsg-1 (Debian adapted package that excludes any non-free components).
 
-Why Kicad 6?
+#### Why Kicad 6?
 
--This way all newer versions (6 and up) can open the project. If
-the files where made in Kicad 8 people with say kicad 7 could not open them.
+-This way all newer versions (6 and up) can open the project. If the files where made in Kicad 8 people with say kicad 7 could not open them.
 
 -Stable as a rock (tested by Debian )
 
-The project will probably be migrated to version 8. After Kicad 8 becomes more
-stable or when there will be more contributors and switching versions will
-become annoying. For now this doesn't matter.
+The project will probably be migrated, after Kicad 8 becomes more stable or when there will be more contributors and switching versions will become annoying. For now this doesn't matter.
 
 #### Carrier PCB
 
@@ -93,19 +93,29 @@ Custom carrier board that interfaces between the CM4 and the rest of the electro
 
 ### Replaceable Battery
 
-The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons.
+The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons. 
+
+An added benefit is that the user can easily replace an empty battery for a charged one - effectively eliminating the need to wait for the phone to charge. An external battery charger can also be used for umnounted batteries.
 
 ### GSM Module
 
 ### GPS Module
 
-### Camera Module
+### Camera Modules
+
+Main camera: ARDUCAM 64MP AUTOFOCUS
+
+Wide angle camera: 
 
 SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you need to take a selfie use the wide camera and crop the image. There is a small mirror on the back so you can better align your shots.
 
 ### Speaker system
 
 The audio system uses a double 8 ohms general purpose speaker setup by Soberton Inc. The power rating of a single speaker is 700 mW.
+
+#### Frequency response:
+![image](https://github.com/user-attachments/assets/a44c71a4-95e5-41cf-9210-3935bde98a9b)
+Source: datasheet
 
 ### Biometric Module
 
