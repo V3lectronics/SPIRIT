@@ -60,7 +60,7 @@ around 3400 mAh Li-Ion
 
 ### Raspberry Pi Compute Module 4
 
-"The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications". [Product website](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000)
+"The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications". [(Product website)](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000)
 SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to increase the RAM to 8GB simply by using a different CM4 variant.
 
 ### Carrier PCB
@@ -85,10 +85,6 @@ The project will probably be migrated to version 8. After Kicad 8 becomes more
 stable or when there will be more contributors and switching versions will
 become annoying. For now this doesn't matter.
 
-If you are wondering "+dfsg" indicates that the package has been repackaged to remove any
-non-free or non-redistributable components, in accordance with Debian's Free Software
-Guidelines (DFSG).
-
 #### Carrier PCB
 
 Custom carrier board that interfaces between the CM4 and the rest of the electronics.
@@ -105,21 +101,25 @@ The battery is mounted such that it can be easily uninstalled for replacing or p
 
 ### Camera Module
 
-SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you need to take a selfie use the wide camera and crop the image.
+SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you need to take a selfie use the wide camera and crop the image. There is a small mirror on the back so you can better align your shots.
 
 ### Speaker system
+
+The audio system uses a double 8 ohms general purpose speaker setup by Soberton Inc. The power rating of a single speaker is 700 mW.
 
 ### Biometric Module
 
 ### Headphone Jack
 
-Yes, this phone has a headphone jack. This way the user can decide between wireless, usb C, jack.
+This phone has a headphone jack. This way the user can decide between wireless, usb C, jack.
 
 ### Microphone
 
 ### Buttons
 
 #### Power Button
+
+#### Programmable Button
 
 The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, toggling the flashlight, toggling sound settings (silent, vibrate, sound) etc. 
 
@@ -141,6 +141,11 @@ Toggling on/off can be binded to the programmable button.
 |--------|------|-------|--------------|
 |1      |CM4   |65     | https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
 |3 | FFC connector FH12-22S-0.5SH|2,21      |https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321
+|1|Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
+|1|Micro HDMI Socket|1,82|https://www.digikey.pl/en/products/detail/amphenol-cs-fci/10118242-001RLF/2785385?s=N4IgTCBcDaIIwAY5wBxgCxgLQKQJQBkAxEAXQF8g|
+|1|Touch screen| | |
+|1|Battery| | |
+|1|USB C Connector| | |
 
 
 - CM4
