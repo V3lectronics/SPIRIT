@@ -101,7 +101,14 @@ An added benefit is that the user can easily replace an empty battery for a char
 
 ### Camera Modules
 
-Main camera: ARDUCAM 64MP AUTOFOCUS
+| Name    | Sensor Resolution   | Mega Pixels | Zoom | Field Of View |
+|---------|--------------|--------------|-----|---------------|
+|Pi Hawk-eye| 9152 x 6944  | 64 | 10x (digital)| 84 deg |
+| ? | | | | |
+
+Sensor: 1/1.7" stacked CMOS image sensor, 0.8 μm pixel size Lens: f/1.8 aperture, 84° view angle, 8 cm–∞ focal range, motorised focusing Max Resolution: 9152×6944 stills; 1080p 30 fps video
+
+Main camera: 64MP AUTOFOCUS
 
 Wide angle camera: 
 
@@ -143,7 +150,7 @@ Toggling on/off can be binded to the programmable button.
 # Parts List
 
 | Amount | Name | Unit Price($) | Digikey Link |
-|--------|------|-------|--------------|
+|--------|------|---------------|--------------|
 |1|RPi CM4 |65 |https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
 |1|Carrier PCB||N/A|
 |1|Touch screen|96,99|https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141 |
