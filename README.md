@@ -10,7 +10,7 @@ and feedback is very welcome!
 1. [Architecture](https://github.com/barbarjan/SPIRIT#architecture)
 1. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
 3. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
-4. [Build Guide](https://github.com/barbarjan/SPIRIT#build-guide)
+4. [Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
 5. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
 6. [Cost](https://github.com/barbarjan/SPIRIT#cost)
 7. [Known Problems](https://github.com/barbarjan/SPIRIT#known-problems)
@@ -51,8 +51,6 @@ Around 3400 mAh Li-Ion (undecided yet)
 #### Dimensions
 
 #### Camera
-
-
 
 # Architecture
 
@@ -107,11 +105,11 @@ Main camera: ARDUCAM 64MP AUTOFOCUS
 
 Wide angle camera: 
 
-SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you need to take a selfie use the wide camera and crop the image. There is a small mirror on the back so you can better align your shots.
+SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you want to take a selfie simply use the wide camera and crop the image. There is small mirror present on the back that can help to better align your shots.
 
-### Speaker system
+### Speakers
 
-The audio system uses a double 8 ohms general purpose speaker setup by Soberton Inc. The power rating of a single speaker is 700 mW.
+The speaker system consists of a pair of 8 ohms, general purpose units by Soberton Inc. The power rating of a single speaker is 700 mW.
 
 #### Frequency response:
 ![image](https://github.com/user-attachments/assets/a44c71a4-95e5-41cf-9210-3935bde98a9b)
@@ -121,7 +119,7 @@ Source: datasheet
 
 ### Headphone Jack
 
-This phone has a headphone jack. This way the user can decide between wireless, usb C, jack.
+This phone has a headphone jack. This way the user can decide between wireless or wired.
 
 ### Microphone
 
@@ -131,10 +129,7 @@ This phone has a headphone jack. This way the user can decide between wireless, 
 
 #### Programmable Button
 
-The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, toggling the flashlight, toggling sound settings (silent, vibrate, sound) etc. 
-
--This way all newer versions (6 and up) can open the project after . If
-the files where in Kicad 8 people with say kicad 7 could not open them.
+The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, instantly dialing a saved contact, toggling sound settings (silent, vibrate, sound) etc. The list of potential use cases is very long. One of them could be enabling small children or elderly people to instantly call for example a parent, or supervisor in case of emergency. Another could be to immediately launch the camera app to quickly capture a moment.
 
 ### Flashlight
 
@@ -143,25 +138,31 @@ Toggling on/off can be binded to the programmable button.
 
 # Software And Operating System
 
-# Build Guide
+# DIY Build Guide
 
 # Parts List
 
-| Amount | Name | Price($) | Digikey Link |
+| Amount | Name | Unit Price($) | Digikey Link |
 |--------|------|-------|--------------|
-|1      |CM4   |65     | https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
-|3 | FFC connector FH12-22S-0.5SH|2,21      |https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321
-|1|Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
-|1|Micro HDMI Socket|1,82|https://www.digikey.pl/en/products/detail/amphenol-cs-fci/10118242-001RLF/2785385?s=N4IgTCBcDaIIwAY5wBxgCxgLQKQJQBkAxEAXQF8g|
-|1|Touch screen| | |
+|1|RPi CM4 |65 |https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
+|1|Carrier PCB||N/A|
+|1|Touch screen|96,99|https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141 |
+|1|Main Camera|66 |https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-21276/21443092 |
+|1|Wide Camera| | |
 |1|Battery| | |
-|1|USB C Connector| | |
-
-
-- CM4
-- 3xFCC connector
+|3|FFC connector FH12-22S-0.5SH|2,21|https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321
+|1|Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
+|1|Micro HDMI 1.4 Connector|1,82|https://www.digikey.pl/en/products/detail/amphenol-cs-fci/10118242-001RLF/2785385?s=N4IgTCBcDaIIwAY5wBxgCxgLQKQJQBkAxEAXQF8g|
+|1|35mm jack connector|1,78 | https://www.digikey.com/en/products/detail/switchcraft-inc/35RAPC4BHN2/1288690?s=N4IgTCBcDaIMwFYBKBBACgYQCwCEASAchALoC%2BQA|
+|2|Speaker| 2,26|https://www.digikey.pl/en/products/detail/soberton-inc/SP-1511S-1/6099099 |
+|1|Microphone| | |
+|1|USB C 2.0 Connector|0,81|https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441|
+|1|Mirror||
+| |M1.6 stainless screws||
 
 # Cost
+
+The total cost of the device is x (excluding shipping)
 
 # Known Problems
 
