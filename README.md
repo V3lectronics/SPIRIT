@@ -10,7 +10,7 @@ and feedback is very welcome!
 1. [Architecture](https://github.com/barbarjan/SPIRIT#architecture)
 1. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
 3. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
-4. [Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
+4. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
 5. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
 6. [Cost](https://github.com/barbarjan/SPIRIT#cost)
 7. [Known Problems](https://github.com/barbarjan/SPIRIT#known-problems)
