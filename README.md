@@ -101,9 +101,9 @@ An added benefit is that the user can easily replace an empty battery for a char
 
 ### Camera Modules
 
-| Name    | Sensor Resolution   | Mega Pixels | Zoom | Field Of View |
-|---------|--------------|--------------|-----|---------------|
-|Pi Hawk-eye| 9152 x 6944  | 64 | 10x (digital)| 84 deg |
+| Name    | Sensor Resolution  | Zoom | Field Of View |
+|---------|-----------------|-----|---------------|
+|Pi Hawk-eye| 64MP (9152 x 6944 pixels) |  10x (digital) | 84 degrees |
 | ? | | | | |
 
 Sensor: 1/1.7" stacked CMOS image sensor, 0.8 μm pixel size Lens: f/1.8 aperture, 84° view angle, 8 cm–∞ focal range, motorised focusing Max Resolution: 9152×6944 stills; 1080p 30 fps video
