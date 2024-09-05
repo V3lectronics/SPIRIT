@@ -13,8 +13,7 @@ and feedback is very welcome!
 4. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
 5. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
 6. [Cost](https://github.com/barbarjan/SPIRIT#cost)
-7. [Known Problems](https://github.com/barbarjan/SPIRIT#known-problems)
-8. [Resources](https://github.com/barbarjan/SPIRIT#resources)
+7. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
 # General Specifications
 
@@ -170,8 +169,6 @@ Toggling on/off can be binded to the programmable button.
 # Cost
 
 The total cost of the device is x (excluding shipping)
-
-# Known Problems
 
 # Resources
 
