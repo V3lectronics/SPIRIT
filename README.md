@@ -151,20 +151,30 @@ Toggling on/off can be binded to the programmable button.
 | Amount | Name | Unit Price($) | Digikey Link |
 |--------|------|---------------|--------------|
 |1|RPi CM4 |65 |https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
-|1|Carrier PCB||N/A|
+|1|Carrier PCB| |N/A|
 |1|Touch screen|96,99|https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141 |
 |1|Main Camera|66 |https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-21276/21443092 |
 |1|Wide Camera| | |
 |1|Battery| | |
-|3|FFC connector FH12-22S-0.5SH|2,21|https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321
+|3|22 pin FFC connector|2,21|https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321
 |1|Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
+|1|Power LED||
 |1|Micro HDMI 1.4 Connector|1,82|https://www.digikey.pl/en/products/detail/amphenol-cs-fci/10118242-001RLF/2785385?s=N4IgTCBcDaIIwAY5wBxgCxgLQKQJQBkAxEAXQF8g|
 |1|35mm jack connector|1,78 | https://www.digikey.com/en/products/detail/switchcraft-inc/35RAPC4BHN2/1288690?s=N4IgTCBcDaIMwFYBKBBACgYQCwCEASAchALoC%2BQA|
 |2|Speaker| 2,26|https://www.digikey.pl/en/products/detail/soberton-inc/SP-1511S-1/6099099 |
 |1|Microphone| | |
 |1|USB C 2.0 Connector|0,81|https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441|
 |1|Mirror||
+| |Overvoltage protector|https://www.digikey.pl/en/products/detail/littelfuse-inc/SMBJ5-0A/285950|
+|1| FTDI FT232RL USB to serial IC ||
+|1| Jumper female nRPI_BOOT |
+|1| Jumper female GND|
 | |M1.6 stainless screws||
+| |M? RPi size stainless screws||
+| |M? RPi size stainless tandoffs||
+
+note to self: add 3D model to 22 ffc connector and check if vertical or
+horizontal is more suitable 
 
 # Cost
 
