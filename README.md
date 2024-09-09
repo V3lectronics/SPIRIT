@@ -19,7 +19,7 @@ and feedback is very welcome!
 
 #### RAM
 
-- 4GB LPDDR4
+- 4GB or 8GB LPDDR4
 
 #### CPU
 
@@ -28,14 +28,14 @@ and feedback is very welcome!
 #### Storage
 
 - 32GB eMMC
-~~- 256 GB NVMe SSD~~ (still considering)
+- 256 GB NVMe SSD (optional)
 
 #### Connectivity (IO)
 
 - 1 x USB C 2.0
-- 1 x micro HDMI
-- 2.4 GHz, 5.0 GHz IEEE 802.11 b/g/n/ac wireless;
+- 2.4 GHz, 5.0 GHz IEEE 802.11 b/g/n/ac wireless
 - Bluetooth 5
+- GSM
 
 #### Screen
 
@@ -45,11 +45,33 @@ and feedback is very welcome!
 
 #### Battery
 
-Around 3400 mAh Li-Ion (undecided yet)
+Capacity: 2.05Ah
+Type: Lithium Polymer
+Voltage: 3.7 V
+Dimensions: 84.5mm x 47.5mm x 6.0mm (3.33" 1.87" 0.24")
+
+Rationale behind the small battery capacity:
+
+-The system is expected to be much more energy efficient (fewer background tasks),
+then a standard smarpthone.
+
+-Space and supply constraints
+
+-The emptied battery can be swapped for a fully charged one to effectively get back to 100%
+almost instantly without the need to have a 4Ah battery on board.
+
+*considering using cylindrical batteries for even easier replacement and
+swapping, however its not easy to make this work for various reasons.*
 
 #### Dimensions
 
+To be determined when hardware is complete. (Aiming to not land in the "brick
+form factor")
+
 #### Camera
+
+64 MP Arducam Hawkeye camera.
+For details see the [product page](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/)
 
 # Architecture
 
@@ -63,8 +85,6 @@ Around 3400 mAh Li-Ion (undecided yet)
 "The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications" [(CM4 website)](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000).
 SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to use a different CM4 variant (for example to increase the RAM to 8GB).
 
-### Carrier PCB
-
 #### EDA Software
 
 All design files are openly available through this repository.
@@ -74,19 +94,18 @@ There should be no issues with opening them with newer versions of Kicad (6 and 
 The PCB layout, schematics and other files related to the board are exported
 from Kicad 6.0.11+dfsg-1 (Debian adapted package that excludes any non-free components).
 
-#### Why Kicad 6?
-
--This way all newer versions (6 and up) can open the project. If the files where made in Kicad 8 people with say kicad 7 could not open them.
-
--Stable as a rock (tested by Debian )
+This way all newer versions (6 and up) can open the project. If the files where made in Kicad 8 people with say kicad 7 could not open them.
 
 The project will probably be migrated, after Kicad 8 becomes more stable or when there will be more contributors and switching versions will become annoying. For now this doesn't matter.
 
 #### Carrier PCB
 
-Custom carrier board that interfaces between the CM4 and the rest of the electronics.
+Custom carrier board (or motherboard) that interfaces between the CM4 and the rest of the electronics.
 
 ### Touchscreen
+
+Capacitive LCD Display TFT MIPI 
+Dimensions: 5.5" (139.70mm) 1280px x 720px
 
 ### Replaceable Battery
 
@@ -99,6 +118,8 @@ An added benefit is that the user can easily replace an empty battery for a char
 ### GPS Module
 
 ### Camera Modules
+*this is subject to change, probably there will no be enough space for the wide
+angle camera in the first prototype.*
 
 | Name    | Sensor Resolution  | Zoom | Field Of View |
 |---------|-----------------|-----|---------------|
@@ -111,17 +132,17 @@ Main camera: 64MP AUTOFOCUS
 
 Wide angle camera: 
 
-SPIRIT uses a dual camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you want to take a selfie simply use the wide camera and crop the image. There is small mirror present on the back that can help to better align your shots.
+SPIRIT uses a camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you want to take a selfie simply use the wide camera and crop the image. There is small mirror present on the back that can help to better align your shots.
 
 ### Speakers
 
-The speaker system consists of a pair of 8 ohms, general purpose units by Soberton Inc. The power rating of a single speaker is 700 mW.
-
-#### Frequency response:
-![image](https://github.com/user-attachments/assets/a44c71a4-95e5-41cf-9210-3935bde98a9b)
-Source: datasheet
+The speaker system consists of a pair of speakers mounted symmetrically facing upwards.
+The speakers are both identical and the top speaker doubles as a "phone speaker".
 
 ### Biometric Module
+
+*subject to change, considering mounting rhe biometric module in the power
+button*
 
 ### Headphone Jack
 
@@ -144,6 +165,14 @@ Toggling on/off can be binded to the programmable button.
 
 # Software And Operating System
 
+Once the hardware is functional it will be time to test various operating
+systems as well as explore the possibility of developing one based on an
+existing linux distribution
+
+*** Flashing an OS
+
+To flash an OS to eMMC pull down the ... pins
+
 # DIY Build Guide
 
 # Parts List
@@ -154,7 +183,7 @@ Toggling on/off can be binded to the programmable button.
 |1|Carrier PCB| |N/A|
 |1|Touch screen|96,99|https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141 |
 |1|Main Camera|66 |https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-21276/21443092 |
-|1|Wide Camera| | |
+|?|Wide Camera| | |
 |1|Battery| | |
 |3|22 pin FFC connector|2,21|https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321
 |1|Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
@@ -171,10 +200,8 @@ Toggling on/off can be binded to the programmable button.
 |1| Jumper female GND|
 | |M1.6 stainless screws||
 | |M? RPi size stainless screws||
+| |M? Arducam size stainless screws||
 | |M? RPi size stainless tandoffs||
-
-note to self: add 3D model to 22 ffc connector and check if vertical or
-horizontal is more suitable 
 
 # Cost
 
