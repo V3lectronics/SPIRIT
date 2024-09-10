@@ -1,19 +1,19 @@
 ![logo-github-black-on-white](https://github.com/user-attachments/assets/60e87523-02cf-482b-8433-5f611e48ca2d)
 
 Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
-(Currently in the prototyping phase, progress documented here and on the V
+(Currently in the development phase, progress documented here and on the V
 Electronics [YT channel](https://www.youtube.com/@V_Electronics)). Contribution
 and feedback is very welcome!
 
 # Contents
 1. [General Specifications](https://github.com/barbarjan/SPIRIT#general-specifications)
-1. [Architecture](https://github.com/barbarjan/SPIRIT#architecture)
-1. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
-3. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
-4. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
-5. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
-6. [Cost](https://github.com/barbarjan/SPIRIT#cost)
-7. [Resources](https://github.com/barbarjan/SPIRIT#resources)
+2. [Architecture](https://github.com/barbarjan/SPIRIT#architecture)
+3. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
+4. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
+5. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
+6. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
+7. [Cost](https://github.com/barbarjan/SPIRIT#cost)
+8. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
 # General Specifications
 
@@ -76,9 +76,13 @@ For details see the [product page](https://www.arducam.com/64mp-ultra-high-res-c
 # Architecture
 
 (Ticks represent that the component/subsystem has been chosen and/or implemented) 
-![image](https://github.com/user-attachments/assets/582c2459-ce2a-44ca-8861-d7eb2b4fadfe)
+![image](https://github.com/user-attachments/assets/96916eed-bf6e-43a9-a55f-e90fccfe9525)
 
 # Hardware And Electronics
+
+click to expand:
+
+<img src="https://github.com/user-attachments/assets/12fd48c3-855e-419e-994d-2e1516c1e5eb" height="300">
 
 ### Raspberry Pi Compute Module 4
 
