@@ -1,5 +1,8 @@
 ![logo-github-black-on-white](https://github.com/user-attachments/assets/60e87523-02cf-482b-8433-5f611e48ca2d)
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/V3lectronics/SPIRIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
 (Currently in the development phase, progress documented here and on the V
 Electronics [YT channel](https://www.youtube.com/@V_Electronics)). Contribution
