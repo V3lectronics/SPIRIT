@@ -19,7 +19,6 @@ and feedback is very welcome!
 6. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
 7. [Cost](https://github.com/barbarjan/SPIRIT#cost)
 8. [Resources](https://github.com/barbarjan/SPIRIT#resources)
-9. [Contributing](https://github.com/barbarjan/SPIRIT/CONTRIBUTING.md)
 
 # General Specifications
 
