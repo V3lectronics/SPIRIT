@@ -89,7 +89,7 @@ click to expand:
 "The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications" [(CM4 website)](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000).
 SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to use a different CM4 variant (for example to increase the RAM to 8GB).
 
-#### EDA Software
+### EDA Software
 
 All design files are openly available through this repository.
 
@@ -102,7 +102,7 @@ This way all newer versions (6 and up) can open the project. If the files where 
 
 The project will probably be migrated, after Kicad 8 becomes more stable or when there will be more contributors and switching versions will become annoying. For now this doesn't matter.
 
-#### Carrier PCB
+### Carrier PCB
 
 Custom carrier board (or motherboard) that interfaces between the CM4 and the rest of the electronics.
 
