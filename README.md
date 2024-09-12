@@ -205,8 +205,9 @@ To flash an OS to eMMC pull down the ... pins
 |1|Mirror||
 | |Overvoltage protector|https://www.digikey.pl/en/products/detail/littelfuse-inc/SMBJ5-0A/285950|
 |1| FTDI FT232RL USB to serial IC ||
-|1| Jumper female nRPI_BOOT |
-|1| Jumper female GND|
+|1| Jumper female nRPI_BOOT ||
+|1| Jumper female GND||
+| | Header pins||
 | |M1.6 stainless screws||
 | |M? RPi size stainless screws||
 | |M? Arducam size stainless screws||
