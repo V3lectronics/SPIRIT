@@ -81,7 +81,7 @@ For details see the [product page](https://www.arducam.com/64mp-ultra-high-res-c
 # Architecture
 
 (Ticks represent that the component/subsystem has been chosen and/or implemented) 
-![image](https://github.com/user-attachments/assets/96916eed-bf6e-43a9-a55f-e90fccfe9525)
+![image](https://github.com/user-attachments/assets/49d792d1-ab71-49cf-ac28-eed49ac65617)
 
 # Hardware And Electronics
 
