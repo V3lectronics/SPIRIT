@@ -333,8 +333,8 @@
       "SPIRIT-footprints"
     ],
     "pinned_symbol_libs": [
-      "SPIRIT-components",
-      "CM4-IO"
+      "CM4-IO",
+      "SPIRIT-components"
     ]
   },
   "meta": {
