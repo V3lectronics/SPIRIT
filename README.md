@@ -18,8 +18,8 @@ and feedback is very welcome!
 5. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
 6. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
 7. [Cost](https://github.com/barbarjan/SPIRIT#cost)
-8. [Cost](https://github.com/barbarjan/SPIRIT#ethical-and-environmental-concerns)
-10. [Cost](https://github.com/barbarjan/SPIRIT#complicance-and-legality)
+8. [Ethical And Environmental Concerns](https://github.com/barbarjan/SPIRIT#ethical-and-environmental-concerns)
+10. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#complicance-and-legality)
 11. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
 # General Specifications
