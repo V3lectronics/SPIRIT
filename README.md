@@ -19,7 +19,7 @@ and feedback is very welcome!
 6. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
 7. [Cost](https://github.com/barbarjan/SPIRIT#cost)
 8. [Ethical And Environmental Concerns](https://github.com/barbarjan/SPIRIT#ethical-and-environmental-concerns)
-10. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#complicance-and-legality)
+10. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#compliance-and-legality)
 11. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
 # General Specifications
