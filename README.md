@@ -18,7 +18,9 @@ and feedback is very welcome!
 5. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
 6. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
 7. [Cost](https://github.com/barbarjan/SPIRIT#cost)
-8. [Resources](https://github.com/barbarjan/SPIRIT#resources)
+8. [Cost](https://github.com/barbarjan/SPIRIT#ethical-and-environmental-concerns)
+10. [Cost](https://github.com/barbarjan/SPIRIT#complicance-and-legality)
+11. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
 # General Specifications
 
@@ -216,6 +218,42 @@ To flash an OS to eMMC pull down the ... pins
 # Cost
 
 The total cost of the device is x (excluding shipping)
+
+# Ethical And Environmental Concerns
+
+SPIRIT phones avoid components produced in unfair or harmful ways, as well as
+containing conflict minerals if possible. 
+
+Here are ethical details for each major component:
+
+-CM4
+-Battery
+-Screen
+-Chassis
+-Speakers
+
+The goal is to be 100% ethically and environmentally "clean" as soon as possible, however that is
+not an easy task and presents multiple enginnering challenges.
+
+?RoHS complicance
+
+# Compliance And Legality
+
+### EU
+
+Ecodesign Regulation 2023/1670
+
+?EMI norms
+
+?RoHS
+
+?REACH
+
+?WEEE
+
+### US
+
+?
 
 # Resources
 
