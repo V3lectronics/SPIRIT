@@ -104,13 +104,17 @@ For now there is no "selfie camera" on board.
 # Architecture
 
 (Ticks represent that the component/subsystem has been chosen and/or implemented) 
-![image](https://github.com/user-attachments/assets/49d792d1-ab71-49cf-ac28-eed49ac65617)
+![image](https://github.com/user-attachments/assets/ad573cb6-de43-470f-8a91-a1d32985dc95)
 
 # Hardware And Electronics
 
-click to expand:
+(click to expand)
 
-<img src="https://github.com/user-attachments/assets/12fd48c3-855e-419e-994d-2e1516c1e5eb" height="300">
+<img src="https://github.com/user-attachments/assets/ce932f1a-de18-4e05-a544-6c622cd75ab7" height="270">
+
+<img src="https://github.com/user-attachments/assets/c241d0f9-552b-48af-91ea-c64cf414a8e4" height="270">
+
+<img src="https://github.com/user-attachments/assets/3757983a-f312-4ef1-aa26-ffa4bfbfdb78" height="270">
 
 ### Raspberry Pi Compute Module 4
 
