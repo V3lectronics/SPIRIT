@@ -229,11 +229,16 @@ To flash an OS to eMMC pull down the ... pin
 
 # DIY Build Guide
 
+Link to build guide/tutorial: No build guide yet
+
 # Parts List
 
-| Amount | Name | Unit Price($) | Digikey Link |
+<details>
+      <summary>Click here to show</summary>
+    
+| Amount | Name | Unit Price (USD)| Digikey Link |
 |--------|------|---------------|--------------|
-|1|RPi CM4 |65 |https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
+|1|RPi CM4 |65|https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
 |1| Carrier PCB|?|N/A|
 |1| Touch screen|96,99|https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141 |
 |1| Main Camera|66|https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-21276/21443092 |
@@ -241,25 +246,29 @@ To flash an OS to eMMC pull down the ... pin
 |1| ??? BMS chip | | |
 |1| 21 pin FFC connector|2.76|https://www.digikey.ca/en/products/detail/hirose-electric-co-ltd/FH72-31S-0-3SHW/13553267|
 |1| 22 pin FFC connector|2,21|https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321|
-|1| 10 pin FFC connector|0,2|https://www.digikey.pl/en/products/detail/te-connectivity-amp-connectors/1-2328702-0/9565577|
+|1| 10 pin FFC connector|0,20|https://www.digikey.pl/en/products/detail/te-connectivity-amp-connectors/1-2328702-0/9565577|
 |1| Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
 |1| 35mm Jack|0.97|https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ2-3574A-SMT-TR/6619530|
 |2| Speaker|2,53|https://www.digikey.pl/en/products/detail/cui-devices/CMR-15062S-67/9561156|
 |1| Microphone|1,95|https://www.digikey.pl/en/products/detail/knowles/SPH0645LM4H-B/5332440|
 |1| USB C 2.0 Connector|0,81|https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441|
-|?| Overvoltage protector|https://www.digikey.pl/en/products/detail/littelfuse-inc/SMBJ5-0A/285950|
-|1| Fingerprint Card|https://www.digikey.pl/en/products/detail/fingerprint-cards-ab/100018754/11480144?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAugL7EC0ATMiGpAC4BOArkVIUQAVjqMQTAGztOvAcTKRKAZhDE2DCW2Uh0ASwB2Ac3w8ADjyNdxQA|
-|1| Vibration Motor|https://www.digikey.pl/en/products/detail/pui-audio-inc/HD-EMB1205-3-SC-R/16522073|
-|1| Small LED||
-|1| Thermistor|https://www.digikey.pl/en/products/detail/panasonic-electronic-components/ERT-JZEG103FA/9646736|
-|1| ??? FTDI FT232RL USB to serial IC ||
-|1| Jumper female nRPI_BOOT ||
+|?| Overvoltage protector|0,43|https://www.digikey.pl/en/products/detail/littelfuse-inc/SMBJ5-0A/285950|
+|1| Fingerprint Card|29|https://www.digikey.pl/en/products/detail/fingerprint-cards-ab/100018754/11480144?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAugL7EC0ATMiGpAC4BOArkVIUQAVjqMQTAGztOvAcTKRKAZhDE2DCW2Uh0ASwB2Ac3w8ADjyNdxQA|
+|1| GPS Module|7,25|https://www.digikey.pl/en/products/detail/yic/YIC31009EBGG/16499057|
+|1| GSM Module|||
+|1| Vibration Motor|1,71|https://www.digikey.pl/en/products/detail/pui-audio-inc/HD-EMB1205-3-SC-R/16522073|
+|1| Small LED|||
+|1| Thermistor|0,10|https://www.digikey.pl/en/products/detail/panasonic-electronic-components/ERT-JZEG103FA/9646736|
+|1| DAC for audio output||
+|1| Jumper female nRPI_BOOT||
 |1| Jumper female GND||
 |?| Header pins||
 |?| M1.6 stainless screws||
 |?| M? RPi size stainless screws||
 |?| M? Arducam size stainless screws||
 |?| M? RPi size stainless tandoffs||
+
+</details>
 
 # Cost
 
