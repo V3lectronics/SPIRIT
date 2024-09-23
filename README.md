@@ -35,12 +35,11 @@ and feedback is very welcome!
 #### Storage
 
 - 32GB eMMC
-- 256 GB NVMe SSD (optional)
 
 #### Connectivity (IO)
 
 - 1 x USB C 2.0
-- 2.4 GHz, 5.0 GHz IEEE 802.11 b/g/n/ac wireless
+- 2.4 GHz, 5.0 GHz WiFi IEEE 802.11 b/g/n/ac wireless
 - Bluetooth 5
 - GSM
 
@@ -59,26 +58,48 @@ Dimensions: 84.5mm x 47.5mm x 6.0mm (3.33" 1.87" 0.24")
 
 Rationale behind the small battery capacity:
 
--The system is expected to be much more energy efficient (fewer background tasks),
+-The system is expected to be much more energy efficient (e.g. fewer background tasks),
 then a standard smarpthone.
 
 -Space and supply constraints
 
 -The emptied battery can be swapped for a fully charged one to effectively get back to 100%
-almost instantly without the need to have a 4Ah battery on board.
+almost instantly.
 
-*considering using cylindrical batteries for even easier replacement and
-swapping, however its not easy to make this work for various reasons.*
+*considering using cylindrical AAAA batteries for even easier replacement and
+swapping, however there are some drawbacks like efficiency, and environmental
+concerns.*
 
 #### Dimensions
 
-To be determined when hardware is complete. (Aiming to not land in the "brick
-form factor")
+80mm x 148mm (±1mm)
+
+Total estimated thickness is 11.3mm (excluding camera module lens sticking out)
+
+Main components that contribute thickness:
+
+| Component      | Thickness |
+|----------------|-----------|
+| Chassis        | 1 mm      |
+| PCB            | 0.4 mm    |
+| Battery        | 6 mm      |
+| Screen         | 3.9 mm    |
 
 #### Camera
 
-64 MP Arducam Hawkeye camera.
-For details see the [product page](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/)
+SPIRIT uses the 64 MP Arducam Hawkeye camera.
+
+| Name    | Sensor Resolution  | Zoom | Field Of View |
+|---------|-----------------|-----|---------------|
+|Pi Hawk-eye| 64MP (9152 x 6944 pixels) |  10x (digital) | 84 degrees |
+
+Sensor: 1/1.7" stacked CMOS image sensor, 0.8 μm pixel size Lens: f/1.8 aperture, 8 cm–∞ focal range, motorised focusing Max Resolution: 9152×6944 stills; 1080p 30 fps video
+
+For more details see the [product page](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/)
+
+For now there is no "selfie camera" on board.
+
+*(For now there is only one camera for simplicity and cost reduction)*
 
 # Architecture
 
@@ -96,6 +117,9 @@ click to expand:
 "The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications" [(CM4 website)](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000).
 SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to use a different CM4 variant (for example to increase the RAM to 8GB).
 
+It is expected that future iterations of the design will use a different chip
+due to memory and IO limitations.
+
 ### EDA Software
 
 All design files are openly available through this repository.
@@ -111,7 +135,10 @@ The project will probably be migrated, after Kicad 8 becomes more stable or when
 
 ### Carrier PCB
 
-Custom carrier board (or motherboard) that interfaces between the CM4 and the rest of the electronics.
+Custom carrier board (motherboard) that interfaces between the CM4 and the rest of the electronics. It's function is to manage other system related tasks (such as battery charging).'
+
+This is the only custom electronic component, however all of the design files
+are publicly available through this repository.
 
 ### Touchscreen
 
@@ -120,30 +147,25 @@ Dimensions: 5.5" (139.70mm) 1280px x 720px
 
 ### Replaceable Battery
 
-The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons. 
+The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons.
 
-An added benefit is that the user can easily replace an empty battery for a charged one - effectively eliminating the need to wait for the phone to charge. An external battery charger can also be used for umnounted batteries.
+An added benefit is that the user can easily replace an empty battery for a charged one - effectively eliminating the need to wait for the phone to charge. An external battery charger can also be used for unmounted batteries.
 
 ### GSM Module
 
+*Not chosen yet*
+
 ### GPS Module
 
-### Camera Modules
-*this is subject to change, probably there will no be enough space for the wide
-angle camera in the first prototype.*
+*datasheet description*
 
-| Name    | Sensor Resolution  | Zoom | Field Of View |
-|---------|-----------------|-----|---------------|
-|Pi Hawk-eye| 64MP (9152 x 6944 pixels) |  10x (digital) | 84 degrees |
-| ? | | | | |
-
-Sensor: 1/1.7" stacked CMOS image sensor, 0.8 μm pixel size Lens: f/1.8 aperture, 84° view angle, 8 cm–∞ focal range, motorised focusing Max Resolution: 9152×6944 stills; 1080p 30 fps video
-
-Main camera: 64MP AUTOFOCUS
-
-Wide angle camera: 
-
-SPIRIT uses a camera system featuring one wide angle camera and one sharp angle camera. There is no "selfie camera" on board. If you want to take a selfie simply use the wide camera and crop the image. There is small mirror present on the back that can help to better align your shots.
+"YIC31009EBGG features high sensitivity, low power and ultra small form factor. The module is powered
+by GOKE, which provides superior sensitivity and performance even in urban canyon and dense foliage
+environment.
+[...]
+Through the feature of 66-channel, the YIC31009EBGG boasts a hot start in less than 1 second.
+Innovative design and technology suppresses jamming sources and mitigates multipath effects, assisting
+excellent navigation performance."
 
 ### Speakers
 
@@ -152,20 +174,27 @@ The speakers are both identical and the top speaker doubles as a "phone speaker"
 
 ### Biometric Module
 
-*subject to change, considering mounting rhe biometric module in the power
-button*
+The fingerprint scanner is located on the back of the phone and has a sensing
+area of 8x8mm. It is rated for 10 million finger placements and can store up to
+50 templates.
+
+False acceptance rate: 1/500k (per finger)
+False rejection rate: 1.4-3.5 %
 
 ### Headphone Jack
 
-This phone has a headphone jack. This way the user can decide between wireless or wired.
+This phone has a TRRS headphone jack. This way the user can decide between wireless or wired.
 
 ### Microphone
 
+Omnidirectional with a theorethical frequency range 20 Hz - 10 kHz.
+Sensitivity: -26dB ±3dB @ 94dB SPL.
+Digital output (I2S)
+
 ### Buttons
 
-#### Power Button
-
-#### Programmable Button
+The power, volume and programmable buttons are identical rectangular, tactile switches with a life
+expectancy of 30k cycles.
 
 The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, instantly dialing a saved contact, toggling sound settings (silent, vibrate, sound) etc. The list of potential use cases is very long. One of them could be enabling small children or elderly people to instantly call for example a parent, or supervisor in case of emergency. Another could be to immediately launch the camera app to quickly capture a moment.
 
@@ -177,12 +206,22 @@ Toggling on/off can be binded to the programmable button.
 # Software And Operating System
 
 Once the hardware is functional it will be time to test various operating
-systems as well as explore the possibility of developing one based on an
-existing linux distribution
+systems as well as explore the possibility of developing one based on Debian.
+
+List of OS to test/research.
+
+| Name           | Website |
+|----------------|-----------|
+| Ubuntu Touch   | https://ubuntu-touch.io/     |
+| Lineage        | https://lineageos.org/    |
+| Graphene       | https://grapheneos.org/features      |
+| Android        | https://www.android.com/      |
+
+Additionally, The Yocto Project has been suggested (not an OS) https://www.yoctoproject.org/
 
 *** Flashing an OS
 
-To flash an OS to eMMC pull down the ... pins
+To flash an OS to eMMC pull down the ... pin
 
 # DIY Build Guide
 
@@ -191,29 +230,32 @@ To flash an OS to eMMC pull down the ... pins
 | Amount | Name | Unit Price($) | Digikey Link |
 |--------|------|---------------|--------------|
 |1|RPi CM4 |65 |https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
-|1|Carrier PCB| |N/A|
-|1|Touch screen|96,99|https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141 |
-|1|Main Camera|66 |https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-21276/21443092 |
-|?|Wide Camera| | |
-|1|Battery| | |
-|3|22 pin FFC connector|2,21|https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321
-|1|Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
-|1|Power LED||
-|1|Micro HDMI 1.4 Connector|1,82|https://www.digikey.pl/en/products/detail/amphenol-cs-fci/10118242-001RLF/2785385?s=N4IgTCBcDaIIwAY5wBxgCxgLQKQJQBkAxEAXQF8g|
-|1|35mm jack connector|1,78 | https://www.digikey.com/en/products/detail/switchcraft-inc/35RAPC4BHN2/1288690?s=N4IgTCBcDaIMwFYBKBBACgYQCwCEASAchALoC%2BQA|
-|2|Speaker| 2,26|https://www.digikey.pl/en/products/detail/soberton-inc/SP-1511S-1/6099099 |
-|1|Microphone| | |
-|1|USB C 2.0 Connector|0,81|https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441|
-|1|Mirror||
-| |Overvoltage protector|https://www.digikey.pl/en/products/detail/littelfuse-inc/SMBJ5-0A/285950|
-|1| FTDI FT232RL USB to serial IC ||
+|1| Carrier PCB|?|N/A|
+|1| Touch screen|96,99|https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141 |
+|1| Main Camera|66|https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-21276/21443092 |
+|1| Battery|9,85|https://www.digikey.pl/en/products/detail/jauch-quartz/LP504783JU-PCM-2-WIRES-70MM/13540155|
+|1| ??? BMS chip | | |
+|1| 21 pin FFC connector|2.76|https://www.digikey.ca/en/products/detail/hirose-electric-co-ltd/FH72-31S-0-3SHW/13553267|
+|1| 22 pin FFC connector|2,21|https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321|
+|1| 10 pin FFC connector|0,2|https://www.digikey.pl/en/products/detail/te-connectivity-amp-connectors/1-2328702-0/9565577|
+|1| Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
+|1| 35mm Jack|0.97|https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ2-3574A-SMT-TR/6619530|
+|2| Speaker|2,53|https://www.digikey.pl/en/products/detail/cui-devices/CMR-15062S-67/9561156|
+|1| Microphone|1,95|https://www.digikey.pl/en/products/detail/knowles/SPH0645LM4H-B/5332440|
+|1| USB C 2.0 Connector|0,81|https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441|
+|?| Overvoltage protector|https://www.digikey.pl/en/products/detail/littelfuse-inc/SMBJ5-0A/285950|
+|1| Fingerprint Card|https://www.digikey.pl/en/products/detail/fingerprint-cards-ab/100018754/11480144?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAugL7EC0ATMiGpAC4BOArkVIUQAVjqMQTAGztOvAcTKRKAZhDE2DCW2Uh0ASwB2Ac3w8ADjyNdxQA|
+|1| Vibration Motor|https://www.digikey.pl/en/products/detail/pui-audio-inc/HD-EMB1205-3-SC-R/16522073|
+|1| Small LED||
+|1| Thermistor|https://www.digikey.pl/en/products/detail/panasonic-electronic-components/ERT-JZEG103FA/9646736|
+|1| ??? FTDI FT232RL USB to serial IC ||
 |1| Jumper female nRPI_BOOT ||
 |1| Jumper female GND||
-| | Header pins||
-| |M1.6 stainless screws||
-| |M? RPi size stainless screws||
-| |M? Arducam size stainless screws||
-| |M? RPi size stainless tandoffs||
+|?| Header pins||
+|?| M1.6 stainless screws||
+|?| M? RPi size stainless screws||
+|?| M? Arducam size stainless screws||
+|?| M? RPi size stainless tandoffs||
 
 # Cost
 
@@ -226,6 +268,7 @@ containing conflict minerals if possible.
 
 Here are ethical details for each major component:
 
+-Chassis
 -CM4
 -Battery
 -Screen
@@ -251,8 +294,19 @@ Ecodesign Regulation 2023/1670
 
 ?WEEE
 
-### US
+### N America
+?
 
+### S America
+?
+
+### Asia
+?
+
+### Africa
+?
+
+### Australia
 ?
 
 # Resources
@@ -260,5 +314,3 @@ Ecodesign Regulation 2023/1670
 - [Rpi CM4 datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
 - [Rpi CM4 pinout from datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf#page=18)
 - [Rpi CM4 useful interactive pinout](https://atctwo.net/projects/pinout/index.html)
-
-
