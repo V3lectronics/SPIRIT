@@ -59,7 +59,7 @@ Dimensions: 84.5mm x 47.5mm x 6.0mm (3.33" 1.87" 0.24")
 Rationale behind the small battery capacity:
 
 -The system is expected to be much more energy efficient (e.g. fewer background tasks),
-then a standard smarpthone.
+than a standard smarpthone.
 
 -Space and supply constraints
 
