@@ -235,7 +235,9 @@ Link to build guide/tutorial: No build guide yet
 
 <details>
       <summary>Click here to show</summary>
-    
+
+todo fix links
+
 | Amount | Name | Unit Price (USD)| Digikey Link |
 |--------|------|---------------|--------------|
 |1|RPi CM4 |65|https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
