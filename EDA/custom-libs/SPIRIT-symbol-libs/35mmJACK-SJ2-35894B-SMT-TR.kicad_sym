@@ -1,0 +1,158 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SJ2-35894B-SMT-TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -12.709 16.002 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SJ2-35894B-SMT-TR" (id 1) (at -12.7009 -16.002 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SJ2-35894B-SMT-TR:CUI_SJ2-35894B-SMT-TR" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DigiKey_Part_Number" "CP-SJ2-35894B-SMT-TR-ND" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/SJ2-35894B-SMT-TR/Same+Sky/view-part/?ref=snap" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "5.2 mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/SJ2-35894B-SMT-TR/Same+Sky/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.04" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Same Sky" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "SJ2-35894B-SMT-TR" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            4 conductor, 3.5 mm, SMT Audio Jack w/ Tip Switch\n                        \n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI Devices" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SJ2-35894B-SMT-TR_0_0"
+      (polyline
+        (pts (xy 12.7 12.7) (xy -8.89 12.7)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -8.89 12.7) (xy -8.89 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -8.89 3.81) (xy -7.62 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -7.62 3.81) (xy -7.62 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -7.62 -3.81) (xy -10.16 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 -3.81) (xy -10.16 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 3.81) (xy -8.89 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 12.7 -10.16) (xy 2.667 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.667 -10.16) (xy 0.127 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.127 -10.16) (xy -1.143 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.143 -7.62) (xy -2.413 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 12.7 2.54) (xy -1.27 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy -2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -3.81 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 12.7 7.62) (xy -3.81 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 7.62) (xy -5.08 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy -6.35 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 12.7 -5.08) (xy 2.667 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.667 -5.08) (xy 2.667 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 2.667 -10.16)
+          (xy 2.032 -7.62)
+          (xy 3.302 -7.62)
+          (xy 2.667 -10.16)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (rectangle (start -12.7 -12.7) (end 12.7 15.24)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 17.78 12.7 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 -10.16 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 7.62 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 -5.08 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

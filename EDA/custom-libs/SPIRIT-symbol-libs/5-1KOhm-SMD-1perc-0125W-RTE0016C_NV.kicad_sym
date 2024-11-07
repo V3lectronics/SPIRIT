@@ -1,0 +1,59 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "RC0805FR-075K1L" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (id 0) (at -7.624440625 2.54148125 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "RC0805FR-075K1L" (id 1) (at -7.62996875 -5.086640625 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "RC0805FR-075K1L:RESC2012X60N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "RC0805FR-075K1L_0_0"
+      (polyline
+        (pts (xy -5.08 0.0) (xy -4.445 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 1.905) (xy -3.175 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 -1.905) (xy -1.905 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.905 1.905) (xy -0.635 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 -1.905) (xy 0.635 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 1.905) (xy 1.905 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.905 -1.905) (xy 3.175 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.175 1.905) (xy 4.445 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 4.445 -1.905) (xy 5.08 0.0)) (stroke (width 0.254))
+      )
+      (pin passive line (at -10.16 0.0 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
