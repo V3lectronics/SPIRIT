@@ -1,5 +1,6 @@
 <p align="center">
     <img src="https://github.com/user-attachments/assets/60e87523-02cf-482b-8433-5f611e48ca2d">
+    
 </p>
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/V3lectronics/SPIRIT)
@@ -12,15 +13,20 @@ and feedback is very welcome!
 
 # Contents
 1. [General Specifications](https://github.com/barbarjan/SPIRIT#general-specifications)
-2. [Architecture](https://github.com/barbarjan/SPIRIT#architecture)
-3. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
-4. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
-5. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
-6. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
-7. [Cost](https://github.com/barbarjan/SPIRIT#cost)
-8. [Ethical And Environmental Concerns](https://github.com/barbarjan/SPIRIT#ethical-and-environmental-concerns)
-10. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#compliance-and-legality)
-11. [Resources](https://github.com/barbarjan/SPIRIT#resources)
+2. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
+3. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
+4. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
+5. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
+6. [Cost](https://github.com/barbarjan/SPIRIT#cost)
+7. [Ethical And Environmental Concerns](https://github.com/barbarjan/SPIRIT#ethical-and-environmental-concerns)
+8. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#compliance-and-legality)
+9. [Resources](https://github.com/barbarjan/SPIRIT#resources)
+
+![image](https://github.com/user-attachments/assets/cdea4cf8-1d98-4f79-8434-2e76fc693916)
+
+(click to expand)
+
+<img src="https://github.com/user-attachments/assets/8e3343ce-18a7-48ca-b82e-1b5e81d234a5" height="270">
 
 # General Specifications
 
@@ -101,20 +107,16 @@ For now there is no "selfie camera" on board.
 
 *(For now there is only one camera for simplicity and cost reduction)*
 
-# Architecture
-
-(Ticks represent that the component/subsystem has been chosen and/or implemented) 
-![image](https://github.com/user-attachments/assets/ad573cb6-de43-470f-8a91-a1d32985dc95)
-
 # Hardware And Electronics
 
 (click to expand)
 
-<img src="https://github.com/user-attachments/assets/ce932f1a-de18-4e05-a544-6c622cd75ab7" height="270">
+<img src="https://github.com/user-attachments/assets/8e3343ce-18a7-48ca-b82e-1b5e81d234a5" height="270">
 
-<img src="https://github.com/user-attachments/assets/c241d0f9-552b-48af-91ea-c64cf414a8e4" height="270">
+<img src="https://github.com/user-attachments/assets/1b5c8317-5b61-42c4-aa28-2d652b7e3833" height="270">
 
-<img src="https://github.com/user-attachments/assets/3757983a-f312-4ef1-aa26-ffa4bfbfdb78" height="270">
+<img src="https://github.com/user-attachments/assets/655dda8d-f7a3-4751-8ac3-34f424bcf4d7" height="270">
+
 
 ### Raspberry Pi Compute Module 4
 
