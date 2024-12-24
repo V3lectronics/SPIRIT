@@ -4,8 +4,8 @@
 wish to make. This way other maintainers can determine if the change should be
 implemented.
 
-2. After the confirming that the change is useful, and no one is currently
-   working on it, please make a pull request and add description in english
+2. After confirming that the change would be useful, and no one is currently
+   working on it, please make a pull request and add a description in english
    describing exactly what changes you have introduced.
 
 3. Kindly wait for your changes to be reviewed and hopefuly merged into the main
@@ -18,7 +18,7 @@ implemented.
 
 - Write all text in english.
 
-# Contanct
+# Contact
 
 Project lead maintainer email:
 
