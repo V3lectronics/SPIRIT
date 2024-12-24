@@ -22,8 +22,8 @@ implemented.
 
 Project lead maintainer email:
 
-    jwaga76@gmail.com
+>jwaga76@gmail.com
 
-V Electroncis Discord server:
+V Electronics Discord server:
 
-    closed currently
+>closed currently
