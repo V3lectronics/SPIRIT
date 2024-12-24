@@ -30,4 +30,4 @@ Project lead maintainer email:
 
 V Electronics Discord server:
 
->closed currently
+>invites paused currently
