@@ -26,7 +26,7 @@ and feedback is very welcome! If you want to contribute please read the [Contrib
 
 (click to expand)
 
-<img src="https://github.com/user-attachments/assets/8e3343ce-18a7-48ca-b82e-1b5e81d234a5" height="270">
+<img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="350">
 
 # General Specifications
 
@@ -72,10 +72,6 @@ than a standard smarpthone.
 -The emptied battery can be swapped for a fully charged one to effectively get back to 100%
 almost instantly.
 
-*considering using cylindrical AAAA batteries for even easier replacement and
-swapping, however there are some drawbacks like efficiency, and environmental
-concerns.*
-
 #### Dimensions
 
 80mm x 148mm (±1mm)
@@ -111,11 +107,11 @@ For now there is no "selfie camera" on board.
 
 (click to expand)
 
-<img src="https://github.com/user-attachments/assets/8e3343ce-18a7-48ca-b82e-1b5e81d234a5" height="270">
+<img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="270">
 
 <img src="https://github.com/user-attachments/assets/1b5c8317-5b61-42c4-aa28-2d652b7e3833" height="270">
 
-<img src="https://github.com/user-attachments/assets/655dda8d-f7a3-4751-8ac3-34f424bcf4d7" height="270">
+<img src="https://github.com/user-attachments/assets/4742305e-44ab-4d84-8185-f4b7e9df42e7" height="270">
 
 
 ### Raspberry Pi Compute Module 4
