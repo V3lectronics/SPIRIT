@@ -17,6 +17,8 @@ We appreciate your patience as we work to ensure quality and consistency in the 
 
 - Please use Kicad 8.
 
+- If you add new parts, please ensure that they are available for purchase on [digikey](https://www.digikey.com/en/products/), have public datasheets and are RoHS compliant.
+
 - Avoid massive pull requests that are hard to review. It is easier for
   everyone if you split your contribution into smaller pieces (within reason).
 
