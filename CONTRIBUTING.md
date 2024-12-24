@@ -1,17 +1,21 @@
 # How to contribute:
 
-1. To avoid wasting your time, please first open an issue describing the change you
-wish to make. This way other maintainers can determine if the change should be
-implemented.
+1. Before making any changes, please open an issue on GitHub describing the change you wish to make.
+This allows the maintainers to assess whether the proposed change is beneficial and if it aligns
+with the project goals.
 
-2. After confirming that the change would be useful, and no one is currently
-   working on it, please make a pull request and add a description in english
-   describing exactly what changes you have introduced.
+2. Once your issue is reviewed, and if it is confirmed that your change would be useful,
+and no one else is currently working on it, you may proceed to make a pull request (PR).
 
-3. Kindly wait for your changes to be reviewed and hopefuly merged into the main
-   branch.
+3. When creating your PR, please include a detailed description in English that outlines exactly
+what changes you have introduced. This helps maintainers understand your contribution better.
+
+4. After submitting your PR, kindly wait for your changes to be reviewed by the maintainers.
+We appreciate your patience as we work to ensure quality and consistency in the project.
 
 # Rules for smoother cooperation:
+
+- Please use Kicad 8.
 
 - Avoid massive pull requests that are hard to review. It is easier for
   everyone if you split your contribution into smaller pieces (within reason).
