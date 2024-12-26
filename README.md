@@ -28,6 +28,10 @@ and feedback is very welcome! If you want to contribute please read the [Contrib
 
 <img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="350">
 
+<img src="https://github.com/user-attachments/assets/1b5c8317-5b61-42c4-aa28-2d652b7e3833" height="270">
+
+<img src="https://github.com/user-attachments/assets/4742305e-44ab-4d84-8185-f4b7e9df42e7" height="270">
+
 # General Specifications
 
 #### RAM
@@ -53,43 +57,36 @@ and feedback is very welcome! If you want to contribute please read the [Contrib
 
 - 5.5" Capacitive Touch TFT Display
 - resolution: 720x1280 pixels
-- [datasheet](https://www.nxp.com/docs/en/supporting-information/RK055AHD091-CTG.pdf)
 
 #### Battery
 
-Capacity: 2.05Ah
-Type: Lithium Polymer
-Voltage: 3.7 V
-Dimensions: 84.5mm x 47.5mm x 6.0mm (3.33" 1.87" 0.24")
-
-Rationale behind the small battery capacity:
-
--The system is expected to be much more energy efficient (e.g. fewer background tasks),
-than a standard smarpthone.
-
--Space and supply constraints
-
--The emptied battery can be swapped for a fully charged one to effectively get back to 100%
+- Capacity: 2.05Ah
+- Type: Lithium Polymer
+- Voltage: 3.7 V
+- Dimensions: 84.5mm x 47.5mm x 6.0mm (3.33" 1.87" 0.24")
+- The battery can be easily swapped for a fully charged one to effectively get back to 100%
 almost instantly.
 
 #### Dimensions
 
 80mm x 148mm (±1mm)
 
-Total estimated thickness is 11.3mm (excluding camera module lens sticking out)
+Total estimated thickness is 12.3mm (excluding camera module lens sticking out)
 
 Main components that contribute thickness:
 
 | Component      | Thickness |
 |----------------|-----------|
 | Chassis        | 1 mm      |
-| PCB            | 0.4 mm    |
+| PCB            | 1.4 mm    |
 | Battery        | 6 mm      |
 | Screen         | 3.9 mm    |
 
 #### Camera
 
-SPIRIT uses the 64 MP Arducam Hawkeye camera.
+SPIRIT is compatible with [Arducam](https://www.arducam.com/) cameras e.g. the [64 MP Hawkeye](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/) or the more affordable [16 MP Autofocus](https://www.arducam.com/16mp-autofocus-camera-for-raspberry-pi/).
+
+Below are the stats for the Hawkeye:
 
 | Name    | Sensor Resolution  | Zoom | Field Of View |
 |---------|-----------------|-----|---------------|
@@ -99,8 +96,6 @@ Sensor: 1/1.7" stacked CMOS image sensor, 0.8 μm pixel size Lens: f/1.8 apert
 
 For more details see the [product page](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/)
 
-For now there is no "selfie camera" on board.
-
 *(For now there is only one camera for simplicity and cost reduction)*
 
 # Hardware And Electronics
@@ -108,11 +103,6 @@ For now there is no "selfie camera" on board.
 (click to expand)
 
 <img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="270">
-
-<img src="https://github.com/user-attachments/assets/1b5c8317-5b61-42c4-aa28-2d652b7e3833" height="270">
-
-<img src="https://github.com/user-attachments/assets/4742305e-44ab-4d84-8185-f4b7e9df42e7" height="270">
-
 
 ### Raspberry Pi Compute Module 4
 
