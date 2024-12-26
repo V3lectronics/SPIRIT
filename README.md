@@ -124,23 +124,16 @@ due to memory and IO limitations.
 
 ### EDA Software
 
+For schematic, PCB layout etc. KiCad 8 is used.
+
 All design files are openly available through this repository.
-
-There should be no issues with opening them with newer versions of Kicad (6 and up).
-
-The PCB layout, schematics and other files related to the board are exported
-from Kicad 6.0.11+dfsg-1 (Debian adapted package that excludes any non-free components).
-
-This way all newer versions (6 and up) can open the project. If the files where made in Kicad 8 people with say kicad 7 could not open them.
-
-The project will probably be migrated, after Kicad 8 becomes more stable or when there will be more contributors and switching versions will become annoying. For now this doesn't matter.
 
 ### Carrier PCB
 
-Custom carrier board (motherboard) that interfaces between the CM4 and the rest of the electronics. It's function is to manage other system related tasks (such as battery charging).'
+Custom carrier board (motherboard) that interfaces between the Compute Module and the rest of the electronics.
 
-This is the only custom electronic component, however all of the design files
-are publicly available through this repository.
+This is the only custom electronic component in this project. The design files
+are publicly available.
 
 ### Touchscreen
 
@@ -149,32 +142,29 @@ Dimensions: 5.5" (139.70mm) 1280px x 720px
 
 ### Replaceable Battery
 
-The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons.
+The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons. The user is free to swap the battery for any compatible model.
+It is also possible to run the phone without a battery, or using an external one
+if you attach long enough leads.
 
 An added benefit is that the user can easily replace an empty battery for a charged one - effectively eliminating the need to wait for the phone to charge. An external battery charger can also be used for unmounted batteries.
 
-### GSM Module
+### GSM, GPS Module
 
-*Not chosen yet*
+EC25VFA-512-STD
 
-### GPS Module
-
-*datasheet description*
-
-"YIC31009EBGG features high sensitivity, low power and ultra small form factor. The module is powered
-by GOKE, which provides superior sensitivity and performance even in urban canyon and dense foliage
-environment.
-[...]
-Through the feature of 66-channel, the YIC31009EBGG boasts a hot start in less than 1 second.
-Innovative design and technology suppresses jamming sources and mitigates multipath effects, assisting
-excellent navigation performance."
+Cellular, Navigation BeiDou, EDGE, Galileo, GLONASS, GPS, GNSS, LTE Transceiver Module 1.561GHz, 1.575GHz, 1.602GHz
 
 ### Speakers
 
+2 x CMR-15062S-67
+
+32 Ohms Receiver Speaker 20 mW 300 Hz ~ 7 kHz Top Rectangular
+
 The speaker system consists of a pair of speakers mounted symmetrically facing upwards.
-The speakers are both identical and the top speaker doubles as a "phone speaker".
 
 ### Biometric Module
+
+100018754
 
 The fingerprint scanner is located on the back of the phone and has a sensing
 area of 8x8mm. It is rated for 10 million finger placements and can store up to
@@ -189,6 +179,8 @@ This phone has a TRRS headphone jack. This way the user can decide between wirel
 
 ### Microphone
 
+SPH0645LM4H-B
+
 Omnidirectional with a theorethical frequency range 20 Hz - 10 kHz.
 Sensitivity: -26dB ±3dB @ 94dB SPL.
 Digital output (I2S)
@@ -200,9 +192,27 @@ expectancy of 30k cycles.
 
 The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, instantly dialing a saved contact, toggling sound settings (silent, vibrate, sound) etc. The list of potential use cases is very long. One of them could be enabling small children or elderly people to instantly call for example a parent, or supervisor in case of emergency. Another could be to immediately launch the camera app to quickly capture a moment.
 
+### Privacy Switches
+
+SPIRIT has 4 physical switches that cut off the power lines to specific modules
+ensuring they are 100% inactive and not drawing power. Notice, you can also
+completely disconnect the battery. Needless to say, this is a very useful
+feature for people who want to have direct control over the hardware and want to
+protect their privacy without relying on software.
+
+| Switch Number | Module |
+|----------------|-----------|
+| 1| Microphone|
+| 2|GPS/GSM EC25 chip |
+| 3|Camera |
+| 4|Battery |
+
 ### Flashlight
 
-1W 3V white, cool LED (SMD) [datasheet](https://otmm.lumileds.com/adaptivemedia/a8d0a06da712a5d9b12e577ab53c49b2cdd1e434).
+LXML-PWC1-0100
+
+1W 3V white, cool LED.
+
 Toggling on/off can be binded to the programmable button.
 
 # Software And Operating System
@@ -210,7 +220,7 @@ Toggling on/off can be binded to the programmable button.
 Once the hardware is functional it will be time to test various operating
 systems as well as explore the possibility of developing one based on Debian.
 
-List of OS to test/research.
+List of operating systems to test/research:
 
 | Name           | Website |
 |----------------|-----------|
@@ -221,20 +231,20 @@ List of OS to test/research.
 
 Additionally, The Yocto Project has been suggested (not an OS) https://www.yoctoproject.org/
 
-*** Flashing an OS
-
-To flash an OS to eMMC pull down the ... pin
-
 # DIY Build Guide
 
 Link to build guide/tutorial: No build guide yet
 
 # Parts List
 
-<details>
-      <summary>Click here to show</summary>
+The list will be updated soon. To get the most up-to-date parts list please look
+at the BOM. Certain components such as the camera can be swapped for a different
+model - the presented setup is just a suggestion.
 
-todo fix links
+TODO update parts list
+
+<details>
+      <summary>Click here to show/hide</summary>
 
 | Amount | Name | Unit Price (USD)| Digikey Link |
 |--------|------|---------------|--------------|
@@ -277,8 +287,9 @@ The total cost of the device is x (excluding shipping)
 # Ethical And Environmental Concerns
 
 SPIRIT phones avoid components produced in unfair or harmful ways, as well as
-containing conflict minerals if possible. 
+containing conflict minerals if possible.
 
+TODO
 Here are ethical details for each major component:
 
 -Chassis
@@ -289,11 +300,14 @@ Here are ethical details for each major component:
 -Speakers
 
 The goal is to be 100% ethically and environmentally "clean" as soon as possible, however that is
-not an easy task and presents multiple enginnering challenges.
+a hard task and presents multiple enginnering challenges.
 
+TODO
 ?RoHS complicance
 
 # Compliance And Legality
+
+TODO research
 
 ### EU
 
