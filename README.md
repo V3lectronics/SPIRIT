@@ -36,22 +36,23 @@ and feedback are very welcome! If you want to contribute please read the [Contri
 
 #### RAM
 
-- 4GB or 8GB LPDDR4
+- 2GB / 4GB / 8GB / 16GB(2025) LPDDR4
 
 #### CPU
 
-- Broadcom BCM2711 quad-core Cortex-A72 (ARM v8) 64-bit SoC 1.5GHz
+- Broadcom BCM2712 64-bit 2.4 GHz
 
 #### Storage
 
-- 32GB eMMC
+- 16GB, 32GB, or 64GB eMMC
 
 #### Connectivity (IO)
 
-- 1 x USB C 2.0
-- 2.4 GHz, 5.0 GHz WiFi IEEE 802.11 b/g/n/ac wireless
+- 1 x USB C 3.0
+- 2.4 GHz, 5.0 GHz WiFi
 - Bluetooth 5
 - GSM
+- GPS
 
 #### Screen
 
@@ -60,6 +61,7 @@ and feedback are very welcome! If you want to contribute please read the [Contri
 
 #### Battery
 
+_will change soon_
 - Capacity: 2.05Ah
 - Type: Lithium Polymer
 - Voltage: 3.7 V
@@ -104,13 +106,11 @@ For more details see the [product page](https://www.arducam.com/64mp-ultra-high-
 
 <img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="270">
 
-### Raspberry Pi Compute Module 4
+### Raspberry Pi Compute Module 5
 
-"The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications" [(CM4 website)](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000).
-SPIRIT uses the 4GB RAM, 32GB eMMC version of the CM. It is possible to use a different CM4 variant (for example to increase the RAM to 8GB).
+"The power of Raspberry Pi 5 in a compact form factor for deeply embedded applications" [(CM5 website)](https://www.raspberrypi.com/products/compute-module-5/?variant=cm5-104032).
 
-It is expected that future iterations of the design will use a different chip
-due to memory and IO limitations.
+By default SPIRIT uses the 4GB RAM, 64GB eMMC version of the CM. It is possible to use a different CM4 variant (for example to increase the RAM to 8GB).
 
 ### EDA Software
 
@@ -283,7 +283,7 @@ TODO
 Here are ethical details for each major component:
 
 -Chassis
--CM4
+-CM5
 -Battery
 -Screen
 -Chassis
@@ -328,6 +328,6 @@ Ecodesign Regulation 2023/1670
 
 # Resources
 
-- [Rpi CM4 datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
+- [Rpi CM5 datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf)
 - [Rpi CM4 pinout from datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf#page=18)
-- [Rpi CM4 useful interactive pinout](https://atctwo.net/projects/pinout/index.html)
+- [Rpi CM5 and CM 4 useful interactive pinout](https://atctwo.net/projects/pinout/index.html)
