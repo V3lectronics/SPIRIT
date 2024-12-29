@@ -26,10 +26,10 @@ We appreciate your patience as we work to ensure quality and consistency in the 
 
 # Contact
 
+V Electronics Discord server invite:
+
+>https://discord.gg/zBG4KdHJWx
+
 Project lead maintainer email:
 
 >jwaga76@gmail.com
-
-V Electronics Discord server:
-
->invites paused currently
