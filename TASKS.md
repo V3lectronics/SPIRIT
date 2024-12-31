@@ -3,7 +3,7 @@
 
 - Do not make changes to areas of the project that aren't related to your task.
 
-- Starts represent estimated difficulty/complexity.
+- Stars represent estimated difficulty/complexity.
 
 - Tasks are divided into categories: Schematic, Parts, Layout. 
 
