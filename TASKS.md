@@ -9,7 +9,6 @@
 
 # Tasks
 ### Schematic
-##### Tasks
 - ★★★ Connect EC25 GSM/GPS chip 
 - ★★★ Connect 3.5 mm jack, codec, mic, speakers.
 - ★★★ Connect components in the power section
@@ -22,12 +21,10 @@ Note parts must be:
 	- compatible with the rest of the system
 	- RoHS compliant (most are)
 
-##### Tasks
 - Choose 90 deg piano switches and put them next to the sound switches on the left
 - Choose new battery and add 3D model in place of the previous one
 - Add 3D model of fingerprint scanner and place it under the camera bay
 
 ### PCB Layout
-##### Tasks
 - Empty for now 
 
