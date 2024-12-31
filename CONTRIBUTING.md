@@ -24,6 +24,10 @@ We appreciate your patience as we work to ensure quality and consistency in the 
 
 - Write all text in english.
 
+# Task to do
+
+Here is the [Task List](https://github.com/V3lectronics/SPIRIT/blob/main/TASKS.md). Good luck!
+
 # Contact
 
 V Electronics Discord server invite:
