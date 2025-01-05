@@ -1,0 +1,38 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "GRM033R60J334ME90D" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.0 3.81093125 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "GRM033R60J334ME90D" (id 1) (at 0.0 -5.08848125 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "GRM033R60J334ME90D:CAPC0603X33N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "GRM033R60J334ME90D_0_0"
+      (rectangle (start 0.0 -1.906859375) (end 0.635 1.905)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start 1.90685 -1.90685) (end 2.54 1.905)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -2.54 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
