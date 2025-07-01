@@ -1,6 +1,8 @@
 <p align="center">
     <img src="https://github.com/user-attachments/assets/60e87523-02cf-482b-8433-5f611e48ca2d" width="40%">
-    
+    <br>
+    <img src="https://github.com/user-attachments/assets/99de57de-c5d9-4f54-9140-fb388b046b55" width="15%">
+
 </p>
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/V3lectronics/SPIRIT)
