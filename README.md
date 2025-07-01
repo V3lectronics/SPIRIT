@@ -23,9 +23,11 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 8. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#compliance-and-legality)
 9. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
-![image](https://github.com/user-attachments/assets/cdea4cf8-1d98-4f79-8434-2e76fc693916)
+![image](https://github.com/user-attachments/assets/ca233c1b-0558-49ef-b1b1-04d52258cc64)
 
-(click to expand)
+---
+
+Early screenshots:
 
 <img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="350">
 
@@ -33,15 +35,17 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 
 <img src="https://github.com/user-attachments/assets/4742305e-44ab-4d84-8185-f4b7e9df42e7" height="270">
 
+<img src="https://github.com/user-attachments/assets/5c63f34d-d58c-4832-a58b-be8a34cb7fd5" height="270">
+
 # General Specifications
 
 #### RAM
 
-- 2GB / 4GB / 8GB / 16GB(2025) LPDDR4
+- 2GB / 4GB / 8GB / 16GB LPDDR4
 
 #### CPU
 
-- Broadcom BCM2712 64-bit 2.4 GHz
+- Broadcom BCM2712 64-bit 2.4 GHz, 4 cores with 4 threads
 
 #### Storage
 
@@ -49,7 +53,7 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 
 #### Connectivity (IO)
 
-- 1 x USB C 3.0
+- 1 x USB C 3.2 (Iphone 16 is USB 2.0 just throwing that out there)
 - 2.4 GHz, 5.0 GHz WiFi
 - Bluetooth 5
 - GSM
@@ -62,7 +66,7 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 
 #### Battery
 
-_will change soon_
+_will probably change soon because of component availability_
 - Capacity: 2.05Ah
 - Type: Lithium Polymer
 - Voltage: 3.7 V
@@ -72,9 +76,11 @@ almost instantly.
 
 #### Dimensions
 
-80mm x 148mm (±1mm)
+Chassis: ?
 
-Total estimated thickness is 12.3mm (excluding camera module lens sticking out)
+PCB: 80mm x 150mm
+
+Total: thickness is ~12.3mm (excluding camera module lens sticking out)
 
 Main components that contribute thickness:
 
@@ -88,6 +94,8 @@ Main components that contribute thickness:
 #### Camera
 
 SPIRIT is compatible with [Arducam](https://www.arducam.com/) cameras e.g. the [64 MP Hawkeye](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/) or the more affordable [16 MP Autofocus](https://www.arducam.com/16mp-autofocus-camera-for-raspberry-pi/).
+
+The camera module can be completely powered off by the user using a physical switch.
 
 Below are the stats for the Hawkeye:
 
@@ -103,28 +111,23 @@ For more details see the [product page](https://www.arducam.com/64mp-ultra-high-
 
 # Hardware And Electronics
 
-(click to expand)
-
-<img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="270">
-
 ### Raspberry Pi Compute Module 5
 
 "The power of Raspberry Pi 5 in a compact form factor for deeply embedded applications" [(CM5 website)](https://www.raspberrypi.com/products/compute-module-5/?variant=cm5-104032).
 
-By default SPIRIT uses the 4GB RAM, 64GB eMMC version of the CM. It is possible to use a different CM4 variant (for example to increase the RAM to 8GB).
+By default SPIRIT uses the 4GB RAM, 64GB eMMC version of the CM. It is possible to use a different CM5 variant (for example to increase the RAM to 8GB).
 
-### EDA Software
+### EDA
 
-For schematic, PCB layout etc. KiCad 8 is used.
+For schematics, PCB layout etc. the newest major release of KiCad is used.
 
-All design files are openly available through this repository.
+All EDA files are available through this repository (see the 'EDA-kicad' folder). The best way to view them is to clone the repo to your machine and use KiCad to open the project file 'cm5-carrier.kicad_pro'.
 
 ### Carrier PCB
 
 Custom carrier board (motherboard) that interfaces between the Compute Module and the rest of the electronics.
 
-This is the only custom electronic component in this project. The design files
-are publicly available.
+This is the only custom electronic component in this project.
 
 ### Touchscreen
 
@@ -133,9 +136,11 @@ Dimensions: 5.5" (139.70mm) 1280px x 720px
 
 ### Replaceable Battery
 
+Can be completely disconnected by the user using a physical switch.
+
 The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons. The user is free to swap the battery for any compatible model.
 It is also possible to run the phone without a battery, or using an external one
-if you attach long enough leads.
+if you attach long enough wires.
 
 An added benefit is that the user can easily replace an empty battery for a charged one - effectively eliminating the need to wait for the phone to charge. An external battery charger can also be used for unmounted batteries.
 
@@ -143,13 +148,12 @@ An added benefit is that the user can easily replace an empty battery for a char
 
 EC25VFA-512-STD
 
+Can be completely powered off by the user using a physical switch.
 Cellular, Navigation BeiDou, EDGE, Galileo, GLONASS, GPS, GNSS, LTE Transceiver Module 1.561GHz, 1.575GHz, 1.602GHz
 
 ### Speakers
 
 2 x CMR-15062S-67
-
-32 Ohms Receiver Speaker 20 mW 300 Hz ~ 7 kHz Top Rectangular
 
 The speaker system consists of a pair of speakers mounted symmetrically facing upwards.
 
@@ -172,6 +176,7 @@ This phone has a TRRS headphone jack. This way the user can decide between wirel
 
 SPH0645LM4H-B
 
+Can be completely powered off by the user using a physical switch.
 Omnidirectional with a theorethical frequency range 20 Hz - 10 kHz.
 Sensitivity: -26dB ±3dB @ 94dB SPL.
 Digital output (I2S)
@@ -189,7 +194,7 @@ SPIRIT has 4 physical switches that cut off the power lines to specific modules
 ensuring they are 100% inactive and not drawing power. Notice, you can also
 completely disconnect the battery. Needless to say, this is a very useful
 feature for people who want to have direct control over the hardware and want to
-protect their privacy without relying on software.
+protect their privacy without having to trust software.
 
 | Switch Number | Module |
 |----------------|-----------|
@@ -208,7 +213,7 @@ Toggling on/off can be binded to the programmable button.
 
 # Software And Operating System
 
-Once the hardware is functional it will be time to test various operating
+Once the hardware platform is functional it will be time to test various operating
 systems as well as explore the possibility of developing one based on Debian.
 
 List of operating systems to test/research:
@@ -224,15 +229,15 @@ Additionally, The Yocto Project has been suggested (not an OS) https://www.yocto
 
 # DIY Build Guide
 
-Link to build guide/tutorial: No build guide yet
+Link to build guide/tutorial: COMING SOON!!!
 
 # Parts List
 
-The list will be updated soon. To get the most up-to-date parts list please look
-at the BOM. Certain components such as the camera can be swapped for a different
-model - the presented setup is just a suggestion.
+The list is incomplete and old, it will be updated as soon as we have built the 1st prototype
 
-TODO update parts list
+To get the most up-to-date parts list please look
+at the BOM. Certain components such as the camera or the compute module can be swapped for a different
+model - the presented setup is just a suggestion.
 
 <details>
       <summary>Click here to show/hide</summary>
@@ -273,7 +278,7 @@ TODO update parts list
 
 # Cost
 
-The total cost of the device is x (excluding shipping)
+The total assembly cost of the device is unknown
 
 # Ethical And Environmental Concerns
 
@@ -331,4 +336,4 @@ Ecodesign Regulation 2023/1670
 
 - [Rpi CM5 datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf)
 - [Rpi CM4 pinout from datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf#page=18)
-- [Rpi CM5 and CM 4 useful interactive pinout](https://atctwo.net/projects/pinout/index.html)
+- [Rpi CM5 and CM 4 very useful interactive pinout](https://atctwo.net/projects/pinout/index.html)
