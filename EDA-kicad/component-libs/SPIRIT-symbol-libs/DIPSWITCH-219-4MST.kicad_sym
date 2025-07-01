@@ -1,0 +1,143 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "219-4MST" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "S" (id 0) (at -5.08 10.922 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "219-4MST" (id 1) (at -5.08 -12.7 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "219-4MST:SW_219-4MST" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "C" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CTS Electrocomponents" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "4.58mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "219-4MST_0_0"
+      (polyline
+        (pts (xy -2.54 -7.62) (xy 2.794 -6.35)) (stroke (width 0.254))
+      )
+      (circle (center 2.54 -7.62) (radius 0.3302)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -7.62) (xy 2.921 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -7.62) (xy -5.08 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy 2.794 -1.27)) (stroke (width 0.254))
+      )
+      (circle (center 2.54 -2.54) (radius 0.3302)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy 2.921 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -5.08 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy 2.794 3.81)) (stroke (width 0.254))
+      )
+      (circle (center 2.54 2.54) (radius 0.3302)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 2.921 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -5.08 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 7.62) (xy 2.794 8.89)) (stroke (width 0.254))
+      )
+      (circle (center 2.54 7.62) (radius 0.3302)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 7.62) (xy 2.921 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 7.62) (xy -5.08 7.62)) (stroke (width 0.254))
+      )
+      (rectangle (start -5.08 -10.16) (end 5.08 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -10.16 7.62 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -7.62 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -7.62 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 7.62 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
