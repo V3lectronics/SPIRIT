@@ -8,41 +8,41 @@
 # Tasks
 ### Schematic
 
-[ ] ★★★ GSM/GPS section (EC25 GSM/GPS, SIM holder)
+- [ ] ★★★ GSM/GPS section (EC25 GSM/GPS, SIM holder)
 
-[ ] ★★★ AUDIO section (3.5 mm jack, codec, mic, speakers)
+- [ ] ★★★ AUDIO section (3.5 mm jack, codec, mic, speakers)
 
-[ ]  ★★★ POWER section
+- [ ]  ★★★ POWER section
 
-[ ] ★★ Fingerprint scanner
+- [ ] ★★ Fingerprint scanner
 
-[x] ★★ Upgrade USB C 2.0 → USB 3.2 and add TVS
+- [x] ★★ Upgrade USB C 2.0 → USB 3.2 and add TVS
 
-[ ] ★ Add vibration motor driving circuitry
+- [ ] ★ Add vibration motor driving circuitry
 
-[ ] ★ Add flashlight driving circuitry
+- [ ] ★ Add flashlight driving circuitry
 
 
 ### Parts
 Note parts must be: available from Digikey, compatible with the rest of the
 system, RoHS compliant (most are)
 
-[x] ★ Choose 90 deg piano switches and put them next to the sound switches on the left
+- [x] ★ Choose 90 deg piano switches and put them next to the sound switches on the left
 
-[ ] ★ Choose new battery and add 3D model in place of the previous one
+- [ ] ★ Choose new battery and add 3D model in place of the previous one
 
-[ ] ★ Add 3D model of fingerprint scanner and place it under the camera bay
+- [ ] ★ Add 3D model of fingerprint scanner and place it under the camera bay
 
 ### PCB Layout
 Empty for now, schematic goes first
 
 ### Other
 
-[ ] ★★ Research on how to
+- [ ] ★★ Research on how to
 
-[ ] ★★★ Design alluminium chassis + G Code
+- [ ] ★★★ Design alluminium chassis + G Code
 
-[ ] ★★ Design 3D printable chassis (plastic)
+- [ ] ★★ Design 3D printable chassis (plastic)
 
 ### OS
 Empty for now, hardware platform goes first
