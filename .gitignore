@@ -13,6 +13,9 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 
+# Backups and other zip archives
+*.zip
+
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -22,3 +25,14 @@ fp-info-cache
 
 # Footprint association file (exported from Pcbnew)
 *.cmp
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Cache and build directories
+fp-info-cache
+build/
+
+# OS files
+.DS_Store
