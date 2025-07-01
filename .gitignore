@@ -36,3 +36,6 @@ build/
 
 # OS files
 .DS_Store
+
+# Python env
+EDA-kicad/component-libs/env
