@@ -9,9 +9,8 @@
 [![Contribution Guide](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
-(Currently in the development phase, progress documented here and on the V
-Electronics [YT channel](https://www.youtube.com/@V_Electronics)). Contribution
-and feedback are very welcome! If you want to contribute please read the [Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md).
+Contribution and feedback are very welcome! [Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md).
+(Currently in the development phase, progress documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics)).
 
 # Contents
 1. [General Specifications](https://github.com/barbarjan/SPIRIT#general-specifications)
