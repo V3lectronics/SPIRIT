@@ -957,7 +957,7 @@
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "05fa57fe-70b2-4567-ad43-7edf5a8d337a")
-		(at 100.219 159.054)
+		(at 65.049 151.405599)
 		(property "Reference" "C3"
 			(at 0.53 -0.76 0)
 			(layer "F.SilkS")
@@ -1123,7 +1123,7 @@
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "08219286-85eb-4c2f-9236-de131d4a16e6")
-		(at 100.219 161)
+		(at 65.049 153.351599)
 		(property "Reference" "C4"
 			(at 0.53 -0.76 0)
 			(layer "F.SilkS")
@@ -1368,7 +1368,7 @@
 	(footprint "SPIRIT-footprints:TVS-array-IC_PUSB3AB6Z"
 		(layer "F.Cu")
 		(uuid "19b7fa53-8446-4c1a-873e-e96c77250b16")
-		(at 104.585 167)
+		(at 69.415 159.351599)
 		(property "Reference" "TVS-PUSB1"
 			(at 0.762 -2.3114 0)
 			(layer "F.SilkS")
@@ -1808,7 +1808,7 @@
 	(footprint "SPIRIT-footprints:BAT-STEP-UP-UDFN8_2X2_MCH"
 		(layer "F.Cu")
 		(uuid "204f99cd-1e38-4c37-9ce7-bc5c7d6cedea")
-		(at 87.0475 159.749999)
+		(at 84.4525 159.75)
 		(tags "MIC2876-5.0YMT-TR ")
 		(property "Reference" "U1"
 			(at 0 -2.54 0)
@@ -4673,7 +4673,7 @@
 	(footprint "SPIRIT-footprints:BAT-MONITOR-YZF15_TEX"
 		(layer "F.Cu")
 		(uuid "2da74447-9633-47c4-84cf-536db8b6f99e")
-		(at 91.44 149.86)
+		(at 88.845 149.860001)
 		(tags "BQ27530YZFT-G1 ")
 		(property "Reference" "U3"
 			(at 0.2032 -3.2004 0)
@@ -8416,7 +8416,7 @@
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "535be1ad-1df2-4440-843c-945262d44789")
-		(at 100.219 157.108)
+		(at 65.049 149.459599)
 		(property "Reference" "C2"
 			(at 0.53 -0.76 0)
 			(layer "F.SilkS")
@@ -9971,7 +9971,7 @@
 	(footprint "SPIRIT-footprints:CODEC-QFN50P500X500X100-33N"
 		(layer "F.Cu")
 		(uuid "7e2819ef-0f49-4f5f-9dc3-6895084030e7")
-		(at 112.395 153.67)
+		(at 108.5 175.025)
 		(property "Reference" "U7"
 			(at 0.07 -4.035 0)
 			(layer "F.SilkS")
@@ -11078,7 +11078,7 @@
 	(footprint "SPIRIT-footprints:BAT-CONNECTOR-FLTS22WR00"
 		(layer "F.Cu")
 		(uuid "95403fcc-a21b-4b33-9cd4-0b281241ff8d")
-		(at 76.041 147.574 90)
+		(at 70.261 147.119 90)
 		(property "Reference" "U2"
 			(at 0 -0.5 90)
 			(unlocked yes)
@@ -11522,7 +11522,7 @@
 	(footprint "SPIRIT-footprints:CHARGER-SWITCHER-RTE0016C"
 		(layer "F.Cu")
 		(uuid "9992fa20-e616-4b10-9847-eaed544be689")
-		(at 95.249997 164.465003)
+		(at 60.079997 156.816602)
 		(tags "BQ25303JRTER ")
 		(property "Reference" "U4"
 			(at 0 -2.54 0)
@@ -11961,7 +11961,7 @@
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "9d00db65-7ce7-4a75-8a57-462df8766e3b")
-		(at 100.219 155.162)
+		(at 65.049 147.513599)
 		(property "Reference" "C1"
 			(at 0.53 -0.76 0)
 			(layer "F.SilkS")
@@ -13772,7 +13772,7 @@
 		(uuid "d4a0cff7-79d5-47c9-b48a-f4fae491b599")
 		(at 95.5 178)
 		(property "Reference" "J2"
-			(at -1.825 -10.635 0)
+			(at -36.995 -18.283401 0)
 			(layer "F.SilkS")
 			(uuid "fd74d7d6-0884-46b6-80ea-abb78c5f0634")
 			(effects
@@ -14614,119 +14614,6 @@
 			(uuid "eecd8c28-85a9-46dc-a0c6-7b30cbce717f")
 		)
 		(embedded_fonts no)
-	)
-	(footprint "SPIRIT-footprints:battery-37V2AhLP504783JU"
-		(layer "F.Cu")
-		(uuid "e2ef27c8-911c-4168-9250-2d9e3ae35584")
-		(at 86.995 169.545 90)
-		(property "Reference" "BAT1"
-			(at 0 -0.5 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "2b50dca5-5598-4718-9aea-28aad8a0be07")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "battery-37V2AhLP504783JU"
-			(at 0 1 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "9e8453c3-d53d-4aff-be34-441edc040287")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f74b421-02ef-4f16-8c2c-42e46b9ae973")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73da9a4f-773f-4d13-a012-ee09b7c8de1e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/8cf1bdfa-e92c-425e-b41d-bd6606a977a3")
-		(sheetname "/")
-		(sheetfile "cm5-carrier.kicad_sch")
-		(fp_rect
-			(start 0 0)
-			(end 85 47.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "912094ed-5af1-4457-9c43-9e2d111615ed")
-		)
-		(fp_rect
-			(start 0 0.0508)
-			(end 85 47.5508)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "fb281960-761e-4b89-94ec-61fbcc9ffd7f")
-		)
-		(fp_rect
-			(start 0 0.0508)
-			(end 85 47.5508)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "2f1a7fef-acae-42e2-855e-67ff4aad5cb5")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "9e2a29eb-a31e-4a6d-9109-606fb61bcc2a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/battery-37V2AhLP504783JU-Body.step"
-			(offset
-				(xyz 55.5 -25.2 -0.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -90)
-			)
-		)
 	)
 	(footprint "SPIRIT-footprints:SIM-AMPHENOL_G85D1160022HHR"
 		(layer "F.Cu")
@@ -16158,7 +16045,7 @@
 	(footprint "SPIRIT-footprints:GSM-GPS-XCVR_EC25VFA-512-STD"
 		(layer "B.Cu")
 		(uuid "279c0c0f-2af3-4323-b16d-18e5655fda34")
-		(at 95.25 119.38 180)
+		(at 77.25 116.1 180)
 		(property "Reference" "U9"
 			(at -12.825 19.235 0)
 			(layer "B.SilkS")
@@ -24975,7 +24862,7 @@
 			)
 			(polygon
 				(pts
-					(xy 98.75 116.58) (xy 91.75 116.58) (xy 91.75 122.18) (xy 98.75 122.18)
+					(xy 80.75 113.3) (xy 73.75 113.3) (xy 73.75 118.9) (xy 80.75 118.9)
 				)
 			)
 		)
@@ -25007,7 +24894,7 @@
 			)
 			(polygon
 				(pts
-					(xy 98.75 116.58) (xy 91.75 116.58) (xy 91.75 122.18) (xy 98.75 122.18)
+					(xy 80.75 113.3) (xy 73.75 113.3) (xy 73.75 118.9) (xy 80.75 118.9)
 				)
 			)
 		)
@@ -25203,20 +25090,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_rect
-		(start 76.2 83.185)
-		(end 105.41 98.425)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "b27b216c-4c42-4a5c-8c8b-b17e0e477bd5")
-	)
 	(gr_poly
 		(pts
-			(xy 135 35) (xy 135 175) (xy 130 180) (xy 60 180) (xy 55 175) (xy 55 35) (xy 60 30) (xy 130 30)
+			(xy 130 30) (xy 60 30) (xy 55 35) (xy 55 175) (xy 60 180) (xy 130 180) (xy 135 175) (xy 135 165.5)
+			(xy 100 165) (xy 100 100) (xy 135 100) (xy 135 35)
 		)
 		(stroke
 			(width 0.1)
@@ -25224,7 +25101,18 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "e2a2f362-6a2b-4f43-896b-ab64193402bf")
+		(uuid "8381c10a-6e27-4c64-9a31-1c472ec43b25")
+	)
+	(gr_rect
+		(start 76.5 80.88)
+		(end 105.71 96.12)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b27b216c-4c42-4a5c-8c8b-b17e0e477bd5")
 	)
 	(gr_text "V ELECTRONICS"
 		(at 93.98 33.02 0)
@@ -25284,7 +25172,7 @@
 		)
 	)
 	(gr_text "Caution, this device is a prototype. Use at your own risk."
-		(at 133.985 106.68 270)
+		(at 56 122.5 270)
 		(layer "B.SilkS")
 		(uuid "f53c839a-1a86-4dbd-9ddd-b126daf302d9")
 		(effects
@@ -25299,18 +25187,6 @@
 		(at 139.5 57.5 0)
 		(layer "Edge.Cuts")
 		(uuid "4354d59a-ccea-4a77-86e0-390dc0b10e3b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "battery cutout"
-		(at 139.5 53.5 0)
-		(layer "Edge.Cuts")
-		(uuid "560a0c98-8dc1-47d3-9651-36ff831022cc")
 		(effects
 			(font
 				(size 1 1)

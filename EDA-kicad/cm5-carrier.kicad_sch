@@ -18214,6 +18214,8 @@
 		(effects
 			(font
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -18240,12 +18242,14 @@
 		)
 		(uuid "4cf7671e-7d65-4d88-9426-ad78234cb082")
 	)
-	(text "Sreen\n"
+	(text "Screen\n"
 		(exclude_from_sim no)
 		(at 703.58 220.98 0)
 		(effects
 			(font
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -18257,6 +18261,8 @@
 		(effects
 			(font
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -18292,6 +18298,8 @@
 		(effects
 			(font
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -18303,6 +18311,8 @@
 		(effects
 			(font
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -18366,6 +18376,8 @@
 		(effects
 			(font
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -18495,6 +18507,8 @@
 		(effects
 			(font
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
