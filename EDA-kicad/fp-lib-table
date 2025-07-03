@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SPIRIT-footprints")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-footprints.pretty")(options "")(descr ""))
+)

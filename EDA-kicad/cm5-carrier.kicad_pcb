@@ -74,7 +74,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -11894,19 +11893,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "724b7369-424e-456e-8ba8-2ce72c059c86")
-		)
-		(fp_text user "Designator944"
-			(at -1.5748 -3.0988 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1e0209bd-3ce8-4b2c-a4d9-2bd2ecedadbb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
