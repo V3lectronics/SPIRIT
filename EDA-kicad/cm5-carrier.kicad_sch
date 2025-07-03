@@ -31652,7 +31652,7 @@
 				)
 			)
 		)
-		(property "Value" "battery-37V2AhLP504783JU"
+		(property "Value" "battery_37V3500mAhLP685077JU"
 			(at 144.018 429.006 0)
 			(effects
 				(font
