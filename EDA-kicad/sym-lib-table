@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "5-1KOhm-SMD-1perc-0125W-RTE0016C_NV")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-symbol-libs/5-1KOhm-SMD-1perc-0125W-RTE0016C_NV.kicad_sym")(options "")(descr ""))
+)

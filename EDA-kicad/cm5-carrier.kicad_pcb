@@ -74,7 +74,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -11895,19 +11894,6 @@
 			(layer "F.Fab")
 			(uuid "724b7369-424e-456e-8ba8-2ce72c059c86")
 		)
-		(fp_text user "Designator944"
-			(at -1.5748 -3.0988 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1e0209bd-3ce8-4b2c-a4d9-2bd2ecedadbb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(unlocked yes)
@@ -12581,6 +12567,113 @@
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "bc1c4628-482d-4104-9981-4227986fd4cc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SPIRIT-footprints:battery_37V3500mAhLP685077JU"
+		(layer "F.Cu")
+		(uuid "c78eab7f-5aef-4213-a701-82da2cc9ad6d")
+		(at 109 96.5)
+		(property "Reference" "REF**"
+			(at 0 -11.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2d34fe7e-7459-4168-9c96-ad066c50e47b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "battery_LP685077JU"
+			(at 0 -10 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c1ef6f01-a13f-4d07-9bfe-49ae9c5c1272")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9776a1dc-7a54-4d8f-a391-2155840ee05d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc6c00f7-7ba0-4db7-9dd0-f729d701a176")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -25.5 -5)
+			(end 25.5 73)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2bf3225e-04f5-454b-8c3b-3125de08d04f")
+		)
+		(fp_rect
+			(start -26 -5.5)
+			(end 26 73.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "33b6e421-10e0-411a-9f5c-1cec40b2fe8d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -8.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6e0900d8-9cb3-4ea2-8ac4-55b02307ccbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3 -4)
+			(size 1.905 1.27)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "da686958-d0b0-4fd3-ac87-61a8d7825b62")
+		)
+		(pad "2" smd roundrect
+			(at 3 -4)
+			(size 1.905 1.27)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "9424c6b7-8800-4938-b6ae-e4e70528de2d")
 		)
 		(embedded_fonts no)
 	)
