@@ -1,4 +1,4 @@
-(footprint "Unbenannt"
+(footprint "battery_37V3500mAhLP685077JU"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -87,22 +87,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "1" smd roundrect
-		(at -3 -4)
-		(size 1.905 1.27)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "61761b0e-28a7-498b-802f-28ea4df65958")
-	)
-	(pad "2" smd roundrect
-		(at 3 -4)
-		(size 1.905 1.27)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "4b6cd4c0-9137-4fb6-af85-538d73567639")
 	)
 	(embedded_fonts no)
 )
