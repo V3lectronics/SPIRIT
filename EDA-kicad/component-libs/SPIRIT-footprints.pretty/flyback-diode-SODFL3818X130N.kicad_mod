@@ -1,0 +1,190 @@
+(footprint "flyback-diode-SODFL3818X130N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>SOD123F(L)-</b><br>")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d5438b5b-3a99-44b9-a7c2-2604d8eec66b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SODFL3818X130N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3ae28e73-7514-4c27-9954-b9ff465e7809")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51d3effa-f180-4c1a-ae3b-edb3e2678314")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b80e5aa-9e23-42b1-aef0-539f9fbbce78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.21 -0.9)
+		(end 1.4 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b88bd084-232a-44a6-b8f0-0bef295e19f4")
+	)
+	(fp_line
+		(start -1.4 0.9)
+		(end 1.4 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab8c12a6-c34f-4f95-9048-af43f7aaac91")
+	)
+	(fp_line
+		(start -2.36 -1.15)
+		(end 2.36 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56626cc8-6c89-41df-a93f-fad7177a9f57")
+	)
+	(fp_line
+		(start -2.36 1.15)
+		(end -2.36 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9bbeaf5-cdfb-4462-bacd-7198d16bd7aa")
+	)
+	(fp_line
+		(start -1.4 -0.9)
+		(end 1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "426418e8-d632-48bc-a407-b9bfca790b83")
+	)
+	(fp_line
+		(start -1.4 -0.44)
+		(end -0.94 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6e06be7-2ef7-40cb-9698-d7ba478cc74b")
+	)
+	(fp_line
+		(start -1.4 0.9)
+		(end -1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a06383af-db9a-4ce7-bc20-de49d0067588")
+	)
+	(fp_line
+		(start 1.4 -0.9)
+		(end 1.4 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c210b72-6a2a-44b1-8dba-07048b6bb1ff")
+	)
+	(fp_line
+		(start 1.4 0.9)
+		(end -1.4 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f12ed8b3-0a9f-4dea-8dc3-40aa14eb286a")
+	)
+	(fp_line
+		(start 2.36 -1.15)
+		(end 2.36 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5ecb815-0014-4e65-93f3-21ef1b059618")
+	)
+	(fp_line
+		(start 2.36 1.15)
+		(end -2.36 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fef83c71-82f7-49d8-811d-1ef060ed1a82")
+	)
+	(pad "1" smd rect
+		(at -1.75 0)
+		(size 0.92 1.13)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4f26226e-838e-4ee8-9bed-bae1918b1895")
+	)
+	(pad "2" smd rect
+		(at 1.75 0)
+		(size 0.92 1.13)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "034c59c5-22d3-4863-9b11-3933ef767d0f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/flyback-diode-1N4007W-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)

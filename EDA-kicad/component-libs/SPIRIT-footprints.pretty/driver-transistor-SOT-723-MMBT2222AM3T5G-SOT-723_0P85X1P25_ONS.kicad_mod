@@ -1,0 +1,440 @@
+(footprint "driver-transistor-SOT-723-MMBT2222AM3T5G-SOT-723_0P85X1P25_ONS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "MMBT2222AM3T5G ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a47069a4-309d-4d10-a1cc-ebab3a537399")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-723_0P85X1P25_ONS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b8dc523-2b49-4faa-9885-a4b6a68d1a85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d37cca88-ef48-41d4-86e5-f2cebb98e718")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a51bc416-bcf7-417b-800c-ebfde9588611")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7493 -0.5461)
+		(end -0.7493 0.059075)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5362983-9b01-4b8f-b805-7a11c1b8c1be")
+	)
+	(fp_line
+		(start -0.47244 -0.5461)
+		(end -0.7493 -0.5461)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b672515-2c8e-42f1-a329-c21825b7f1b7")
+	)
+	(fp_line
+		(start 0.7493 -0.5461)
+		(end 0.47244 -0.5461)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54fb5fba-6f0d-4cb1-abbe-336e9d21c212")
+	)
+	(fp_line
+		(start 0.7493 0.059075)
+		(end 0.7493 -0.5461)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4460e1a5-8f93-4ccc-a1a3-440a2a1dacb8")
+	)
+	(fp_circle
+		(center -1.8923 0.6223)
+		(end -1.7653 0.6223)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d99164ed-51fc-4fcd-a5c3-a87380e9ca74")
+	)
+	(fp_line
+		(start -0.8763 -0.6731)
+		(end -0.3937 -0.6731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff8e0e46-3e09-4669-946c-970c5b477e37")
+	)
+	(fp_line
+		(start -0.8763 0.6731)
+		(end -0.8763 -0.6731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c18c2a87-508c-4494-8a37-bad15150c93a")
+	)
+	(fp_line
+		(start -0.8763 0.6731)
+		(end -0.7937 0.6731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edc1456c-2ef8-4109-88bd-6a5b7636fddb")
+	)
+	(fp_line
+		(start -0.7937 0.6731)
+		(end -0.7937 1.0795)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7efe1b17-8603-45a4-80ac-95cc6e2555d8")
+	)
+	(fp_line
+		(start -0.7937 1.0795)
+		(end 0.7937 1.0795)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b4aa677-9143-4ebf-89e6-5cafc6de365b")
+	)
+	(fp_line
+		(start -0.3937 -1.0795)
+		(end 0.3937 -1.0795)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdaa23c3-414d-46b2-bf47-48d99eabf022")
+	)
+	(fp_line
+		(start -0.3937 -0.6731)
+		(end -0.3937 -1.0795)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35d28693-c14a-4e63-922d-3479e4afd4fd")
+	)
+	(fp_line
+		(start 0.3937 -0.6731)
+		(end 0.3937 -1.0795)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49072ab3-b770-4ca8-8cb6-2e257f28c2b0")
+	)
+	(fp_line
+		(start 0.7937 0.6731)
+		(end 0.7937 1.0795)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df27b9b0-28d4-4165-b1f3-f649579897af")
+	)
+	(fp_line
+		(start 0.8763 -0.6731)
+		(end 0.3937 -0.6731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f818c3c-3206-4a27-b0cd-c0f8e4f0ab2d")
+	)
+	(fp_line
+		(start 0.8763 -0.6731)
+		(end 0.8763 0.6731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "532aa147-eb22-4890-9e5a-43c281360c7d")
+	)
+	(fp_line
+		(start 0.8763 0.6731)
+		(end 0.7937 0.6731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5b48658-77b7-4de7-8250-cc95d6fc940a")
+	)
+	(fp_line
+		(start -0.6223 -0.4191)
+		(end -0.6223 0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08cb3f29-616c-4e24-95af-d249042b6f8d")
+	)
+	(fp_line
+		(start -0.6223 0.4191)
+		(end 0.6223 0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e90cdc27-a943-4778-aec3-0c6be42d2135")
+	)
+	(fp_line
+		(start -0.5397 0.4191)
+		(end -0.5397 0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06a820f0-7865-4ffb-8dd5-69612c595341")
+	)
+	(fp_line
+		(start -0.5397 0.6223)
+		(end -0.2603 0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff6aae78-4d68-4097-bb75-47196f9289db")
+	)
+	(fp_line
+		(start -0.2603 0.4191)
+		(end -0.5397 0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60f00df8-a49a-4bbd-b3a0-5fac08ab9ee2")
+	)
+	(fp_line
+		(start -0.2603 0.6223)
+		(end -0.2603 0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb90774e-4777-474d-8381-e0d4ff20a03b")
+	)
+	(fp_line
+		(start -0.1397 -0.6223)
+		(end -0.1397 -0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f3b21e1-ac50-445a-8931-11a396f3b965")
+	)
+	(fp_line
+		(start -0.1397 -0.4191)
+		(end 0.1397 -0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01037925-4f7b-404b-9cce-98236fc92ce4")
+	)
+	(fp_line
+		(start 0.1397 -0.6223)
+		(end -0.1397 -0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f15f0eb-d2dc-40a9-a161-dd7fd84b7ddd")
+	)
+	(fp_line
+		(start 0.1397 -0.4191)
+		(end 0.1397 -0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c862ba19-8960-4a8e-9931-51a6c9bf37b0")
+	)
+	(fp_line
+		(start 0.2603 0.4191)
+		(end 0.2603 0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd30f6c5-e63d-43b5-b06c-195cab3e3426")
+	)
+	(fp_line
+		(start 0.2603 0.6223)
+		(end 0.5397 0.6223)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0cae191-1b39-435b-8c2e-8a0c60e4f7d9")
+	)
+	(fp_line
+		(start 0.5397 0.4191)
+		(end 0.2603 0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e7b0b36-676b-4482-a87d-e7d80faaae26")
+	)
+	(fp_line
+		(start 0.5397 0.6223)
+		(end 0.5397 0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e365831-e619-494d-ad26-739691076b8e")
+	)
+	(fp_line
+		(start 0.6223 -0.4191)
+		(end -0.6223 -0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc8de2fd-789a-4556-9a17-791307f717ab")
+	)
+	(fp_line
+		(start 0.6223 0.4191)
+		(end 0.6223 -0.4191)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89f2ff4d-100f-4d58-9b83-128f44b7d09e")
+	)
+	(fp_circle
+		(center -0.3683 0.1651)
+		(end -0.2413 0.1651)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a0d4b015-dffb-4dc1-9bbd-b1181a5d5bb6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4105c18f-291d-4219-98b4-22c01be5e45f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.399999 0.5715)
+		(size 0.2794 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20fe1633-917a-4144-abcb-010e351b03d3")
+	)
+	(pad "2" smd rect
+		(at 0.399999 0.5715)
+		(size 0.2794 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fae1c35-6999-421d-a57a-fa0a53683d12")
+	)
+	(pad "3" smd rect
+		(at 0 -0.5715)
+		(size 0.2794 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f087cb95-00ee-4b0e-a7ab-4d7deaa46286")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/driver-transistor-SOT-723-MMBT2222AM3T5G-SOT-723_0P85X1P25_ONS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

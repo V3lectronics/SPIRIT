@@ -1,0 +1,228 @@
+(footprint "gpio-driver-transistor-fix-SOT65P210X110-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.635 -3.175 0)
+		(layer "F.SilkS")
+		(uuid "97ad7964-b5e7-4dea-a98b-d79c69d01c34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT65P210X110-3N"
+		(at 6.35 3.175 0)
+		(layer "F.Fab")
+		(uuid "abf6abbe-8545-4fba-a5cd-aa3810bdf2c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "896cb1dd-6b67-4092-9957-9c6bf66e786e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fc5605a-81d3-4257-875b-cc49156c1edd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.68 -1.214)
+		(end 0.68 -1.214)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cec4dc78-204b-4a3e-9b67-62ae80e76bd8")
+	)
+	(fp_line
+		(start 0.68 -1.214)
+		(end 0.68 -0.565)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3ad21bc-8028-42e9-b8bb-1aa9849def40")
+	)
+	(fp_line
+		(start 0.68 0.565)
+		(end 0.68 1.214)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b23be68-d015-4e5a-86e7-567d06e1213d")
+	)
+	(fp_line
+		(start 0.68 1.214)
+		(end -0.68 1.214)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f084cce-7d65-4eea-8de9-a06b9adec786")
+	)
+	(fp_circle
+		(center -2 -1.3)
+		(end -1.9 -1.3)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "75ad1fc2-45b7-4662-9a6e-681b04bb37d3")
+	)
+	(fp_line
+		(start -1.72 -1.35)
+		(end -1.72 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5586370a-9bce-4f9c-ad31-ed45f3d360fd")
+	)
+	(fp_line
+		(start -1.72 1.35)
+		(end 1.72 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46c3357c-48be-4a9a-a113-ef7a5c76dc23")
+	)
+	(fp_line
+		(start 1.72 -1.35)
+		(end -1.72 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d8f735f-7d4f-48ed-8564-dd874914d910")
+	)
+	(fp_line
+		(start 1.72 1.35)
+		(end 1.72 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b91e36d-ba76-495e-9c85-1ea55ca45761")
+	)
+	(fp_line
+		(start -0.68 -1.1)
+		(end -0.68 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73dd5663-adf5-42e8-b808-2533c664b902")
+	)
+	(fp_line
+		(start -0.68 1.1)
+		(end 0.68 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b0b0e8d-f5e7-4898-8445-a270a6c46678")
+	)
+	(fp_line
+		(start 0.68 -1.1)
+		(end -0.68 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4e4733b-d8bb-44d7-b414-171a5eca63a9")
+	)
+	(fp_line
+		(start 0.68 1.1)
+		(end 0.68 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7361a2b-cf46-4556-8eec-1d9ec36f143d")
+	)
+	(fp_circle
+		(center -2 -1.3)
+		(end -1.9 -1.3)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dddd2201-6e18-4600-b525-3ac6f89a224d")
+	)
+	(pad "1" smd rect
+		(at -0.97 -0.65)
+		(size 0.99 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5bf5cc89-76e2-4a42-a978-851f029fd7d4")
+	)
+	(pad "2" smd rect
+		(at -0.97 0.65)
+		(size 0.99 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d1255fb7-07e4-43d6-89c7-f1ad1709529a")
+	)
+	(pad "3" smd rect
+		(at 0.97 0)
+		(size 0.99 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "11c56417-9ca5-4408-aa27-8526dc416333")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
