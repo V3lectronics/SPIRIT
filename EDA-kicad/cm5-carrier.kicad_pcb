@@ -486,9 +486,10 @@
 	(net 395 "unconnected-(U8-SPKP__1-Pad26)")
 	(net 396 "unconnected-(Module1B-HDMI1_TX2_P-Pad146)")
 	(net 397 "unconnected-(Module1A-EEPROM_nWP-Pad20)")
-	(net 398 "unconnected-(D2-Pad1)")
-	(net 399 "unconnected-(D2-Pad2)")
+	(net 398 "Net-(Q2-D)")
+	(net 399 "Net-(Q1-G)")
 	(net 400 "Net-(Q1-D)")
+	(net 401 "Net-(Q2-G)")
 	(footprint "SPIRIT-footprints:35mmJACK-CUI_SJ2-35894B-SMT-TR"
 		(layer "F.Cu")
 		(uuid "04d6ebdb-ff4d-4614-a08b-c09947f41ced")
@@ -2605,7 +2606,6 @@
 				)
 			)
 		)
-		(path "/03fd607d-4101-4417-8aa0-b55e530a157d")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -8656,7 +8656,7 @@
 			(at -1.75 0)
 			(size 0.92 1.13)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 398 "unconnected-(D2-Pad1)")
+			(net 57 "VCC")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
 			(uuid "a913f6e2-39b6-4678-bc2b-330806054302")
@@ -8665,7 +8665,7 @@
 			(at 1.75 0)
 			(size 0.92 1.13)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 399 "unconnected-(D2-Pad2)")
+			(net 398 "Net-(Q2-D)")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
 			(uuid "c0f9d907-e092-424b-a8b7-75483c4fed77")
@@ -9564,6 +9564,243 @@
 			)
 			(rotate
 				(xyz -90 0 -180)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(layer "F.Cu")
+		(uuid "5925726b-c6b5-4158-ae2c-a447b105fb17")
+		(at 148.245 112.6)
+		(property "Reference" "R2"
+			(at 0.032 -1.5314 0)
+			(layer "F.SilkS")
+			(uuid "76d30eaa-a9d3-4d2a-834c-3087c4e202af")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1K-05W-0805-RES_ERJP06J102V"
+			(at 4.096 1.5314 0)
+			(layer "F.Fab")
+			(uuid "dc073f79-917c-4c05-96b7-d67c3bcdd34e")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e87053b-5f9b-46b6-b02b-1d763f374d7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "887a19e6-5b1f-4f4c-a933-dcb630a61301")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b5119d9-6562-45a3-a562-21a59a87fb19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5647d664-8364-4d57-a7ac-35f23ed99cb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db7b383f-e752-4118-813c-b54363befadd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0cb4e49-fe34-431c-b879-3c04d751172b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59ea29bd-c99c-446d-af10-6e5f83620bb9")
+		(sheetname "/")
+		(sheetfile "cm5-carrier.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.28 -0.625)
+			(end 0.28 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "732ff03c-8b61-4519-84c5-f8c6f363ea81")
+		)
+		(fp_line
+			(start -0.28 0.625)
+			(end 0.28 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c4000153-d4a0-4f7b-854c-e451dd2c2e1b")
+		)
+		(fp_line
+			(start -2 -0.875)
+			(end -2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4d90921f-fb57-407d-be1f-ad015dba08ed")
+		)
+		(fp_line
+			(start -2 0.875)
+			(end 2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e39f1332-ecbd-4ba3-81bb-1405cc9d1785")
+		)
+		(fp_line
+			(start 2 -0.875)
+			(end -2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "68e6ef56-0f45-47ed-97a2-76f7a54a293e")
+		)
+		(fp_line
+			(start 2 0.875)
+			(end 2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "60b9f5b4-5090-4d7f-8109-8a70218feaeb")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "16532107-67b4-455b-8cb4-50cad32e1b87")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7c022585-fde5-4d9d-b5d8-16a45176edf8")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cb5d53ae-3bf4-44ec-a535-36bcab1467c6")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "328eddac-da36-4469-83b1-39f60bf21eec")
+		)
+		(pad "1" smd rect
+			(at -1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 20 "Net-(Module1A-GPIO22)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "999f8621-3b37-401e-8f6b-32355ae3cccf")
+		)
+		(pad "2" smd rect
+			(at 1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 399 "Net-(Q1-G)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "616bfec1-f5dc-41dd-84de-c46b25c38568")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1K-05W-0805-RES_ERJP06J102V.step"
+			(offset
+				(xyz 0 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
 			)
 		)
 	)
@@ -11241,7 +11478,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://puiaudio.com/file/specs-HD-EMB1205-3-SC-R.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11505,7 +11742,7 @@
 			(at 1.35 -1.2)
 			(size 3 1.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 1 "Net-(Module1A-GPIO27)")
+			(net 398 "Net-(Q2-D)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "f544c04a-a3f9-4c65-b0f2-2dc52c4552e1")
@@ -11514,7 +11751,7 @@
 			(at 1.35 1.2)
 			(size 3 1.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 56 "GND")
+			(net 57 "VCC")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "b375f8e6-0290-4385-bc3a-7e5c9b69cdd2")
@@ -11610,6 +11847,243 @@
 			(uuid "50c376ce-572a-4a86-b940-ff8bd5dad28e")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(layer "F.Cu")
+		(uuid "94338386-18a5-46cd-87cc-b4f4a2627f30")
+		(at 148.245 115.4)
+		(property "Reference" "R3"
+			(at 0.032 -1.5314 0)
+			(layer "F.SilkS")
+			(uuid "2795a5a7-51e6-43cb-af74-b97e1e4b5c48")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1K-05W-0805-RES_ERJP06J102V"
+			(at 4.096 1.5314 0)
+			(layer "F.Fab")
+			(uuid "283d78ed-7972-4be7-b5b7-dadfed833010")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac431819-167c-40f3-a2ec-816f4e5a2881")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8058962-3b33-4cdf-8bbc-0a44d0c89b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b53a0141-f8c3-468c-a758-dfc65e47a079")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d0bad96-ada1-40b2-aef6-5675de380675")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df10d1a8-4acf-4f52-b0b5-3f3dd83aae0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22b1c349-04a4-46f9-b661-f0e69d275ec7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/51ee73f9-b167-4a79-8c79-e509a88ce5ff")
+		(sheetname "/")
+		(sheetfile "cm5-carrier.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.28 -0.625)
+			(end 0.28 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6a57a3e3-f979-45f8-bb1c-c1fe1f7bdb7c")
+		)
+		(fp_line
+			(start -0.28 0.625)
+			(end 0.28 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "997d4e73-9a6f-4e80-969a-b7b2bddf1bce")
+		)
+		(fp_line
+			(start -2 -0.875)
+			(end -2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "58bef60c-4f45-49e1-8429-a81a24c5d59f")
+		)
+		(fp_line
+			(start -2 0.875)
+			(end 2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b34055b-c66a-4f9e-9fde-b9ac4ded8d74")
+		)
+		(fp_line
+			(start 2 -0.875)
+			(end -2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff84495b-b4fa-4c3f-a2f8-40103a720053")
+		)
+		(fp_line
+			(start 2 0.875)
+			(end 2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c5835ac0-7723-4ad1-9946-3a4dd86afde8")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "daba811a-7d52-42e1-9716-42deb7576edf")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "487c5e47-18d5-4b9f-9f91-27a8143290b8")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7c78a9d-f102-4b1e-ad63-cc15460ff341")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae6b3ece-fd35-4d27-bb3d-a1e0d5cf0284")
+		)
+		(pad "1" smd rect
+			(at -1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "Net-(Module1A-GPIO27)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "2505001a-2965-4447-8030-3098800aa166")
+		)
+		(pad "2" smd rect
+			(at 1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 401 "Net-(Q2-G)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b2fa7179-ec6a-438a-891e-6a487e918536")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1K-05W-0805-RES_ERJP06J102V.step"
+			(offset
+				(xyz 0 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(footprint "SPIRIT-footprints:BAT-CONNECTOR-FLTS22WR00"
 		(layer "F.Cu")
@@ -11764,6 +12238,100 @@
 				(xyz -90 0 0)
 			)
 		)
+	)
+	(footprint "SPIRIT-footprints:battery_37V3500mAhLP685077JU"
+		(layer "F.Cu")
+		(uuid "96df44cb-1384-4209-bde1-210ed7a21f75")
+		(at 109.5 96.5)
+		(property "Reference" "BAT1"
+			(at 0 -11.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8c46a7d7-b7bd-4500-9b8b-e59c1085c6c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "battery_37V3500mAhLP685077JU"
+			(at 0 -10 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4a52198f-6d43-4042-9b29-5be13f5df3aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54136ec9-3e29-43c9-be3e-a228dce12437")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d22133e-efc6-463d-ab77-fe6e7ea01809")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8cf1bdfa-e92c-425e-b41d-bd6606a977a3")
+		(sheetname "/")
+		(sheetfile "cm5-carrier.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -25.5 -5)
+			(end 25.5 73)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "26bb0a1c-b2b3-4391-b077-5e7c0deb715c")
+		)
+		(fp_rect
+			(start -26 -5.5)
+			(end 26 73.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f6b0ffe6-7b8b-4013-952f-2a3cf8eacae9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -8.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cd6d9a23-66e3-4fe2-80bf-2a91d6d027fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "SPIRIT-footprints:thermistor-NTC0201Z_P63XP33_PAN"
 		(layer "F.Cu")
@@ -12726,6 +13294,245 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "b2cbabcb-98db-4a84-939d-07a49e0d772c")
+		(at 148.47 118.85)
+		(property "Reference" "Q2"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "ca19621f-c48e-4977-9576-440f0db3c559")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "decbdfe9-77cb-4874-9d64-265896431069")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bb88725-5945-4dbd-b300-f4c83d35cd92")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca0fe90f-8742-4ee5-96d3-fcb3ef8c794c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c97867d9-f5e7-41d4-b0dc-845e225bb5eb")
+		(sheetname "/")
+		(sheetfile "cm5-carrier.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a39b2a2b-20cc-4d9a-b63b-0106809bd500")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5bb5e123-3f46-4bab-b956-15de214a38fb")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "02edd775-16ff-4478-960f-4ebf06969445")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5183fa2e-2c4d-4971-a099-effbf94719bb")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "a4e624c2-d341-48b6-8bba-e79c126690cb")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "afa5b084-3a87-438e-836e-c0645777e925")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af78f1a4-4b4b-41e3-91e6-53a994798288")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3f08990e-bf03-499d-a976-dca808fb05a7")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b4f7fc20-35d4-4195-85ee-067c0de372ca")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab7c2b8d-e7e1-47e7-bb64-2dda64522c26")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "158276c0-90fc-439a-8ac4-0ff051aab024")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3d504680-1709-45b7-857a-7aa5e68ac908")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e88ba110-f8d8-4792-a1f3-89dbf701a2e2")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b22b6f69-7886-4680-a5cc-b39a34a2cddf")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 401 "Net-(Q2-G)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "96267d85-e0c6-4648-83de-d034ad4c7960")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 398 "Net-(Q2-D)")
+			(pinfunction "D")
+			(pintype "output")
+			(solder_mask_margin 0.102)
+			(uuid "e891994f-fff4-47cd-840f-8f5418d6e3b7")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 56 "GND")
+			(pinfunction "S")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "bc69844b-2e34-426e-8e6b-155aae31c0c0")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "SPIRIT-footprints:LED-INDICATOR"
 		(layer "F.Cu")
 		(uuid "b67b565b-684c-4656-b367-c705901c5824")
@@ -13139,7 +13946,7 @@
 			(at -0.97 -0.65)
 			(size 0.99 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 20 "Net-(Module1A-GPIO22)")
+			(net 399 "Net-(Q1-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(solder_mask_margin 0.102)
@@ -13177,97 +13984,6 @@
 				(xyz -90 -0 -0)
 			)
 		)
-	)
-	(footprint "SPIRIT-footprints:battery_37V3500mAhLP685077JU"
-		(layer "F.Cu")
-		(uuid "c78eab7f-5aef-4213-a701-82da2cc9ad6d")
-		(at 109 96.5)
-		(property "Reference" "REF**"
-			(at 0 -11.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "2d34fe7e-7459-4168-9c96-ad066c50e47b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "battery_LP685077JU"
-			(at 0 -10 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "c1ef6f01-a13f-4d07-9bfe-49ae9c5c1272")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9776a1dc-7a54-4d8f-a391-2155840ee05d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fc6c00f7-7ba0-4db7-9dd0-f729d701a176")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr smd)
-		(fp_rect
-			(start -25.5 -5)
-			(end 25.5 73)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "4974c0b6-394b-4927-b5a5-91776c39be0f")
-		)
-		(fp_rect
-			(start -26 -5.5)
-			(end 26 73.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "4a7e2759-2c71-4628-a2a6-64e88f62b387")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -8.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "6e0900d8-9cb3-4ea2-8ac4-55b02307ccbe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
 	)
 	(footprint "SPIRIT-footprints:USB-ESD-protection-diode-PESD5V0C1USFYL-SOD962-2_DSN0603-2_NEX"
 		(layer "F.Cu")
@@ -15441,7 +16157,6 @@
 				)
 			)
 		)
-		(path "/4b63d283-601b-480d-aa96-2610f4848211")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -16714,7 +17429,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/a8d0a06da712a5d9b12e577ab53c49b2cdd1e434"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -26065,6 +26780,18 @@
 		(at 73 26.5 0)
 		(layer "F.Fab")
 		(uuid "2e237ba2-5ea8-415d-98c4-bcb04d76ecc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "led, motor drivers circuitry"
+		(at 149 108 0)
+		(layer "F.Fab")
+		(uuid "b7cbfa0e-2be7-41d4-965c-dc623f0e66d1")
 		(effects
 			(font
 				(size 1 1)
