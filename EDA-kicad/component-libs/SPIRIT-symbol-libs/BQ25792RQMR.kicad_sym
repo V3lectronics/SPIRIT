@@ -1,0 +1,263 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BQ25792RQMR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -15.24 35.56 0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Value" "BQ25792RQMR" (id 1) (at -15.24 -38.1 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BQ25792RQMR:QFN40P400X400X100-29N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "11/2019" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1 mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Texas Instruments" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BQ25792RQMR_0_0"
+      (rectangle (start -15.24 -35.56) (end 15.24 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin output line (at 20.32 -25.4 180.0) (length 5.08)
+        (name "STAT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 30.48 180.0) (length 5.08)
+        (name "VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -5.08 180.0) (length 5.08)
+        (name "BTST1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 5.08 180.0) (length 5.08)
+        (name "REGN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 17.78 0) (length 5.08)
+        (name "D+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 15.24 0) (length 5.08)
+        (name "D-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 0.0 0) (length 5.08)
+        (name "VAC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 2.54 0) (length 5.08)
+        (name "VAC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 -7.62 0) (length 5.08)
+        (name "ACDRV2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 -5.08 0) (length 5.08)
+        (name "ACDRV1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -15.24 0) (length 5.08)
+        (name "~{QON}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -12.7 0) (length 5.08)
+        (name "~{CE}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 10.16 0) (length 5.08)
+        (name "SCL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "SDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -20.32 0) (length 5.08)
+        (name "TS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 25.4 0) (length 5.08)
+        (name "ILIM_HIZ"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 15.24 180.0) (length 5.08)
+        (name "BATP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -12.7 180.0) (length 5.08)
+        (name "BTST2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 22.86 0) (length 5.08)
+        (name "PROG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -27.94 180.0) (length 5.08)
+        (name "~{INT}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 22.86 180.0) (length 5.08)
+        (name "BAT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 10.16 180.0) (length 5.08)
+        (name "SDRV"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -17.78 180.0) (length 5.08)
+        (name "SYS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08)
+        (name "SW2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -33.02 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -2.54 180.0) (length 5.08)
+        (name "SW1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 2.54 180.0) (length 5.08)
+        (name "PMID"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 27.94 180.0) (length 5.08)
+        (name "VBUS__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 20.32 180.0) (length 5.08)
+        (name "BAT__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
