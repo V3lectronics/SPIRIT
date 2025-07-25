@@ -660,7 +660,6 @@
 				)
 			)
 		)
-		(path "/dba88bfb-cc5f-47f8-afa2-4b110e6d3b3a")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -1342,7 +1341,6 @@
 				)
 			)
 		)
-		(path "/e1cb44ed-9c34-436d-b336-6935286bbcbb")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -1419,7 +1417,6 @@
 				)
 			)
 		)
-		(path "/9e5e1537-42ed-4715-8269-9007139b2dd9")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -1863,7 +1860,6 @@
 			)
 		)
 		(property ki_fp_filters "UDFN8_2X2_MCH UDFN8_2X2_MCH-M UDFN8_2X2_MCH-L")
-		(path "/e331f723-cfe3-43f2-9357-87852f28c02b")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -2240,7 +2236,6 @@
 			)
 		)
 		(property ki_fp_filters "CONN10_1-2328702-0_TEC")
-		(path "/8067c13e-b8a2-4e33-a760-1d4976cb8737")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -2684,7 +2679,6 @@
 				)
 			)
 		)
-		(path "/b25f34e6-cc49-4da3-bbb1-35745acf6e2e")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -2761,7 +2755,6 @@
 				)
 			)
 		)
-		(path "/ff0c7f94-3153-4e0a-ae84-118628e07d9d")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -4416,7 +4409,7 @@
 			(at 0 -0.889 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "78c8f349-23d6-41e9-9a04-94acd17fd585")
+			(uuid "76794f21-3276-4cd4-a678-c889ae9a75d6")
 			(effects
 				(font
 					(size 1 1)
@@ -4428,7 +4421,7 @@
 			(at 0 -0.889 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "368e10a5-512f-4967-b64b-014a3a35a308")
+			(uuid "a9ae277a-ed83-4921-8529-496519cf0fc1")
 			(effects
 				(font
 					(size 1 1)
@@ -4440,7 +4433,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4055aa92-d754-419d-991b-2a0bca581930")
+			(uuid "e5a3fd00-c4ac-4718-9276-053676aeef84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4445,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "995cd7b5-3ebc-4efc-bb94-0f7a9b5e0623")
+			(uuid "d78cabfb-86ff-45bb-b752-201d6091c81f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4720,6 @@
 			)
 		)
 		(property ki_fp_filters "YZF15_TEX")
-		(path "/4469ce07-4c81-44a1-8792-dcccf37dc787")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -5447,7 +5439,6 @@
 				)
 			)
 		)
-		(path "/bb8e2d5a-5f6b-4090-93fd-f65400be84e2")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -5878,7 +5869,6 @@
 				)
 			)
 		)
-		(path "/362de10f-9bad-4f4b-bc7c-3d008233f0ac")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -6064,7 +6054,7 @@
 		(property "Reference" "Module1"
 			(at 18.38 -5.08 90)
 			(layer "F.SilkS")
-			(uuid "af83b754-50b3-42ac-a021-e4fa591fbcb0")
+			(uuid "1b520be2-8223-4264-a066-3d67e4391926")
 			(effects
 				(font
 					(size 1 1)
@@ -6075,7 +6065,7 @@
 		(property "Value" "ComputeModule5-CM5"
 			(at 16.52 0.19 0)
 			(layer "F.Fab")
-			(uuid "f5e79a1b-81c5-4a8f-8759-7dbd9706feb3")
+			(uuid "cb8b354e-dcdc-40d6-92ca-87de0c402802")
 			(effects
 				(font
 					(size 1 1)
@@ -6088,7 +6078,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf8fb0ed-e381-4344-8ce8-2fe580a1ae9d")
+			(uuid "ca0c8fa4-44fb-479d-8413-b25e174305f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6091,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f677989-e7c3-4ac0-8f44-08be65660126")
+			(uuid "6240ca72-2cb4-4ec6-ac1f-6f13cb42d2a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8682,7 @@
 			(at 0 -0.889 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "18dc720b-d4a1-4a06-8f59-a99ce5820574")
+			(uuid "bf7c3e42-2e4f-48f4-b0ce-639765d6917a")
 			(effects
 				(font
 					(size 1 1)
@@ -8704,7 +8694,7 @@
 			(at 0 -0.889 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e64aece5-9046-4854-8d63-94f361e4b04c")
+			(uuid "2c0c34a1-202d-4ab7-b5ef-d6bbcc03f518")
 			(effects
 				(font
 					(size 1 1)
@@ -8716,7 +8706,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37648ba5-6dc8-4246-b8df-e92ca43dec4b")
+			(uuid "50efecba-fcc4-4c29-959d-0a9415b143aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +8718,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b10f8b3-8524-4400-8c18-863083095b96")
+			(uuid "f89dc7da-4ba0-4474-877f-3c86d5762359")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +9227,6 @@
 				)
 			)
 		)
-		(path "/b37662e8-8184-4ba0-9a5b-d68ba42e0b3f")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -9857,7 +9846,6 @@
 				)
 			)
 		)
-		(path "/876ca469-6737-4a1a-bcc9-4b79cfc5528e")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -10218,7 +10206,7 @@
 			(at 0 -0.889 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1680a1e7-7693-415f-888c-10e2f8d42f5c")
+			(uuid "486fd275-a4fa-4aac-89f0-2a07a05318db")
 			(effects
 				(font
 					(size 1 1)
@@ -10230,7 +10218,7 @@
 			(at 0 -0.889 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "54a2bc43-08b7-4515-bc38-a7df45452cb4")
+			(uuid "45905765-814e-4a63-977f-48165ff99080")
 			(effects
 				(font
 					(size 1 1)
@@ -10242,7 +10230,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a84bde4-9b2c-4cf5-b791-2b777787f151")
+			(uuid "8024bd5c-80c6-47d8-98b7-b9748730ec2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10242,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15a38552-fd87-436c-a199-2246dd2db831")
+			(uuid "65d3e044-6246-44c7-87a9-d08948a1fc41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +10472,7 @@
 			(at 0 -0.889 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5de15c29-56a8-436f-bb49-65d71c0d786e")
+			(uuid "28d378ba-c544-4b58-9f82-1cee5bdb580d")
 			(effects
 				(font
 					(size 1 1)
@@ -10496,7 +10484,7 @@
 			(at 0 -0.889 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "373e1685-c980-4944-936d-3254d59e8fc6")
+			(uuid "dc722b3f-544b-48a0-9abb-df0c0e062425")
 			(effects
 				(font
 					(size 1 1)
@@ -10508,7 +10496,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8bdeb5d-6b92-4626-87da-a6c0577a1cc7")
+			(uuid "722a2ad4-4caf-4582-8396-f8f24aee584b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10520,7 +10508,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4421138c-58bf-4131-8747-387f264e4e31")
+			(uuid "5d1008e2-75f9-4dcf-a2f4-d7c6930c9f73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,7 +10827,6 @@
 				)
 			)
 		)
-		(path "/ddf31fef-f065-4eaf-abeb-73a5ae95ead7")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -11821,7 +11808,6 @@
 				)
 			)
 		)
-		(path "/91303d0f-f0e4-442a-8126-a9410c73a2ff")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -12137,7 +12123,6 @@
 				)
 			)
 		)
-		(path "/a17d0250-d3dd-4687-9f40-bc33d67f2cc4")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -12293,7 +12278,6 @@
 				)
 			)
 		)
-		(path "/8cf1bdfa-e92c-425e-b41d-bd6606a977a3")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -12677,7 +12661,6 @@
 			)
 		)
 		(property ki_fp_filters "RTE0016C RTE0016C_NV")
-		(path "/15ae2eeb-9895-48dd-b00e-df305bcdbd58")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -13267,7 +13250,6 @@
 				)
 			)
 		)
-		(path "/fff6558a-abe6-4906-abdc-8cb062e30be4")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -13585,7 +13567,6 @@
 				)
 			)
 		)
-		(path "/62ebab43-d5cc-47de-8565-71c0f1422dce")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -13719,7 +13700,6 @@
 				)
 			)
 		)
-		(path "/0280fe85-a20a-4e8c-8645-01346b1bfc4f")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -14039,7 +14019,6 @@
 			)
 		)
 		(property ki_fp_filters "SOD962-2_DSN0603-2_NEX SOD962-2_DSN0603-2_NEX-M SOD962-2_DSN0603-2_NEX-L")
-		(path "/957712d6-244e-4bf2-9e6e-e1979f7b2cbe")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -14437,7 +14416,6 @@
 				)
 			)
 		)
-		(path "/f2d956d2-fda1-40de-9721-bf05db0b0119")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -15451,7 +15429,6 @@
 				)
 			)
 		)
-		(path "/a4631395-3f79-48e5-9399-9f3365a44a28")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr through_hole)
@@ -16281,7 +16258,6 @@
 				)
 			)
 		)
-		(path "/28fd0aa5-df1b-426a-bddf-cdbf50592ca3")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -16622,7 +16598,6 @@
 				)
 			)
 		)
-		(path "/161c1109-5ffa-4be7-8631-7bf81b45e2c2")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -16703,7 +16678,6 @@
 			)
 		)
 		(property ki_fp_filters "CHP-041B_NDC CHP-041B_NDC-M CHP-041B_NDC-L")
-		(path "/ee60919d-ca90-4f8f-8f47-dfd41d88f08b")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
@@ -17408,7 +17382,7 @@
 		(property "Reference" "U5"
 			(at 0.385 2.825 0)
 			(layer "B.SilkS")
-			(uuid "87c26796-75c2-4235-90ed-cd915337d8ab")
+			(uuid "4d653753-3abd-4424-ac07-6ece158d7e16")
 			(effects
 				(font
 					(size 1 1)
@@ -17420,7 +17394,7 @@
 		(property "Value" "Flash-LED-Lumiled"
 			(at -0.5 -2.5 0)
 			(layer "B.Fab")
-			(uuid "62a45cdb-d59a-4940-8bae-ce741085ab32")
+			(uuid "912acf15-f764-4c56-9979-f4b73e3b7ac2")
 			(effects
 				(font
 					(size 1 1)
@@ -17433,7 +17407,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9e9c992f-8ac3-4d1c-8cdb-dde7106a7233")
+			(uuid "0977b62f-3c29-41de-a8b4-cb549124c55a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17446,7 +17420,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b2b9a3ca-cd05-41d8-9cd0-e13e3c2b6070")
+			(uuid "0d42522c-76ef-4699-83b8-fba4a995df75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17740,7 +17714,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/af43c7b0-a479-424d-a042-3966ff497487")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)

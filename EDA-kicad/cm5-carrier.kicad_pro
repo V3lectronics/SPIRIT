@@ -109,6 +109,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -640,6 +641,46 @@
     [
       "28c5e4fe-1ec7-4477-97f0-d2ec1401fad5",
       "Root"
+    ],
+    [
+      "4d20c3c8-7f3b-4711-a43f-15c2a08af985",
+      "USB C"
+    ],
+    [
+      "02797719-74e3-4dee-b809-c2968ee0cdff",
+      "Screen"
+    ],
+    [
+      "1297454b-0b1d-459e-9de1-2b16d7982efe",
+      "GSM-GPS"
+    ],
+    [
+      "22a7f479-b60d-43d3-acd2-a72a0c1ab82c",
+      "Fingerprint"
+    ],
+    [
+      "dae24383-d996-4b63-b3a8-c19902a00c63",
+      "Audio"
+    ],
+    [
+      "59851108-1ec5-49a1-aa9b-d5428f895885",
+      "Power"
+    ],
+    [
+      "7ec223ba-5b63-4970-8f4e-9b03f0ec9947",
+      "Camera"
+    ],
+    [
+      "7d72c53e-b066-4e49-bdb9-37372138f009",
+      "Buttons"
+    ],
+    [
+      "b44a98f4-0347-4633-8437-b3dfeaa625db",
+      "Vibration"
+    ],
+    [
+      "b409b5f4-0f84-46c0-84e6-a0b4d149590c",
+      "Flashlight"
     ]
   ],
   "text_variables": {}
