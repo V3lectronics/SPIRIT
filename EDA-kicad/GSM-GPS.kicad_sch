@@ -2929,6 +2929,16 @@
 		)
 		(uuid "c94af0a0-47dd-4eed-93c4-0d78df20139d")
 	)
+	(text "Take care when choosing variants for different continents"
+		(exclude_from_sim no)
+		(at 163.576 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d61f0bac-4c31-4cad-8404-a1e1fc7139f2")
+	)
 	(junction
 		(at 215.9 205.74)
 		(diameter 0)
