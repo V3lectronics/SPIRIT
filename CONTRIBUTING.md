@@ -15,7 +15,7 @@ We appreciate your patience as we work to ensure quality and consistency in the 
 
 # Contact
 
-V Electronics Discord server invite:
+V Electronics Discord server with channels for discussing SPIRIT stuff:
 
 >https://discord.gg/zBG4KdHJWx
 
@@ -23,7 +23,7 @@ Project lead maintainer email:
 
 >jwaga76@gmail.com
 
-# Rules for smoother cooperation:
+# For smoother cooperation:
 
 - Please use the newest major release of KiCad.
 
