@@ -1,7 +1,6 @@
 # Before you go:
-- When you decide to take on a task, open a GitHub issue and set its title to the same as the task name.
 
-- Do not make changes to areas of the project that aren't related to your task.
+- Do not make changes to areas of the project that aren't related to your task. Usually all changes you make will be contained in 1 file.
 
 - Stars represent estimated difficulty/complexity.
 
@@ -12,15 +11,15 @@
 
 - [ ] ★★★ AUDIO section (3.5 mm jack, codec, mic, speakers)
 
-- [ ]  ★★★ POWER section
+- [ ]  ★★★ POWER section (in progress)
 
 - [ ] ★★ Fingerprint scanner
 
 - [x] ★★ Upgrade USB C 2.0 → USB 3.2 and add TVS
 
-- [ ] ★ Add vibration motor driving circuitry
+- [x] ★ Add vibration motor driving circuitry
 
-- [ ] ★ Add flashlight driving circuitry
+- [x] ★ Add flashlight driving circuitry
 
 
 ### Parts
