@@ -11,7 +11,7 @@
 
 - [ ] ★★★ AUDIO section (3.5 mm jack, codec, mic, speakers)
 
-- [ ]  ★★★ POWER section (in progress)
+- [ ]  ★★★ POWER section (*in progress*)
 
 - [ ] ★★ Fingerprint scanner
 
@@ -28,18 +28,16 @@ system, RoHS compliant (most are)
 
 - [x] ★ Choose 90 deg piano switches and put them next to the sound switches on the left
 
-- [ ] ★ Choose new battery and add 3D model in place of the previous one
+- [ ] ★ add battery 3D model
 
-- [ ] ★ Add 3D model of fingerprint scanner and place it under the camera bay
+- [ ] ★ Add 3D model of fingerprint scanner
 
 ### PCB Layout
 Empty for now, schematic goes first
 
 ### Other
 
-- [ ] ★★ Research on how to
-
-- [ ] ★★★ Design alluminium chassis + G Code
+- [ ] ★★★ Design alluminium chassis + write G Code for a CNC mill
 
 - [ ] ★★ Design 3D printable chassis (plastic)
 
