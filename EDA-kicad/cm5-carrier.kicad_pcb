@@ -7899,7 +7899,7 @@
 			(uuid "93b1a082-513c-44d4-86e2-f4dde2ebe199")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/ComputeModule5-libs/CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "${KIPRJMOD}/ComputeModule5-libs/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz -0.5 21.5 0)
 			)
@@ -7910,7 +7910,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/ComputeModule5-libs/CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "${KIPRJMOD}/ComputeModule5-libs/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz 33.5 21.5 0)
 			)
@@ -7921,7 +7921,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/ComputeModule5-libs/CM5IO.3dshapes/RP-007220-DD-rpi-cm5lite-3D_STEP/CM5liteR5-3dstep.step"
+		(model "${KIPRJMOD}/ComputeModule5-libs/CM5IO.3dshapes/RP-007220-DD-rpi-cm5lite-3D_STEP/CM5liteR5-3dstep.step"
 			(offset
 				(xyz 36.5 -3.5 2.5)
 			)
