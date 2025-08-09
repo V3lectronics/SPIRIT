@@ -487,7 +487,7 @@
 		(property "Reference" "J1"
 			(at -2.97784 -5.74168 90)
 			(layer "F.SilkS")
-			(uuid "16c95f05-94b8-4d1c-8d93-ab82109ae852")
+			(uuid "08eb9ba5-863e-4c20-a74c-9ba0de136e89")
 			(effects
 				(font
 					(size 1.001008 1.001008)
@@ -498,7 +498,7 @@
 		(property "Value" "SJ2-35894B-SMT-TR"
 			(at 7.34841 6.64711 90)
 			(layer "F.Fab")
-			(uuid "d1104db8-9f4d-481a-8fac-45b7c77f69d0")
+			(uuid "adde4b7a-896b-4351-8be2-53bd98449106")
 			(effects
 				(font
 					(size 1.001827 1.001827)
@@ -510,7 +510,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d790433-2d3a-4f97-8f95-7883c5a75dea")
+			(uuid "0b33972c-a12d-48bc-9375-ada18b4f4f07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +522,7 @@
 			(at 236.941 102.939 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72ff11dc-2d58-4fa8-b54a-7db1c9ebbc6f")
+			(uuid "3e1c1b0b-56bc-4c54-b5fe-b09bdadd5cfc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,9 +935,9 @@
 			(uuid "7e022444-f335-45ed-a622-be319714b652")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/35mmJACK-Same_Sky_SJ2-35894B-SMT-TR.step"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/35mmJACK-Same_Sky_SJ2-35894B-SMT-TR.step"
 			(offset
-				(xyz -8 0 2.4)
+				(xyz -8 0 0.4)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1101,7 +1101,7 @@
 			(uuid "da397a63-c9ef-402f-92cc-345c8321405b")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
 			(offset
 				(xyz 0 -0.17 0.15)
 			)
@@ -1267,7 +1267,7 @@
 			(uuid "ff07ea31-7101-408e-8353-48c8841124c3")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
 			(offset
 				(xyz 0 -0.17 0.15)
 			)
@@ -1784,7 +1784,7 @@
 			(uuid "13ea3d13-40ef-4957-8470-83f906f73862")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/TVS-array-PUSB3FR6Z.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/TVS-array-PUSB3FR6Z.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1826,7 +1826,7 @@
 			)
 		)
 		(property "Datasheet" "1-2328702-0"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7449c8ce-5b47-4679-ae9d-e9da0e5a05f1")
@@ -1838,7 +1838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "035fec7f-3e31-4577-8627-6e4210307ece")
@@ -2151,7 +2151,7 @@
 			(uuid "0c5f7bc5-a5f9-4d45-85ef-02746475d908")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/10-FPC.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/-FPC.stp"
 			(offset
 				(xyz 0 -1.5 0.5)
 			)
@@ -4002,7 +4002,7 @@
 			(uuid "05181385-bcb9-4381-ae29-e6ffba407129")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/DAC-TLV320DAC3100IRHBR.step"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/DAC-TLV320DAC3100IRHBR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4268,7 +4268,7 @@
 			(uuid "f3dd5c37-3417-49a3-a71b-36a2b31d44bf")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
 			(offset
 				(xyz 0 1.5 1.8)
 			)
@@ -4771,7 +4771,7 @@
 			(uuid "800f535b-71a5-49cf-84a0-ad29820e7ccf")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/BAT-MONITOR-BQ27530YZFT-G1.STEP"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/BAT-MONITOR-BQ27530YZFT-G1.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5217,7 +5217,7 @@
 			(uuid "8ac15e21-89db-4c6f-bf13-3a9e05c67fba")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/speaker-CUI_DEVICES_CMR-15062S-67.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/speaker-CUI_DEVICES_CMR-15062S-67.step"
 			(offset
 				(xyz 7.5 -3 2.9)
 			)
@@ -5373,7 +5373,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/64MP-Arducam-roughfix.step"
+		(model "C:/Users/boher/Desktop/SPIRIT-main/SPIRIT-main/EDA-kicad/component-libs/SPIRIT-3D-models/4MP-Arducam-roughfix.step"
 			(hide yes)
 			(offset
 				(xyz 0.05 -23.48 2.2)
@@ -5385,15 +5385,15 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Arducam16MPCamera.STEP"
+		(model "C:/Users/boher/Desktop/SPIRIT-main/SPIRIT-main/EDA-kicad/component-libs/SPIRIT-3D-models//Arducam16MPCamera.STEP"
 			(offset
-				(xyz 12.5 -13.5 0)
+				(xyz 12.5 -13.5 -2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -5647,7 +5647,7 @@
 			(uuid "03a8a45e-445a-4b07-be3a-b4ba9928cbe0")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/speaker-CUI_DEVICES_CMR-15062S-67.step"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/speaker-CUI_DEVICES_CMR-15062S-67.step"
 			(offset
 				(xyz 7.5 -3 2.9)
 			)
@@ -7899,7 +7899,7 @@
 			(uuid "93b1a082-513c-44d4-86e2-f4dde2ebe199")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/ComputeModule5-libs/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz -0.5 21.5 0)
 			)
@@ -7910,7 +7910,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "${KIPRJMOD}/CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/ComputeModule5-libs/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz 33.5 21.5 0)
 			)
@@ -7919,6 +7919,17 @@
 			)
 			(rotate
 				(xyz 0 0 90)
+			)
+		)
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/ComputeModule5-libs/CM5IO.3dshapes/RP-007220-DD-rpi-cm5lite-3D_STEP/CM5liteR5-3dstep.step"
+			(offset
+				(xyz 36.5 -3.5 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -8275,7 +8286,7 @@
 			(uuid "c0f9d907-e092-424b-a8b7-75483c4fed77")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/flyback-diode-1N4007W-T.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-modelslyback-diode-1N4007W-T.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8541,7 +8552,7 @@
 			(uuid "4ac26c29-770f-4773-99ee-5be2d1c4ec2f")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
 			(offset
 				(xyz 0 1.5 1.8)
 			)
@@ -8707,7 +8718,7 @@
 			(uuid "7c43923b-2ffe-4e55-91f8-6816903bf689")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
 			(offset
 				(xyz 0 -0.17 0.15)
 			)
@@ -9158,7 +9169,7 @@
 			(uuid "69dc4a44-7478-4f05-b251-910037bea3a3")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/microphoneSPH0645LM4H-B.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/microphoneSPH0645LM4H-B.step"
 			(offset
 				(xyz 0 0.8 0)
 			)
@@ -9395,7 +9406,7 @@
 			(uuid "616bfec1-f5dc-41dd-84de-c46b25c38568")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1K-05W-0805-RES_ERJP06J102V.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-modelsK-05W-0805-RES_ERJP06J102V.step"
 			(offset
 				(xyz 0 0 0.5)
 			)
@@ -9437,7 +9448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c531f87e-65db-4937-81aa-39371d059c57")
@@ -9449,7 +9460,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84868a9d-d88f-4f47-9d6b-75dd21727b47")
@@ -9799,7 +9810,7 @@
 			(uuid "78237e67-7590-422a-96f8-2307685568b4")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/FPC15pin-1mm-pitch-F52Q-1A7H1-11015.STEP"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/FPC15pin-1mm-pitch-F52Q-1A7H1-11015.STEP"
 			(offset
 				(xyz 0 -0.5 0)
 			)
@@ -9814,13 +9825,13 @@
 	(footprint "SPIRIT-footprints:buttonSW_TL3330_EWI"
 		(layer "F.Cu")
 		(uuid "6b01c1cd-c5d4-4b0d-a4cb-b1672c54f43e")
-		(at 133.111 54 -90)
+		(at 133.111 54 90)
 		(tags "TL3330AF260QG ")
 		(property "Reference" "SW5"
-			(at 0 -0.889 270)
+			(at 0 -0.889 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "486fd275-a4fa-4aac-89f0-2a07a05318db")
+			(uuid "90f3c2e1-36c0-4e7f-8cba-428473b27ad9")
 			(effects
 				(font
 					(size 1 1)
@@ -9829,10 +9840,10 @@
 			)
 		)
 		(property "Value" "POW"
-			(at 0 -0.889 270)
+			(at 0 -0.889 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "45905765-814e-4a63-977f-48165ff99080")
+			(uuid "178a3088-877f-4ccd-8ab9-e6315d6a517d")
 			(effects
 				(font
 					(size 1 1)
@@ -9844,7 +9855,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8024bd5c-80c6-47d8-98b7-b9748730ec2c")
+			(uuid "bae4ce84-8eb9-405c-bf51-7a99898dea26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,7 +9867,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65d3e044-6246-44c7-87a9-d08948a1fc41")
+			(uuid "f8b0636b-4026-4734-9a4f-8953cf8ebfcc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,24 +9881,14 @@
 		(sheetfile "cm5-carrier.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -4.0259 1.8796)
-			(end 4.0259 1.8796)
+			(start 4.0259 -1.8796)
+			(end -4.0259 -1.8796)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ce8baf4e-6b6a-4df1-a01b-2468afda93d2")
-		)
-		(fp_line
-			(start 4.0259 0.27686)
-			(end 4.0259 -1.8796)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "11824ef5-936c-48ab-91f1-9e6282e194de")
+			(uuid "662138c8-045c-47bc-8ad8-16e5754a1d8e")
 		)
 		(fp_line
 			(start -4.0259 -1.8796)
@@ -9900,14 +9901,24 @@
 			(uuid "1e857285-99f0-4f19-9f73-0ba3fc408357")
 		)
 		(fp_line
-			(start 4.0259 -1.8796)
-			(end -4.0259 -1.8796)
+			(start 4.0259 0.27686)
+			(end 4.0259 -1.8796)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "662138c8-045c-47bc-8ad8-16e5754a1d8e")
+			(uuid "11824ef5-936c-48ab-91f1-9e6282e194de")
+		)
+		(fp_line
+			(start -4.0259 1.8796)
+			(end 4.0259 1.8796)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce8baf4e-6b6a-4df1-a01b-2468afda93d2")
 		)
 		(fp_circle
 			(center -4.6609 -0.889)
@@ -9932,24 +9943,14 @@
 			(uuid "6309aa4e-aa5f-4827-b5c6-b6c6c7895aee")
 		)
 		(fp_line
-			(start -4.352899 2.0066)
-			(end 4.352899 2.0066)
+			(start 4.352899 -2.0066)
+			(end -4.352899 -2.0066)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c60ce427-edb0-4ac1-a388-fca396fd7070")
-		)
-		(fp_line
-			(start 4.352899 2.0066)
-			(end 4.352899 -2.0066)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "86a62fd1-1889-4fcf-bc31-23d50993277e")
+			(uuid "fae5b788-dd46-4b57-9e7b-1dfe777664ec")
 		)
 		(fp_line
 			(start -4.352899 -2.0066)
@@ -9962,34 +9963,34 @@
 			(uuid "289023af-ee1b-4318-a858-751832b399ae")
 		)
 		(fp_line
-			(start 4.352899 -2.0066)
-			(end -4.352899 -2.0066)
+			(start 4.352899 2.0066)
+			(end 4.352899 -2.0066)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fae5b788-dd46-4b57-9e7b-1dfe777664ec")
+			(uuid "86a62fd1-1889-4fcf-bc31-23d50993277e")
 		)
 		(fp_line
-			(start -3.8989 1.7526)
-			(end 3.8989 1.7526)
+			(start -4.352899 2.0066)
+			(end 4.352899 2.0066)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c60ce427-edb0-4ac1-a388-fca396fd7070")
+		)
+		(fp_line
+			(start 3.8989 -1.7526)
+			(end -3.8989 -1.7526)
 			(stroke
 				(width 0.0254)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9d69c55e-682b-4af6-90f7-438e7fb68d6e")
-		)
-		(fp_line
-			(start 3.8989 1.7526)
-			(end 3.8989 -1.7526)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a04b72be-d569-4c1c-8059-088c12803b40")
+			(uuid "091c179a-8091-4f72-83ab-77f09c309c6b")
 		)
 		(fp_line
 			(start -3.8989 -1.7526)
@@ -10002,14 +10003,24 @@
 			(uuid "0c0a6ddf-4fec-4f78-8e5e-b6233993c7c6")
 		)
 		(fp_line
-			(start 3.8989 -1.7526)
-			(end -3.8989 -1.7526)
+			(start 3.8989 1.7526)
+			(end 3.8989 -1.7526)
 			(stroke
 				(width 0.0254)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "091c179a-8091-4f72-83ab-77f09c309c6b")
+			(uuid "a04b72be-d569-4c1c-8059-088c12803b40")
+		)
+		(fp_line
+			(start -3.8989 1.7526)
+			(end 3.8989 1.7526)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d69c55e-682b-4af6-90f7-438e7fb68d6e")
 		)
 		(fp_circle
 			(center -2.1 -2.794)
@@ -10023,7 +10034,7 @@
 			(uuid "33b8d955-319a-40bf-9028-9e58e0e44f49")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.889 270)
+			(at 0 -0.889 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0c23cf51-acba-41b0-89b4-9388d8710f9f")
@@ -10035,7 +10046,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.099998 -0.889 270)
+			(at -2.099998 -0.889 90)
 			(size 0.889 1.27)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 57 "VCC")
@@ -10044,7 +10055,7 @@
 			(uuid "4a848afc-db54-4426-b5a6-df07652e29f1")
 		)
 		(pad "2" smd rect
-			(at 2.099998 -0.889 270)
+			(at 2.099998 -0.889 90)
 			(size 0.889 1.27)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 66 "Net-(Module1A-GPIO2)")
@@ -10053,19 +10064,19 @@
 			(uuid "d97e91be-5c4b-4a0b-afa7-df14a441df0a")
 		)
 		(pad "3" smd rect
-			(at -3.375 1.016 270)
+			(at -3.375 1.016 90)
 			(size 1.4478 0.8128)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "0cb54ff7-effe-4158-ba7c-38560ee69649")
 		)
 		(pad "4" smd rect
-			(at 3.375 1.016 270)
+			(at 3.375 1.016 90)
 			(size 1.4478 0.8128)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "73a3251a-7297-484f-b086-bc16e15d5991")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
 			(offset
 				(xyz 0 1.5 1.8)
 			)
@@ -10331,7 +10342,7 @@
 			(uuid "20b3ef91-c035-4e6a-bba3-18653ce2cba9")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
 			(offset
 				(xyz 0 1.5 1.8)
 			)
@@ -10350,7 +10361,7 @@
 		(property "Reference" "U7"
 			(at 0.07 -4.035 0)
 			(layer "F.SilkS")
-			(uuid "bac82a78-3747-44ea-a95f-623151b605b2")
+			(uuid "bb5203be-42d1-4ff7-bec6-c49bfd90845c")
 			(effects
 				(font
 					(size 1 1)
@@ -10361,7 +10372,7 @@
 		(property "Value" "CODEC-TLV320AIC3204IRHBR"
 			(at 10.23 4.035 0)
 			(layer "F.Fab")
-			(uuid "8de05be4-38d8-47ef-bbbd-b6229d82638b")
+			(uuid "795a535f-de0a-4738-aa74-045b1228a8a1")
 			(effects
 				(font
 					(size 1 1)
@@ -10373,7 +10384,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b3d318e-c42e-4964-9aa6-48e512e2081b")
+			(uuid "5fda0f2a-a4d1-4755-b921-1b69db554fd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10396,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d53cf3f7-2c11-4d4f-ad77-911d60dbe231")
+			(uuid "6ad2f3d0-0782-4c0a-83b6-c6327cc821b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,7 +11052,7 @@
 			(uuid "436f9e50-91ff-4609-98bb-1b38e7509cbf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/CODECTLV320AIC3204IRHBR.step"
+		(model "C:/Users/boher/Desktop/SPIRIT-main/SPIRIT-main/EDA-kicad/component-libs/SPIRIT-3D-models/CODECTLV320AIC3204IRHBR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11358,7 +11369,7 @@
 			(uuid "b375f8e6-0290-4385-bc3a-7e5c9b69cdd2")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/VIBRATION-HD-EMB1205-3-SC-R.step"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/VIBRATION-HD-EMB1205-3-SC-R.step"
 			(offset
 				(xyz 1 0 3)
 			)
@@ -11673,7 +11684,7 @@
 			(uuid "b2fa7179-ec6a-438a-891e-6a487e918536")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1K-05W-0805-RES_ERJP06J102V.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-modelsK-05W-0805-RES_ERJP06J102V.step"
 			(offset
 				(xyz 0 0 0.5)
 			)
@@ -11826,7 +11837,7 @@
 			(uuid "01617001-89b9-4e43-ad0e-9eaeb429e372")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/BAT-CONNECTOR-M-FLT-S22WR-00-REVT2.STEP"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/BAT-CONNECTOR-M-FLT-S22WR-00-REVT2.STEP"
 			(offset
 				(xyz -1 -6.5 0)
 			)
@@ -12209,7 +12220,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/thermistor-NTC0201Z_P63XP33_PAN.step"
+		(model "\\192.168.0.163\Bo\Dokumenter\Github\SPIRIT\EDA-kicad\component-libs\\SPIRIT-3D-models	hermistor-NTC0201Z_P63XP33_PAN.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12634,7 +12645,7 @@
 			(uuid "79555a64-e017-42d0-9cdd-14f7327aa785")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/CHARGER-SWITCHER-RTE0016C.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/CHARGER-SWITCHER-RTE0016C.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12800,7 +12811,7 @@
 			(uuid "4123fad1-dd6b-46f2-99a0-071f6fc67d4b")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
 			(offset
 				(xyz 0 -0.17 0.15)
 			)
@@ -13117,7 +13128,7 @@
 			(uuid "bc69844b-2e34-426e-8e6b-155aae31c0c0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models\\gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13250,7 +13261,7 @@
 			(uuid "1882bfc8-ff55-4a7d-b83b-adecafea9d98")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/INDICATOR-LED-QBLP601_MONO.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/INDICATOR-LED-QBLP601_MONO.step"
 			(offset
 				(xyz 1.4 -0.65 0)
 			)
@@ -13567,7 +13578,7 @@
 			(uuid "e1329610-a040-44b2-b01c-23d4917d9d88")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models\\gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13836,7 +13847,7 @@
 			(uuid "bb110853-aad4-48fc-9d5e-c0e49ce07b54")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/USB-ESD-protection-diode-PESD5V0C1USFYL-SOD962-2_DSN0603-2_NEX.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/USB-ESD-protection-diode-PESD5V0C1USFYL-SOD962-2_DSN0603-2_NEX.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14916,7 +14927,7 @@
 			(uuid "57f44be8-0801-4b1d-85d4-4b0e4f01fb65")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/FPC31-FH72-31S-0.3SHW.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/FPC31-FH72-31S-0.3SHW.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15684,7 +15695,7 @@
 			(uuid "0f3c0c0a-8a50-4390-99b7-bbe3ddfd32b3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/USBC-3-2-fix-USB4056-03-A_REVA2.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models\\USBC-3-2-fix-USB4056-03-A_REVA2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15801,7 +15812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3cb549ea-a15a-48ab-8349-45b26fed6bb2")
@@ -15813,7 +15824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6d78ad2-1a8c-435c-9087-1c3b104a525f")
@@ -16148,7 +16159,7 @@
 			(uuid "87af1170-8ac6-4a20-b9df-2cab4a571d27")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/SIM-G85D1160022HHR.step"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/SIM-G85D1160022HHR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16977,7 +16988,7 @@
 			(uuid "5550340e-9cb7-4622-981f-99041ce2737d")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/pianoCHP-041TB.stp"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/pianoCHP-041TB.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26054,7 +26065,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/GSM-GPS-EC25VFA-512-STD.step"
+		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/GSM-GPS-EC25VFA-512-STD.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26245,6 +26256,56 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_line
+		(start 71 177)
+		(end 70 177)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "377cc254-bab4-408c-a723-3c383f1154f7")
+	)
+	(gr_line
+		(start 71 164)
+		(end 71 177)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "40595626-ae9d-4c2d-af31-f011af8af8bd")
+	)
+	(gr_line
+		(start 64 180.99)
+		(end 64 177)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4f6405cb-bbcc-4fe3-9245-eb836a5ee7b4")
+	)
+	(gr_line
+		(start 70 177)
+		(end 70 180.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "540a12a3-2d80-45c7-b364-fa00a2e79e00")
+	)
+	(gr_line
+		(start 63 177)
+		(end 63 164)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "79c5732e-c757-4902-8ecc-3c5dcf222d79")
+	)
 	(gr_poly
 		(pts
 			(xy 130 31) (xy 60 31) (xy 55 36) (xy 55 176) (xy 60 181) (xy 130 181) (xy 135 176) (xy 135 169.5)
@@ -26257,6 +26318,36 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "8381c10a-6e27-4c64-9a31-1c472ec43b25")
+	)
+	(gr_line
+		(start 70 180.99)
+		(end 64 180.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8d096c03-058d-4a55-9f9b-9fa211fea62c")
+	)
+	(gr_line
+		(start 64 177)
+		(end 63 177)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d22a5534-d644-4206-bf9d-778931800062")
+	)
+	(gr_line
+		(start 63 164)
+		(end 71 164)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f9a56f1e-81a6-4fd1-9ea8-56a5c5d848a7")
 	)
 	(gr_text "V ELECTRONICS"
 		(at 93.98 33.02 0)
