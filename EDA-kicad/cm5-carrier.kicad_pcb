@@ -12220,7 +12220,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "\\192.168.0.163\\Bo\\Dokumenter\\Github\\SPIRIT\\EDA-kicad\\component-libs\\SPIRIT-3D-models	hermistor-NTC0201Z_P63XP33_PAN.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/thermistor-NTC0201Z_P63XP33_PAN.step"
 			(offset
 				(xyz 0 0 0)
 			)
