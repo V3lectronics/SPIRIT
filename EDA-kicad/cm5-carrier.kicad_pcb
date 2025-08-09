@@ -935,7 +935,7 @@
 			(uuid "7e022444-f335-45ed-a622-be319714b652")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/35mmJACK-Same_Sky_SJ2-35894B-SMT-TR.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/35mmJACK-Same_Sky_SJ2-35894B-SMT-TR.step"
 			(offset
 				(xyz -8 0 0.4)
 			)
@@ -2151,7 +2151,7 @@
 			(uuid "0c5f7bc5-a5f9-4d45-85ef-02746475d908")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/-FPC.stp"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/-FPC.stp"
 			(offset
 				(xyz 0 -1.5 0.5)
 			)
@@ -4002,7 +4002,7 @@
 			(uuid "05181385-bcb9-4381-ae29-e6ffba407129")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/DAC-TLV320DAC3100IRHBR.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/DAC-TLV320DAC3100IRHBR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4268,7 +4268,7 @@
 			(uuid "f3dd5c37-3417-49a3-a71b-36a2b31d44bf")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
 			(offset
 				(xyz 0 1.5 1.8)
 			)
@@ -4771,7 +4771,7 @@
 			(uuid "800f535b-71a5-49cf-84a0-ad29820e7ccf")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/BAT-MONITOR-BQ27530YZFT-G1.STEP"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/BAT-MONITOR-BQ27530YZFT-G1.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5647,7 +5647,7 @@
 			(uuid "03a8a45e-445a-4b07-be3a-b4ba9928cbe0")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/speaker-CUI_DEVICES_CMR-15062S-67.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/speaker-CUI_DEVICES_CMR-15062S-67.step"
 			(offset
 				(xyz 7.5 -3 2.9)
 			)
@@ -8552,7 +8552,7 @@
 			(uuid "4ac26c29-770f-4773-99ee-5be2d1c4ec2f")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
 			(offset
 				(xyz 0 1.5 1.8)
 			)
@@ -9810,7 +9810,7 @@
 			(uuid "78237e67-7590-422a-96f8-2307685568b4")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/FPC15pin-1mm-pitch-F52Q-1A7H1-11015.STEP"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/FPC15pin-1mm-pitch-F52Q-1A7H1-11015.STEP"
 			(offset
 				(xyz 0 -0.5 0)
 			)
@@ -10076,7 +10076,7 @@
 			(uuid "73a3251a-7297-484f-b086-bc16e15d5991")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
 			(offset
 				(xyz 0 1.5 1.8)
 			)
@@ -10342,7 +10342,7 @@
 			(uuid "20b3ef91-c035-4e6a-bba3-18653ce2cba9")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/buttonTL3330AFxxxQG.stp"
 			(offset
 				(xyz 0 1.5 1.8)
 			)
@@ -11369,7 +11369,7 @@
 			(uuid "b375f8e6-0290-4385-bc3a-7e5c9b69cdd2")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/VIBRATION-HD-EMB1205-3-SC-R.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/VIBRATION-HD-EMB1205-3-SC-R.step"
 			(offset
 				(xyz 1 0 3)
 			)
@@ -11837,7 +11837,7 @@
 			(uuid "01617001-89b9-4e43-ad0e-9eaeb429e372")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/BAT-CONNECTOR-M-FLT-S22WR-00-REVT2.STEP"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/BAT-CONNECTOR-M-FLT-S22WR-00-REVT2.STEP"
 			(offset
 				(xyz -1 -6.5 0)
 			)
@@ -12645,7 +12645,7 @@
 			(uuid "79555a64-e017-42d0-9cdd-14f7327aa785")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/CHARGER-SWITCHER-RTE0016C.stp"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/CHARGER-SWITCHER-RTE0016C.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16159,7 +16159,7 @@
 			(uuid "87af1170-8ac6-4a20-b9df-2cab4a571d27")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/SIM-G85D1160022HHR.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/SIM-G85D1160022HHR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16988,7 +16988,7 @@
 			(uuid "5550340e-9cb7-4622-981f-99041ce2737d")
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/pianoCHP-041TB.stp"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/pianoCHP-041TB.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26065,7 +26065,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "//192.168.0.163/Bo/Dokumenter/Github/SPIRIT/EDA-kicad/component-libs/SPIRIT-3D-models/GSM-GPS-EC25VFA-512-STD.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/GSM-GPS-EC25VFA-512-STD.step"
 			(offset
 				(xyz 0 0 0)
 			)
