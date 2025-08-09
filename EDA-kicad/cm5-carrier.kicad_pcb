@@ -483,7 +483,7 @@
 	(footprint "SPIRIT-footprints:35mmJACK-CUI_SJ2-35894B-SMT-TR"
 		(layer "F.Cu")
 		(uuid "04d6ebdb-ff4d-4614-a08b-c09947f41ced")
-		(at 67 170.4 90)
+		(at 67 173 90)
 		(property "Reference" "J1"
 			(at -2.97784 -5.74168 90)
 			(layer "F.SilkS")
@@ -892,7 +892,7 @@
 		(pad "1" smd rect
 			(at -3.85 3.45 90)
 			(size 1.5 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 245 "unconnected-(J1-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -901,7 +901,7 @@
 		(pad "2" smd rect
 			(at 3.25 -3.6 90)
 			(size 1.5 1.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 244 "unconnected-(J1-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -910,7 +910,7 @@
 		(pad "3" smd rect
 			(at -0.5 3.6 90)
 			(size 1.5 1.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 246 "unconnected-(J1-Pad3)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -919,7 +919,7 @@
 		(pad "4" smd rect
 			(at -3.85 -3.45 90)
 			(size 1.5 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 243 "unconnected-(J1-Pad4)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -928,7 +928,7 @@
 		(pad "10" smd rect
 			(at 5.5 -3.6 90)
 			(size 1.5 1.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 217 "JACK-IN")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -26257,97 +26257,214 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 71 177)
-		(end 70 177)
+		(start 70 179.5)
+		(end 70 181)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "377cc254-bab4-408c-a723-3c383f1154f7")
+		(uuid "0f440eef-d397-4b0c-82a8-28bbff827524")
 	)
 	(gr_line
-		(start 71 164)
-		(end 71 177)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "40595626-ae9d-4c2d-af31-f011af8af8bd")
-	)
-	(gr_line
-		(start 64 180.99)
-		(end 64 177)
+		(start 83.5 91)
+		(end 83.5 169.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "4f6405cb-bbcc-4fe3-9245-eb836a5ee7b4")
+		(uuid "141b59ce-85da-4127-a3e6-56acd7468cbd")
 	)
 	(gr_line
-		(start 70 177)
-		(end 70 180.99)
+		(start 135 36)
+		(end 135 91)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "540a12a3-2d80-45c7-b364-fa00a2e79e00")
+		(uuid "204f569c-e461-4dfc-a47f-05317ce9db5a")
 	)
 	(gr_line
-		(start 63 177)
-		(end 63 164)
+		(start 70.5 166.5)
+		(end 63.5 166.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "79c5732e-c757-4902-8ecc-3c5dcf222d79")
-	)
-	(gr_poly
-		(pts
-			(xy 130 31) (xy 60 31) (xy 55 36) (xy 55 176) (xy 60 181) (xy 130 181) (xy 135 176) (xy 135 169.5)
-			(xy 83.5 169.5) (xy 83.5 91) (xy 135 91) (xy 135 36)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "8381c10a-6e27-4c64-9a31-1c472ec43b25")
+		(uuid "27e73a4d-6230-4826-95f9-203ade1c1e3e")
 	)
 	(gr_line
-		(start 70 180.99)
-		(end 64 180.99)
+		(start 63.5 179.5)
+		(end 63.5 166.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "38092a9c-cd3c-44bf-85d8-35089453a632")
+	)
+	(gr_line
+		(start 130 181)
+		(end 72 181)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "8d096c03-058d-4a55-9f9b-9fa211fea62c")
+		(uuid "3b5b5deb-1976-4f01-a152-d1d4e19a0699")
 	)
 	(gr_line
-		(start 64 177)
-		(end 63 177)
+		(start 72 181)
+		(end 70 181)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "d22a5534-d644-4206-bf9d-778931800062")
+		(uuid "3e78ca3c-4b50-482e-a180-dad3d5828773")
 	)
 	(gr_line
-		(start 63 164)
-		(end 71 164)
+		(start 55 36)
+		(end 60 31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3ee20536-88b8-4689-b5ef-73b208aa010a")
+	)
+	(gr_line
+		(start 70 179.5)
+		(end 70.5 179.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f9a56f1e-81a6-4fd1-9ea8-56a5c5d848a7")
+		(uuid "4c606f6a-1972-424d-8622-3203548fe152")
+	)
+	(gr_line
+		(start 55 176)
+		(end 55 36)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "59b86fd2-35e5-41da-b05c-12cab6c970d7")
+	)
+	(gr_line
+		(start 135 169.5)
+		(end 135 176)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b4bb89a-801a-41ce-b803-af0f8dc2f6ea")
+	)
+	(gr_line
+		(start 83.5 169.5)
+		(end 135 169.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "69ca038c-20c4-4113-bd84-cd4cacce92fc")
+	)
+	(gr_line
+		(start 64 179.5)
+		(end 63.5 179.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7aa6151d-7d4d-442b-a3a6-1bcea1be5ae6")
+	)
+	(gr_line
+		(start 70.5 166.5)
+		(end 70.5 179.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "80107321-3b40-4377-8b15-efcb565f7357")
+	)
+	(gr_line
+		(start 64 181)
+		(end 60 181)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "91f25bea-4a53-48ac-bbf5-fcd0c121216b")
+	)
+	(gr_line
+		(start 130 31)
+		(end 135 36)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b35fb49f-619a-4e98-851f-ed9171880cc7")
+	)
+	(gr_line
+		(start 135 176)
+		(end 130 181)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c5bf6118-f968-4ee5-abc0-6d95dc56ee89")
+	)
+	(gr_line
+		(start 60 31)
+		(end 130 31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d2b38279-94a7-4591-800d-667330b7fd6d")
+	)
+	(gr_line
+		(start 60 181)
+		(end 55 176)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e4417844-0ab4-4db8-b0a2-379e02e36627")
+	)
+	(gr_line
+		(start 135 91)
+		(end 83.5 91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e745502b-95ae-4d1f-994a-4666a2b2544e")
+	)
+	(gr_line
+		(start 64 179.5)
+		(end 64 181)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e997aba5-5332-44d2-80a1-b49d5174e829")
 	)
 	(gr_text "V ELECTRONICS"
 		(at 93.98 33.02 0)
