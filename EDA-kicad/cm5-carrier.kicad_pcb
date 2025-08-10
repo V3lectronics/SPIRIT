@@ -4017,7 +4017,7 @@
 	(footprint "SPIRIT-footprints:buttonSW_TL3330_EWI"
 		(layer "F.Cu")
 		(uuid "2aea9f03-f6ef-4f67-87a1-8dbdd931428b")
-		(at 58.5 77.5 -90)
+		(at 57.111 77.5 -90)
 		(tags "TL3330AF260QG ")
 		(property "Reference" "SW2"
 			(at 0 -0.889 270)
