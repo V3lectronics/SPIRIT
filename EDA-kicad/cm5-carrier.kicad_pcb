@@ -17208,6 +17208,17 @@
 			(uuid "80469ad5-0ebb-4ef3-ba84-363efe43ba97")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/Flash-LED-Lumiled.stp"
+			(offset
+				(xyz 0.7 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "SPIRIT-footprints:GSM-GPS-XCVR_EC25VFA-512-STD"
 		(layer "B.Cu")
