@@ -5269,7 +5269,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/speaker-CUI_DEVICES_CMR-15062S-67.step"
-			(hide yes)
 			(offset
 				(xyz 7.5 -3 2.9)
 			)
