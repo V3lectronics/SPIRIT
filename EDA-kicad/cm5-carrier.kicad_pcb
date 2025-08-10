@@ -7543,8 +7543,20 @@
 			)
 		)
 		(model "${KIPRJMOD}/ComputeModule5-libs/CM5IO.3dshapes/RP-007220-DD-rpi-cm5lite-3D_STEP/CM5liteR5-3dstep.step"
+			(hide yes)
 			(offset
 				(xyz 36.5 -3.5 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
+		(model "${KIPRJMOD}/ComputeModule5-libs/CM5IO.3dshapes/RP-007220-DD-rpi-cm5lite-3D_STEP/CM5R5-3dsteps.step"
+			(offset
+				(xyz 36.5 -3.5 1.5)
 			)
 			(scale
 				(xyz 1 1 1)
