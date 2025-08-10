@@ -7925,7 +7925,7 @@
 	(footprint "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
 		(layer "F.Cu")
 		(uuid "510a8c3a-b5ee-46f4-b1d7-0adb57bb4103")
-		(at 148.23 125.1046)
+		(at 43.5 124)
 		(descr "<b>SOD123F(L)-</b><br>")
 		(property "Reference" "D2"
 			(at 0 0 0)
@@ -9173,7 +9173,7 @@
 	(footprint "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
 		(layer "F.Cu")
 		(uuid "5925726b-c6b5-4158-ae2c-a447b105fb17")
-		(at 148.245 112.6)
+		(at 79.5 28.5)
 		(property "Reference" "R2"
 			(at 0.032 -1.5314 0)
 			(layer "F.SilkS")
@@ -11451,7 +11451,7 @@
 	(footprint "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
 		(layer "F.Cu")
 		(uuid "94338386-18a5-46cd-87cc-b4f4a2627f30")
-		(at 148.245 115.4)
+		(at 40 118.5)
 		(property "Reference" "R3"
 			(at 0.032 -1.5314 0)
 			(layer "F.SilkS")
@@ -12904,7 +12904,7 @@
 	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 		(layer "F.Cu")
 		(uuid "b2cbabcb-98db-4a84-939d-07a49e0d772c")
-		(at 148.47 118.85)
+		(at 51 126)
 		(property "Reference" "Q2"
 			(at -0.635 -3.175 0)
 			(layer "F.SilkS")
@@ -12917,7 +12917,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 6.35 3.175 0)
+			(at -3 1 0)
 			(layer "F.Fab")
 			(uuid "decbdfe9-77cb-4874-9d64-265896431069")
 			(effects
@@ -13354,7 +13354,7 @@
 	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 		(layer "F.Cu")
 		(uuid "c2491b5e-395a-49a3-8e18-f8bd2933b3f0")
-		(at 153.865 125.4796)
+		(at 84.5 28.5)
 		(property "Reference" "Q1"
 			(at -0.635 -3.175 0)
 			(layer "F.SilkS")
@@ -17007,7 +17007,7 @@
 		(property "Reference" "U5"
 			(at 0.385 2.825 0)
 			(layer "B.SilkS")
-			(uuid "4d653753-3abd-4424-ac07-6ece158d7e16")
+			(uuid "7e2e5854-dd94-492b-b642-a3a23821257a")
 			(effects
 				(font
 					(size 1 1)
@@ -17019,7 +17019,7 @@
 		(property "Value" "Flash-LED-Lumiled"
 			(at -0.5 -2.5 0)
 			(layer "B.Fab")
-			(uuid "912acf15-f764-4c56-9979-f4b73e3b7ac2")
+			(uuid "ec505dd9-edeb-4809-9480-26a3f20b3110")
 			(effects
 				(font
 					(size 1 1)
@@ -17032,7 +17032,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0977b62f-3c29-41de-a8b4-cb549124c55a")
+			(uuid "55cb9664-c7c0-4bd4-bc66-abc1cbf64fa9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17045,7 +17045,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0d42522c-76ef-4699-83b8-fba4a995df75")
+			(uuid "5942ad8c-08c2-441c-bc9d-699a7297fde9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26572,7 +26572,7 @@
 		)
 	)
 	(gr_text "for LED datasheet recommends a special layout for efficient thermal dissipation"
-		(at 73 26.5 0)
+		(at 70 17.5 0)
 		(layer "F.Fab")
 		(uuid "2e237ba2-5ea8-415d-98c4-bcb04d76ecc5")
 		(effects
