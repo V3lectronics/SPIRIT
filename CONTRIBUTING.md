@@ -1,6 +1,7 @@
 # How to contribute:
 
-1. Before making any changes, please open an issue on GitHub describing the change you wish to make.
+1. Before making any changes, please check if there already is an issue describing what you want to
+do, if not open an issue on GitHub describing the change you wish to make.
 This allows others to assess whether the proposed change is beneficial and if it aligns
 with the project goals.
 
@@ -26,6 +27,8 @@ Project lead maintainer email:
 # For smoother cooperation:
 
 - Please use the newest major release of KiCad.
+
+- When you start working on an issue leave a comment so others know who is working on it.
 
 - If you add new parts, please ensure that they are available for purchase on [digikey](https://www.digikey.com/en/products/), have public datasheets and are RoHS compliant.
 
