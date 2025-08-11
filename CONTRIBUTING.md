@@ -29,14 +29,16 @@ Project lead maintainer email:
 
 - If you add new parts, please ensure that they are available for purchase on [digikey](https://www.digikey.com/en/products/), have public datasheets and are RoHS compliant.
 
-- When adding new parts make sure to add them to the existing libraries for maintainability.
+- When adding new components make sure to add: symbols, footprints, 3D models.
 
 - Avoid massive pull requests that are hard to review. It is easier for
   everyone if you split your contribution into small, atomic pieces (within reason).
+
+- Change only the files you need, e.g. if you made a change to the power schematic you probably don't have to make changes to audio.
 
 - Write all text in english.
 
 # Tasks to do
 
-Here is the [Task List](https://github.com/V3lectronics/SPIRIT/blob/main/TASKS.md). Good luck!
+Here is the [issues list](https://github.com/V3lectronics/SPIRIT/issues). Good luck!
 
