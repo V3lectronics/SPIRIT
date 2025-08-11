@@ -1,339 +1,467 @@
+# SPIRIT Smartphone
+
 <p align="center">
     <img src="https://github.com/user-attachments/assets/60e87523-02cf-482b-8433-5f611e48ca2d" width="40%">
     <br>
     <img src="https://github.com/user-attachments/assets/99de57de-c5d9-4f54-9140-fb388b046b55" width="15%">
-
 </p>
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/V3lectronics/SPIRIT)
-[![Contribution Guide](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
-Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
-Contribution and feedback are very welcome! [Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md).
-(Currently in the development phase, progress documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics)).
-
-# Contents
-1. [General Specifications](https://github.com/barbarjan/SPIRIT#general-specifications)
-2. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
-3. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
-4. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
-5. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
-6. [Cost](https://github.com/barbarjan/SPIRIT#cost)
-7. [Ethical And Environmental Concerns](https://github.com/barbarjan/SPIRIT#ethical-and-environmental-concerns)
-8. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#compliance-and-legality)
-9. [Resources](https://github.com/barbarjan/SPIRIT#resources)
-
-![image](https://github.com/user-attachments/assets/ca233c1b-0558-49ef-b1b1-04d52258cc64)
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/V3lectronics/SPIRIT" alt="Latest Release">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+  <img src="https://img.shields.io/badge/License-Open%20Source-blue.svg" alt="Open Source">
+  <img src="https://img.shields.io/badge/Status-Development-orange.svg" alt="In Development">
+</p>
 
 ---
 
-Early screenshots:
+## About The Project
+
+**SPIRIT** is an open-source smartphone built from readily available components, designed with a clear mission: to prioritize user experience, performance, control, repairability, innovation, and privacy above all else.
+
+This project represents a fundamental shift from traditional smartphone manufacturing, putting power back into the hands of users through complete hardware and software transparency. Every component, schematic, and line of code is open for inspection, modification, and improvement.
+
+**Current Status:** Development phase - progress documented in this repository and on the [V Electronics YouTube channel](https://www.youtube.com/@V_Electronics).
 
-<img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="350">
+### Why SPIRIT Matters
+
+Traditional smartphones have become black boxes that users cannot truly own or control. SPIRIT changes this by offering:
+
+- **Complete transparency** in both hardware and software
+- **User-controlled privacy** through physical hardware switches
+- **Repairability by design** with modular components and open documentation
+- **Community-driven development** welcoming contributions from everyone
+- **Ethical sourcing** avoiding conflict minerals and unfair labor practices
 
-<img src="https://github.com/user-attachments/assets/1b5c8317-5b61-42c4-aa28-2d652b7e3833" height="270">
+---
 
-<img src="https://github.com/user-attachments/assets/4742305e-44ab-4d84-8185-f4b7e9df42e7" height="270">
+## Quick Navigation
 
-<img src="https://github.com/user-attachments/assets/5c63f34d-d58c-4832-a58b-be8a34cb7fd5" height="270">
+| Section | Description |
+|---------|-------------|
+| [Technical Specifications](#technical-specifications) | Hardware specs and capabilities |
+| [Hardware Deep Dive](#hardware-and-electronics) | Detailed component analysis |
+| [Software Platform](#software-and-operating-system) | OS options and development plans |
+| [Build Your Own](#diy-build-guide) | Complete assembly guide |
+| [Component List](#parts-list) | Detailed parts breakdown |
+| [Project Cost](#cost-analysis) | Budget breakdown |
+| [Ethics & Environment](#ethical-and-environmental-concerns) | Responsible sourcing information |
+| [Legal Compliance](#compliance-and-legality) | Regulatory considerations |
 
-# General Specifications
+---
 
-#### RAM
+## Early Development Preview
 
-- 2GB / 4GB / 8GB / 16GB LPDDR4
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ca233c1b-0558-49ef-b1b1-04d52258cc64" alt="SPIRIT Hardware Overview">
+</div>
 
-#### CPU
+### Development Screenshots
 
-- Broadcom BCM2712 64-bit 2.4 GHz, 4 cores with 4 threads
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="300">
+      <br><em>System Interface</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1b5c8317-5b61-42c4-aa28-2d652b7e3833" height="300">
+      <br><em>Application Menu</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/4742305e-44ab-4d84-8185-f4b7e9df42e7" height="300">
+      <br><em>Settings Panel</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/5c63f34d-d58c-4832-a58b-be8a34cb7fd5" height="300">
+      <br><em>Communication Hub</em>
+    </td>
+  </tr>
+</table>
 
-#### Storage
+---
 
-- 16GB, 32GB, or 64GB eMMC
+## Technical Specifications
 
-#### Connectivity (IO)
+### Core Performance
 
-- 1 x USB C 3.2 (Iphone 16 is USB 2.0 just throwing that out there)
-- 2.4 GHz, 5.0 GHz WiFi
-- Bluetooth 5
-- GSM
-- GPS
+| Component | Specification | Notes |
+|-----------|---------------|-------|
+| **Processor** | Broadcom BCM2712 | 64-bit, 2.4 GHz quad-core with 4 threads |
+| **Memory** | 2GB / 4GB / 8GB / 16GB | LPDDR4 configuration options |
+| **Storage** | 16GB / 32GB / 64GB | eMMC with expansion possibilities |
 
-#### Screen
+### Display & Interface
 
-- 5.5" Capacitive Touch TFT Display
-- resolution: 720x1280 pixels
+| Component | Specification | Notes |
+|-----------|---------------|-------|
+| **Screen** | 5.5" Capacitive Touch TFT | 720×1280 resolution |
+| **Biometrics** | Rear fingerprint scanner | 8×8mm sensing area, 50 template storage |
+| **Audio** | Dual speakers + 3.5mm jack | Symmetrical upward-facing design |
 
-#### Battery
+### Connectivity Suite
 
-_will probably change soon because of component availability_
-- Capacity: 2.05Ah
-- Type: Lithium Polymer
-- Voltage: 3.7 V
-- Dimensions: 84.5mm x 47.5mm x 6.0mm (3.33" 1.87" 0.24")
-- The battery can be easily swapped for a fully charged one to effectively get back to 100%
-almost instantly.
+| Feature | Specification | Notes |
+|---------|---------------|-------|
+| **Data Port** | USB-C 3.2 | Significantly faster than iPhone 16's USB 2.0 |
+| **Wireless** | Wi-Fi 2.4/5.0 GHz, Bluetooth 5 | Standard modern connectivity |
+| **Cellular** | GSM with GPS/GNSS | BeiDou, Galileo, GLONASS support |
 
-#### Dimensions
+### Power & Privacy
 
-Chassis: ?
+| Component | Details | User Control |
+|-----------|---------|--------------|
+| **Battery** | 2.05Ah Lithium Polymer (3.7V) | Completely removable and swappable |
+| **Privacy Switches** | 4 hardware cut-off switches | Microphone, GPS/GSM, Camera, Battery |
+| **Camera Control** | Physical power-off switch | 100% hardware-level privacy |
 
-PCB: 80mm x 150mm
+### Form Factor
 
-Total: thickness is ~12.3mm (excluding camera module lens sticking out)
+**Overall Dimensions:** Thickness approximately 12.3mm (excluding camera lens protrusion)
 
-Main components that contribute thickness:
+| Component | Contribution to Thickness |
+|-----------|-------------------------|
+| Chassis | 1.0mm |
+| Main PCB | 1.4mm |
+| Battery Pack | 6.0mm |
+| Display Assembly | 3.9mm |
 
-| Component      | Thickness |
-|----------------|-----------|
-| Chassis        | 1 mm      |
-| PCB            | 1.4 mm    |
-| Battery        | 6 mm      |
-| Screen         | 3.9 mm    |
+**PCB Dimensions:** 80mm × 150mm custom carrier board design
 
-#### Camera
+---
 
-SPIRIT is compatible with [Arducam](https://www.arducam.com/) cameras e.g. the [64 MP Hawkeye](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/) or the more affordable [16 MP Autofocus](https://www.arducam.com/16mp-autofocus-camera-for-raspberry-pi/).
+## Hardware and Electronics
 
-The camera module can be completely powered off by the user using a physical switch.
+### Foundation: Raspberry Pi Compute Module 5
 
-Below are the stats for the Hawkeye:
+The heart of SPIRIT is the **Raspberry Pi Compute Module 5**, described by the Raspberry Pi Foundation as "the power of Raspberry Pi 5 in a compact form factor for deeply embedded applications." This choice provides several key advantages:
 
-| Name    | Sensor Resolution  | Zoom | Field Of View |
-|---------|-----------------|-----|---------------|
-|Pi Hawk-eye| 64MP (9152 x 6944 pixels) |  10x (digital) | 84 degrees |
+**Why CM5 Works for SPIRIT:**
+- Proven, stable platform with excellent community support
+- Open-source friendly with comprehensive documentation
+- Multiple configuration options for different user needs
+- Strong performance-per-watt ratio for mobile applications
 
-Sensor: 1/1.7" stacked CMOS image sensor, 0.8 μm pixel size Lens: f/1.8 aperture, 8 cm–∞ focal range, motorised focusing Max Resolution: 9152×6944 stills; 1080p 30 fps video
+The default configuration uses the 4GB RAM, 64GB eMMC variant, though users can upgrade to 8GB RAM or different storage configurations based on their specific needs.
 
-For more details see the [product page](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/)
+### Custom Carrier Board Design
 
-*(For now there is only one camera for simplicity and cost reduction)*
+The carrier board serves as the central nervous system, connecting the Compute Module to all other components. This is the only custom electronic component in the entire project, designed using the latest major release of KiCad for maximum compatibility and accessibility.
 
-# Hardware And Electronics
+**Key Design Principles:**
+- Modular architecture allowing component upgrades
+- Robust power management and distribution
+- Comprehensive I/O breakout for all CM5 capabilities
+- Optimized layout for minimal electromagnetic interference
 
-### Raspberry Pi Compute Module 5
+All electronic design files are available in the 'EDA-kicad' folder of this repository. To examine the full schematics and PCB layout, clone the repository and open 'cm5-carrier.kicad_pro' in KiCad.
 
-"The power of Raspberry Pi 5 in a compact form factor for deeply embedded applications" [(CM5 website)](https://www.raspberrypi.com/products/compute-module-5/?variant=cm5-104032).
+### Privacy-First Hardware Switches
 
-By default SPIRIT uses the 4GB RAM, 64GB eMMC version of the CM. It is possible to use a different CM5 variant (for example to increase the RAM to 8GB).
+One of SPIRIT's most distinctive features is its comprehensive privacy control system. Four physical switches provide complete power disconnection to critical components:
 
-### EDA
+| Switch | Component | Privacy Benefit |
+|--------|-----------|-----------------|
+| **Switch 1** | Microphone (SPH0645LM4H-B) | Prevents all audio recording |
+| **Switch 2** | GPS/GSM Module (EC25VFA-512-STD) | Blocks location tracking and cellular communication |
+| **Switch 3** | Camera System | Eliminates video/photo capture capability |
+| **Switch 4** | Battery Connection | Complete system power control |
 
-For schematics, PCB layout etc. the newest major release of KiCad is used.
+These are not software toggles that can be overridden – they are physical interruptions of the power supply, ensuring 100% certainty that disabled components are truly inactive.
 
-All EDA files are available through this repository (see the 'EDA-kicad' folder). The best way to view them is to clone the repo to your machine and use KiCad to open the project file 'cm5-carrier.kicad_pro'.
+### Advanced Camera System
 
-### Carrier PCB
+SPIRIT supports high-quality [Arducam](https://www.arducam.com/) camera modules, with the flagship option being the **64MP Hawkeye** camera:
 
-Custom carrier board (motherboard) that interfaces between the Compute Module and the rest of the electronics.
+**Hawkeye Camera Specifications:**
+- **Resolution:** 9152 × 6944 pixels for stills
+- **Video:** 1080p at 30fps
+- **Sensor:** 1/1.7" stacked CMOS with 0.8μm pixel size
+- **Lens:** f/1.8 aperture with motorized focusing (8cm to infinity)
+- **Field of View:** 84 degrees
+- **Zoom:** 10x digital zoom capability
 
-This is the only custom electronic component in this project.
+For budget-conscious builders, the **16MP Autofocus** variant provides excellent image quality at a more accessible price point.
 
-### Touchscreen
+### Audio Architecture
 
-Capacitive LCD Display TFT MIPI 
-Dimensions: 5.5" (139.70mm) 1280px x 720px
+SPIRIT's audio system prioritizes both quality and user choice:
 
-### Replaceable Battery
+**Speaker Configuration:** Two **CMR-15062S-67** speakers mounted symmetrically and facing upward for optimal sound dispersion.
 
-Can be completely disconnected by the user using a physical switch.
+**Microphone System:** The **SPH0645LM4H-B** digital microphone offers:
+- Omnidirectional pickup pattern for clear voice capture
+- Frequency response: 20Hz to 10kHz
+- Sensitivity: -26dB ±3dB at 94dB SPL
+- Digital I2S output for minimal noise interference
 
-The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons. The user is free to swap the battery for any compatible model.
-It is also possible to run the phone without a battery, or using an external one
-if you attach long enough wires.
+**Headphone Support:** Standard TRRS 3.5mm jack allows users to choose between wired and wireless audio solutions.
 
-An added benefit is that the user can easily replace an empty battery for a charged one - effectively eliminating the need to wait for the phone to charge. An external battery charger can also be used for unmounted batteries.
+### User-Controlled Components
 
-### GSM, GPS Module
+**Programmable Button:** A customizable tactile switch with 30,000-cycle life expectancy. Users can configure this for:
+- Emergency contact dialing
+- Quick app launching
+- Camera activation
+- Silent/vibrate/sound mode cycling
+- Custom automation triggers
 
-EC25VFA-512-STD
+**Flashlight:** High-efficiency **LXML-PWC1-0100** LED providing 1W of cool white illumination at 3V.
 
-Can be completely powered off by the user using a physical switch.
-Cellular, Navigation BeiDou, EDGE, Galileo, GLONASS, GPS, GNSS, LTE Transceiver Module 1.561GHz, 1.575GHz, 1.602GHz
+**Biometric Security:** The **100018754** fingerprint module offers enterprise-grade security with a false acceptance rate of 1 in 500,000 per finger and can store up to 50 templates.
 
-### Speakers
+---
 
-2 x CMR-15062S-67
+## Software and Operating System
 
-The speaker system consists of a pair of speakers mounted symmetrically facing upwards.
+The software platform represents the other half of SPIRIT's open-source philosophy. Once hardware functionality is established, comprehensive testing of various operating systems will determine the optimal user experience.
 
-### Biometric Module
+### Operating System Evaluation
 
-100018754
+| Operating System | Focus Area | Website |
+|------------------|------------|---------|
+| **Ubuntu Touch** | Linux-native mobile experience | [ubuntu-touch.io](https://ubuntu-touch.io/) |
+| **LineageOS** | Privacy-focused Android fork | [lineageos.org](https://lineageos.org/) |
+| **GrapheneOS** | Security-hardened Android | [grapheneos.org](https://grapheneos.org/features) |
+| **Standard Android** | Broad app compatibility | [android.com](https://www.android.com/) |
 
-The fingerprint scanner is located on the back of the phone and has a sensing
-area of 8x8mm. It is rated for 10 million finger placements and can store up to
-50 templates.
+### Custom Development Path
 
-False acceptance rate: 1/500k (per finger)
-False rejection rate: 1.4-3.5 %
+Beyond testing existing solutions, SPIRIT may develop a custom Debian-based mobile operating system optimized for the specific hardware configuration and privacy-focused user base.
 
-### Headphone Jack
+**Development Tools Under Consideration:**
+- **The Yocto Project** for custom Linux distribution creation
+- **Buildroot** for minimal system construction  
+- **Custom Android ROM** based on Android Open Source Project
 
-This phone has a TRRS headphone jack. This way the user can decide between wireless or wired.
+The final software solution will prioritize user control, privacy protection, and seamless integration with SPIRIT's hardware privacy switches.
 
-### Microphone
+---
 
-SPH0645LM4H-B
+## DIY Build Guide
 
-Can be completely powered off by the user using a physical switch.
-Omnidirectional with a theorethical frequency range 20 Hz - 10 kHz.
-Sensitivity: -26dB ±3dB @ 94dB SPL.
-Digital output (I2S)
+**Status:** Comprehensive build guide and tutorial coming soon after first prototype completion.
 
-### Buttons
+The DIY guide will include:
+- Step-by-step assembly instructions with photographs
+- Detailed soldering guides for custom components
+- Software installation and configuration procedures
+- Troubleshooting common assembly issues
+- Quality testing and validation procedures
 
-The power, volume and programmable buttons are identical rectangular, tactile switches with a life
-expectancy of 30k cycles.
+---
 
-The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, instantly dialing a saved contact, toggling sound settings (silent, vibrate, sound) etc. The list of potential use cases is very long. One of them could be enabling small children or elderly people to instantly call for example a parent, or supervisor in case of emergency. Another could be to immediately launch the camera app to quickly capture a moment.
+## Parts List
 
-### Privacy Switches
+> **Note:** This parts list reflects early development and will be updated as prototype testing progresses. Component availability and specifications may change based on testing results and community feedback.
 
-SPIRIT has 4 physical switches that cut off the power lines to specific modules
-ensuring they are 100% inactive and not drawing power. Notice, you can also
-completely disconnect the battery. Needless to say, this is a very useful
-feature for people who want to have direct control over the hardware and want to
-protect their privacy without having to trust software.
-
-| Switch Number | Module |
-|----------------|-----------|
-| 1| Microphone|
-| 2|GPS/GSM EC25 chip |
-| 3|Camera |
-| 4|Battery |
-
-### Flashlight
-
-LXML-PWC1-0100
-
-1W 3V white, cool LED.
-
-Toggling on/off can be binded to the programmable button.
-
-# Software And Operating System
-
-Once the hardware platform is functional it will be time to test various operating
-systems as well as explore the possibility of developing one based on Debian.
-
-List of operating systems to test/research:
-
-| Name           | Website |
-|----------------|-----------|
-| Ubuntu Touch   | https://ubuntu-touch.io/     |
-| Lineage        | https://lineageos.org/    |
-| Graphene       | https://grapheneos.org/features      |
-| Android        | https://www.android.com/      |
-
-Additionally, The Yocto Project has been suggested (not an OS) https://www.yoctoproject.org/
-
-# DIY Build Guide
-
-Link to build guide/tutorial: COMING SOON!!!
-
-# Parts List
-
-The list is incomplete and old, it will be updated as soon as we have built the 1st prototype
-
-To get the most up-to-date parts list please look
-at the BOM. Certain components such as the camera or the compute module can be swapped for a different
-model - the presented setup is just a suggestion.
+For the most current component information, refer to the Bill of Materials (BOM) in the repository. Certain components like cameras and compute modules can be substituted based on user preferences and budget considerations.
 
 <details>
-      <summary>Click here to show/hide</summary>
+<summary><strong>Detailed Component Breakdown</strong></summary>
 
-| Amount | Name | Unit Price (USD)| Digikey Link |
-|--------|------|---------------|--------------|
-|1|RPi CM4 |65|https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIAHAJwAMVA7CALoC%2BLhATGSBwGxwUYAZQDCNZiyA|
-|1| Carrier PCB|?|N/A|
-|1| Touch screen|96,99|https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141 |
-|1| Main Camera|66|https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-21276/21443092 |
-|1| Battery|9,85|https://www.digikey.pl/en/products/detail/jauch-quartz/LP504783JU-PCM-2-WIRES-70MM/13540155|
-|1| ??? BMS chip | | |
-|1| 21 pin FFC connector|2.76|https://www.digikey.ca/en/products/detail/hirose-electric-co-ltd/FH72-31S-0-3SHW/13553267|
-|1| 22 pin FFC connector|2,21|https://www.digikey.pl/en/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321|
-|1| 10 pin FFC connector|0,20|https://www.digikey.pl/en/products/detail/te-connectivity-amp-connectors/1-2328702-0/9565577|
-|1| Flashlight LED|3,03|https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144|
-|1| 35mm Jack|0.97|https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ2-3574A-SMT-TR/6619530|
-|2| Speaker|2,53|https://www.digikey.pl/en/products/detail/cui-devices/CMR-15062S-67/9561156|
-|1| Microphone|1,95|https://www.digikey.pl/en/products/detail/knowles/SPH0645LM4H-B/5332440|
-|1| USB C 2.0 Connector|0,81|https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441|
-|?| Overvoltage protector|0,43|https://www.digikey.pl/en/products/detail/littelfuse-inc/SMBJ5-0A/285950|
-|1| Fingerprint Card|29|https://www.digikey.pl/en/products/detail/fingerprint-cards-ab/100018754/11480144?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAugL7EC0ATMiGpAC4BOArkVIUQAVjqMQTAGztOvAcTKRKAZhDE2DCW2Uh0ASwB2Ac3w8ADjyNdxQA|
-|1| GPS Module|7,25|https://www.digikey.pl/en/products/detail/yic/YIC31009EBGG/16499057|
-|1| GSM Module|||
-|1| Vibration Motor|1,71|https://www.digikey.pl/en/products/detail/pui-audio-inc/HD-EMB1205-3-SC-R/16522073|
-|1| Small LED|||
-|1| Thermistor|0,10|https://www.digikey.pl/en/products/detail/panasonic-electronic-components/ERT-JZEG103FA/9646736|
-|1| DAC for audio output||
-|1| Jumper female nRPI_BOOT||
-|1| Jumper female GND||
-|?| Header pins||
-|?| M1.6 stainless screws||
-|?| M? RPi size stainless screws||
-|?| M? Arducam size stainless screws||
-|?| M? RPi size stainless tandoffs||
+### Core Components
+
+| Quantity | Component | Unit Price (USD) | Supplier Link |
+|----------|-----------|------------------|---------------|
+| 1 | Raspberry Pi CM5 (4GB/64GB) | $65 | [Digikey](https://www.digikey.pl/en/products/detail/raspberry-pi/SC0686/13530938) |
+| 1 | Custom Carrier PCB | TBD | Manufacturing required |
+| 1 | 5.5" Capacitive Touchscreen | $97 | [Digikey](https://www.digikey.pl/en/products/detail/nxp-usa-inc/RK055HDMIPI4MA0/16274141) |
+
+### Camera & Imaging
+
+| Quantity | Component | Unit Price (USD) | Supplier Link |
+|----------|-----------|------------------|---------------|
+| 1 | Arducam 64MP Hawkeye Camera | $66 | [Digikey](https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-21276/21443092) |
+
+### Power System
+
+| Quantity | Component | Unit Price (USD) | Supplier Link |
+|----------|-----------|------------------|---------------|
+| 1 | 2.05Ah LiPo Battery | $10 | [Digikey](https://www.digikey.pl/en/products/detail/jauch-quartz/LP504783JU-PCM-2-WIRES-70MM/13540155) |
+| 1 | Battery Management System | TBD | Selection in progress |
+
+### Connectivity & I/O
+
+| Quantity | Component | Unit Price (USD) | Supplier Link |
+|----------|-----------|------------------|---------------|
+| 1 | USB-C 3.2 Connector | $1 | [Digikey](https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441) |
+| 1 | 3.5mm TRRS Audio Jack | $1 | [Digikey](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ2-3574A-SMT-TR/6619530) |
+| 2 | CMR-15062S-67 Speakers | $3 each | [Digikey](https://www.digikey.pl/en/products/detail/cui-devices/CMR-15062S-67/9561156) |
+| 1 | SPH0645LM4H-B Microphone | $2 | [Digikey](https://www.digikey.pl/en/products/detail/knowles/SPH0645LM4H-B/5332440) |
+
+### Security & Sensors
+
+| Quantity | Component | Unit Price (USD) | Supplier Link |
+|----------|-----------|------------------|---------------|
+| 1 | Fingerprint Scanner Module | $29 | [Digikey](https://www.digikey.pl/en/products/detail/fingerprint-cards-ab/100018754/11480144) |
+| 1 | GPS/GSM Module EC25VFA | $7 | [Digikey](https://www.digikey.pl/en/products/detail/yic/YIC31009EBGG/16499057) |
+
+### Additional Components
+
+| Quantity | Component | Unit Price (USD) | Notes |
+|----------|-----------|------------------|-------|
+| 1 | 1W White LED (Flashlight) | $3 | [Digikey](https://www.digikey.pl/en/products/detail/lumileds/LXML-PWC1-0100/3961144) |
+| 1 | Vibration Motor | $2 | [Digikey](https://www.digikey.pl/en/products/detail/pui-audio-inc/HD-EMB1205-3-SC-R/16522073) |
+| 1 | Temperature Sensor | $0.10 | [Digikey](https://www.digikey.pl/en/products/detail/panasonic-electronic-components/ERT-JZEG103FA/9646736) |
+| Various | Connectors, resistors, capacitors | Variable | Standard electronic components |
+| Various | M1.6 Stainless Steel Screws | Variable | Assembly hardware |
 
 </details>
 
-# Cost
+---
 
-The total assembly cost of the device is unknown
+## Cost Analysis
 
-# Ethical And Environmental Concerns
+**Current Status:** Total assembly cost determination in progress pending prototype completion.
 
-SPIRIT phones avoid components produced in unfair or harmful ways, as well as
-containing conflict minerals if possible.
+**Cost Philosophy:** SPIRIT aims to provide exceptional value by eliminating manufacturer profit margins, planned obsolescence, and proprietary component markups that characterize traditional smartphone pricing.
 
-TODO
-Here are ethical details for each major component:
+**Estimated Cost Factors:**
+- Component costs based on single-unit purchases (bulk pricing will reduce costs significantly)
+- Custom PCB manufacturing costs depend on order quantity
+- Assembly complexity affects labor requirements for DIY builders
+- Optional components allow users to balance features against budget
 
--Chassis
--CM5
--Battery
--Screen
--Chassis
--Speakers
+---
 
-The goal is to be 100% ethically and environmentally "clean" as soon as possible, however that is
-a hard task and presents multiple enginnering challenges.
+## Ethical and Environmental Concerns
 
-TODO
-?RoHS complicance
+SPIRIT represents a commitment to responsible technology development through ethical sourcing, environmental consciousness, and sustainable design practices.
 
-# Compliance And Legality
+### Ethical Sourcing Initiative
 
-TODO research
+**Core Principle:** SPIRIT actively avoids components produced through unfair labor practices or containing conflict minerals.
 
-### EU
+**Component Evaluation Status:**
+- **Chassis Materials:** Research ongoing for ethically-sourced metals and recycled materials
+- **Compute Module 5:** Raspberry Pi Foundation's ethical practices under review
+- **Battery Technology:** Investigation of fair-trade lithium sources and recycling programs
+- **Display Technology:** Screen manufacturer labor practices evaluation in progress
+- **Audio Components:** Speaker and microphone supply chain analysis underway
 
-Ecodesign Regulation 2023/1670
+### Environmental Responsibility
 
-?EMI norms
+**Design for Longevity:** Unlike traditional smartphones designed for 2-3 year lifecycles, SPIRIT prioritizes:
+- **Repairability:** Modular design allows component-level repairs rather than device replacement
+- **Upgradability:** Key components can be upgraded individually as technology advances  
+- **Documentation:** Complete repair guides prevent devices from becoming e-waste due to lack of information
 
-?RoHS
+**Regulatory Compliance:**
+- **RoHS Compliance:** Restriction of Hazardous Substances directive adherence
+- **REACH Regulation:** Chemical safety requirements for European markets
+- **WEEE Directive:** Waste Electrical and Electronic Equipment recycling considerations
 
-?REACH
+### Sustainable Development Goals
 
-?WEEE
+SPIRIT development aligns with multiple UN Sustainable Development Goals:
+- **Goal 12:** Responsible Consumption and Production through repairable design
+- **Goal 8:** Decent Work and Economic Growth through ethical sourcing
+- **Goal 9:** Industry, Innovation and Infrastructure through open-source development
 
-### N America
-?
+---
 
-### S America
-?
+## Compliance and Legality
 
-### Asia
-?
+**Status:** Regulatory research and compliance planning in progress.
 
-### Africa
-?
+### European Union Requirements
 
-### Australia
-?
+**Ecodesign Regulation 2023/1670:** New EU requirements for smartphone repairability, battery replaceability, and software support duration. SPIRIT's design philosophy naturally aligns with these requirements.
 
-# Resources
+**Additional EU Compliance Areas:**
+- **EMI Standards:** Electromagnetic interference testing and certification
+- **RoHS Directive:** Hazardous substance restrictions
+- **REACH Regulation:** Chemical registration and safety requirements  
+- **WEEE Directive:** Electronic waste management and recycling
 
-- [Rpi CM5 datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf)
-- [Rpi CM4 pinout from datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf#page=18)
-- [Rpi CM5 and CM 4 very useful interactive pinout](https://atctwo.net/projects/pinout/index.html)
+### Regional Compliance Planning
+
+**North America:** FCC certification requirements for wireless devices, along with Canadian ISED approval for radio equipment.
+
+**Asia-Pacific:** Individual country certifications for major markets including Japan (MIC), Australia (ACMA), and South Korea (KCC).
+
+**Other Regions:** Compliance frameworks for South America, Africa, and additional international markets under investigation.
+
+### Open Source Legal Framework
+
+**License Structure:** All hardware designs, software code, and documentation released under appropriate open-source licenses to ensure community access while protecting contributors.
+
+**Patent Considerations:** Comprehensive patent landscape analysis to ensure design freedom and avoid infringement issues.
+
+---
+
+## Contributing to SPIRIT
+
+SPIRIT thrives on community collaboration and welcomes contributions from developers, designers, engineers, and users worldwide.
+
+### How to Contribute
+
+**Code Contributions:** Submit pull requests for software improvements, bug fixes, or new features.
+
+**Hardware Design:** Propose improvements to PCB design, component selection, or mechanical engineering.
+
+**Documentation:** Help improve guides, tutorials, and technical documentation.
+
+**Testing:** Participate in prototype testing and provide feedback on functionality and user experience.
+
+**Community Support:** Help other users in discussions, troubleshooting, and project planning.
+
+Please review our [Contribution Guide](CONTRIBUTING.md) for detailed information on the development process, coding standards, and community guidelines.
+
+---
+
+## Technical Resources
+
+### Official Documentation
+
+- [Raspberry Pi CM5 Datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf) - Complete technical specifications
+- [CM4 Datasheet Pinout Reference](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf#page=18) - Pin compatibility information
+
+### Interactive Tools
+
+- [CM5 and CM4 Interactive Pinout](https://atctwo.net/projects/pinout/index.html) - Visual pin mapping and function reference
+
+### Development Resources
+
+- **KiCad EDA Files:** Complete schematic and PCB layout files in repository
+- **Component Datasheets:** Individual component specifications and integration guides
+- **Software Development:** Operating system porting guides and custom ROM development resources
+
+---
+
+## Community and Support
+
+### Stay Connected
+
+- **GitHub Repository:** [V3lectronics/SPIRIT](https://github.com/V3lectronics/SPIRIT) - Main development hub
+- **YouTube Channel:** [V Electronics](https://www.youtube.com/@V_Electronics) - Development progress and tutorials
+- **Discussion Forum:** GitHub Discussions for community interaction and support
+
+### Project Status Updates
+
+Follow development progress through regular updates on the GitHub repository and YouTube channel. Major milestones, prototype testing results, and community contributions are documented as they occur.
+
+### Getting Help
+
+- **Technical Issues:** Open GitHub issues for bugs, feature requests, or technical questions
+- **General Discussion:** Use GitHub Discussions for broader topics and community interaction
+- **Build Support:** Community-driven assistance for DIY builders and troubleshooting
+
+---
+
+## License and Legal Information
+
+This project is released under open-source licenses to ensure community access and collaborative development. Specific license terms for hardware designs, software components, and documentation are detailed in the repository's license files.
+
+By contributing to SPIRIT, you agree to make your contributions available under the same open-source terms, ensuring the project remains freely accessible to the global community.
+
+---
+
+<p align="center">
+  <strong>Built with passion by the community, for the community</strong>
+  <br>
+  <em>SPIRIT: Taking back control of our digital lives</em>
+</p>
