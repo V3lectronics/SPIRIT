@@ -483,11 +483,11 @@
 	(footprint "SPIRIT-footprints:35mmJACK-CUI_SJ2-35894B-SMT-TR"
 		(layer "F.Cu")
 		(uuid "04d6ebdb-ff4d-4614-a08b-c09947f41ced")
-		(at 67 173 90)
+		(at 67 175 90)
 		(property "Reference" "J1"
 			(at -2.97784 -5.74168 90)
 			(layer "F.SilkS")
-			(uuid "a2eb025b-6ae9-487b-81df-07aa74375c12")
+			(uuid "71f4e951-781e-463a-a712-1d61e6d04c5d")
 			(effects
 				(font
 					(size 1.001008 1.001008)
@@ -498,7 +498,7 @@
 		(property "Value" "SJ2-35894B-SMT-TR"
 			(at 7.34841 6.64711 90)
 			(layer "F.Fab")
-			(uuid "c0af529c-45b1-44d8-8955-a38a6bd6ef6b")
+			(uuid "be49509a-546e-4557-b78f-91c92bbb0d50")
 			(effects
 				(font
 					(size 1.001827 1.001827)
@@ -510,7 +510,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3bc1353-f2e6-428c-a297-529736639ce6")
+			(uuid "ab942c00-6802-4963-85e4-d7ecf5833377")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +522,7 @@
 			(at 236.941 102.939 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53e7106a-2b0b-4a50-a11c-38b743e86db9")
+			(uuid "b57765ef-ae32-4512-bad7-1f39f5fd514a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14586,11 +14586,11 @@
 	(footprint "SPIRIT-footprints:USBC-3-2-fix-GCT_USB4056-03-A_REVA2"
 		(layer "F.Cu")
 		(uuid "d4a0cff7-79d5-47c9-b48a-f4fae491b599")
-		(at 95.5 178)
+		(at 95.5 180)
 		(property "Reference" "J2"
 			(at -36.995 -18.283401 0)
 			(layer "F.SilkS")
-			(uuid "ca0895c5-5bb2-4946-803a-4104239fbde7")
+			(uuid "9bc063b5-6d0d-4804-8a30-5e9a2d967ddf")
 			(effects
 				(font
 					(size 1 1)
@@ -14601,7 +14601,7 @@
 		(property "Value" "USBC-3-2-fix-USB4056-03-A_REVA2"
 			(at 8.97 -9.135 0)
 			(layer "F.Fab")
-			(uuid "5fbddb11-4c95-4c71-9acb-c956ebdb7c5d")
+			(uuid "7e1d3b34-5630-462e-8753-183f0bf10454")
 			(effects
 				(font
 					(size 1 1)
@@ -14613,7 +14613,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8653aea-6fbb-4f1f-9d09-66efa3b6f65b")
+			(uuid "f38f31e0-aac5-474f-8e6c-632572e2d501")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14625,7 +14625,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a24bf28-9411-4e25-b589-15631bf935c9")
+			(uuid "25ff8a27-97cb-4b0a-b994-50cf55812d75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26284,16 +26284,6 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 70 179.5)
-		(end 70 181)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0f440eef-d397-4b0c-82a8-28bbff827524")
-	)
-	(gr_line
 		(start 83.5 91)
 		(end 83.5 169.5)
 		(stroke
@@ -26314,21 +26304,21 @@
 		(uuid "204f569c-e461-4dfc-a47f-05317ce9db5a")
 	)
 	(gr_line
-		(start 70.5 166.5)
-		(end 63.5 166.5)
+		(start 70.5 168.5)
+		(end 63.5 168.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "27e73a4d-6230-4826-95f9-203ade1c1e3e")
 	)
 	(gr_line
-		(start 63.5 179.5)
-		(end 63.5 166.5)
+		(start 63.5 181)
+		(end 63.5 168.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "38092a9c-cd3c-44bf-85d8-35089453a632")
@@ -26345,10 +26335,10 @@
 	)
 	(gr_line
 		(start 72 181)
-		(end 70 181)
+		(end 70.5 181)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "3e78ca3c-4b50-482e-a180-dad3d5828773")
@@ -26362,16 +26352,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "3ee20536-88b8-4689-b5ef-73b208aa010a")
-	)
-	(gr_line
-		(start 70 179.5)
-		(end 70.5 179.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4c606f6a-1972-424d-8622-3203548fe152")
 	)
 	(gr_line
 		(start 55 176)
@@ -26404,31 +26384,21 @@
 		(uuid "69ca038c-20c4-4113-bd84-cd4cacce92fc")
 	)
 	(gr_line
-		(start 64 179.5)
-		(end 63.5 179.5)
+		(start 70.5 168.5)
+		(end 70.5 181)
 		(stroke
 			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "7aa6151d-7d4d-442b-a3a6-1bcea1be5ae6")
-	)
-	(gr_line
-		(start 70.5 166.5)
-		(end 70.5 179.5)
-		(stroke
-			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "80107321-3b40-4377-8b15-efcb565f7357")
 	)
 	(gr_line
-		(start 64 181)
+		(start 63.5 181)
 		(end 60 181)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "91f25bea-4a53-48ac-bbf5-fcd0c121216b")
@@ -26482,16 +26452,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e745502b-95ae-4d1f-994a-4666a2b2544e")
-	)
-	(gr_line
-		(start 64 179.5)
-		(end 64 181)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e997aba5-5332-44d2-80a1-b49d5174e829")
 	)
 	(gr_text "V ELECTRONICS"
 		(at 93.98 33.02 0)
