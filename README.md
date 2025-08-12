@@ -12,6 +12,10 @@ Open source smartphone, from available components. Prioritizing user experience,
 Contribution and feedback are very welcome! [Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md).
 (Currently in the development phase, progress documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics)).
 
+> [!WARNING]
+> For imformation about the project please refer to the **[wiki](https://github.com/V3lectronics/SPIRIT/wiki)**, the contents below maybe outdated.
+> Soon all information will be moved to the wiki!
+
 # Contents
 1. [General Specifications](https://github.com/barbarjan/SPIRIT#general-specifications)
 2. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
