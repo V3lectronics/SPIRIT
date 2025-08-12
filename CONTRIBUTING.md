@@ -8,11 +8,36 @@ with the project goals.
 2. Once your issue is reviewed, and if it is confirmed that your change would be useful,
 and no one else is currently working on it, you may proceed to make a pull request (PR).
 
-3. When creating your PR, please include a detailed description in English that outlines exactly
+3. When you start working on an issue leave a comment under that issue it so others know who is working on it.
+
+4. When creating your PR, please include a detailed description that outlines exactly
 what changes have been introduced. This helps others understand your contribution better.
 
-4. After submitting your PR, kindly wait for your changes to be reviewed.
+5. After submitting your PR, kindly wait for your changes to be reviewed.
 We appreciate your patience as we work to ensure quality and consistency in the project.
+
+6. If you add new components, please ensure that they are available for purchase on [digikey](https://www.digikey.com/en/products/), have public datasheets and are RoHS compliant.
+
+7. SMD resistors, capacitors and other components that come in very small packages have to be preferably 0805 (if available) or larger.
+
+8. When adding new components in KiCad please be sure to properly annotate them in the schematics and use the update PCB from schematic tool.
+The schematics and PCB must be in sync at all times!
+
+9. Please use the newest major release of KiCad.
+
+10. When adding new components make sure to add: symbols, footprints, 3D models. If it's a complex change and you're not sure if the components are the correct ones,
+it is ok to add them in a follow up PR.
+
+11. Avoid massive pull requests that are hard to review. It is easier for
+everyone if you split your contribution into small, atomic pieces (within reason).
+
+12. Change only the files you need, e.g. if you made a change to the power schematic you probably don't have to make changes to audio.
+
+13. Write all text in english.
+
+# Tasks to do
+
+Here is the [issues list](https://github.com/V3lectronics/SPIRIT/issues). Good luck and please stick to the guidelines for smooth cooperation!
 
 # Contact
 
@@ -23,25 +48,4 @@ V Electronics Discord server with channels for discussing SPIRIT stuff:
 Project lead maintainer email:
 
 >jwaga76@gmail.com
-
-# For smoother cooperation:
-
-- Please use the newest major release of KiCad.
-
-- When you start working on an issue leave a comment so others know who is working on it.
-
-- If you add new parts, please ensure that they are available for purchase on [digikey](https://www.digikey.com/en/products/), have public datasheets and are RoHS compliant.
-
-- When adding new components make sure to add: symbols, footprints, 3D models.
-
-- Avoid massive pull requests that are hard to review. It is easier for
-  everyone if you split your contribution into small, atomic pieces (within reason).
-
-- Change only the files you need, e.g. if you made a change to the power schematic you probably don't have to make changes to audio.
-
-- Write all text in english.
-
-# Tasks to do
-
-Here is the [issues list](https://github.com/V3lectronics/SPIRIT/issues). Good luck!
 
