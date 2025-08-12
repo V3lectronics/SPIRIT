@@ -8,6 +8,7 @@
 		(symbol "SPIRIT-components:FH72-31S-0.3SHW"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3065,6 +3066,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:HRS_FH72-31S-0.3SHW"
@@ -3086,7 +3088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n31 Position FPC Connector Contacts, Top 0.012 (0.30mm) Surface Mount, Right Angle\n"
+		(property "Description" "31 Position FPC Connector Contacts, Top 0.012 (0.30mm) Surface Mount, Right Angle"
 			(at 149.86 90.17 0)
 			(effects
 				(font

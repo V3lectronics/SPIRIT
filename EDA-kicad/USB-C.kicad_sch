@@ -601,8 +601,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "SPIRIT-components:USB-protection-diode-PESD5V0C1USFYL"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -819,6 +823,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "SPIRIT-components:USBC-3-2-fix-USB4056-03-A_REVA2"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 			)
@@ -6334,6 +6341,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USB-ESD-protection-diode-PESD5V0C1USFYL-SOD962-2_DSN0603-2_NEX"
@@ -6469,6 +6477,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USBC-3-2-fix-GCT_USB4056-03-A_REVA2"

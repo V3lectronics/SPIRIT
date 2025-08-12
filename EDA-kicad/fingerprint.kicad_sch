@@ -3851,10 +3851,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fefdb6e5-d7b3-4052-b3c1-3bb57aae907c")
-		(property "Reference" "R??"
-			(at 101.6 101.6 0)
+		(property "Reference" "R?1"
+			(at 101.346 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,6 +3866,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
@@ -3946,7 +3946,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/22a7f479-b60d-43d3-acd2-a72a0c1ab82c"
-					(reference "R??")
+					(reference "R?1")
 					(unit 1)
 				)
 			)
