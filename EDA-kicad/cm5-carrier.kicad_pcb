@@ -14800,7 +14800,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5f73c005-a6bf-4e67-bc5e-7bc3d6bf77b1")
+			(uuid "ca13f59e-1796-44a1-9500-1a6a05dfd2c5")
 		)
 		(fp_line
 			(start -2.735141 -2.0447)
@@ -14810,7 +14810,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "63bb2635-4584-4633-bd27-d8274c538967")
+			(uuid "e18a368c-2b11-4e7a-93a3-d937e0c09c81")
 		)
 		(fp_line
 			(start -3.6322 -2.0447)
@@ -14820,7 +14820,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "55458585-48e1-4ae2-ae99-0bfe88c0ea47")
+			(uuid "6a7673ac-39ed-4720-83cc-d19ccfdb1dd7")
 		)
 		(fp_line
 			(start 3.6322 -0.060979)
@@ -14830,7 +14830,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6d4af648-408d-4f4b-a01a-80b0b8d30e95")
+			(uuid "a2263a7b-cdcc-4b63-8d61-fb41136ad312")
 		)
 		(fp_line
 			(start -3.6322 1.312803)
@@ -14840,7 +14840,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bc044033-890e-4820-809c-9f98b5d837a1")
+			(uuid "bc830fc0-f889-4e3a-955d-f88a69eaf60c")
 		)
 		(fp_line
 			(start 3.6322 2.0447)
@@ -14850,7 +14850,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "965d3850-a60e-4d3b-98e2-ed9d8891da1a")
+			(uuid "682224ab-a87c-46ad-aa22-d51b7e9ec0db")
 		)
 		(fp_line
 			(start -3.6322 2.0447)
@@ -14860,7 +14860,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "275b2e1f-9ae7-4a86-bc60-ee8d29c35b78")
+			(uuid "98d9c467-eeb5-423b-aa58-7e449403482b")
 		)
 		(fp_circle
 			(center -5.4102 -1.874088)
@@ -14871,7 +14871,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "b5a15fcd-fec0-4142-8f53-b4b190203faa")
+			(uuid "b45dca82-ba94-45f7-b23c-7989a29f566d")
 		)
 		(fp_circle
 			(center -5.4102 -1.874088)
@@ -14882,7 +14882,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "e1e49751-364c-4633-b338-c84223351b55")
+			(uuid "49c0b8ff-e7f5-4d27-b685-86542d08ca66")
 		)
 		(fp_line
 			(start 3.7592 -2.534488)
@@ -14892,7 +14892,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ecaa91b5-b642-4f00-8eca-6020bb888ecd")
+			(uuid "5e90c91a-b722-4dda-8834-0f82a63cff61")
 		)
 		(fp_line
 			(start -3.7592 -2.534488)
@@ -14902,7 +14902,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0c23c25b-4cc2-4390-999f-064e82ab52bc")
+			(uuid "be133d02-3f6e-4f34-b1a3-495aa1dbd864")
 		)
 		(fp_line
 			(start 3.7592 2.1717)
@@ -14912,7 +14912,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0d278702-f43c-4078-8b24-05e8d19395c5")
+			(uuid "42573893-1683-452d-8554-e07868cebd4a")
 		)
 		(fp_line
 			(start -3.7592 2.1717)
@@ -14922,7 +14922,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b290cc66-bbe7-4e4e-ac7f-9bd95812d787")
+			(uuid "4c6d0f46-f7cc-47b9-9109-12c1fbae8aeb")
 		)
 		(fp_line
 			(start 3.5052 -1.9177)
@@ -14932,7 +14932,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0b1e493e-18b8-4a32-b303-b02047341016")
+			(uuid "1ac4f2eb-ef59-42ea-b4a2-7425c98cb744")
 		)
 		(fp_line
 			(start -3.5052 -1.9177)
@@ -14942,7 +14942,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "528fc660-3fd6-4089-bf2c-f60c487af713")
+			(uuid "5090137c-bf3c-40aa-81c6-9835ed10197e")
 		)
 		(fp_line
 			(start 3.5052 1.9177)
@@ -14952,7 +14952,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a28659a1-fc60-4c31-bef0-4f5f5a14430b")
+			(uuid "13b513b2-4e6d-4a2d-a21b-8a8bee829d51")
 		)
 		(fp_line
 			(start -3.5052 1.9177)
@@ -14962,7 +14962,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ed37f092-0dbb-4912-9205-7e64aff112f2")
+			(uuid "82bbf717-3535-4caf-bb67-4079ba77d4f3")
 		)
 		(fp_circle
 			(center -2.25 -3.779088)
@@ -14973,7 +14973,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "30c1258c-978f-4fcb-acb3-08a7c73b78bd")
+			(uuid "645f1081-fa9d-40c2-9c45-45e4d7f71fcd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.874088 90)
@@ -15090,15 +15090,15 @@
 			(uuid "9736e8dd-539b-4da8-a9f1-06eaffcc3470")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/10-FPC.stp"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/molex-10pin-fingerprint-scanner-connector-5034801000.stp"
 			(offset
-				(xyz 0 -1.5 0.5)
+				(xyz -3.34 2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 -180 -180)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
