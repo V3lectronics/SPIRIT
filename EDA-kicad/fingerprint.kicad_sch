@@ -1641,10 +1641,20 @@
 		(uuid "2e268d50-ad52-4f94-b872-4f813a436dda")
 	)
 	(junction
+		(at 91.44 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2239556c-b33a-412b-80ef-85c8fb2a46c2")
+	)
+	(junction
 		(at 91.44 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77642d04-36fc-4497-8d23-0a4e8a5b39a8")
+	)
+	(no_connect
+		(at 129.54 114.3)
+		(uuid "aa9008e5-cecd-4df7-bb75-a5dafd588b1a")
 	)
 	(wire
 		(pts
@@ -1658,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 107.95) (xy 91.44 116.84)
+			(xy 91.44 111.76) (xy 91.44 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1688,16 +1698,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 109.22) (xy 129.54 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a16f9d7-b898-49db-85a6-8e89a4d90ab8")
-	)
-	(wire
-		(pts
 			(xy 87.63 93.98) (xy 129.54 93.98)
 		)
 		(stroke
@@ -1705,6 +1705,26 @@
 			(type default)
 		)
 		(uuid "6909424f-b846-43b0-b79a-958b6dd0264c")
+	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd81ef0-1629-40d2-bf55-2620f3677b56")
+	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 91.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80006db6-3670-4108-8eef-402815f4faa3")
 	)
 	(wire
 		(pts
@@ -1745,16 +1765,6 @@
 			(type default)
 		)
 		(uuid "ba30299a-45fa-4ae7-b8cf-9691e1ef74c5")
-	)
-	(wire
-		(pts
-			(xy 111.76 107.95) (xy 111.76 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef45470c-2d86-4429-b9a6-e0df250d98aa")
 	)
 	(wire
 		(pts
@@ -3550,6 +3560,28 @@
 			)
 		)
 	)
+	(global_label "SPI0_RDY"
+		(shape input)
+		(at 121.92 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a7baf16-e554-4a84-91d7-75d95177687d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.0448 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI0_MISO"
 		(shape input)
 		(at 121.92 99.06 180)
@@ -3845,7 +3877,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
-		(at 101.6 107.95 0)
+		(at 101.6 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3853,15 +3885,15 @@
 		(dnp no)
 		(uuid "fefdb6e5-d7b3-4052-b3c1-3bb57aae907c")
 		(property "Reference" "R?1"
-			(at 101.346 108.204 0)
+			(at 101.346 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1K-05W-0805-RES_ERJP06J102V"
-			(at 101.6 104.14 0)
+		(property "Value" "270K-05W-0805-RES_ERJP06J102V"
+			(at 101.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3902,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
-			(at 101.6 107.95 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 107.95 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 107.95 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3930,7 @@
 			)
 		)
 		(property "PARTREV" "3/1/2020"
-			(at 101.6 107.95 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3940,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 101.6 107.95 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3950,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 101.6 107.95 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3960,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 101.6 107.95 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
