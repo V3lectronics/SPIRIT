@@ -14186,7 +14186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:battery-37V2AhLP504783JU"
+		(property "Footprint" "SPIRIT-footprints:battery_37V3500mAhLP685077JU"
 			(at 75.057 127.381 0)
 			(effects
 				(font

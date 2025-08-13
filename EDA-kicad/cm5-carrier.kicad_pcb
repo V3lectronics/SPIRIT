@@ -74,6 +74,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -15851,7 +15852,7 @@
 				)
 			)
 		)
-		(property "Value" "battery_37V3500mAhLP685077JU"
+		(property "Value" "battery_LP685077JU"
 			(at 0 -10 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15901,7 +15902,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "26bb0a1c-b2b3-4391-b077-5e7c0deb715c")
+			(uuid "12356f4e-22f4-4cf3-bab2-0c25597ae47b")
 		)
 		(fp_rect
 			(start -26 -5.5)
@@ -15912,7 +15913,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f6b0ffe6-7b8b-4013-952f-2a3cf8eacae9")
+			(uuid "a873348e-c552-4788-8c96-5fc4b23b1350")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8.5 0)
@@ -15927,15 +15928,15 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/battery-37V2AhLP504783JU-Body.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/Battery_lp685077jupcm2.step"
 			(offset
-				(xyz 1 -21 0)
+				(xyz 0 -34 4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)

@@ -89,4 +89,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/Battery_lp685077jupcm2.step"
+		(offset
+			(xyz 0 -34 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
