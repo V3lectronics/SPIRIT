@@ -1,7 +1,7 @@
 (footprint "pianoCHP-041B_NDC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "CHP-041B ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8166fdc3-c32f-409a-bd16-3cfc0e67c4cb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -677,52 +665,53 @@
 	(pad "1" smd rect
 		(at -3.7973 -1.905)
 		(size 1.1176 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9757d818-daf4-4793-b9f8-de330e74dae6")
 	)
 	(pad "2" smd rect
 		(at -3.7973 -0.635)
 		(size 1.1176 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "063a499f-0e4a-470c-856f-ae3689a9e302")
 	)
 	(pad "3" smd rect
 		(at -3.7973 0.635)
 		(size 1.1176 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cd5a75b4-2dcc-4dfd-a354-58e357e3ed8a")
 	)
 	(pad "4" smd rect
 		(at -3.7973 1.905)
 		(size 1.1176 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cddbef27-7198-4070-b852-a0ab286d05ad")
 	)
 	(pad "5" smd rect
 		(at 3.7973 1.905)
 		(size 1.1176 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "04a4953d-914d-457e-8931-c764ba02af54")
 	)
 	(pad "6" smd rect
 		(at 3.7973 0.635)
 		(size 1.1176 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "81acdd64-d237-4022-b28f-35b609408fe7")
 	)
 	(pad "7" smd rect
 		(at 3.7973 -0.635)
 		(size 1.1176 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa88aaa9-3244-45b5-b3f2-bceeaa7cef75")
 	)
 	(pad "8" smd rect
 		(at 3.7973 -1.905)
 		(size 1.1176 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c6f37084-edf0-47d6-9b1d-cae9a62ea08f")
 	)
-	(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/pianoCHP-041TB.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/pianoCHP-041TB.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -730,7 +719,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz -90 -0 90)
 		)
 	)
 )
