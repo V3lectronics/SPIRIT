@@ -4782,6 +4782,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 114.3) (xy 243.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a090157-0e6b-42d7-bd4a-ad787b616112")
+	)
+	(wire
+		(pts
 			(xy 236.22 119.38) (xy 243.84 119.38)
 		)
 		(stroke
@@ -4922,6 +4932,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 113.03) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7698c878-82c1-434d-881e-e8a335a4c842")
+	)
+	(wire
+		(pts
 			(xy 316.23 121.92) (xy 304.8 121.92)
 		)
 		(stroke
@@ -5022,6 +5042,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 111.76) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a611c770-b4b7-4eb1-9c3b-2f13235852e7")
+	)
+	(wire
+		(pts
 			(xy 236.22 134.62) (xy 243.84 134.62)
 		)
 		(stroke
@@ -5049,16 +5079,6 @@
 			(type default)
 		)
 		(uuid "ad9106b1-c9ec-4798-8ad3-5990c8720ee2")
-	)
-	(wire
-		(pts
-			(xy 237.49 111.76) (xy 243.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b22be0cc-090d-4425-b714-0c402bcbed41")
 	)
 	(wire
 		(pts
@@ -17288,6 +17308,28 @@
 			)
 		)
 	)
+	(global_label "SPI0_RDY"
+		(shape input)
+		(at 236.22 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a7cf528-4edb-467f-884c-0d02580bd897")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.3448 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO2"
 		(shape input)
 		(at 236.22 144.78 180)
@@ -19284,7 +19326,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 111.76 0)
+		(at 209.55 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19292,7 +19334,7 @@
 		(dnp no)
 		(uuid "3f23da70-aa58-4b0e-b99b-d7946ff8226d")
 		(property "Reference" "#PWR04"
-			(at 237.49 118.11 0)
+			(at 209.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19301,7 +19343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 115.57 0)
+			(at 209.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19309,7 +19351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 111.76 0)
+			(at 209.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19318,7 +19360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 111.76 0)
+			(at 209.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19327,7 +19369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 111.76 0)
+			(at 209.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
