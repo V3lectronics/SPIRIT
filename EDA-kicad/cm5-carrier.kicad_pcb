@@ -5011,7 +5011,7 @@
 			(uuid "a7fd7136-9952-4b50-bd4a-26090abba91a")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/USB-ESD-protection-diode-PESD5V0C1USFYL-SOD962-2_DSN0603-2_NEX.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/USB-ESD-protection-diode-PESD5V0C1USFYL-SOD962-2_DSN0603-2_NEX.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15988,7 +15988,7 @@
 			(uuid "42596b67-15e5-477b-8adc-4cc0b929c179")
 		)
 		(embedded_fonts no)
-		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/TVS-array-PUSB3FR6Z.step"
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/TVS-array-PUSB3FR6Z.step"
 			(offset
 				(xyz 0 0 0)
 			)
