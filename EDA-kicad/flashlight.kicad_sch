@@ -6,8 +6,12 @@
 	(paper "A4")
 	(lib_symbols
 		(symbol "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -152,6 +156,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "SPIRIT-components:Flash-LED-Lumiled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -301,30 +311,36 @@
 			(embedded_fonts no)
 		)
 		(symbol "SPIRIT-components:gpio-driver-transistor-BSS816NWH6327XTSA1"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -1.27 3.048 0)
+			(property "Reference" "Q1"
+				(at -4.064 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 15.24 -6.0932 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
-				(at 0 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -518,32 +534,8 @@
 				)
 			)
 			(symbol "gpio-driver-transistor-BSS816NWH6327XTSA1_1_1"
-				(text "G"
-					(at -6.604 -2.032 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "gpio MOSFET N-CH 20V 1.4A"
+				(text ""
 					(at -0.254 6.604 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "D"
-					(at 1.524 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "S"
-					(at 1.524 -8.89 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1289,6 +1281,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:LUMILED-DIODFN449X305X210-3N"
@@ -1341,10 +1334,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "59ea29bd-c99c-446d-af10-6e5f83620bb9")
 		(property "Reference" "R2"
-			(at 143.51 97.79 0)
+			(at 143.002 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,6 +1349,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
@@ -1516,7 +1509,7 @@
 		(dnp no)
 		(uuid "dda2b24c-bc70-46d7-932a-fce0ca333646")
 		(property "Reference" "Q1"
-			(at 170.18 96.266 0)
+			(at 166.116 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,6 +1524,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"

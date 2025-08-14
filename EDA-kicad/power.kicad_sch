@@ -11312,7 +11312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 187.96 177.8 0)
 			(effects
 				(font
@@ -11411,7 +11411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 132.08 220.98 0)
 			(effects
 				(font
@@ -11993,7 +11993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 157.48 177.8 0)
 			(effects
 				(font
@@ -12463,7 +12463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 116.84 220.98 0)
 			(effects
 				(font
@@ -12697,7 +12697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 116.84 210.82 0)
 			(effects
 				(font
@@ -13350,7 +13350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 175.26 172.72 0)
 			(effects
 				(font
@@ -13811,7 +13811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 157.48 161.29 0)
 			(effects
 				(font
@@ -15489,7 +15489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 175.26 156.21 0)
 			(effects
 				(font
@@ -16526,7 +16526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 132.08 210.82 0)
 			(effects
 				(font
