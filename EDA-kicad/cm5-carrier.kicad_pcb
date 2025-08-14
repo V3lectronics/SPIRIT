@@ -458,6 +458,18 @@
 	(net 368 "PMID")
 	(net 369 "ACDRV2")
 	(net 370 "Net-(D6-K)")
+	(net 371 "Net-(D4_LED1-A)")
+	(net 372 "Net-(D4_LED1-K)")
+	(net 373 "Net-(D5-K)")
+	(net 374 "Net-(D5-A)")
+	(net 375 "Net-(D6-A)")
+	(net 376 "unconnected-(Q3-G-Pad2)")
+	(net 377 "unconnected-(Q3_BAT1-G-Pad2)")
+	(net 378 "SDRV")
+	(net 379 "unconnected-(Q4_BAT1-G-Pad2)")
+	(net 380 "unconnected-(Q5-G-Pad2)")
+	(net 381 "unconnected-(Q6-G-Pad2)")
+	(net 382 "ACDRV1")
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "00502cc5-9de8-48a4-942b-8d710fa62e04")
@@ -485,7 +497,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1259,6 +1271,284 @@
 			)
 		)
 	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "0623308e-9913-4533-b24f-2beb32c1723c")
+		(at 15.035 101.225)
+		(property "Reference" "Q4"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "223d9198-7277-4cec-9bbe-f799bfba00e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "a908faad-db94-4e60-953f-e167a701fc9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "527080f0-ecfe-484b-beff-1008272d2d49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "721649f4-90ea-4b94-bf05-a39db6b3dfbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42a8b219-d11c-45bf-a93e-0c9bb8ed1cf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4ffe520-9085-4b16-86d8-b41714b55543")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "422bbe38-81d2-4a20-a247-dae8ca189b77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/b55a944f-f4c4-46ae-98d2-addd48d50caf")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4f7477b2-2e3a-44b3-a533-a98480b9dfa0")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f461587a-8338-4bc6-96e9-1f3a29531403")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "374b6a26-1567-485f-83bb-97d10eeb2627")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "14488ffa-99bc-4ee7-9f9b-8ba8fecc3fe7")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "fb3b3197-d4be-4178-8b22-b41b7ec7a248")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "88bfd759-1d1c-4c7d-ae5f-38e8305eae86")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "95bf337e-b7d5-4645-b220-af8b22962f6e")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "68c7beca-8dbc-468f-b09a-e27e0479c627")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97d57b4b-10b6-4d72-872c-46c8443d866e")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0937de2b-0b5b-4247-9b34-3f805cb3b424")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b709d1aa-c964-4231-81ff-609a99f5a98c")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fc41895-330e-4055-a4aa-29fe9472515a")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "448325ce-4729-40a0-8e3a-3bfa172099f8")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "dd52e4f9-6cb8-4a33-b699-ae7b22246035")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 366 "OUT +")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "da9cd66e-4626-4182-ab66-d465d49ace6f")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 378 "SDRV")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "cbde0582-585d-428d-a066-17dee5fea895")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 102 "BAT")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "50670a99-ff87-4e18-a434-cebf176f9cfc")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "08219286-85eb-4c2f-9236-de131d4a16e6")
@@ -1425,6 +1715,748 @@
 			)
 		)
 	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "087686b2-6064-45c8-ae35-8fb4961da044")
+		(at 15.035 109.075)
+		(property "Reference" "Q6"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "2ab89b79-2e74-4735-ba86-d2a5dbf24786")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "b15856ed-692d-42fe-b0ae-61d050284621")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c44e46f-cf66-4d26-b826-d0fd2c25f768")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e66a8f5c-7f76-426b-9cba-888ec2f95793")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d307644-4a00-423d-8f99-f696256c85a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad573510-c10c-464a-9467-5c9cfe372acb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e48d5b6-3903-4b45-807b-eba2a25dcc30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/1dd1dd1e-56b8-4f8b-8186-cb4ad266d257")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8974e561-0f80-4cbc-b9e8-f39d3a6cbad0")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "29b09ced-0944-45a7-8a79-9783a03c324e")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bf061213-599f-449f-b13b-df2aa6a61223")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "85ec9584-cc8f-4d64-ab04-b564d1416b8a")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "fd399bb1-5dec-4594-94a1-f18dd4434afa")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e6a58bfc-5418-4f18-bec9-ece016096ced")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f1f448a1-28f3-471a-8105-c22e768880e3")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "224d3b2f-d73d-4597-b7a4-7630591f3918")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7e5b5cf5-0f83-4d7f-a364-a4e192da1f1f")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67974c46-e87d-4943-8add-0834c934ad9b")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b02d89a-f568-41ba-bee3-87d8b800e0a9")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "78b2afd3-70ec-4398-a1a1-d2ad4b6982d0")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "90d3cbff-c463-433e-a658-6c0ad72c49ca")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "341877a0-88a2-44cb-8a1a-d79f9de2b977")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 38 "SYS")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c05eb33a-1377-40a1-860d-29292b80cdba")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 381 "unconnected-(Q6-G-Pad2)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "b7223656-adcc-4d1b-b4e2-a159b11a1485")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 102 "BAT")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ecdd90f5-143a-4567-9b2a-a042138ebf1b")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(layer "F.Cu")
+		(uuid "1098708f-d912-4053-a475-03b740a292d4")
+		(at 30.57 102.25)
+		(property "Reference" "R11"
+			(at 0.032 -1.5314 0)
+			(layer "F.SilkS")
+			(uuid "09fdfd7c-bf63-44a3-82b2-0921da863fce")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 4.096 1.5314 0)
+			(layer "F.Fab")
+			(uuid "913bf048-ea64-44c8-912c-99b029639db6")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5297357-fde0-43ff-b0d3-f137e0d6ab7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e099831b-d378-47e9-9843-1cc5161c9265")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/34b8ae97-ffbd-4cdf-9f63-a2070684920a")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.28 -0.625)
+			(end 0.28 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2939c643-a938-47a4-b241-28306118d643")
+		)
+		(fp_line
+			(start -0.28 0.625)
+			(end 0.28 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a718313-c486-4c78-ae3f-ddaee5117f38")
+		)
+		(fp_line
+			(start -2 -0.875)
+			(end -2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d71b797-848f-49ab-bfc5-715cc3a99b24")
+		)
+		(fp_line
+			(start -2 0.875)
+			(end 2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ab9f5b15-d45f-4d88-9d05-36e6eef5abab")
+		)
+		(fp_line
+			(start 2 -0.875)
+			(end -2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7462f413-c323-41f2-9770-cefef4084df2")
+		)
+		(fp_line
+			(start 2 0.875)
+			(end 2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c6c281a-d15a-42c4-bc34-49e9eca8b193")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "00b5b968-5e56-41ed-a3c8-d676c51114e5")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7eccbe93-ba27-4fde-bfe0-3688dfeb36bb")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "76af4dc0-4711-47e5-a544-00b9c560d4e8")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c01c5df6-c155-4a51-8edf-600f5ff820b1")
+		)
+		(pad "1" smd rect
+			(at -1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 373 "Net-(D5-K)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d1e16dd8-5981-45e9-b94d-63ce89d686e0")
+		)
+		(pad "2" smd rect
+			(at 1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 382 "ACDRV1")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "27d131a5-4fd6-4098-b857-4b4d5bb5b667")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1K-05W-0805-RES_ERJP06J102V.step"
+			(offset
+				(xyz 0 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "1333c300-f2d4-4a76-a4c4-082221512f02")
+		(at 20.03 97.3)
+		(property "Reference" "Q8"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "c928d881-cdd4-40dc-8fc4-8175138e94e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "05af561d-0034-4399-b5ac-a9549fc377ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acdbe314-01d2-4f6e-8cae-85dc19686ba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c17d160-66ec-4546-ad82-ce5d39afb88a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9c5fd54-1e6d-4230-a3a3-050a00cce9c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45c52bde-4826-4202-8dd5-a2bbe01ab610")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b1f4816-5c00-425c-aac5-40b4a87715d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/3d2cfe33-d49d-45ef-b451-a826dfdd8e26")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c64ce5a-c6fb-4f7e-8a66-7887c44e1a48")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "84e7ec0c-e55a-4322-adf1-8e41efc112ee")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b4f6590-7857-40c9-a97f-40479f7aadb7")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "edb065b3-584b-48f8-8d64-a6f6e2cddaac")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d64f5b16-03a7-409b-a091-9621f54cd4c3")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "df10a6df-2b65-4cf2-93f3-294c6111054d")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "56aac31d-cacc-4bb6-9ce4-457415e506b9")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c8bc8168-a073-4def-9446-90109562a684")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9085b6bc-726b-4464-88a1-dc3a2341bceb")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8811a098-b6f5-45d1-ba2d-c8422778798b")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e80d28a-eac5-446b-af63-edfade88b068")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "09ae871d-df22-4c51-9ffa-1deb8aab120d")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a93ca45-9e0d-45b8-aec7-bbb026450fde")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "87ba8e9d-06f6-47cd-a172-20b35e635bb6")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 347 "VAC1")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ff684cbd-47bb-4358-86db-afbf8dee74d5")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 373 "Net-(D5-K)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "b9309940-8d6d-4baa-a654-5e649a4f63c5")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 374 "Net-(D5-A)")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "47b30400-5461-49ad-8775-f0d2900a8646")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "SPIRIT-footprints:test-pad-1"
 		(layer "F.Cu")
 		(uuid "16df0fd6-a34c-4da3-b70e-277720b81806")
@@ -1530,7 +2562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1717,7 +2749,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1884,7 +2916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2051,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2269,6 +3301,470 @@
 			(uuid "19083cb6-6e9f-4dc8-a09a-9a5a81894cad")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(layer "F.Cu")
+		(uuid "2757782d-ddfe-4ec7-b75d-97c246af4c6e")
+		(at 30.57 99.45)
+		(property "Reference" "R5"
+			(at 0.032 -1.5314 0)
+			(layer "F.SilkS")
+			(uuid "7f290f70-7eff-411a-b833-84bb2d546cb2")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 4.096 1.5314 0)
+			(layer "F.Fab")
+			(uuid "b2c3f74c-183e-4a09-a640-907a78030d22")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8657df2-df5c-4d6d-a843-f7a53890a8b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8d7121d-d719-438b-972e-3192507bcaa7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/9508c6f5-5bda-4b89-a306-1a62f48b1be8")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.28 -0.625)
+			(end 0.28 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f53b36e2-bfa0-4f36-b098-e53d105c36a3")
+		)
+		(fp_line
+			(start -0.28 0.625)
+			(end 0.28 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "17cc78e1-69c3-42e0-9fee-79fe9f0bff8e")
+		)
+		(fp_line
+			(start -2 -0.875)
+			(end -2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5ea8c504-ae6c-4da6-ac9e-89537d01b3a5")
+		)
+		(fp_line
+			(start -2 0.875)
+			(end 2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b656f15-eec4-413d-baa7-e02f42fa6ef6")
+		)
+		(fp_line
+			(start 2 -0.875)
+			(end -2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eb31bbaa-3324-44fe-bf70-62511821a403")
+		)
+		(fp_line
+			(start 2 0.875)
+			(end 2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3227015b-dfb3-4d79-8478-3bb01a62d4df")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "efeb3fd5-3898-47ec-9f53-c834fd6c962d")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f618c5d-9099-4939-8b4b-da9930f4edff")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cb848538-11a1-4d63-b0b3-818e2ec2501e")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b93261b0-b430-4213-ada3-df57507e1d33")
+		)
+		(pad "1" smd rect
+			(at -1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 371 "Net-(D4_LED1-A)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ea15c2b8-254f-470b-9a51-b7d02016e5c0")
+		)
+		(pad "2" smd rect
+			(at 1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 341 "REGN")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1a8b7bd0-3789-4681-b248-8a1794df57d2")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1K-05W-0805-RES_ERJP06J102V.step"
+			(offset
+				(xyz 0 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "298fc6ad-7b13-405f-9888-1bdc27e0df04")
+		(at 15.035 97.3)
+		(property "Reference" "Q3"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "d0a82ee0-86cf-4525-bb7c-bbf5ab446edf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "9f1efb41-66e5-4388-9605-c15dbc8cc3d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4342fd1e-9293-4f7d-86b2-1c9f40aa6100")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b842dc27-670c-43c0-a3a4-517f908353af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872895a8-5684-4913-b59f-9decd4f9b90a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3afacd89-a2b6-4a4b-8494-d1e52b7d4a03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4403b5c-f797-4e7f-82ab-49e68c115fa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/30637e94-8b10-4662-a999-bf8eb26c8b98")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c83bfe3b-d78d-4719-be4c-1975882c867b")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3dc47eb9-bde1-4487-b753-ffb3f68faa24")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46c76d31-a543-485e-809e-6f9586e9b2b1")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e92aa90d-623f-40b7-807f-e0f6e6c027a8")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d12b06d1-06a3-403f-9ee9-49c30a0e3b3b")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c32768c3-3701-4fac-9774-79bccb989098")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e0a9b23e-46b8-4210-af0b-d040153ded18")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d583d7bd-3748-42a7-b0b2-77ed27ae8790")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ca279c6b-01cc-45a1-8fda-3d30daac7e8e")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0dc8ad7a-8adf-4f28-9566-5ad79114a6ee")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "449a65a1-b025-47f5-8f56-ff938b4cb375")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fa23858-4d70-400c-9b70-1e2b9a213aea")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95451b37-f826-4d59-b847-a64c20ae1554")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ec6a2f1f-3f53-4c58-8bf4-92c6d4ff6276")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 341 "REGN")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "2cac9560-244b-4a0f-9ad1-7dd8fe5f856f")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 376 "unconnected-(Q3-G-Pad2)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "6ae7ea84-0b42-4a72-a5d2-b976f4c3dd06")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 51 "GND")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1ead0c61-84cb-4a5e-a201-9866972e08e2")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "SPIRIT-footprints:DAC-IC_ADS125H01IRHBT"
 		(layer "F.Cu")
@@ -4259,7 +5755,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4426,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4592,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5049,7 +6545,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5236,7 +6732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5849,7 +7345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6788,7 +8284,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6955,7 +8451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7385,7 +8881,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9811,6 +11307,432 @@
 			)
 		)
 	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "4f727893-3fec-4fe3-8742-7408346d786b")
+		(at 15.035 105.15)
+		(property "Reference" "Q5"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "e34a95f6-50ae-4666-a0d2-ae4a569bbdf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "01adbff3-929e-4738-9701-0909c59a61f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbe25146-6627-4ce3-af7d-1273b9d97890")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56e0b561-7e18-4599-8182-b4e1c115066c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5694cfd9-97fd-45ea-b0bc-7ac6189c9ff3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8926c2d3-5b36-46f0-bf32-074071423f0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae201dac-35b8-4be9-915b-f7d02a35426b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/61a71c7b-2562-46b8-9e55-b28aa7577cf5")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "732c18b4-5aa7-46ec-8387-f92a31fb1a69")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e6e70bb6-c1ad-40a7-bb41-3a30a3ce8713")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce29255e-bfd1-4a7c-976c-de1ed6854bcd")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "94a95953-683d-43bf-be84-1a2c58bf009c")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ba28d604-7df0-4827-a8ca-f0f8cc1e4605")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cbc6ee96-f8c7-43fc-9cef-218249cf6276")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0fc7b07c-2661-4009-a8fe-d0a6e4f124c5")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1263d9e9-2c3d-4702-b567-315dd65de5a0")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d0641429-745d-4981-977e-10ddfe670e32")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18c447ae-18c0-4dfd-a5f8-714ee4e94511")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8c2612d-4316-4fb2-9965-d416f02b0f45")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a5513f69-b2a7-43ea-810e-5900f9607a6b")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8eda9412-6192-4cb8-bc16-628d8eda4384")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f1a3a02d-3405-41a4-bc87-d63d19950710")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 38 "SYS")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d2861ec7-d772-4d29-a7b4-c111bf61b3a5")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 380 "unconnected-(Q5-G-Pad2)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "c02a2057-b9f2-4b29-86f9-8b993bb6b946")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 341 "REGN")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "098b2601-0876-4587-a338-05d57620bc4a")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:LED-INDICATOR"
+		(layer "F.Cu")
+		(uuid "502480c7-a2f8-4643-9e96-7f3a606cf406")
+		(at 28.795 104.4)
+		(property "Reference" "D4_LED1"
+			(at 0.254 -5.08 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "db6b57cc-8c51-441e-9460-686111c153e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0.254 -3.58 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "00ebdc5f-5527-42fd-b929-3add53906f05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c325595d-51be-43db-9c72-3ead7496a91f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be9f98a7-e00b-4658-9c42-3ec377e2eed7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e81a9416-2ed4-4363-8d54-7d9bb03b217f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/5e99abf8-9239-4531-a12d-33b342e0fd40")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start 0 0)
+			(end 3.048 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "f5dd17bc-ffc4-404e-90e9-5085ccc534f3")
+		)
+		(fp_rect
+			(start 0 0)
+			(end 3.048 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d2baa4ec-2b65-44a4-a7b1-d054a606aa17")
+		)
+		(fp_rect
+			(start 0 0)
+			(end 3.048 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c5dc1816-fb17-4ebb-8c33-0edbc4a804fb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.254 -2.08 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "57a49391-8383-4569-ac1a-42d0e65f22f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0.686 0.635)
+			(size 0.8 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 372 "Net-(D4_LED1-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "8dc8dac9-5ee8-4a2a-ba86-571de374b008")
+		)
+		(pad "2" smd roundrect
+			(at 2.286 0.635)
+			(size 0.8 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 371 "Net-(D4_LED1-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "36136a7f-2827-404a-9683-facaf31198bd")
+		)
+		(embedded_fonts no)
+		(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/INDICATOR-LED-QBLP601_MONO.step"
+			(offset
+				(xyz 1.4 -0.65 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
 		(layer "F.Cu")
 		(uuid "510a8c3a-b5ee-46f4-b1d7-0adb57bb4103")
@@ -10203,7 +12125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11896,7 +13818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12349,7 +14271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12489,6 +14411,231 @@
 			)
 		)
 	)
+	(footprint "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
+		(layer "F.Cu")
+		(uuid "6fd43f66-6eb3-487d-a0ee-f0c07b745904")
+		(at 25.16 103.625)
+		(descr "<b>SOD123F(L)-</b><br>")
+		(property "Reference" "D5"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "11e59feb-e434-4786-a27b-4a269666080f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "74ed6028-22e7-4687-b796-f4ef70f63d36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a715dc68-1412-4f90-851e-708b46cb6d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "151b9c0e-1a9d-400c-a28d-74b1f2516faf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28fb399c-e2ec-40a2-a87e-ca6d0279a127")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05146f9b-77ab-4fe3-a829-0d5a0f6fdd00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/6308bf80-764e-445b-8627-b120d20f275b")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.21 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "585b4786-a935-48dc-b7bb-81d80c608a56")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ba6f1cb-6921-4cb6-b59b-2879047901aa")
+		)
+		(fp_line
+			(start -2.36 -1.15)
+			(end 2.36 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b388eed1-1411-40d5-bbba-c5b439efdf5d")
+		)
+		(fp_line
+			(start -2.36 1.15)
+			(end -2.36 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e799ee08-2fda-4d8e-8b6c-32cdce46eefe")
+		)
+		(fp_line
+			(start -1.4 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b937db8c-cf81-4fbb-a0aa-506f3291ba41")
+		)
+		(fp_line
+			(start -1.4 -0.44)
+			(end -0.94 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "251b9c3b-301b-4e51-a664-12845cbe8cab")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ac07084d-ac8d-4395-be7a-a839358d8c59")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5aeaaa55-a963-4cd6-8f56-4f38f91d3586")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5375b29a-b36d-455e-a987-a316fdd021a6")
+		)
+		(fp_line
+			(start 2.36 -1.15)
+			(end 2.36 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2f03012-252a-4413-8958-e436e353a7ca")
+		)
+		(fp_line
+			(start 2.36 1.15)
+			(end -2.36 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "31a7cda5-9126-4afd-b451-6ed10a11f777")
+		)
+		(pad "1" smd rect
+			(at -1.75 0)
+			(size 0.92 1.13)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 373 "Net-(D5-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6ed0a9e7-6bb1-47d6-8e19-db8c8dd89c64")
+		)
+		(pad "2" smd rect
+			(at 1.75 0)
+			(size 0.92 1.13)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 374 "Net-(D5-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ce94afc5-a2d0-47cb-9afb-c2eff261965d")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/flyback-diode-1N4007W-T.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 180)
+			)
+		)
+	)
 	(footprint "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
 		(layer "F.Cu")
 		(uuid "71f0b3a7-7ce7-4aed-9736-670fe5ea913b")
@@ -12515,7 +14662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12661,6 +14808,192 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "bde9054c-a1a7-45d8-b1bc-76c7a89f4b45")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1K-05W-0805-RES_ERJP06J102V.step"
+			(offset
+				(xyz 0 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(layer "F.Cu")
+		(uuid "73834299-f04b-4c1c-a680-b26342fd33ef")
+		(at 30.57 96.65)
+		(property "Reference" "R4"
+			(at 0.032 -1.5314 0)
+			(layer "F.SilkS")
+			(uuid "92673680-0dfd-4b7c-aaf6-e33182b63d69")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "127k"
+			(at 4.096 1.5314 0)
+			(layer "F.Fab")
+			(uuid "909b9784-177c-4171-9c39-d643d9f19b87")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ad56292-b7c6-4937-bf75-66076ff7fffd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e37fa0cb-4303-4d97-b1fb-f9e72928e0d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/d9b66390-dd77-4228-a4ab-ba97ad3f058b")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.28 -0.625)
+			(end 0.28 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24c72af2-49c6-49c8-a10d-ec6bcef60958")
+		)
+		(fp_line
+			(start -0.28 0.625)
+			(end 0.28 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e89bd7d-5009-442f-bd49-d828e8c29ee4")
+		)
+		(fp_line
+			(start -2 -0.875)
+			(end -2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "45ae90d0-585a-48b4-93c1-538a309fc812")
+		)
+		(fp_line
+			(start -2 0.875)
+			(end 2 0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c5fe41b9-6756-4ccf-a2ef-e488f5e922d1")
+		)
+		(fp_line
+			(start 2 -0.875)
+			(end -2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5c07f59a-6ffe-4618-bed2-21f02908dd24")
+		)
+		(fp_line
+			(start 2 0.875)
+			(end 2 -0.875)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47ad290d-4917-473b-9b02-558770b85777")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3ea561d8-826e-4fd4-948e-a796e940eac8")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1e56573-cabd-4475-9680-4725ee7564b0")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "777079ac-8d54-41d9-9489-3e4d68f9781a")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "11021106-5923-453e-a192-276f95685992")
+		)
+		(pad "1" smd rect
+			(at -1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 364 "ILIM_HIZ")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "fb915d1a-f294-4825-8646-d2d80a7cc2c3")
+		)
+		(pad "2" smd rect
+			(at 1.175 0)
+			(size 1.15 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 341 "REGN")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "2767a245-87b4-42ad-a615-fc5bc15a7172")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1K-05W-0805-RES_ERJP06J102V.step"
@@ -12941,6 +15274,284 @@
 			)
 		)
 	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "7559c80f-8b72-452c-8467-b909aa8eab93")
+		(at 15.035 113)
+		(property "Reference" "Q7"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "80a9f394-48d9-42a5-b79f-c1774f34e510")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "27408302-19c3-40b5-8635-8accec2e2084")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7b535da-2274-4733-a7e1-e4d7bd135c4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5e1a04f-55f7-43cc-8b13-7a8289097fa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f71026c1-a7b4-41cd-a51e-e90edbc96ca2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d7e90a6-b0d3-4b14-bb6b-602995e3ff62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5a16a2a-a0ed-46c1-bb20-847ca597f7ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/203680bc-41b9-40c5-8874-4922d5d38f71")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "778cd531-2108-4c46-b3a1-2c2307ed1c16")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7043bda-5eb5-4be9-81db-c62b1a5cedb1")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4cd0629f-c482-4aec-9cc4-205093121bf6")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aed1c94b-d549-490b-a150-482aa1ad0a2a")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3d6a00e0-5da2-41ec-94fa-f26ffeafc658")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6aebafbd-7212-46cc-ade2-e8ce18a27c8d")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c7d0f4ca-bb6f-4e11-94c0-7a4a1f1c24e2")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f188cc25-4cc5-4110-9e85-fb06da924088")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9be26541-839e-4cb6-8613-ab50e8a3f470")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e3c080ee-35b0-4d7a-b359-a8c607a0fe0b")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f5dc7cca-b93e-4f18-ae9c-27485b0f89e9")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "090dea04-c558-4852-aec7-56fc1d1caa53")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fe02b365-c70e-4085-adc1-5a347dcf9135")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e1ae164f-fbd2-4b42-bbee-0efaec6357a8")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 343 "VBUS")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "8eb14f5e-164b-4d02-8160-0f949c495789")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 373 "Net-(D5-K)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "4abb623f-bedc-4ede-b309-084df23d5b9c")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 374 "Net-(D5-A)")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "46af1665-8157-4ed8-802a-1e89331ce4fc")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "766de131-5e8a-41ea-bf32-e24d79ba1faa")
@@ -12968,7 +15579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13951,7 +16562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14118,7 +16729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15030,6 +17641,284 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "8e31f0a9-a6a9-4448-a570-80dc4219741f")
+		(at 20.03 105.15)
+		(property "Reference" "Q10"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "a4e1ce9c-5358-4309-9842-996ecc40ded7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "4668488d-3b30-4604-9c4a-0ec4d7e50794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97c24100-caa7-4b8a-b6b9-6fff4300f52b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57e64499-a101-4f43-b123-b44c609dc245")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78028fd2-c2b3-42bf-8d85-84cd9451723d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36a62000-7f2f-4ab0-9e27-96363f9e0052")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69e73e5e-7e73-44ac-97a9-3c71497693bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/e678fcb6-409e-4efd-82f3-2355ba62b2c1")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cd2590c4-9795-4d67-877b-f9d99d9c7a35")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "85af2763-b3a2-49b7-9f39-79b5ca68767b")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7caef513-a9c1-4677-881a-008d8c24ca2b")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9491f12-a2a6-403b-b86c-fe4a3a80ef9d")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3cd0b74d-b88d-4016-ab2b-627a66617772")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4d8c3d1a-58b8-4c95-99d9-b797e06b2c9a")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c0c4d477-1851-4a6e-991f-16e79e30bb43")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1abe73a3-c90c-4295-bfe0-e534c8d4068e")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e25ce79-17e4-48de-9748-0b7c8c2b5484")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f89050d0-2dc5-4e4d-936e-4f907a99a665")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "305c8013-0354-40aa-8ba0-b4a289078bac")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e550b355-a1b1-46df-ab84-3330972248c5")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1f642b14-5b8d-4c75-95d1-e24a5c8b753b")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3653ed1c-34f5-402e-8fae-ed6a21087f08")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 343 "VBUS")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "18d8ddcd-3ffc-46d3-a322-ab7b3dcc3f28")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 370 "Net-(D6-K)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "0873dc01-271b-49fd-a317-fc63e7a57130")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 375 "Net-(D6-A)")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "399d52b4-206f-45d7-a894-c6dbcc1eb01d")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -16027,7 +18916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16567,6 +19456,1012 @@
 			)
 			(rotate
 				(xyz 90 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
+		(layer "F.Cu")
+		(uuid "9ff92c8b-fd2f-4c3b-86e4-64d90deaffd0")
+		(at 25.16 96.925)
+		(descr "<b>SOD123F(L)-</b><br>")
+		(property "Reference" "D3"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "b89751b8-4146-4c6e-a620-670ba06cae54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2c43785f-bb06-4b9e-b0f0-261d60a9490e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2063f986-f625-448d-8f03-d2d62efa43c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18edf2a6-ab84-42a2-8b2e-8f6edbd6b87d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ef264da-4e1c-4cb2-a015-4333651cf1b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e086888b-9f7b-4570-9a2f-516ff88b7dcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/3b6f3a65-e8f7-4758-996e-aac486a36444")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.21 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "59237b98-cadd-46ff-b8f0-d47a5218759b")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1b6c398f-e747-460c-97a7-78fad1e8a001")
+		)
+		(fp_line
+			(start -2.36 -1.15)
+			(end 2.36 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d199848-7d49-4550-94e1-5fdbe3b92019")
+		)
+		(fp_line
+			(start -2.36 1.15)
+			(end -2.36 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c837992d-864e-4e18-82a9-20992214b59d")
+		)
+		(fp_line
+			(start -1.4 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d31d7c3-3f55-48ba-87b8-b4cac7c318e1")
+		)
+		(fp_line
+			(start -1.4 -0.44)
+			(end -0.94 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "828d3ef3-ec63-435e-8ffc-b4518a97b8a1")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e1d6d7a-b1e2-452d-98da-bf3577bff3c0")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07607a4a-d3c0-443c-95d3-126e0c382a4b")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "04324e0f-6611-451c-ae47-3d923d716252")
+		)
+		(fp_line
+			(start 2.36 -1.15)
+			(end 2.36 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5efe0563-f8b5-4c40-96cc-27bd18f86945")
+		)
+		(fp_line
+			(start 2.36 1.15)
+			(end -2.36 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e872a2c0-9da6-4271-b5cf-fe5ddaceb006")
+		)
+		(pad "1" smd rect
+			(at -1.75 0)
+			(size 0.92 1.13)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 251 "BTST1")
+			(pinfunction "K")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5e6f8a42-f86b-45d5-b0e0-d18790c9b318")
+		)
+		(pad "2" smd rect
+			(at 1.75 0)
+			(size 0.92 1.13)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 341 "REGN")
+			(pinfunction "A")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "743063d5-55b6-47f5-ad6c-0f7ad60cff27")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/flyback-diode-1N4007W-T.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 180)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
+		(layer "F.Cu")
+		(uuid "a1f1c05e-2aa6-445e-945e-b1151463265d")
+		(at 25.16 106.975)
+		(descr "<b>SOD123F(L)-</b><br>")
+		(property "Reference" "D6"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "7a831047-a7ac-4389-9c5b-323f872286d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "64ede9eb-867d-40f3-9720-b963362152b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6365555a-af57-47d8-982b-42b1c48b527a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc93eb93-82da-436a-bb7b-47b3677979af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83cffa5b-ef01-402b-b45d-86cacc462dd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c3deb84-341e-4bbb-aed0-21f7913b4852")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/fad162f4-c21f-4621-b973-5834da84fc1f")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.21 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d929fef5-51b6-4158-9ebb-f988d3d5be07")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80f8bcc3-7b6d-451d-904e-0a6798805b11")
+		)
+		(fp_line
+			(start -2.36 -1.15)
+			(end 2.36 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bbb8637e-e0ad-4e74-b31f-a989667ce7a5")
+		)
+		(fp_line
+			(start -2.36 1.15)
+			(end -2.36 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b74a9006-0e8d-4925-bf73-1a06b7fb1d07")
+		)
+		(fp_line
+			(start -1.4 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "52a9b0c7-84c6-4af4-b271-d2f9e76bda44")
+		)
+		(fp_line
+			(start -1.4 -0.44)
+			(end -0.94 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb6e1959-5c32-435c-be94-d6e46ad31ef1")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a524c05b-449a-4f04-bc09-7a82ddacc908")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d3da4a05-4a0e-4449-857a-5233a2a2d304")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "00e5b0cb-5b48-4f6f-b0cb-1b1fa21375c2")
+		)
+		(fp_line
+			(start 2.36 -1.15)
+			(end 2.36 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "be5da5ce-b89b-49cc-ae8f-3dd817b87e65")
+		)
+		(fp_line
+			(start 2.36 1.15)
+			(end -2.36 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98f5550d-81df-4829-9ad2-0487b5108e70")
+		)
+		(pad "1" smd rect
+			(at -1.75 0)
+			(size 0.92 1.13)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 370 "Net-(D6-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "bbbc6e99-ad6f-4123-bb8d-e9414e5c07aa")
+		)
+		(pad "2" smd rect
+			(at 1.75 0)
+			(size 0.92 1.13)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 375 "Net-(D6-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "00722e04-7f25-4cf9-b33f-c53833424dc5")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/flyback-diode-1N4007W-T.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 180)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "a3308c54-ff53-4203-a690-19c1f519779a")
+		(at 20.03 101.225)
+		(property "Reference" "Q9"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "47ee8a57-3fe1-4d10-8a47-1d7edc1a649c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "fade075b-d3bc-4e4c-bade-18500f93995b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec6e0402-657e-4652-8557-f364a5a3fa3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba843cbd-3396-47ea-818b-1936a50f5460")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af51bf5d-fa54-4c48-a823-0b7d2b230481")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eefcc9bf-993d-4579-9cb1-2782582f24c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d8914e4-baf4-4ac0-9257-aad22b1453fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/52072a72-52cb-4967-820d-ec46e10379a5")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "670c65ad-3dc8-4986-b78d-23655a037cbe")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8fc96dd9-8e1e-4201-a747-3f4cbaf8be98")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d42cd426-c8cc-443b-bc6c-122937840736")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "10a14810-3fb7-4d0b-9f28-3a2f1c33fd73")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4bd3d615-1e0b-4d78-a201-02c22beaed3d")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "23dd6c56-5c52-408f-94ae-2ab5c5f700da")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e32e967e-b0f5-4f3a-9015-0667254222fe")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af50cf08-d701-4fcf-ace7-4f21d4e7b909")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7754fac8-1044-4346-b542-1c756ee8ce43")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7a25eb15-236d-4df6-85bd-ca9fbef785f1")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bdac5036-9d9d-4fb1-8a8f-551c085cf2f5")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e1a478f5-719e-4448-b7bb-ee297c3ab6f0")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "207e0f4e-1e69-4671-a04b-466f429fd3f4")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "df37513d-8e73-45ad-b313-07c77ae5922f")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 344 "VAC2")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "a5457f19-f451-4531-aff7-dc96476b4785")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 370 "Net-(D6-K)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "12d2d3eb-b18e-4715-991c-bc5234497693")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 375 "Net-(D6-A)")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "fd6dc148-0f7d-4b3c-a487-f4c33c122df4")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "a57966e5-9011-4801-b913-5769baf05006")
+		(at 20.03 113)
+		(property "Reference" "Q4_BAT1"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "232a4aba-9495-444c-b126-f36668d603ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "4a5d66bd-b1e3-4b78-ab94-3070620118ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a699c196-2690-44ac-ba94-c15e3ae350be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f6260d1-f26e-4e68-8850-da20f601ba88")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de6a48bf-6eef-41b6-9509-f5faba1b460b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d13c728e-0aaf-4d23-a8e5-f2d4fea051b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "753da720-d058-4b17-b2f4-d3708d36e069")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/b44f3658-6280-4bd5-9ccb-fd3cd36cb023")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d70fad3-34e9-4d6d-8624-999414524800")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f83d1500-fed8-41c0-968f-48692697ed08")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a86cc72f-16da-4045-8614-92dfc7b614f2")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "740ae076-691b-4e73-9ac5-92fc6df51e0d")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "928fe121-edb9-43f3-8a8f-9c77e1ac89d1")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "028d008c-d74a-42dc-b90a-8b8bd1ced5e8")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9298f767-4220-40a5-891d-72676b51ad7b")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a5ce3d3e-d500-41dd-95b4-c47ff642ff45")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "78826616-99cc-49d7-8be0-7fd89c316aed")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "45664e8d-8098-4ef0-92d8-68b38dc106ed")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d4d2cd3f-711f-45b6-88ff-f863450a2105")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1d5a375b-10bd-4732-9eff-eb7c7c892a68")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "12ea3ed8-0bbd-415c-a187-6a0b61ce5f9d")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0e4890c7-6e46-4314-b61b-5115bb893ce1")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 368 "PMID")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "da1d38e6-bf1f-4987-b48c-6cc926be926a")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 379 "unconnected-(Q4_BAT1-G-Pad2)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "a3bffd7a-fdab-4aeb-9ef5-a9eac13890e7")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 341 "REGN")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "cada55be-b92f-4c1c-b978-202a35c7cfbb")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -17366,7 +21261,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17533,7 +21428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17912,6 +21807,231 @@
 			)
 		)
 	)
+	(footprint "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
+		(layer "F.Cu")
+		(uuid "b8dcf02f-ebf5-482b-a7cb-b81ea3f8268c")
+		(at 25.16 100.275)
+		(descr "<b>SOD123F(L)-</b><br>")
+		(property "Reference" "D4"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "5c9e5931-392b-4e39-a172-0401be436e0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2f291afc-ab2e-43cb-b9ef-2ce777822ea0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79112d22-e3d0-48cb-8337-623ed6bffd69")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb76fd4d-992e-404b-b932-b09481974462")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9271cfce-78a0-4c94-b079-b3355baa76c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eecb4517-b4bb-4ead-877e-31784b465f34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/d8b43676-dfd7-4ff2-8c99-d6c51b4aa1f0")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.21 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9d6c2b16-40c8-4ae8-bde9-265a3c76e44d")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "704a2aea-7899-4514-8800-5a9e564298f2")
+		)
+		(fp_line
+			(start -2.36 -1.15)
+			(end 2.36 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0f66938-47f8-4076-86f5-825687b68126")
+		)
+		(fp_line
+			(start -2.36 1.15)
+			(end -2.36 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2371cf23-7ce4-4d88-938f-114e5111b3ec")
+		)
+		(fp_line
+			(start -1.4 -0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e2f4c3b-1798-417d-9820-88bd36da92c3")
+		)
+		(fp_line
+			(start -1.4 -0.44)
+			(end -0.94 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "903cbb8b-a9d0-44bd-9673-b477e8361f5d")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "309ff6ab-86de-40df-95cb-2d56bdf55d5a")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1028c82e-c95b-4a84-a382-77a964b43ab8")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce47e787-2f21-4766-9b35-2344d5963e8d")
+		)
+		(fp_line
+			(start 2.36 -1.15)
+			(end 2.36 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "83bd4774-4d55-45e4-bd26-387a5af37dd7")
+		)
+		(fp_line
+			(start 2.36 1.15)
+			(end -2.36 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ad78a8e9-814b-4815-ba81-893736151619")
+		)
+		(pad "1" smd rect
+			(at -1.75 0)
+			(size 0.92 1.13)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 342 "BTST2")
+			(pinfunction "K")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "2e2dcedb-97b3-437e-8621-ffba31b3b3f0")
+		)
+		(pad "2" smd rect
+			(at 1.75 0)
+			(size 0.92 1.13)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 341 "REGN")
+			(pinfunction "A")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "733b193c-6753-4b9b-adeb-e0d6c1d5b276")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/flyback-diode-1N4007W-T.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 180)
+			)
+		)
+	)
 	(footprint "SPIRIT-footprints:test-pad-1"
 		(layer "F.Cu")
 		(uuid "ba83ddc3-7108-40a2-b356-ae770a268021")
@@ -18257,7 +22377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18423,7 +22543,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18609,7 +22729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18766,6 +22886,284 @@
 			)
 			(rotate
 				(xyz 90 -0 -0)
+			)
+		)
+	)
+	(footprint "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
+		(layer "F.Cu")
+		(uuid "ce7e5550-6d6a-4a82-94f9-91311561cdcb")
+		(at 20.03 109.075)
+		(property "Reference" "Q3_BAT1"
+			(at -0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "90685a0b-ab69-4a68-bdc7-e2c094724d30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 6.35 3.175 0)
+			(layer "F.Fab")
+			(uuid "894763ce-6b85-4f48-abd5-3bab5a8b6822")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d324bec-f37a-491e-a640-dafc3d8a99fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c69a97b5-1135-4dc1-852f-0bacb174a34e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7da4201f-3dc0-4c23-916a-60dbda7ea6ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf7d9845-c2df-4734-aab2-c1df2abadc8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d338fb75-1cd5-47ca-9510-1db799f39717")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59851108-1ec5-49a1-aa9b-d5428f895885/6f9009c2-23fd-46a7-b89f-e9553922ab41")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.68 -1.214)
+			(end 0.68 -1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "345eeba8-5e95-463a-9ec7-93fae02c332c")
+		)
+		(fp_line
+			(start 0.68 -1.214)
+			(end 0.68 -0.565)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "57cfed9c-7a28-4913-a0c1-67eaa0b81f5e")
+		)
+		(fp_line
+			(start 0.68 0.565)
+			(end 0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "998b28fb-ce22-48b5-bdf4-ed34d453088b")
+		)
+		(fp_line
+			(start 0.68 1.214)
+			(end -0.68 1.214)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad7309a5-3337-40c2-bafb-f696ce0905b5")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d8f66c0e-13c0-49d9-b3bf-51b30cd6ca4f")
+		)
+		(fp_line
+			(start -1.72 -1.35)
+			(end -1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a76a32fe-7569-4417-9af8-e52a17db3522")
+		)
+		(fp_line
+			(start -1.72 1.35)
+			(end 1.72 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d0eb79dd-1cde-4655-92a9-06e849660ff3")
+		)
+		(fp_line
+			(start 1.72 -1.35)
+			(end -1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a61f19f3-05b0-4cb7-8299-cac7c0085859")
+		)
+		(fp_line
+			(start 1.72 1.35)
+			(end 1.72 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "71b3fd81-7f23-4054-b665-a993dfd011e9")
+		)
+		(fp_line
+			(start -0.68 -1.1)
+			(end -0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a5d823b9-5a30-4cb4-b518-e4b888b39f3d")
+		)
+		(fp_line
+			(start -0.68 1.1)
+			(end 0.68 1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2693893-2499-4e39-b920-565fb3bca30d")
+		)
+		(fp_line
+			(start 0.68 -1.1)
+			(end -0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f7d53a22-17fb-4191-9e88-2a3a01177d2d")
+		)
+		(fp_line
+			(start 0.68 1.1)
+			(end 0.68 -1.1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3e4b14bb-9b1d-492a-9693-9a9e0edc3fd0")
+		)
+		(fp_circle
+			(center -2 -1.3)
+			(end -1.9 -1.3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7c2dda56-3ba2-4a31-bb92-535a79e6881c")
+		)
+		(pad "1" smd rect
+			(at -0.97 -0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 341 "REGN")
+			(pinfunction "D")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "0bb4d62f-3000-4aa6-8de0-c98cdd5f87c5")
+		)
+		(pad "2" smd rect
+			(at -0.97 0.65)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 377 "unconnected-(Q3_BAT1-G-Pad2)")
+			(pinfunction "G")
+			(pintype "input")
+			(solder_mask_margin 0.102)
+			(uuid "cf0901db-7f44-4aae-9a22-ad269e980e40")
+		)
+		(pad "3" smd rect
+			(at 0.97 0)
+			(size 0.99 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 51 "GND")
+			(pinfunction "S")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b0a958fa-7cb0-4428-ace3-5b0143d414a0")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/gpio-driver-transistor-BSS816NWH6327XTSA1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -19876,7 +24274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20063,7 +24461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20230,7 +24628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20397,7 +24795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21239,7 +25637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
