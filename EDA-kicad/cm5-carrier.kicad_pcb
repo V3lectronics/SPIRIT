@@ -74,7 +74,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -15014,6 +15013,17 @@
 		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/molex-10pin-fingerprint-scanner-connector-5034801000.stp"
 			(offset
 				(xyz -3.34 2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/finger print scanner module.stp"
+			(offset
+				(xyz -36 -6 -2.5)
 			)
 			(scale
 				(xyz 1 1 1)
