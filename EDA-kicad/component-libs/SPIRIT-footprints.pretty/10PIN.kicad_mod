@@ -332,4 +332,15 @@
 			(xyz -0 -0 -0)
 		)
 	)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/finger print scanner module.stp"
+		(offset
+			(xyz 35.2 4 -3.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
 )

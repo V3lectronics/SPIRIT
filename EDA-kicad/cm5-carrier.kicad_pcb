@@ -16885,7 +16885,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6a7673ac-39ed-4720-83cc-d19ccfdb1dd7")
+			(uuid "3b41262d-ae0a-4aee-86f6-6fa2ddf06ef3")
 		)
 		(fp_line
 			(start -3.6322 1.312803)
@@ -16895,7 +16895,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bc830fc0-f889-4e3a-955d-f88a69eaf60c")
+			(uuid "870e5eaf-dfa2-44e0-8cb6-f44838e1a989")
 		)
 		(fp_line
 			(start -3.6322 2.0447)
@@ -16905,7 +16905,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "98d9c467-eeb5-423b-aa58-7e449403482b")
+			(uuid "ba0367d2-c534-47c9-9201-1e9419cf6b52")
 		)
 		(fp_line
 			(start -2.735141 -2.0447)
@@ -16915,7 +16915,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e18a368c-2b11-4e7a-93a3-d937e0c09c81")
+			(uuid "6d763f52-5233-470b-a537-c53bfce85824")
 		)
 		(fp_line
 			(start 3.6322 -2.0447)
@@ -16925,7 +16925,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca13f59e-1796-44a1-9500-1a6a05dfd2c5")
+			(uuid "c2f05d55-9d92-4fa2-b65b-2a462fe39a4e")
 		)
 		(fp_line
 			(start 3.6322 -0.060979)
@@ -16935,7 +16935,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a2263a7b-cdcc-4b63-8d61-fb41136ad312")
+			(uuid "78e6ff8d-3ff8-45a9-b7a8-62fc421e4711")
 		)
 		(fp_line
 			(start 3.6322 2.0447)
@@ -16945,7 +16945,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "682224ab-a87c-46ad-aa22-d51b7e9ec0db")
+			(uuid "eab8d62a-de17-455e-a8d1-511497d16082")
 		)
 		(fp_circle
 			(center -5.4102 -1.874088)
@@ -16956,7 +16956,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "b45dca82-ba94-45f7-b23c-7989a29f566d")
+			(uuid "cee6b847-7a08-4794-9848-dab1d213ae71")
 		)
 		(fp_circle
 			(center -5.4102 -1.874088)
@@ -16967,7 +16967,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "49c0b8ff-e7f5-4d27-b685-86542d08ca66")
+			(uuid "ad65d73a-b904-4538-b829-d1e8a9eff1e8")
 		)
 		(fp_line
 			(start -3.7592 -2.534488)
@@ -16977,7 +16977,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "be133d02-3f6e-4f34-b1a3-495aa1dbd864")
+			(uuid "9513a0d7-5d85-4449-906c-8a8674eae1af")
 		)
 		(fp_line
 			(start -3.7592 2.1717)
@@ -16987,7 +16987,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4c6d0f46-f7cc-47b9-9109-12c1fbae8aeb")
+			(uuid "60173724-f608-40ce-a827-d01a69a429dc")
 		)
 		(fp_line
 			(start 3.7592 -2.534488)
@@ -16997,7 +16997,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5e90c91a-b722-4dda-8834-0f82a63cff61")
+			(uuid "a292b728-6b75-4940-a232-9ba4562cbfe6")
 		)
 		(fp_line
 			(start 3.7592 2.1717)
@@ -17007,7 +17007,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "42573893-1683-452d-8554-e07868cebd4a")
+			(uuid "05da86e3-6a68-4598-bf61-9de3594751b8")
 		)
 		(fp_line
 			(start -3.5052 -1.9177)
@@ -17017,7 +17017,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5090137c-bf3c-40aa-81c6-9835ed10197e")
+			(uuid "8286833a-abce-491e-ab5d-a0222dc7f0cb")
 		)
 		(fp_line
 			(start -3.5052 1.9177)
@@ -17027,7 +17027,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "82bbf717-3535-4caf-bb67-4079ba77d4f3")
+			(uuid "bb1c33ee-8c98-4f98-a1d4-9a5a9cf5b737")
 		)
 		(fp_line
 			(start 3.5052 -1.9177)
@@ -17037,7 +17037,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1ac4f2eb-ef59-42ea-b4a2-7425c98cb744")
+			(uuid "4598cc6b-bbb6-4605-b79b-76d6763f7dce")
 		)
 		(fp_line
 			(start 3.5052 1.9177)
@@ -17047,7 +17047,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "13b513b2-4e6d-4a2d-a21b-8a8bee829d51")
+			(uuid "fbb150df-198c-422b-9ecd-b9888da2b967")
 		)
 		(fp_circle
 			(center -2.25 -3.779088)
@@ -17058,7 +17058,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "645f1081-fa9d-40c2-9c45-45e4d7f71fcd")
+			(uuid "c20265f1-b395-4270-970e-d8c7e4e23fe9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.874088 0)
@@ -17188,13 +17188,13 @@
 		)
 		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/finger print scanner module.stp"
 			(offset
-				(xyz -36 -6 -2.5)
+				(xyz 35.2 4 -3.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -0 -0 180)
 			)
 		)
 	)
