@@ -15301,7 +15301,7 @@
 				)
 			)
 		)
-		(property "Value" "battery_37V3500mAhLP685077JU"
+		(property "Value" "battery_LP685077JU"
 			(at 0 -10 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15352,7 +15352,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "a49e6733-3df9-4a3a-9fc7-090c4867642e")
+			(uuid "35715414-7ded-4477-a5e1-20f0219b28a5")
 		)
 		(fp_rect
 			(start -26 -5.5)
@@ -15363,12 +15363,24 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "08ac062e-7355-4c08-a8d2-feb5fc59467b")
+			(uuid "9722c1bc-5edd-4b50-9de5-b1a064631624")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -8.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5cef3a29-b4b4-4467-bbef-f197ad97d216")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/Battery_lp685077jupcm2.step"
 			(offset
-				(xyz 0 -34 4)
+				(xyz 0 -34 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
