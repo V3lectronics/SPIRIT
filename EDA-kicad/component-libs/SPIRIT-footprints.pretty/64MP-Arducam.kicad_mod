@@ -1,42 +1,249 @@
-(footprint "64MP-Arducam" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (fp_text reference "REF**" (at 0.0508 -4.04 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 40e34ed6-d3fe-44f5-b1a4-436c26fc3765)
-  )
-  (fp_text value "64MP-Arducam" (at 0.0508 -2.54 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2bda54a7-92e3-4e6a-a5cd-71fd924a4682)
-  )
-  (fp_text user "${REFERENCE}" (at 0.0508 -1.04 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a29ea939-7567-4849-b026-19b49dc5a6de)
-  )
-  (fp_rect (start 0.265 0.249) (end 24.765 40.386) (layer "F.SilkS") (width 0.12) (fill none) (tstamp a0c6cc35-5906-4267-8224-e7f537c89a3e))
-  (fp_circle (center 2.032 16.002) (end 3.132 16.002) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp 9fc5bb1b-95a1-4cee-b9c4-7f5563dd2448))
-  (fp_circle (center 22.987 3.429) (end 24.087 3.429) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp a56d5d7f-392e-49af-bd0c-634391807f7b))
-  (fp_circle (center 2.032 3.429) (end 3.132 3.429) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp b8cc6d68-c417-484c-8ba5-334a71973aab))
-  (fp_circle (center 22.987 16.045) (end 24.087 16.045) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp eb18ab52-a876-461b-bfa7-dde8882e6764))
-  (fp_poly (pts
-      (xy 21.209 17.78)
-      (xy 24.003 17.78)
-      (xy 23.971216 39.66236)
-      (xy 1.111216 39.622795)
-      (xy 1.143 17.907)
-      (xy 3.683 17.907)
-      (xy 3.683 1.27)
-      (xy 21.209 1.27)
-    ) (layer "Edge.Cuts") (width 0.12) (fill solid) (tstamp ac913381-0def-4418-9003-dedb1f80db9d))
-  (fp_rect (start 0 0) (end 25 40.637) (layer "Margin") (width 0.12) (fill none) (tstamp 500350e9-b4a4-483c-a6f7-a3790d31e784))
-  (model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/64MP-Arducam-roughfix.step" hide
-    (offset (xyz 0.05 -23.48 2.2))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Arducam16MPCamera.STEP"
-    (offset (xyz 12.5 -13.5 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "64MP-Arducam"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0508 -4.04 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0272edc0-f047-4b1a-91f9-58b142fdd39c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "64MP-Arducam"
+		(at 0.0508 -2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "663ef3db-fb7a-4118-b853-a28d0277b2a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cc609eb-d762-4885-b6b6-049918766539")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c310e499-321f-4179-a90e-ec6c19cb7a1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0 24)
+		(end 0 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99c3e61f-7dc9-4802-9a95-eecbb860b0d7")
+	)
+	(fp_line
+		(start 2 0)
+		(end 23 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa9da40d-ca15-4325-87a0-70073ee98b8c")
+	)
+	(fp_line
+		(start 23 26)
+		(end 2 26)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b64425b1-52de-48e2-91e8-343de8ae9327")
+	)
+	(fp_line
+		(start 25 2)
+		(end 25 24)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91e2a130-97ae-425c-bca5-c1703f81b351")
+	)
+	(fp_arc
+		(start 0 2)
+		(mid 0.585786 0.585786)
+		(end 2 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d7c33ae4-4db0-44a8-ad28-8c8e74f2c12c")
+	)
+	(fp_arc
+		(start 2 26)
+		(mid 0.585786 25.414214)
+		(end 0 24)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "48e12ab8-794f-41ee-8a77-f5611b954a25")
+	)
+	(fp_arc
+		(start 23 0)
+		(mid 24.414214 0.585786)
+		(end 25 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "540728c1-57a3-4ccf-b3af-0b12cd181344")
+	)
+	(fp_arc
+		(start 25 24)
+		(mid 24.414214 25.414214)
+		(end 23 26)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21a73918-be4a-4164-9222-1111de66f3c5")
+	)
+	(fp_circle
+		(center 2 2)
+		(end 3 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b8cc6d68-c417-484c-8ba5-334a71973aab")
+	)
+	(fp_circle
+		(center 2 15)
+		(end 3 15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "294cca98-077d-4bc2-82ce-f5481cda8718")
+	)
+	(fp_circle
+		(center 23 2)
+		(end 24 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8104766b-f984-40c3-9d4f-30477ee64a98")
+	)
+	(fp_circle
+		(center 23 15)
+		(end 24 15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ce32c87b-5480-4377-98c8-04ddf1658266")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 25 26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "500350e9-b4a4-483c-a6f7-a3790d31e784")
+	)
+	(fp_line
+		(start 12.5 -1.5)
+		(end 12.5 27.5)
+		(stroke
+			(width 0.15)
+			(type dash_dot)
+		)
+		(layer "User.1")
+		(uuid "40c0d658-aa1b-41df-8d34-9d9691c0b960")
+	)
+	(fp_line
+		(start 26.5 13)
+		(end -1.5 13)
+		(stroke
+			(width 0.15)
+			(type dash_dot)
+		)
+		(layer "User.1")
+		(uuid "c6bcf7c4-8696-4e88-8513-a26b854d1be0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0508 -1.04 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a29ea939-7567-4849-b026-19b49dc5a6de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/Arducam16MPCamera.STEP"
+		(hide yes)
+		(offset
+			(xyz 12.5 -15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/64MP-Arducam-roughfix.step"
+		(offset
+			(xyz 0 -22 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
