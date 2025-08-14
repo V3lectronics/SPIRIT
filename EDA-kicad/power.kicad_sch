@@ -12237,7 +12237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
 			(at 128.27 235.458 90)
 			(effects
 				(font
@@ -14726,7 +14726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
 			(at 187.96 107.188 90)
 			(effects
 				(font
@@ -16324,7 +16324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
 			(at 180.848 116.84 90)
 			(effects
 				(font
