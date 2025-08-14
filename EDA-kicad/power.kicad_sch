@@ -12376,7 +12376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
 			(at 153.67 154.94 0)
 			(effects
 				(font
@@ -13069,7 +13069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:LED-INDICATOR"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -13450,7 +13450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
 			(at 124.46 227.33 0)
 			(effects
 				(font
@@ -15660,7 +15660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:gpio-driver-transistor-fix-SOT65P210X110-3N"
 			(at 229.87 146.05 0)
 			(effects
 				(font
@@ -16169,7 +16169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
 			(at 153.67 179.07 0)
 			(effects
 				(font
@@ -17260,7 +17260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:flyback-diode-SODFL3818X130N"
 			(at 124.46 204.47 0)
 			(effects
 				(font
