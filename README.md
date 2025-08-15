@@ -16,9 +16,9 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 > For imformation about the project please refer to the **[wiki](https://github.com/V3lectronics/SPIRIT/wiki)**, the contents below maybe outdated.
 > Soon all information will be moved to the wiki!
 
-# Quick links:
-1. [General Specifications](https://github.com/barbarjan/SPIRIT#general-specifications)
-2. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
+# Quick links
+1. [Technical Specifications](https://github.com/V3lectronics/SPIRIT/wiki/Overview-technical-specs)
+2. [Hardware And Electronics](https://github.com/V3lectronics/SPIRIT/wiki/Hardware-and-electronics)
 3. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
 4. [DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)
 5. [Parts List](https://github.com/barbarjan/SPIRIT#parts-list)
@@ -27,203 +27,24 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 8. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#compliance-and-legality)
 9. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
+# Progress
+
 <img width="1302" height="976" alt="image" src="https://github.com/user-attachments/assets/4e440ce1-6015-4548-abbe-bc6eb94b810b" />
 
----
-
-# Early screenshots:
+# Early screenshots
 <small> (click to expand) </small>
 
 <table>
   <tr>
-    <td><img src="branding/motherboardA-15-08-2025.png" alt="motherboard PCB image" height="100" /></td>
-    <td><img src="branding/motherboardB-15-08-2025.png" alt="motherboard PCB image" height="100" /></td>
-    <td><img src="branding/motherboardC-15-08-2025.png" alt="motherboard PCB image" height="100" /></td>
-    <td><img src="branding/Freecad-ss-2025-08-15_09-00.png" alt="motherboard PCB image" height="150" /></td>
-    <td><img src="branding/PCB-editor-ss-2025-08-15_08-45.png" alt="motherboard PCB image" height="150" /></td>
-    <td><img src="branding/PCB-editor-ss-2025-08-15_08-57.png" alt="motherboard PCB image" height="150" /></td>
+    <td><img src="branding/motherboardA-15-08-2025.png" alt="motherboard PCB image" height="250" /></td>
+    <td><img src="branding/motherboardB-15-08-2025.png" alt="motherboard PCB image" height="250" /></td>
+    <td><img src="branding/motherboardC-15-08-2025.png" alt="motherboard PCB image" height="250" /></td>
+    <td><img src="branding/Freecad-ss-2025-08-15_09-00.png" alt="motherboard PCB image" height="250" /></td>
+    <td><img src="branding/PCB-editor-ss-2025-08-15_08-45.png" alt="motherboard PCB image" height="250" /></td>
+    <td><img src="branding/PCB-editor-ss-2025-08-15_08-57.png" alt="motherboard PCB image" height="250" /></td>
 
   </tr>
 </table>
-
-
-
-
-
-
-# General Specifications
-
-#### RAM
-
-- 2GB / 4GB / 8GB / 16GB LPDDR4
-
-#### CPU
-
-- Broadcom BCM2712 64-bit 2.4 GHz, 4 cores with 4 threads
-
-#### Storage
-
-- 16GB, 32GB, or 64GB eMMC
-
-#### Connectivity (IO)
-
-- 1 x USB C 3.2 (Iphone 16 is USB 2.0 just throwing that out there)
-- 2.4 GHz, 5.0 GHz WiFi
-- Bluetooth 5
-- GSM
-- GPS
-
-#### Screen
-
-- 5.5" Capacitive Touch TFT Display
-- resolution: 720x1280 pixels
-
-#### Battery
-
-_will probably change soon because of component availability_
-- Capacity: 2.05Ah
-- Type: Lithium Polymer
-- Voltage: 3.7 V
-- Dimensions: 84.5mm x 47.5mm x 6.0mm (3.33" 1.87" 0.24")
-- The battery can be easily swapped for a fully charged one to effectively get back to 100%
-almost instantly.
-
-#### Dimensions
-
-Chassis: ?
-
-PCB: 80mm x 150mm
-
-Total: thickness is ~12.3mm (excluding camera module lens sticking out)
-
-Main components that contribute thickness:
-
-| Component      | Thickness |
-|----------------|-----------|
-| Chassis        | 1 mm      |
-| PCB            | 1.4 mm    |
-| Battery        | 6 mm      |
-| Screen         | 3.9 mm    |
-
-#### Camera
-
-SPIRIT is compatible with [Arducam](https://www.arducam.com/) cameras e.g. the [64 MP Hawkeye](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/) or the more affordable [16 MP Autofocus](https://www.arducam.com/16mp-autofocus-camera-for-raspberry-pi/).
-
-The camera module can be completely powered off by the user using a physical switch.
-
-Below are the stats for the Hawkeye:
-
-| Name    | Sensor Resolution  | Zoom | Field Of View |
-|---------|-----------------|-----|---------------|
-|Pi Hawk-eye| 64MP (9152 x 6944 pixels) |  10x (digital) | 84 degrees |
-
-Sensor: 1/1.7" stacked CMOS image sensor, 0.8 μm pixel size Lens: f/1.8 aperture, 8 cm–∞ focal range, motorised focusing Max Resolution: 9152×6944 stills; 1080p 30 fps video
-
-For more details see the [product page](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/)
-
-*(For now there is only one camera for simplicity and cost reduction)*
-
-# Hardware And Electronics
-
-### Raspberry Pi Compute Module 5
-
-"The power of Raspberry Pi 5 in a compact form factor for deeply embedded applications" [(CM5 website)](https://www.raspberrypi.com/products/compute-module-5/?variant=cm5-104032).
-
-By default SPIRIT uses the 4GB RAM, 64GB eMMC version of the CM. It is possible to use a different CM5 variant (for example to increase the RAM to 8GB).
-
-### EDA
-
-For schematics, PCB layout etc. the newest major release of KiCad is used.
-
-All EDA files are available through this repository (see the 'EDA-kicad' folder). The best way to view them is to clone the repo to your machine and use KiCad to open the project file 'cm5-carrier.kicad_pro'.
-
-### Carrier PCB
-
-Custom carrier board (motherboard) that interfaces between the Compute Module and the rest of the electronics.
-
-This is the only custom electronic component in this project.
-
-### Touchscreen
-
-Capacitive LCD Display TFT MIPI 
-Dimensions: 5.5" (139.70mm) 1280px x 720px
-
-### Replaceable Battery
-
-Can be completely disconnected by the user using a physical switch.
-
-The battery is mounted such that it can be easily uninstalled for replacing or privacy reasons. The user is free to swap the battery for any compatible model.
-It is also possible to run the phone without a battery, or using an external one
-if you attach long enough wires.
-
-An added benefit is that the user can easily replace an empty battery for a charged one - effectively eliminating the need to wait for the phone to charge. An external battery charger can also be used for unmounted batteries.
-
-### GSM, GPS Module
-
-EC25VFA-512-STD
-
-Can be completely powered off by the user using a physical switch.
-Cellular, Navigation BeiDou, EDGE, Galileo, GLONASS, GPS, GNSS, LTE Transceiver Module 1.561GHz, 1.575GHz, 1.602GHz
-
-### Speakers
-
-2 x CMR-15062S-67
-
-The speaker system consists of a pair of speakers mounted symmetrically facing upwards.
-
-### Biometric Module
-
-100018754
-
-The fingerprint scanner is located on the back of the phone and has a sensing
-area of 8x8mm. It is rated for 10 million finger placements and can store up to
-50 templates.
-
-False acceptance rate: 1/500k (per finger)
-False rejection rate: 1.4-3.5 %
-
-### Headphone Jack
-
-This phone has a TRRS headphone jack. This way the user can decide between wireless or wired.
-
-### Microphone
-
-SPH0645LM4H-B
-
-Can be completely powered off by the user using a physical switch.
-Omnidirectional with a theorethical frequency range 20 Hz - 10 kHz.
-Sensitivity: -26dB ±3dB @ 94dB SPL.
-Digital output (I2S)
-
-### Buttons
-
-The power, volume and programmable buttons are identical rectangular, tactile switches with a life
-expectancy of 30k cycles.
-
-The Programmable Button's function can be customized by the user. For example, it can be used for quick launching an app, instantly dialing a saved contact, toggling sound settings (silent, vibrate, sound) etc. The list of potential use cases is very long. One of them could be enabling small children or elderly people to instantly call for example a parent, or supervisor in case of emergency. Another could be to immediately launch the camera app to quickly capture a moment.
-
-### Privacy Switches
-
-SPIRIT has 4 physical switches that cut off the power lines to specific modules
-ensuring they are 100% inactive and not drawing power. Notice, you can also
-completely disconnect the battery. Needless to say, this is a very useful
-feature for people who want to have direct control over the hardware and want to
-protect their privacy without having to trust software.
-
-| Switch Number | Module |
-|----------------|-----------|
-| 1| Microphone|
-| 2|GPS/GSM EC25 chip |
-| 3|Camera |
-| 4|Battery |
-
-### Flashlight
-
-LXML-PWC1-0100
-
-1W 3V white, cool LED.
-
-Toggling on/off can be binded to the programmable button.
 
 # Software And Operating System
 
