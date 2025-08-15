@@ -16,12 +16,12 @@ We are currently in the development phase, progress is documented here and on th
 3. **[Software and operating System](https://github.com/V3lectronics/SPIRIT/wiki/Operating-system)**
 4. **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**
 5. **[Community](https://github.com/V3lectronics/SPIRIT/wiki/Community)**
-6. **[Contribution guide](https://github.com/V3lectronics/SPIRIT?tab=contributing-ov-file)**
+6. **[Contribution guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md)**
 7. **[Parts list](https://github.com/V3lectronics/SPIRIT/wiki/Parts-list)**
 8. **[Cost](https://github.com/V3lectronics/SPIRIT/wiki/Cost)**
 9. **[Ethical and environmental concerns](https://github.com/V3lectronics/SPIRIT/wiki/Ethical-and-environmental-concerns)**
 10. **[Compliance and legality](https://github.com/V3lectronics/SPIRIT/wiki/Compliance-and-legality)**
-11. **[DIY build guide](https://github.com/barbarjan/SPIRIT#)** _Coming soon!!!_
+11. **[DIY build guide](https://github.com/V3lectronics/SPIRIT/wiki/DIY-build-guide)** _Coming soon!!!_
 12. **[Resources](https://github.com/barbarjan/SPIRIT#resources)**
 
 # Progress
