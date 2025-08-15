@@ -16,7 +16,7 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 > For imformation about the project please refer to the **[wiki](https://github.com/V3lectronics/SPIRIT/wiki)**, the contents below maybe outdated.
 > Soon all information will be moved to the wiki!
 
-# Contents
+# Quick links:
 1. [General Specifications](https://github.com/barbarjan/SPIRIT#general-specifications)
 2. [Hardware And Electronics](https://github.com/barbarjan/SPIRIT#hardware-and-electronics)
 3. [Software And Operating System](https://github.com/barbarjan/SPIRIT#software-and-operating-system)
@@ -27,19 +27,29 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 8. [Compliance And Legality](https://github.com/barbarjan/SPIRIT#compliance-and-legality)
 9. [Resources](https://github.com/barbarjan/SPIRIT#resources)
 
-![image](https://github.com/user-attachments/assets/ca233c1b-0558-49ef-b1b1-04d52258cc64)
+<img width="1302" height="976" alt="image" src="https://github.com/user-attachments/assets/4e440ce1-6015-4548-abbe-bc6eb94b810b" />
 
 ---
 
-Early screenshots:
+# Early screenshots:
+<small> (click to expand) </small>
 
-<img src="https://github.com/user-attachments/assets/4dba7969-60c1-43f5-814a-f7a4f81a73d9" height="350">
+<table>
+  <tr>
+    <td><img src="branding/motherboardA-15-08-2025.png" alt="motherboard PCB image" height="100" /></td>
+    <td><img src="branding/motherboardB-15-08-2025.png" alt="motherboard PCB image" height="100" /></td>
+    <td><img src="branding/motherboardC-15-08-2025.png" alt="motherboard PCB image" height="100" /></td>
+    <td><img src="branding/Freecad-ss-2025-08-15_09-00.png" alt="motherboard PCB image" height="150" /></td>
+    <td><img src="branding/PCB-editor-ss-2025-08-15_08-45.png" alt="motherboard PCB image" height="150" /></td>
+    <td><img src="branding/PCB-editor-ss-2025-08-15_08-57.png" alt="motherboard PCB image" height="150" /></td>
 
-<img src="https://github.com/user-attachments/assets/1b5c8317-5b61-42c4-aa28-2d652b7e3833" height="270">
+  </tr>
+</table>
 
-<img src="https://github.com/user-attachments/assets/4742305e-44ab-4d84-8185-f4b7e9df42e7" height="270">
 
-<img src="https://github.com/user-attachments/assets/5c63f34d-d58c-4832-a58b-be8a34cb7fd5" height="270">
+
+
+
 
 # General Specifications
 
