@@ -17,16 +17,16 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 > Soon all information will be moved to the wiki!
 
 # Quick links
-1. **[Technical Specifications](https://github.com/V3lectronics/SPIRIT/wiki/Overview-technical-specs)**
-2. **[Hardware And Electronics](https://github.com/V3lectronics/SPIRIT/wiki/Hardware-and-electronics)**
-3. **[Software And Operating System](https://github.com/V3lectronics/SPIRIT/wiki/Operating-System)**
+1. **[Technical specifications](https://github.com/V3lectronics/SPIRIT/wiki/Overview-technical-specs)**
+2. **[Hardware and electronics](https://github.com/V3lectronics/SPIRIT/wiki/Hardware-and-electronics)**
+3. **[Software and operating System](https://github.com/V3lectronics/SPIRIT/wiki/Operating-system)**
 4. **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**
 5. **[Community](https://github.com/V3lectronics/SPIRIT/wiki/Community)**
-6. **[DIY Build Guide](https://github.com/barbarjan/SPIRIT#diy-build-guide)** _Coming soon!!!_
-7. **[Parts List](https://github.com/barbarjan/SPIRIT#parts-list)** _Coming soon!!!_
-8. **[Cost](https://github.com/barbarjan/SPIRIT#cost)** _Coming soon!!!_
-9. **[Ethical And Environmental Concerns](https://github.com/barbarjan/SPIRIT#ethical-and-environmental-concerns)** _Coming soon!!!_
-10. **[Compliance And Legality](https://github.com/barbarjan/SPIRIT#compliance-and-legality)** _Coming soon!!!_
+6. **[Parts list](https://github.com/V3lectronics/SPIRIT/wiki/Parts-list)**
+7. **[Cost](https://github.com/V3lectronics/SPIRIT/wiki/Cost)**
+8. **[Ethical and environmental concerns](https://github.com/V3lectronics/SPIRIT/wiki/Ethical-and-environmental-concerns)**
+9. **[Compliance and legality](https://github.com/V3lectronics/SPIRIT/wiki/Compliance-and-legality)**
+10. **[DIY build guide](#)** _Coming soon!!!_
 11. **[Resources](https://github.com/barbarjan/SPIRIT#resources)**
 
 # Progress
@@ -51,34 +51,6 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
     <td><img src="branding/PCB-editor-ss-2025-08-15_08-57.png" alt="motherboard PCB image" width: 100%; height: auto;" /></td>
   </tr>
 </table>
-
-# DIY Build Guide
-
-Link to build guide/tutorial: COMING SOON!!!
-
-# Parts List
-
-_Coming soon!!!_
-
-To get the most up-to-date parts list please look
-at the BOM. Certain components such as the camera or the compute module can be swapped for a different
-model - the presented setup is just a suggestion.
-
-# Cost
-
-_Coming soon!!!_
-
-# Ethical And Environmental Concerns
-
-SPIRIT phones avoid components produced in unfair or harmful ways, as well as
-containing conflict minerals if possible.
-
-The goal is to be 100% ethically and environmentally "clean" as soon as possible, however that is
-a hard task and presents multiple enginnering challenges.
-
-# Compliance And Legality
-
-_Coming soon!!!_
 
 # Resources
 - [SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)
