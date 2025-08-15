@@ -228,6 +228,7 @@ List of operating systems to test/research:
 | Lineage        | https://lineageos.org/    |
 | Graphene       | https://grapheneos.org/features      |
 | Android        | https://www.android.com/      |
+| PostmarketOS   | https://postmarketos.org/      |
 
 Additionally, The Yocto Project has been suggested (not an OS) https://www.yoctoproject.org/
 
