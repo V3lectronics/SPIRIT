@@ -36,12 +36,12 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 
 <table>
   <tr>
-    <td><img src="branding/motherboardA-15-08-2025.png" alt="motherboard PCB image" height="250" /></td>
-    <td><img src="branding/motherboardB-15-08-2025.png" alt="motherboard PCB image" height="250" /></td>
-    <td><img src="branding/motherboardC-15-08-2025.png" alt="motherboard PCB image" height="250" /></td>
-    <td><img src="branding/Freecad-ss-2025-08-15_09-00.png" alt="motherboard PCB image" height="250" /></td>
-    <td><img src="branding/PCB-editor-ss-2025-08-15_08-45.png" alt="motherboard PCB image" height="250" /></td>
-    <td><img src="branding/PCB-editor-ss-2025-08-15_08-57.png" alt="motherboard PCB image" height="250" /></td>
+    <td><img src="branding/motherboardA-15-08-2025.png" alt="motherboard PCB image" width: 100%; height: auto;" /></td>
+    <td><img src="branding/motherboardB-15-08-2025.png" alt="motherboard PCB image" width: 100%; height: auto;" /></td>
+    <td><img src="branding/motherboardC-15-08-2025.png" alt="motherboard PCB image" width: 100%; height: auto;" /></td>
+    <td><img src="branding/Freecad-ss-2025-08-15_09-00.png" alt="motherboard PCB image" width: 100%; height: auto;" /></td>
+    <td><img src="branding/PCB-editor-ss-2025-08-15_08-45.png" alt="motherboard PCB image" width: 100%; height: auto;" /></td>
+    <td><img src="branding/PCB-editor-ss-2025-08-15_08-57.png" alt="motherboard PCB image" width: 100%; height: auto;" /></td>
 
   </tr>
 </table>
