@@ -10,11 +10,7 @@
 
 Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
 Contribution and feedback are very welcome! [Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md).
-(Currently in the development phase, progress documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics)).
-
-> [!WARNING]
-> For imformation about the project please refer to the **SPIRIT [wiki](https://github.com/V3lectronics/SPIRIT/wiki)**, the contents below maybe outdated.
-> Soon all information will be moved to the wiki!
+(Currently in the development phase, progress documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics)). For imformation about the project please refer to the **SPIRIT [wiki](https://github.com/V3lectronics/SPIRIT/wiki)**.
 
 # Quick links
 1. **[Technical specifications](https://github.com/V3lectronics/SPIRIT/wiki/Overview-technical-specs)**
@@ -22,12 +18,13 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 3. **[Software and operating System](https://github.com/V3lectronics/SPIRIT/wiki/Operating-system)**
 4. **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**
 5. **[Community](https://github.com/V3lectronics/SPIRIT/wiki/Community)**
-6. **[Parts list](https://github.com/V3lectronics/SPIRIT/wiki/Parts-list)**
-7. **[Cost](https://github.com/V3lectronics/SPIRIT/wiki/Cost)**
-8. **[Ethical and environmental concerns](https://github.com/V3lectronics/SPIRIT/wiki/Ethical-and-environmental-concerns)**
-9. **[Compliance and legality](https://github.com/V3lectronics/SPIRIT/wiki/Compliance-and-legality)**
-10. **[DIY build guide](#)** _Coming soon!!!_
-11. **[Resources](https://github.com/barbarjan/SPIRIT#resources)**
+6. **[Contribution guide](https://github.com/V3lectronics/SPIRIT?tab=contributing-ov-file)**
+7. **[Parts list](https://github.com/V3lectronics/SPIRIT/wiki/Parts-list)**
+8. **[Cost](https://github.com/V3lectronics/SPIRIT/wiki/Cost)**
+9. **[Ethical and environmental concerns](https://github.com/V3lectronics/SPIRIT/wiki/Ethical-and-environmental-concerns)**
+10. **[Compliance and legality](https://github.com/V3lectronics/SPIRIT/wiki/Compliance-and-legality)**
+11. **[DIY build guide](#)** _Coming soon!!!_
+12. **[Resources](https://github.com/barbarjan/SPIRIT#resources)**
 
 # Progress
 
