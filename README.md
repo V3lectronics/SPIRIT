@@ -1,8 +1,5 @@
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/60e87523-02cf-482b-8433-5f611e48ca2d" width="40%">
-    <br>
-    <img src="https://github.com/user-attachments/assets/99de57de-c5d9-4f54-9140-fb388b046b55" width="15%">
-
+    <img src="https://github.com/user-attachments/assets/60e87523-02cf-482b-8433-5f611e48ca2d" width="45%">
 </p>
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/V3lectronics/SPIRIT)
@@ -10,7 +7,8 @@
 
 Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
 Contribution and feedback are very welcome! [Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md).
-(Currently in the development phase, progress documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics)). For imformation about the project please refer to the **SPIRIT [wiki](https://github.com/V3lectronics/SPIRIT/wiki)**.
+
+We are currently in the development phase, progress is documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics)). For information about the project please refer to the **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**.
 
 # Quick links
 1. **[Technical specifications](https://github.com/V3lectronics/SPIRIT/wiki/Overview-technical-specs)**
@@ -23,7 +21,7 @@ Contribution and feedback are very welcome! [Contribution Guide](https://github.
 8. **[Cost](https://github.com/V3lectronics/SPIRIT/wiki/Cost)**
 9. **[Ethical and environmental concerns](https://github.com/V3lectronics/SPIRIT/wiki/Ethical-and-environmental-concerns)**
 10. **[Compliance and legality](https://github.com/V3lectronics/SPIRIT/wiki/Compliance-and-legality)**
-11. **[DIY build guide](#)** _Coming soon!!!_
+11. **[DIY build guide](https://github.com/barbarjan/SPIRIT#)** _Coming soon!!!_
 12. **[Resources](https://github.com/barbarjan/SPIRIT#resources)**
 
 # Progress
