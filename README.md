@@ -8,7 +8,7 @@
 Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
 Contribution and feedback are very welcome! [Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md).
 
-We are currently in the development phase, progress is documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics)). For information about the project please refer to the **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**.
+We are currently in the development phase, progress is documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics). For information about the project please refer to the **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**.
 
 # Quick links
 1. **[Technical specifications](https://github.com/V3lectronics/SPIRIT/wiki/Overview-technical-specs)**
@@ -52,3 +52,7 @@ We are currently in the development phase, progress is documented here and on th
 - [Rpi CM5 datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf)
 - [Rpi CM4 datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
 - [Rpi CM5 and CM 4 useful interactive pinout](https://atctwo.net/projects/pinout/index.html)
+
+# Trademark Notice
+The V Electronics triangles logo and branding are trademarks of Jan G Waga. These trademarks are not licensed under the GPLv3, CERN OHL, or any other license applied to this project and remain the exclusive property of Jan G Waga.
+Any use, reproduction, or modification of these logos without prior written permission is strictly prohibited.
