@@ -23,3 +23,8 @@ is licensed under a Creative Commons Attribution-ShareAlike 4.0 International Li
 https://creativecommons.org/licenses/by-sa/4.0/.
 
 ```
+
+# Trademark Notice
+
+The V Electronics triangles logo and branding are trademarks of Jan G Waga. These trademarks are not licensed under the GPLv3, CERN OHL, or any other license applied to this project and remain the exclusive property of Jan G Waga.
+Any use, reproduction, or modification of these logos without prior written permission is strictly prohibited.
