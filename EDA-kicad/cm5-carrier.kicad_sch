@@ -23061,6 +23061,48 @@
 		)
 	)
 	(sheet
+		(at 458.47 328.93)
+		(size 78.74 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95e045f9-fc48-4bb3-a65c-401444d66843")
+		(property "Sheetname" "Storage"
+			(at 458.47 328.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Storage.kicad_sch"
+			(at 458.47 346.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 144.78 83.566)
 		(size 50.038 31.75)
 		(exclude_from_sim no)
