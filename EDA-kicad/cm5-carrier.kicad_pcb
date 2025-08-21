@@ -42123,7 +42123,7 @@
 	)
 	(gr_circle
 		(center 58.5 37.3)
-		(end 61.2 37.3)
+		(end 59.85 37.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -42142,17 +42142,6 @@
 		(layer "Edge.Cuts")
 		(uuid "59b86fd2-35e5-41da-b05c-12cab6c970d7")
 	)
-	(gr_circle
-		(center 130 36)
-		(end 132.7 36)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "5a9e0e7e-4c8c-4d32-b103-07b1841ce85a")
-	)
 	(gr_line
 		(start 135 169.5)
 		(end 135 176)
@@ -42163,17 +42152,6 @@
 		(layer "Edge.Cuts")
 		(uuid "5b4bb89a-801a-41ce-b803-af0f8dc2f6ea")
 	)
-	(gr_circle
-		(center 130 176)
-		(end 132.7 176)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "660be8bd-cecd-400c-97bf-c48531c34480")
-	)
 	(gr_line
 		(start 83.5 169.5)
 		(end 135 169.5)
@@ -42183,6 +42161,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "69ca038c-20c4-4113-bd84-cd4cacce92fc")
+	)
+	(gr_circle
+		(center 60 176)
+		(end 61.35 176)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "785ae989-fd51-4920-8fa5-cde21ebc1209")
 	)
 	(gr_line
 		(start 70.5 168.5)
@@ -42203,6 +42192,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "91f25bea-4a53-48ac-bbf5-fcd0c121216b")
+	)
+	(gr_circle
+		(center 130 176)
+		(end 131.35 176)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "98083b1b-ebde-4086-9111-979bbf6fa769")
 	)
 	(gr_line
 		(start 91 91)
@@ -42274,17 +42274,6 @@
 		(layer "Edge.Cuts")
 		(uuid "e745502b-95ae-4d1f-994a-4666a2b2544e")
 	)
-	(gr_circle
-		(center 60 176)
-		(end 62.7 176)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "f2d3423d-8323-4c16-be4c-add245e33f81")
-	)
 	(gr_line
 		(start 91 90)
 		(end 91 91)
@@ -42294,6 +42283,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f87159d9-72e7-4511-8ad7-bc1586c2147c")
+	)
+	(gr_circle
+		(center 130 36)
+		(end 131.35 36)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ffa5ed2c-9fe9-4b4e-b66b-b88aa5de6149")
 	)
 	(gr_line
 		(start 118 34.5)
