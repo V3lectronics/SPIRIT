@@ -28,3 +28,6 @@ https://creativecommons.org/licenses/by-sa/4.0/.
 
 The V Electronics triangles logo and branding are trademarks of Jan G Waga. These trademarks are not licensed under the GPLv3, CERN OHL, or any other license applied to this project and remain the exclusive property of Jan G Waga.
 Any use, reproduction, or modification of these logos without prior written permission is strictly prohibited.
+
+# SPIRIT Logo font
+Big Blue Terminal Nerd Font by Nerd Fonts project, available at github.com/ryanoasis/nerd-fonts, licensed under CC BY-SA 4.0.
