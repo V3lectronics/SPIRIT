@@ -31,3 +31,6 @@ Any use, reproduction, or modification of these logos without prior written perm
 
 # SPIRIT Logo font
 Big Blue Terminal Nerd Font by Nerd Fonts project, available at github.com/ryanoasis/nerd-fonts, licensed under CC BY-SA 4.0.
+
+# SPIRIT Logo
+The project logo is under the same license as the SPIRIT logo font, CC BY-SA 4.0. Attribution is required, just like with the docs and wiki. See licenses for more details
