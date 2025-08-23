@@ -5600,7 +5600,7 @@
 	(footprint "SPIRIT-footprints:buttonSW_TL3330_EWI"
 		(layer "F.Cu")
 		(uuid "2aea9f03-f6ef-4f67-87a1-8dbdd931428b")
-		(at 57 86 -90)
+		(at 56 86 -90)
 		(tags "TL3330AF260QG ")
 		(property "Reference" "SW2"
 			(at 0 -0.889 270)
@@ -14224,7 +14224,7 @@
 	(footprint "SPIRIT-footprints:pianoCHP-041B_NDC"
 		(layer "F.Cu")
 		(uuid "40a32d44-9211-4ae2-9a0c-8546113f379a")
-		(at 59.75 104.400002)
+		(at 58.7973 104.400002)
 		(tags "CHP-041B ")
 		(property "Reference" "SW6"
 			(at 0 0 0)
@@ -16854,7 +16854,7 @@
 	(footprint "SPIRIT-footprints:buttonSW_TL3330_EWI"
 		(layer "F.Cu")
 		(uuid "51f4be27-bcb1-4a6e-b618-a943bde69e03")
-		(at 57.016 49.5 -90)
+		(at 56 49.5 -90)
 		(tags "TL3330AF260QG ")
 		(property "Reference" "SW4"
 			(at 0 -0.889 270)
@@ -17925,7 +17925,7 @@
 	(footprint "SPIRIT-footprints:buttonSW_TL3330_EWI"
 		(layer "F.Cu")
 		(uuid "6b01c1cd-c5d4-4b0d-a4cb-b1672c54f43e")
-		(at 133 83 90)
+		(at 134 83 90)
 		(tags "TL3330AF260QG ")
 		(property "Reference" "SW5"
 			(at 0 -0.889 90)
@@ -18955,7 +18955,7 @@
 	(footprint "SPIRIT-footprints:buttonSW_TL3330_EWI"
 		(layer "F.Cu")
 		(uuid "73c2dec4-c7d7-42bf-a209-39679e9c8257")
-		(at 57 60.775002 -90)
+		(at 56 60 -90)
 		(tags "TL3330AF260QG ")
 		(property "Reference" "SW3"
 			(at 0 -0.889 270)
@@ -19672,7 +19672,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dbbe0b27-ec79-488c-8956-40f4826b4a44")
+			(uuid "ee001111-5489-44b7-b7ea-360d1b3077ed")
 			(effects
 				(font
 					(size 1 1)
@@ -19684,7 +19684,7 @@
 			(at 0 -10 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "180e38b3-6c0e-4a92-8318-3c011a279326")
+			(uuid "d27d79d6-44d1-4d11-80f8-f440e4f026e0")
 			(effects
 				(font
 					(size 1 1)
@@ -19697,7 +19697,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe69416a-63f4-4224-9e84-91878bc9da9e")
+			(uuid "6fbd1f97-fb96-41b5-abff-21bf445b0c82")
 			(effects
 				(font
 					(size 1 1)
@@ -19710,7 +19710,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5e01f71-13ef-4e57-9f8f-64c0e5fed3df")
+			(uuid "b0a67de2-8f9f-4dca-806e-1d7eca8ee35a")
 			(effects
 				(font
 					(size 1 1)
@@ -42952,8 +42952,8 @@
 		)
 	)
 	(gr_line
-		(start 55.5 66.25)
-		(end 55 66.25)
+		(start 54.5 66.25)
+		(end 54 66.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -42972,8 +42972,8 @@
 		(uuid "141b59ce-85da-4127-a3e6-56acd7468cbd")
 	)
 	(gr_line
-		(start 135 36)
-		(end 135 75)
+		(start 136 36)
+		(end 136 75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43012,7 +43012,7 @@
 		(uuid "38092a9c-cd3c-44bf-85d8-35089453a632")
 	)
 	(gr_line
-		(start 130 181)
+		(start 131 181)
 		(end 72 181)
 		(stroke
 			(width 0.1)
@@ -43022,8 +43022,8 @@
 		(uuid "3b5b5deb-1976-4f01-a152-d1d4e19a0699")
 	)
 	(gr_line
-		(start 55.5 66.25)
-		(end 55.5 44.25)
+		(start 54.5 66.25)
+		(end 54.5 44.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -43042,8 +43042,8 @@
 		(uuid "3e78ca3c-4b50-482e-a180-dad3d5828773")
 	)
 	(gr_line
-		(start 55 36)
-		(end 60 31)
+		(start 54 36)
+		(end 59 31)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43063,8 +43063,8 @@
 		(uuid "4b0eb56e-41b7-4567-a0b7-088a35f76143")
 	)
 	(gr_line
-		(start 55 176)
-		(end 55 94)
+		(start 54 176)
+		(end 54 94)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43073,8 +43073,8 @@
 		(uuid "59b86fd2-35e5-41da-b05c-12cab6c970d7")
 	)
 	(gr_line
-		(start 135 169.5)
-		(end 135 176)
+		(start 136 169.5)
+		(end 136 176)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43083,8 +43083,8 @@
 		(uuid "5b4bb89a-801a-41ce-b803-af0f8dc2f6ea")
 	)
 	(gr_line
-		(start 55 78)
-		(end 55.5 78)
+		(start 54 78)
+		(end 54.5 78)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -43094,7 +43094,7 @@
 	)
 	(gr_line
 		(start 83.5 169.5)
-		(end 135 169.5)
+		(end 136 169.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43103,8 +43103,8 @@
 		(uuid "69ca038c-20c4-4113-bd84-cd4cacce92fc")
 	)
 	(gr_line
-		(start 55 44.25)
-		(end 55 36)
+		(start 54 44.25)
+		(end 54 36)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43113,8 +43113,8 @@
 		(uuid "7064ae8d-0457-4464-b541-1662008cb780")
 	)
 	(gr_line
-		(start 134.5 91)
-		(end 134.5 75)
+		(start 135.5 91)
+		(end 135.5 75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43145,7 +43145,7 @@
 	)
 	(gr_line
 		(start 63.5 181)
-		(end 60 181)
+		(end 59 181)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43154,8 +43154,8 @@
 		(uuid "91f25bea-4a53-48ac-bbf5-fcd0c121216b")
 	)
 	(gr_line
-		(start 55 78)
-		(end 55 66.25)
+		(start 54 78)
+		(end 54 66.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43175,8 +43175,8 @@
 		(uuid "98083b1b-ebde-4086-9111-979bbf6fa769")
 	)
 	(gr_line
-		(start 55.5 94)
-		(end 55.5 78)
+		(start 54.5 94)
+		(end 54.5 78)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43195,8 +43195,8 @@
 		(uuid "aa0d8db8-d9da-4d97-b829-8d706ffde1c3")
 	)
 	(gr_line
-		(start 130 31)
-		(end 135 36)
+		(start 131 31)
+		(end 136 36)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43205,8 +43205,8 @@
 		(uuid "b35fb49f-619a-4e98-851f-ed9171880cc7")
 	)
 	(gr_line
-		(start 135 176)
-		(end 130 181)
+		(start 136 176)
+		(end 131 181)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43215,8 +43215,8 @@
 		(uuid "c5bf6118-f968-4ee5-abc0-6d95dc56ee89")
 	)
 	(gr_line
-		(start 60 31)
-		(end 130 31)
+		(start 59 31)
+		(end 131 31)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43235,8 +43235,8 @@
 		(uuid "d418c424-a22a-439a-922b-430cecdb7c83")
 	)
 	(gr_line
-		(start 134.5 75)
-		(end 135 75)
+		(start 135.5 75)
+		(end 136 75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -43245,8 +43245,8 @@
 		(uuid "d6641e29-a6db-4b82-aeec-57ba8a84d736")
 	)
 	(gr_line
-		(start 60 181)
-		(end 55 176)
+		(start 59 181)
+		(end 54 176)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43255,8 +43255,8 @@
 		(uuid "e4417844-0ab4-4db8-b0a2-379e02e36627")
 	)
 	(gr_line
-		(start 55.5 44.25)
-		(end 55 44.25)
+		(start 54.5 44.25)
+		(end 54 44.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -43265,7 +43265,7 @@
 		(uuid "e7433638-7f08-4214-940c-6800a02059dd")
 	)
 	(gr_line
-		(start 134.5 91)
+		(start 135.5 91)
 		(end 99 91)
 		(stroke
 			(width 0.1)
@@ -43275,8 +43275,8 @@
 		(uuid "e745502b-95ae-4d1f-994a-4666a2b2544e")
 	)
 	(gr_line
-		(start 55 94)
-		(end 55.5 94)
+		(start 54 94)
+		(end 54.5 94)
 		(stroke
 			(width 0.1)
 			(type default)

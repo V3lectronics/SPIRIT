@@ -985,632 +985,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SPIRIT-components:DAC-TLV320DAC3100IRHBR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 36.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "DAC-TLV320DAC3100IRHBR"
-				(at -12.7 -49.72 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SPIRIT-footprints:DAC-IC_ADS125H01IRHBT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DAC-TLV320DAC3100IRHBR_0_0"
-				(rectangle
-					(start -12.7 -45.72)
-					(end 12.7 35.56)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 17.78 0)
-					(length 5.08)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 15.24 0)
-					(length 5.08)
-					(name "AIN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 12.7 0)
-					(length 5.08)
-					(name "AIN2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "BCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "MCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "VOL/MICDET"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "WCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -12.7 0)
-					(length 5.08)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -17.78 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 33.02 180)
-					(length 5.08)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 30.48 180)
-					(length 5.08)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 27.94 180)
-					(length 5.08)
-					(name "HPVDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 25.4 180)
-					(length 5.08)
-					(name "IOVDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 22.86 180)
-					(length 5.08)
-					(name "SPKVDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 20.32 180)
-					(length 5.08)
-					(name "SPKVDD__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 15.24 180)
-					(length 5.08)
-					(name "HPL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 12.7 180)
-					(length 5.08)
-					(name "HPR"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "MICBIAS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "SPKM"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "SPKM__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "SPKP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "SPKP__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -30.48 180)
-					(length 5.08)
-					(name "SPKVSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -33.02 180)
-					(length 5.08)
-					(name "SPKVSS__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -35.56 180)
-					(length 5.08)
-					(name "IOVSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -38.1 180)
-					(length 5.08)
-					(name "HPVSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -40.64 180)
-					(length 5.08)
-					(name "DVSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -43.18 180)
-					(length 5.08)
-					(name "AVSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SPIRIT-components:SJ2-35894B-SMT-TR"
 			(pin_names
 				(offset 1.016)
@@ -2635,29 +2009,21 @@
 		)
 		(uuid "d371af84-efed-4468-bc0c-326b8109ce04")
 	)
+	(text "connect to any remaining gpio, non critical imo -ve"
+		(exclude_from_sim no)
+		(at 263.144 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9c6f6c9-2cac-4a21-9f4e-4cbdd7955023")
+	)
 	(junction
 		(at 194.31 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40a90fd9-bb32-4b2d-a4a3-89f8e9421cc1")
-	)
-	(junction
-		(at 180.34 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d56df38-8e73-44bf-b56d-c4edbc9e062b")
-	)
-	(junction
-		(at 180.34 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63f50be1-adcc-4639-914f-b5689611521f")
-	)
-	(junction
-		(at 180.34 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d8d8c1a-fd29-414e-917c-0db02fd488a3")
 	)
 	(junction
 		(at 109.22 137.16)
@@ -2671,25 +2037,9 @@
 		(color 0 0 0 0)
 		(uuid "78adf896-b132-4571-a5f4-116b48cb563b")
 	)
-	(junction
-		(at 180.34 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd9ade7e-b78d-4136-8aec-f74c9963a087")
-	)
-	(junction
-		(at 180.34 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe90f4cb-4475-4a19-9a84-ccf4137e5379")
-	)
 	(no_connect
 		(at 176.53 90.17)
 		(uuid "2eb5776f-b0a2-4156-b39e-b63410e7d493")
-	)
-	(no_connect
-		(at 140.97 113.03)
-		(uuid "92853b22-ff38-4b9d-b875-8ef7eb10c0c4")
 	)
 	(no_connect
 		(at 54.61 109.22)
@@ -2731,16 +2081,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 133.35) (xy 180.34 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31d8bb8a-29c1-4763-bbbb-a292f023ef71")
-	)
-	(wire
-		(pts
 			(xy 109.22 132.08) (xy 109.22 134.62)
 		)
 		(stroke
@@ -2748,16 +2088,6 @@
 			(type default)
 		)
 		(uuid "392008a2-8eca-4aa4-b13f-cdbe316830cb")
-	)
-	(wire
-		(pts
-			(xy 180.34 138.43) (xy 180.34 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "396b6acf-f665-4cbd-b860-008671886047")
 	)
 	(wire
 		(pts
@@ -2801,16 +2131,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 144.78) (xy 180.34 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69eabc61-ea13-4262-93f3-1400e191291f")
-	)
-	(wire
-		(pts
 			(xy 181.61 69.85) (xy 176.53 69.85)
 		)
 		(stroke
@@ -2821,16 +2141,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 130.81) (xy 180.34 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e0c8364-b20e-485e-85bb-31e69459f313")
-	)
-	(wire
-		(pts
 			(xy 181.61 64.77) (xy 181.61 69.85)
 		)
 		(stroke
@@ -2838,16 +2148,6 @@
 			(type default)
 		)
 		(uuid "78078e4e-ea3d-4598-86aa-b0dee202395b")
-	)
-	(wire
-		(pts
-			(xy 176.53 140.97) (xy 180.34 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "791cdf28-1b71-4eaf-bf63-922c8db7d86a")
 	)
 	(wire
 		(pts
@@ -2891,16 +2191,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 130.81) (xy 180.34 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a605efc-18da-4583-902a-f108554a202c")
-	)
-	(wire
-		(pts
 			(xy 176.53 74.93) (xy 187.96 74.93)
 		)
 		(stroke
@@ -2908,36 +2198,6 @@
 			(type default)
 		)
 		(uuid "9c73f01f-132f-44c6-bc19-c90a1bac047f")
-	)
-	(wire
-		(pts
-			(xy 176.53 133.35) (xy 180.34 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a530e6aa-bddf-4952-ae58-fbe1e002e079")
-	)
-	(wire
-		(pts
-			(xy 180.34 135.89) (xy 180.34 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b36b83-1075-484e-9116-09a7e2ecf2c6")
-	)
-	(wire
-		(pts
-			(xy 180.34 140.97) (xy 180.34 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba85aa1-1429-474a-a5af-115e65645bc5")
 	)
 	(wire
 		(pts
@@ -2961,26 +2221,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 143.51) (xy 180.34 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d870c8bb-5783-43e7-a257-966f63bf1c7c")
-	)
-	(wire
-		(pts
-			(xy 176.53 138.43) (xy 180.34 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcc462ee-dfb9-4ac7-9454-5d712a7ced67")
-	)
-	(wire
-		(pts
 			(xy 105.41 137.16) (xy 109.22 137.16)
 		)
 		(stroke
@@ -2988,16 +2228,6 @@
 			(type default)
 		)
 		(uuid "e7defc7d-a738-4acc-8442-5b51144f4df6")
-	)
-	(wire
-		(pts
-			(xy 176.53 135.89) (xy 180.34 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e834f6e5-193e-45e3-bc9d-60c0019dce33")
 	)
 	(wire
 		(pts
@@ -3453,72 +2683,6 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bc353d8-5876-4383-bd20-95db9bbda8e0")
-		(property "Reference" "#PWR057"
-			(at 180.34 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "299b6808-1331-4c2c-ad56-a10196404d83")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4400,162 +3564,6 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SPIRIT-components:DAC-TLV320DAC3100IRHBR")
-		(at 158.75 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff0c7f94-3153-4e0a-ae84-118628e07d9d")
-		(property "Reference" "U8"
-			(at 158.75 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DAC-TLV320DAC3100IRHBR"
-			(at 158.75 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:DAC-IC_ADS125H01IRHBT"
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "797837f4-1b88-4182-8e61-cbdde7936a53")
-		)
-		(pin "10"
-			(uuid "b2caf3cd-e32d-40b1-bd92-4ae870c946ce")
-		)
-		(pin "11"
-			(uuid "1f9df08d-9b3b-4364-aab0-f88d10b4d100")
-		)
-		(pin "12"
-			(uuid "33453a86-4063-4bdf-afd9-63432852c8f4")
-		)
-		(pin "13"
-			(uuid "f9693921-4038-4fd6-89c2-f9299ac024ea")
-		)
-		(pin "14"
-			(uuid "62cc7415-40aa-44d4-b823-1acda6ee86ef")
-		)
-		(pin "16"
-			(uuid "097448ea-52c2-49cb-a995-a26175ddfbc3")
-		)
-		(pin "17"
-			(uuid "115f879f-9a38-4950-8e20-bfe20657aefe")
-		)
-		(pin "18"
-			(uuid "1b009f85-fac6-4467-9254-652ee62e5cda")
-		)
-		(pin "19"
-			(uuid "86b1b481-f0dd-40a3-8cd0-661785051a26")
-		)
-		(pin "2"
-			(uuid "35e773e7-2c16-4f65-bbd3-0fbfde7bb47d")
-		)
-		(pin "20"
-			(uuid "f85d28dd-4372-4f9e-8a8d-39976c0f1f66")
-		)
-		(pin "21"
-			(uuid "a5fca42d-00ac-425d-9702-a995a0b3ee4f")
-		)
-		(pin "22"
-			(uuid "f679def1-4888-4867-9935-25cbb689ddcc")
-		)
-		(pin "23"
-			(uuid "d43307a8-a387-4496-96fd-a71a121c5a7c")
-		)
-		(pin "24"
-			(uuid "c4171489-8f50-472f-8344-2916b15077f0")
-		)
-		(pin "25"
-			(uuid "75f67a40-8f9a-4092-8fd9-7016f5b04358")
-		)
-		(pin "26"
-			(uuid "1a70e0c1-fc3c-41b3-93db-74067348f7c2")
-		)
-		(pin "27"
-			(uuid "93c03d49-fe90-410d-b554-a452d65eb93b")
-		)
-		(pin "28"
-			(uuid "e99757da-5243-434b-9335-14596067c99a")
-		)
-		(pin "29"
-			(uuid "15593422-dd29-43ec-b1a4-125cbcbd712d")
-		)
-		(pin "3"
-			(uuid "4e7108e6-16c2-49fd-a96a-f05c6b46bf1d")
-		)
-		(pin "30"
-			(uuid "0e245118-652d-4781-82d5-5789b049be4e")
-		)
-		(pin "31"
-			(uuid "f4adf072-b13b-4398-b261-ff2acfce4d04")
-		)
-		(pin "32"
-			(uuid "a0bc7398-1569-4b3d-a83c-d2e4e26e6b1e")
-		)
-		(pin "33"
-			(uuid "fa577a92-0884-49f2-9c1b-a2e48ebd1577")
-		)
-		(pin "5"
-			(uuid "fb7fd156-f6d3-4f01-8f11-ba4d54707406")
-		)
-		(pin "6"
-			(uuid "63ed05f4-d6eb-4e38-9f11-64a1e19cb4e1")
-		)
-		(pin "7"
-			(uuid "81fbf58f-f93e-4efc-8794-9048258d4150")
-		)
-		(pin "8"
-			(uuid "c2a27bcb-540f-4fda-8490-7c5355361a95")
-		)
-		(pin "9"
-			(uuid "f61a50e5-a802-410d-9f03-c7c5f5a6bfe7")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
-					(reference "U8")
 					(unit 1)
 				)
 			)
