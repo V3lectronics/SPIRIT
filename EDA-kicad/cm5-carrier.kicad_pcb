@@ -39526,14 +39526,14 @@
 	(footprint "CM5IO:Raspberry-Pi-5-Compute-Module"
 		(layer "B.Cu")
 		(uuid "4d572b16-49a0-4ddd-bf2f-e88a28053487")
-		(at 106.5 37.5 -90)
+		(at 106 37 -90)
 		(descr "Raspberry Pi 5 Compute Module")
 		(tags "Raspberry Pi 5 Compute Module")
 		(property "Reference" "Module1"
 			(at 18.38 5.08 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "7a3d6a75-47a6-49f2-9dc9-a122574f3632")
+			(uuid "4de0a845-4875-4bb4-ace9-a260002a1c14")
 			(effects
 				(font
 					(size 1 1)
@@ -39545,7 +39545,7 @@
 		(property "Value" "ComputeModule5-CM5"
 			(at 16.52 -0.19 90)
 			(layer "B.Fab")
-			(uuid "f8bdb3cc-a1a7-4d3d-84d2-63c72bb3bd70")
+			(uuid "01e7c3d8-579b-4594-a69b-1424ba72cdf6")
 			(effects
 				(font
 					(size 1 1)
@@ -39559,7 +39559,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3a6b6009-3067-4c24-8e7f-516ff0a62536")
+			(uuid "6a32b293-0e33-492e-bdc3-fe2bf4cb67c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39573,7 +39573,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "608324f2-9277-4dbd-8c40-d68078ecb636")
+			(uuid "c99eefec-73ff-49d3-b43e-e9c9e84797cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42458,7 +42458,7 @@
 	(footprint "SPIRIT-footprints:64MP-Arducam"
 		(layer "B.Cu")
 		(uuid "90f977a7-f014-4039-bad8-04954f185c8f")
-		(at 135 43.5 180)
+		(at 135.5 43.5 180)
 		(property "Reference" "REF**"
 			(at 0 1 0)
 			(unlocked yes)
