@@ -1943,7 +1943,7 @@
 	)
 	(text "should there be a separate \nGND and power source for heaphones\n(for audiophiles)?"
 		(exclude_from_sim no)
-		(at 118.11 58.42 0)
+		(at 119.126 47.752 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1986,17 +1986,6 @@
 			(justify left bottom)
 		)
 		(uuid "790f42c6-e003-46d5-8beb-1b3e0da40332")
-	)
-	(text "Probably the DAC can be deleted.\n I think the codec works as a DAC and ADC"
-		(exclude_from_sim no)
-		(at 114.046 49.022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab51bc67-9386-4571-bd6c-e9be9fe69725")
 	)
 	(text "RIGHT"
 		(exclude_from_sim no)
@@ -2239,6 +2228,28 @@
 		)
 		(uuid "eea9cf64-d074-4567-ae68-d18e115435fd")
 	)
+	(global_label "AUDIO_BCLK_I2S"
+		(shape input)
+		(at 105.41 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e008326-9137-4572-ab05-5870a694b896")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.8167 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CODEC SCL"
 		(shape input)
 		(at 54.61 88.9 180)
@@ -2279,6 +2290,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_WCLK_I2S"
+		(shape input)
+		(at 105.41 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a75c7d3b-6389-45d8-8b01-557a57f325cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.9981 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_MCLK"
+		(shape input)
+		(at 105.41 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca3183fc-48d9-4519-b1d1-f1c6d69f1dda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.0067 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
