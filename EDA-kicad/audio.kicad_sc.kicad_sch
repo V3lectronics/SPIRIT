@@ -1528,7 +1528,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/908/SPH0645LM4H-B.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1941,9 +1941,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "left channel selected"
+		(exclude_from_sim no)
+		(at 267.716 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b9f72ce-a320-4342-a0d1-5d904a7ef0ce")
+	)
 	(text "should there be a separate \nGND and power source for heaphones\n(for audiophiles)?"
 		(exclude_from_sim no)
-		(at 119.126 47.752 0)
+		(at 98.806 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1954,7 +1964,7 @@
 	)
 	(text "35mm Jack should be ESD protected\ncome back to this task when USB 3.0 implemented"
 		(exclude_from_sim no)
-		(at 160.02 54.61 0)
+		(at 129.54 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1965,7 +1975,7 @@
 	)
 	(text "Audio\n"
 		(exclude_from_sim no)
-		(at 172.72 50.8 0)
+		(at 142.24 22.86 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1978,7 +1988,7 @@
 	)
 	(text "LEFT"
 		(exclude_from_sim no)
-		(at 231.14 81.28 0)
+		(at 73.66 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1987,9 +1997,29 @@
 		)
 		(uuid "790f42c6-e003-46d5-8beb-1b3e0da40332")
 	)
+	(text "doesn't require codec,\ncommunicates directly over I2S\n\nuses 3.3V (5V max)\n\nclock should be <1kHz to enter sleep mode"
+		(exclude_from_sim no)
+		(at 212.852 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6444fd2-eb6c-4e5c-a505-bdf6f46fa32f")
+	)
+	(text "careful with the I2S protocol and look at the datasheet if implementing stereo mics (2 units)"
+		(exclude_from_sim no)
+		(at 225.298 168.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7d444b9-03c4-4752-95cd-f10c52143833")
+	)
 	(text "RIGHT"
 		(exclude_from_sim no)
-		(at 231.14 92.71 0)
+		(at 73.66 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1998,9 +2028,19 @@
 		)
 		(uuid "d371af84-efed-4468-bc0c-326b8109ce04")
 	)
+	(text "UNFINISHED, ADD CAPS AND RES"
+		(exclude_from_sim no)
+		(at 211.074 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d646ade0-d0d1-4674-b63e-b07e57f4a03a")
+	)
 	(text "connect to any remaining gpio, non critical imo -ve"
 		(exclude_from_sim no)
-		(at 263.144 128.016 0)
+		(at 242.824 124.206 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2009,38 +2049,38 @@
 		(uuid "d9c6f6c9-2cac-4a21-9f4e-4cbdd7955023")
 	)
 	(junction
-		(at 194.31 77.47)
+		(at 163.83 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40a90fd9-bb32-4b2d-a4a3-89f8e9421cc1")
 	)
 	(junction
-		(at 109.22 137.16)
+		(at 88.9 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72bf8aba-3090-4341-8f08-fa7cb56ce870")
 	)
 	(junction
-		(at 109.22 134.62)
+		(at 88.9 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78adf896-b132-4571-a5f4-116b48cb563b")
 	)
 	(no_connect
-		(at 176.53 90.17)
+		(at 146.05 62.23)
 		(uuid "2eb5776f-b0a2-4156-b39e-b63410e7d493")
 	)
 	(no_connect
-		(at 54.61 109.22)
+		(at 34.29 105.41)
 		(uuid "b8e6e638-4109-4d10-a355-d90e17024e34")
 	)
 	(no_connect
-		(at 54.61 116.84)
+		(at 34.29 113.03)
 		(uuid "ec9ab09a-e06f-48ca-9049-8e7651ec17a2")
 	)
 	(wire
 		(pts
-			(xy 176.53 67.31) (xy 176.53 64.77)
+			(xy 146.05 39.37) (xy 146.05 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2050,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 80.01) (xy 194.31 80.01)
+			(xy 146.05 52.07) (xy 163.83 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2060,7 +2100,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 134.62) (xy 109.22 137.16)
+			(xy 255.27 60.96) (xy 231.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c973315-0222-4111-8265-77a8712956ab")
+	)
+	(wire
+		(pts
+			(xy 88.9 130.81) (xy 88.9 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2120,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 132.08) (xy 109.22 134.62)
+			(xy 88.9 128.27) (xy 88.9 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 64.77) (xy 194.31 77.47)
+			(xy 163.83 36.83) (xy 163.83 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 128.27) (xy 227.33 128.27)
+			(xy 205.74 124.46) (xy 207.01 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 68.58) (xy 187.96 74.93)
+			(xy 157.48 40.64) (xy 157.48 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 77.47) (xy 194.31 77.47)
+			(xy 146.05 49.53) (xy 163.83 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2120,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 69.85) (xy 176.53 69.85)
+			(xy 151.13 41.91) (xy 146.05 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2130,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 64.77) (xy 181.61 69.85)
+			(xy 151.13 36.83) (xy 151.13 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 109.22 139.7)
+			(xy 88.9 133.35) (xy 88.9 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 63.5) (xy 54.61 63.5)
+			(xy 29.21 59.69) (xy 34.29 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 80.01) (xy 194.31 77.47)
+			(xy 163.83 52.07) (xy 163.83 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +2220,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 132.08) (xy 109.22 132.08)
+			(xy 85.09 128.27) (xy 88.9 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +2230,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 187.96 74.93)
+			(xy 146.05 46.99) (xy 157.48 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 62.23) (xy 49.53 63.5)
+			(xy 29.21 58.42) (xy 29.21 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 134.62) (xy 109.22 134.62)
+			(xy 85.09 130.81) (xy 88.9 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 137.16) (xy 109.22 137.16)
+			(xy 85.09 133.35) (xy 88.9 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 59.69) (xy 215.9 59.69)
+			(xy 171.45 55.88) (xy 195.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2230,7 +2280,7 @@
 	)
 	(global_label "AUDIO_BCLK_I2S"
 		(shape input)
-		(at 105.41 99.06 0)
+		(at 85.09 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2240,7 +2290,7 @@
 		)
 		(uuid "1e008326-9137-4572-ab05-5870a694b896")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8167 99.06 0)
+			(at 103.4967 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,9 +2300,31 @@
 			)
 		)
 	)
-	(global_label "CODEC SCL"
+	(global_label "AUDIO_WCLK_I2S"
 		(shape input)
-		(at 54.61 88.9 180)
+		(at 231.14 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f8f6e37-6e4e-44b1-b673-e851583b274a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.7281 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_SCL"
+		(shape input)
+		(at 34.29 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2262,7 +2334,7 @@
 		)
 		(uuid "56a6c139-f0ff-4597-9082-793291d91f0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.4321 88.8206 0)
+			(at 21.2052 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2346,7 @@
 	)
 	(global_label "MIC-SWITCH"
 		(shape input)
-		(at 215.9 69.85 180)
+		(at 195.58 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2284,7 +2356,7 @@
 		)
 		(uuid "59c1f13d-628c-45a1-97d8-54250ff633a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7545 69.7706 0)
+			(at 181.4345 65.9606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2368,7 @@
 	)
 	(global_label "AUDIO_WCLK_I2S"
 		(shape input)
-		(at 105.41 101.6 0)
+		(at 85.09 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2306,7 +2378,51 @@
 		)
 		(uuid "a75c7d3b-6389-45d8-8b01-557a57f325cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.9981 101.6 0)
+			(at 103.6781 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_MIC_DATA"
+		(shape input)
+		(at 195.58 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab1a7596-5ea4-4766-b138-c33d7fb9e341")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.2942 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_BCLK_I2S"
+		(shape input)
+		(at 231.14 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b72a1796-a1a6-4f8b-8fea-5be5f6b38bc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.5467 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2434,7 @@
 	)
 	(global_label "AUDIO_MCLK"
 		(shape input)
-		(at 105.41 96.52 0)
+		(at 85.09 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2328,7 +2444,7 @@
 		)
 		(uuid "ca3183fc-48d9-4519-b1d1-f1c6d69f1dda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.0067 96.52 0)
+			(at 99.6867 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,9 +2454,9 @@
 			)
 		)
 	)
-	(global_label "CODEC SDA"
+	(global_label "AUDIO_SDA"
 		(shape input)
-		(at 54.61 91.44 180)
+		(at 34.29 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2350,7 +2466,7 @@
 		)
 		(uuid "e9d0008c-c84c-4bfe-8c97-a6000c4c5591")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.3717 91.3606 0)
+			(at 21.1447 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2478,7 @@
 	)
 	(global_label "JACK-IN"
 		(shape passive)
-		(at 227.33 128.27 0)
+		(at 207.01 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2372,7 +2488,7 @@
 		)
 		(uuid "fb3381bf-2439-4ee4-8e30-4a1fd7d9b236")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.8469 128.1906 0)
+			(at 217.5269 124.3806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +2500,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:CMR-15062S-67")
-		(at 207.01 80.01 0)
+		(at 49.53 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2393,7 +2509,7 @@
 		(fields_autoplaced yes)
 		(uuid "362de10f-9bad-4f4b-bc7c-3d008233f0ac")
 		(property "Reference" "LS1"
-			(at 210.82 78.5798 0)
+			(at 53.34 159.8598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2518,7 @@
 			)
 		)
 		(property "Value" "CMR-15062S-67"
-			(at 210.82 81.1198 0)
+			(at 53.34 162.3998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2527,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:SPEAKER_CMR-15062S-67"
-			(at 207.01 80.01 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 80.01 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 80.01 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2556,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 207.01 80.01 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2566,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 207.01 80.01 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2576,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Inc"
-			(at 207.01 80.01 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2602,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 181.61 64.77 0)
+		(at 151.13 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2494,7 +2610,7 @@
 		(dnp no)
 		(uuid "5beeefdb-3bb3-40a2-a049-f40889170179")
 		(property "Reference" "#1.8V01"
-			(at 184.658 56.896 0)
+			(at 154.178 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2618,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 181.61 59.69 0)
+			(at 151.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 64.77 0)
+			(at 151.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 64.77 0)
+			(at 151.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 64.77 0)
+			(at 151.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,24 +2665,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 187.96 68.58 0)
+		(lib_id "power:GND")
+		(at 255.27 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7218b4a9-be19-4d48-8642-0d4404f6f432")
-		(property "Reference" "#3.3V05"
-			(at 187.96 60.96 0)
+		(uuid "611c6103-ac9c-4df0-b152-f8adf9433798")
+		(property "Reference" "#PWR077"
+			(at 255.27 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 187.96 63.5 0)
+		(property "Value" "GND"
+			(at 255.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 68.58 0)
+			(at 255.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 68.58 0)
+			(at 255.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2709,71 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 68.58 0)
+			(at 255.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6815a252-5d14-4d6a-a9f8-2743b2ea3373")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 157.48 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7218b4a9-be19-4d48-8642-0d4404f6f432")
+		(property "Reference" "#3.3V05"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 39.37 0)
+		(at 85.09 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2622,7 +2803,7 @@
 		(dnp no)
 		(uuid "7873fd67-9adb-4f68-8957-c1e5bd96f40d")
 		(property "Reference" "#PWR041"
-			(at 105.41 45.72 0)
+			(at 85.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 43.18 0)
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 39.37 0)
+			(at 85.09 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 39.37 0)
+			(at 85.09 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 39.37 0)
+			(at 85.09 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2860,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 59.69 0)
+		(at 171.45 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2688,7 +2869,7 @@
 		(fields_autoplaced yes)
 		(uuid "944b543c-39c5-4c12-85c7-e547e4511558")
 		(property "Reference" "#PWR059"
-			(at 209.55 66.04 0)
+			(at 171.45 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 64.77 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 59.69 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 59.69 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +2904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 59.69 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2926,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 194.31 64.77 0)
+		(at 163.83 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2753,7 +2934,7 @@
 		(dnp no)
 		(uuid "aa8acbc5-57c4-46e9-ab74-62288b5dbe04")
 		(property "Reference" "#5V02"
-			(at 194.31 57.15 0)
+			(at 163.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2942,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 194.31 59.69 0)
+			(at 163.83 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 64.77 0)
+			(at 163.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 64.77 0)
+			(at 163.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2968,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 64.77 0)
+			(at 163.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2990,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:microphone")
-		(at 233.68 64.77 180)
+		(at 213.36 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2818,7 +2999,7 @@
 		(fields_autoplaced yes)
 		(uuid "b37662e8-8184-4ba0-9a5b-d68ba42e0b3f")
 		(property "Reference" "MK1"
-			(at 233.68 51.308 0)
+			(at 213.36 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +3007,7 @@
 			)
 		)
 		(property "Value" "microphone"
-			(at 233.68 53.848 0)
+			(at 213.36 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +3015,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:microphone_SPH0645LM4H-B"
-			(at 233.68 64.77 0)
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,8 +3024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 233.68 64.77 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/908/SPH0645LM4H-B.pdf"
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,8 +3033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 233.68 64.77 0)
+		(property "Description" "Mic Mems Digital I2s Omni -26db"
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +3043,7 @@
 			)
 		)
 		(property "MF" "Knowles"
-			(at 233.68 64.77 0)
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +3053,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Mic Mems Digital I2s Omni -26db"
-			(at 233.68 64.77 0)
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +3063,7 @@
 			)
 		)
 		(property "PACKAGE" "SIP-7 Bourns"
-			(at 233.68 64.77 0)
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +3073,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 233.68 64.77 0)
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,7 +3083,7 @@
 			)
 		)
 		(property "MP" "SPH0645LM4H-B"
-			(at 233.68 64.77 0)
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +3093,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 233.68 64.77 0)
+			(at 213.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +3131,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 176.53 64.77 0)
+		(at 146.05 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2958,7 +3139,7 @@
 		(dnp no)
 		(uuid "b9da9146-f7d3-4ea3-ba69-1018509b4984")
 		(property "Reference" "#3.3V04"
-			(at 173.99 57.15 0)
+			(at 143.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +3147,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 176.53 59.69 0)
+			(at 146.05 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 64.77 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +3164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 64.77 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 64.77 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3195,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:CMR-15062S-67")
-		(at 207.01 91.44 0)
+		(at 49.53 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3023,7 +3204,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb8e2d5a-5f6b-4090-93fd-f65400be84e2")
 		(property "Reference" "LS2"
-			(at 209.804 90.0098 0)
+			(at 52.324 171.2898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3213,7 @@
 			)
 		)
 		(property "Value" "CMR-15062S-67"
-			(at 209.804 92.5498 0)
+			(at 52.324 173.8298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3222,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:SPEAKER_CMR-15062S-67"
-			(at 207.01 91.44 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 91.44 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3242,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 91.44 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3251,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 207.01 91.44 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3261,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 207.01 91.44 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3271,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Inc"
-			(at 207.01 91.44 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +3297,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:SJ2-35894B-SMT-TR")
-		(at 208.28 123.19 0)
+		(at 187.96 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3124,7 +3305,7 @@
 		(dnp no)
 		(uuid "dba88bfb-cc5f-47f8-afa2-4b110e6d3b3a")
 		(property "Reference" "J1"
-			(at 208.28 101.6 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3313,7 @@
 			)
 		)
 		(property "Value" "SJ2-35894B-SMT-TR"
-			(at 208.28 105.41 0)
+			(at 187.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3321,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:35mmJACK-CUI_SJ2-35894B-SMT-TR"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3340,7 @@
 			)
 		)
 		(property "Description" "\n                        \n                            4 conductor, 3.5 mm, SMT Audio Jack w/ Tip Switch\n                        \n"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3350,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "CP-SJ2-35894B-SMT-TR-ND"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3360,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SJ2-35894B-SMT-TR/Same+Sky/view-part/?ref=snap"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3370,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.2 mm"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +3380,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3390,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SJ2-35894B-SMT-TR/Same+Sky/view-part/?ref=eda"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3400,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3410,7 @@
 			)
 		)
 		(property "PARTREV" "1.04"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3420,7 @@
 			)
 		)
 		(property "MF" "Same Sky"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3430,7 @@
 			)
 		)
 		(property "MP" "SJ2-35894B-SMT-TR"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3440,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Devices"
-			(at 208.28 123.19 0)
+			(at 187.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3475,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 49.53 62.23 0)
+		(at 29.21 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3302,7 +3483,7 @@
 		(dnp no)
 		(uuid "dd447911-bc38-4764-bf24-9bde16d2f58b")
 		(property "Reference" "#3.3V03"
-			(at 49.53 54.61 0)
+			(at 29.21 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3491,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 49.53 57.15 0)
+			(at 29.21 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 62.23 0)
+			(at 29.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 62.23 0)
+			(at 29.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3517,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 62.23 0)
+			(at 29.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3539,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:CODEC-TLV320AIC3204IRHBR")
-		(at 80.01 99.06 0)
+		(at 59.69 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3367,7 +3548,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddf31fef-f065-4eaf-abeb-73a5ae95ead7")
 		(property "Reference" "U7"
-			(at 80.01 55.88 0)
+			(at 59.69 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3556,7 @@
 			)
 		)
 		(property "Value" "CODEC-TLV320AIC3204IRHBR"
-			(at 80.01 58.42 0)
+			(at 59.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3564,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:CODEC-QFN50P500X500X100-33N"
-			(at 80.01 99.06 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 99.06 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 99.06 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3592,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 80.01 99.06 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +3602,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 80.01 99.06 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3612,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0mm"
-			(at 80.01 99.06 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3622,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 80.01 99.06 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 139.7 0)
+		(at 88.9 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3569,7 +3750,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5b8baaf-df8d-430e-ab65-3d5c3ebf2f87")
 		(property "Reference" "#PWR042"
-			(at 109.22 146.05 0)
+			(at 88.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 144.78 0)
+			(at 88.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 139.7 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 139.7 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3785,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 139.7 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
