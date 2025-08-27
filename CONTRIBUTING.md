@@ -35,6 +35,8 @@ everyone if you split your contribution into small, atomic pieces (within reason
 
 13. Write all text in english.
 
+14. Please make sure you understand at least the basics of how Git and pull requests work if you plan on using those for your contribution.
+
 # Tasks to do
 
 Here is the [issues list](https://github.com/V3lectronics/SPIRIT/issues). Good luck and please stick to the guidelines for smooth cooperation!
