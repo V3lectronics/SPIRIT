@@ -16,7 +16,7 @@ what changes have been introduced. This helps others understand your contributio
 5. After submitting your PR, kindly wait for your changes to be reviewed.
 We appreciate your patience as we work to ensure quality and consistency in the project.
 
-6. If you add new components, please ensure that they are available for purchase on [digikey](https://www.digikey.com/en/products/), have public datasheets and are RoHS compliant.
+6. If you add new components or replace existing ones, please ensure you read the [wiki article about new components](https://github.com/V3lectronics/SPIRIT/wiki/Suggesting-new-parts)
 
 7. SMD resistors, capacitors and other components that come in very small packages have to be preferably 0805 (if available) or larger.
 
