@@ -55,6 +55,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -69,16 +70,6 @@
 				)
 			)
 			(property "MF" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2621,6 +2612,86 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fec833c9-7b6d-4139-87e2-11edf052bddf")
+	)
+	(no_connect
+		(at 144.78 92.71)
+		(uuid "32a01598-e122-422b-9f73-2b556fc8dc43")
+	)
+	(no_connect
+		(at 144.78 120.65)
+		(uuid "4659b48c-3c7a-46a0-9212-269510c89517")
+	)
+	(no_connect
+		(at 144.78 67.31)
+		(uuid "47c3876c-c33c-4a4b-aab7-068b29a306f6")
+	)
+	(no_connect
+		(at 144.78 74.93)
+		(uuid "4c10e5cb-ed97-4177-ac99-966117fd9f0e")
+	)
+	(no_connect
+		(at 144.78 82.55)
+		(uuid "6bfa5aaa-112f-4d2e-8c6e-248d1b111e8f")
+	)
+	(no_connect
+		(at 144.78 46.99)
+		(uuid "7d702309-df8d-41ee-8c7f-13cf60629d8e")
+	)
+	(no_connect
+		(at 144.78 97.79)
+		(uuid "81a72aba-3874-4549-af8d-d1483e0862d8")
+	)
+	(no_connect
+		(at 144.78 95.25)
+		(uuid "82eabff8-a26b-4e4a-9415-f1a9952251d8")
+	)
+	(no_connect
+		(at 144.78 44.45)
+		(uuid "8444363c-fbab-4532-867d-0daca1920436")
+	)
+	(no_connect
+		(at 144.78 77.47)
+		(uuid "8562d33a-42fa-4b76-ba7b-643bf4290bbc")
+	)
+	(no_connect
+		(at 144.78 87.63)
+		(uuid "89674412-5f67-4367-abd5-2a9e03a8228a")
+	)
+	(no_connect
+		(at 144.78 90.17)
+		(uuid "92476b57-d71c-4205-8f66-0ae448d7fece")
+	)
+	(no_connect
+		(at 144.78 62.23)
+		(uuid "a523bf48-4522-4b7b-a2b3-51ad5ca46f20")
+	)
+	(no_connect
+		(at 144.78 110.49)
+		(uuid "a7653235-9580-4c94-aed6-12f9d56378fd")
+	)
+	(no_connect
+		(at 144.78 69.85)
+		(uuid "aa7563a2-389e-49c3-8d7b-1731d0a7d9ff")
+	)
+	(no_connect
+		(at 114.3 118.11)
+		(uuid "bb3a814d-3cf7-4f01-a5a7-e13ca2f7a841")
+	)
+	(no_connect
+		(at 144.78 72.39)
+		(uuid "c2bc59b4-e5e7-4b5d-a959-bcff14092107")
+	)
+	(no_connect
+		(at 144.78 64.77)
+		(uuid "d7aa5e1a-0da0-467e-9ef5-39e8531b4eb4")
+	)
+	(no_connect
+		(at 144.78 107.95)
+		(uuid "ddb23f58-3a15-4afa-8b51-41f503775df7")
+	)
+	(no_connect
+		(at 144.78 80.01)
+		(uuid "f82b3833-6c29-4e93-9478-02042144b4ec")
 	)
 	(wire
 		(pts

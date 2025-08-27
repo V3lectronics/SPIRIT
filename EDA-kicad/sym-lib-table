@@ -6,4 +6,5 @@
   (lib (name "Connectors_B2B")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-symbol-libs/Connectors_B2B.kicad_sym")(options "")(descr ""))
   (lib (name "1-2199119-5")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-symbol-libs/1-2199119-5.kicad_sym")(options "")(descr ""))
   (lib (name "TMUXHS4212RKSR")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-symbol-libs/TMUXHS4212RKSR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25622RYKR")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-symbol-libs/BQ25622RYKR.kicad_sym")(options "")(descr ""))
 )
