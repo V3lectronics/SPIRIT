@@ -5,6 +5,390 @@
 	(uuid "814d9374-7e67-4d5c-a4e1-3331f36499d3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "100K-0805-resistor-ERA6AEB104V_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.624 2.541 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "100K-0805-resistor-ERA6AEB104V"
+				(at -7.624 -5.087 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SPIRIT-footprints:100K-0805-resistor-RES_ERA6AEB104V"
+				(at 1.524 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "3/1/2020"
+				(at 5.842 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at -4.572 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+				(at -0.508 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic"
+				(at -1.27 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "100K-0805-resistor-ERA6AEB104V_1_0_0"
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "100K-0805-resistor-ERA6AEB104V_1_0_1"
+				(rectangle
+					(start -5.08 1.524)
+					(end 5.08 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SPIRIT-components:01-uf-CC0603KRX7R7BB104"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -0.762 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "01-uf-CC0603KRX7R7BB104"
+				(at -11.938 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CC0603KRX7R7BB104:CAPC1608X90"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "01-uf-CC0603KRX7R7BB104_0_1"
+				(polyline
+					(pts
+						(xy -0.762 2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "01-uf-CC0603KRX7R7BB104_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SPIRIT-components:200-pf-CC0603KRX7R7BB104"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -0.762 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "200-pf-CC0603KRX7R7BB104"
+				(at -13.462 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SPIRIT-footprints:0603-capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "200-pf-CC0603KRX7R7BB104_0_1"
+				(polyline
+					(pts
+						(xy -0.762 2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "200-pf-CC0603KRX7R7BB104_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SPIRIT-components:CMR-15062S-67"
 			(pin_numbers
 				(hide yes)
@@ -1951,17 +2335,6 @@
 		)
 		(uuid "1b9f72ce-a320-4342-a0d1-5d904a7ef0ce")
 	)
-	(text "should there be a separate \nGND and power source for heaphones\n(for audiophiles)?"
-		(exclude_from_sim no)
-		(at 98.806 43.942 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c7d551d-8d8b-4907-a772-9b680d4e0116")
-	)
 	(text "35mm Jack should be ESD protected\ncome back to this task when USB 3.0 implemented"
 		(exclude_from_sim no)
 		(at 129.54 26.67 0)
@@ -1986,6 +2359,16 @@
 		)
 		(uuid "401da07d-1013-4edf-8020-4cff33465085")
 	)
+	(text "Figure 8 shows how two I2S Microphones can be connected on a single I2S bus. R41-R44 are included to dampen or terminate their\nrespective traces. If the traces are electrically long then they should be controlled impedance traces with impedance in the 50-120 Ohm\nrange. Traces are considered electrically long when the length of the trace (in inches) is greater than 2 times the rise/fall time (in nS).\nEven if the traces are not electrically long, R41-R44 can be used as dampening resistors (27-51 Ohms) to improve signal integrity by\nreducing overshoots and ringing caused by stray inductance and capacitance. In either case, R41-R44 are to be placed as close as\npossible to the device that drives the trace (signal source). The decoupling capacitors (C32-33, and C34-35) are most effective if the\ntrace inductance between the capacitor and microphone is minimized. This can be accomplished by using short, wide traces. If a\nground plane is used under the microphone, then connect the capacitor ground pads directly to the plane with vias without any trace\nused."
+		(exclude_from_sim no)
+		(at 244.602 30.988 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "6769b7c9-79a3-4baf-ac4d-ed694d4913cd")
+	)
 	(text "LEFT"
 		(exclude_from_sim no)
 		(at 73.66 162.56 0)
@@ -1997,9 +2380,19 @@
 		)
 		(uuid "790f42c6-e003-46d5-8beb-1b3e0da40332")
 	)
+	(text "MIC NOTES\n"
+		(exclude_from_sim no)
+		(at 240.03 7.62 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "99e3f4c8-d544-45fa-8a7a-367eca17d04c")
+	)
 	(text "doesn't require codec,\ncommunicates directly over I2S\n\nuses 3.3V (5V max)\n\nclock should be <1kHz to enter sleep mode"
 		(exclude_from_sim no)
-		(at 212.852 77.216 0)
+		(at 240.284 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2049,10 +2442,10 @@
 		(uuid "d9c6f6c9-2cac-4a21-9f4e-4cbdd7955023")
 	)
 	(junction
-		(at 163.83 49.53)
+		(at 149.86 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40a90fd9-bb32-4b2d-a4a3-89f8e9421cc1")
+		(uuid "6b628a7e-ec42-4555-b810-cde592a2e08a")
 	)
 	(junction
 		(at 88.9 133.35)
@@ -2066,9 +2459,17 @@
 		(color 0 0 0 0)
 		(uuid "78adf896-b132-4571-a5f4-116b48cb563b")
 	)
-	(no_connect
-		(at 146.05 62.23)
-		(uuid "2eb5776f-b0a2-4156-b39e-b63410e7d493")
+	(junction
+		(at 195.58 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89738547-e906-49aa-90d4-ff32fa152b2b")
+	)
+	(junction
+		(at 172.72 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3840916-2816-4eab-a767-bea9d7d7b493")
 	)
 	(no_connect
 		(at 34.29 105.41)
@@ -2090,13 +2491,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 52.07) (xy 163.83 52.07)
+			(xy 168.91 66.04) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dabbfd3-d052-4d90-bb56-54a0c4cae720")
+		(uuid "1845f236-e71c-4d00-91be-0e4a1cd9b543")
 	)
 	(wire
 		(pts
@@ -2130,16 +2531,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 36.83) (xy 163.83 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "448b288c-4350-4710-ad4f-66874f9f4626")
-	)
-	(wire
-		(pts
 			(xy 205.74 124.46) (xy 207.01 124.46)
 		)
 		(stroke
@@ -2150,23 +2541,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 40.64) (xy 157.48 46.99)
+			(xy 172.72 66.04) (xy 195.58 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b11eb45-587b-4c14-babc-c83834770018")
-	)
-	(wire
-		(pts
-			(xy 146.05 49.53) (xy 163.83 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60fac088-c0ce-41f0-afb8-f7e256fe84ba")
+		(uuid "677fd297-df05-47ad-b2d7-ec845872b63d")
 	)
 	(wire
 		(pts
@@ -2190,6 +2571,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 60.96) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb9d890-3c2c-416e-ba6a-5f037c141a82")
+	)
+	(wire
+		(pts
 			(xy 88.9 133.35) (xy 88.9 135.89)
 		)
 		(stroke
@@ -2210,13 +2601,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 52.07) (xy 163.83 49.53)
+			(xy 195.58 66.04) (xy 195.58 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8566ecae-7a97-46ad-8d5e-c4bba1772584")
+		(uuid "8a3993d5-80e4-4555-ad25-2d6ed5706650")
 	)
 	(wire
 		(pts
@@ -2230,13 +2621,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 46.99) (xy 157.48 46.99)
+			(xy 144.78 60.96) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c73f01f-132f-44c6-bc19-c90a1bac047f")
+		(uuid "a85cefc6-54bb-42a8-9afd-8e642bfc445b")
 	)
 	(wire
 		(pts
@@ -2260,6 +2651,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 69.85) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e48750-e430-4363-8349-e33241c330c5")
+	)
+	(wire
+		(pts
 			(xy 85.09 133.35) (xy 88.9 133.35)
 		)
 		(stroke
@@ -2270,13 +2671,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 55.88) (xy 195.58 55.88)
+			(xy 149.86 63.5) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eea9cf64-d074-4567-ae68-d18e115435fd")
+		(uuid "f5e9b3de-3dcb-49a5-9c8c-66095a8801aa")
 	)
 	(global_label "AUDIO_BCLK_I2S"
 		(shape input)
@@ -2346,7 +2747,7 @@
 	)
 	(global_label "MIC-SWITCH"
 		(shape input)
-		(at 195.58 66.04 180)
+		(at 168.91 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2356,7 +2757,7 @@
 		)
 		(uuid "59c1f13d-628c-45a1-97d8-54250ff633a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4345 65.9606 0)
+			(at 154.7645 65.9606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2791,7 @@
 	)
 	(global_label "AUDIO_MIC_DATA"
 		(shape input)
-		(at 195.58 60.96 180)
+		(at 144.78 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2400,7 +2801,7 @@
 		)
 		(uuid "ab1a7596-5ea4-4766-b138-c33d7fb9e341")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.2942 60.96 0)
+			(at 126.4942 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,6 +2896,141 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0450c1af-444b-4061-bbdc-e30e6aa1cd1f")
+		(property "Reference" "#PWR0105"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ff70456-986d-4e4b-8d01-6bf73998fae5")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:01-uf-CC0603KRX7R7BB104")
+		(at 195.58 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0da2a5e0-e8d1-4a91-b63e-7bef4092862c")
+		(property "Reference" "C28"
+			(at 199.39 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "01-uf-CC0603KRX7R7BB104"
+			(at 199.39 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CC0603KRX7R7BB104:CAPC1608X90"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21a9345f-8d21-4d45-baea-d86327cd6d1c")
+		)
+		(pin "1"
+			(uuid "d45c9f10-3a45-421a-b2b5-87af3ccb2aa5")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
+					(reference "C28")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2730,6 +3266,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62bdf2da-6375-43b6-af44-42b298cb8813")
+		(property "Reference" "#PWR0106"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "858a6fac-95b4-46fc-9aa3-a4ef73341fe0")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 157.48 40.64 0)
 		(unit 1)
@@ -2859,43 +3460,44 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 55.88 0)
+		(lib_id "SPIRIT-components:200-pf-CC0603KRX7R7BB104")
+		(at 172.72 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "944b543c-39c5-4c12-85c7-e547e4511558")
-		(property "Reference" "#PWR059"
-			(at 171.45 62.23 0)
+		(uuid "7ec72541-9614-4910-9c55-29d2aa6dd3a6")
+		(property "Reference" "C29"
+			(at 165.354 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 171.45 60.96 0)
+		(property "Value" "200-pf-CC0603KRX7R7BB104"
+			(at 159.512 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 171.45 55.88 0)
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
+			(at 172.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 55.88 0)
+			(at 172.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +3506,75 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 55.88 0)
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7abdd329-4cba-44f4-bf8f-13aa24f09c55")
+		)
+		(pin "1"
+			(uuid "a4253d77-2f60-480a-8a19-27cebca769fb")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "944b543c-39c5-4c12-85c7-e547e4511558")
+		(property "Reference" "#PWR059"
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,6 +3589,71 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a461d24e-393c-48c0-9b96-b4e9e5c8c968")
+		(property "Reference" "#PWR0104"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c49a0d64-a60d-43bf-bedc-daea10a23252")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2983,6 +3718,117 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
 					(reference "#5V02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "100K-0805-resistor-ERA6AEB104V_1")
+		(lib_id "SPIRIT-components:100K-0805-resistor-ERA6AEB104V")
+		(at 149.86 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0493455-9218-497e-bb4b-f503bebc4888")
+		(property "Reference" "R18"
+			(at 143.764 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100K-0805-resistor-ERA6AEB104V"
+			(at 112.776 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:100K-0805-resistor-RES_ERA6AEB104V"
+			(at 147.32 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 141.732 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 140.462 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+			(at 143.256 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 163.068 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a70d7ab7-62a3-438a-906e-5c349e04df9b")
+		)
+		(pin "2"
+			(uuid "c7a18cca-5a95-4a78-8753-f3d670452bc5")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
+					(reference "R18")
 					(unit 1)
 				)
 			)

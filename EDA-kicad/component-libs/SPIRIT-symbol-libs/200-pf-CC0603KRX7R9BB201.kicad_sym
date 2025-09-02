@@ -1,0 +1,35 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CC0603KRX7R7BB104" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at -12.7 6.08 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CC0603KRX7R7BB104" (id 1) (at -12.7 -9.08 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CC0603KRX7R7BB104:CAPC1608X90" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CC0603KRX7R7BB104_0_0"
+      (rectangle (start -12.7 -5.08) (end 12.7 5.08)
+        (stroke (width 0.41)) (fill (type background))
+      )
+      (pin bidirectional line (at -17.78 2.54 0) (length 5.08)
+        (name "C1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 0.0 0) (length 5.08)
+        (name "C2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
