@@ -5373,17 +5373,6 @@
 		)
 		(uuid "b9671f66-c5f1-4176-a487-ddf7e801e44c")
 	)
-	(text "consider changing the bat monitor to regular SMD to avoid BGA components.\nPerhaps it is better to have only SMD and not mix mounting types.\nThis will probably make assembly easier"
-		(exclude_from_sim no)
-		(at 116.84 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbe7a749-50b6-4d1b-ab9c-04f07e297ab1")
-	)
 	(text "add DEMORKPISSY on PCB silkscreen"
 		(exclude_from_sim no)
 		(at 127 267.462 0)
@@ -5522,13 +5511,13 @@
 		(uuid "4efb70bb-835a-4b37-bb43-15cb4ba6de32")
 	)
 	(junction
-		(at 237.49 97.79)
+		(at 222.25 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fda4866-64e0-4d3a-bd51-fa584944bd82")
 	)
 	(junction
-		(at 256.54 97.79)
+		(at 241.3 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5667aee3-56fe-4bc8-94fd-603b411e065a")
@@ -5684,12 +5673,6 @@
 		(uuid "91a47731-3ef8-49b0-aa4e-e56bbfc641de")
 	)
 	(junction
-		(at 231.14 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91be6f9c-14cf-46c0-87b1-9b027b6bb04e")
-	)
-	(junction
 		(at 238.76 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5714,7 +5697,7 @@
 		(uuid "a02ceb5f-868d-4c92-b3e9-418e0ae8b10d")
 	)
 	(junction
-		(at 243.84 97.79)
+		(at 228.6 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a68e6fa9-b8ce-4f44-b3e7-a15bbac47a2d")
@@ -5798,13 +5781,19 @@
 		(uuid "cc127160-7d45-4a84-88b0-b087953221c8")
 	)
 	(junction
+		(at 215.9 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc1eab69-3416-4c9a-b702-b91c8b460f24")
+	)
+	(junction
 		(at 355.6 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2909398-53d1-44da-b69f-4f353f132114")
 	)
 	(junction
-		(at 250.19 97.79)
+		(at 234.95 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4fec66e-c9b6-4855-98fe-78291117da03")
@@ -6047,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 97.79) (xy 250.19 97.79)
+			(xy 228.6 97.79) (xy 234.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6164,6 +6153,16 @@
 			(type default)
 		)
 		(uuid "1ec7cd54-58c4-4f24-9906-c6b5d80acaf2")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eef3383-ef45-4cc3-bdac-f214eed4fdac")
 	)
 	(wire
 		(pts
@@ -6357,7 +6356,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 97.79) (xy 262.89 97.79)
+			(xy 241.3 97.79) (xy 247.65 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6997,16 +6996,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 231.14 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5371b8-429e-45d8-a647-e4c51498cbcd")
-	)
-	(wire
-		(pts
 			(xy 176.53 49.53) (xy 179.07 49.53)
 		)
 		(stroke
@@ -7467,7 +7456,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 97.79) (xy 256.54 97.79)
+			(xy 234.95 97.79) (xy 241.3 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7617,7 +7606,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 237.49 97.79)
+			(xy 215.9 97.79) (xy 222.25 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7917,7 +7906,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 97.79) (xy 243.84 97.79)
+			(xy 222.25 97.79) (xy 228.6 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8191,7 +8180,7 @@
 	)
 	(global_label "SYS"
 		(shape bidirectional)
-		(at 262.89 97.79 0)
+		(at 247.65 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8201,7 +8190,7 @@
 		)
 		(uuid "05c17af7-cffb-4533-8e90-743577173b63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.3127 97.79 0)
+			(at 255.0727 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +10249,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 262.89 101.6 0)
+		(at 247.65 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10268,7 +10257,7 @@
 		(dnp no)
 		(uuid "24df144e-2f57-4b86-9709-c500369e4633")
 		(property "Reference" "C10"
-			(at 265.43 101.6 0)
+			(at 250.19 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +10266,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 260.35 102.87 0)
+			(at 245.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10276,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 263.8552 105.41 0)
+			(at 248.6152 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10296,7 +10285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 101.6 0)
+			(at 247.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10294,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 262.89 101.6 0)
+			(at 247.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +10597,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 231.14 105.41 0)
+		(at 215.9 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10617,7 +10606,7 @@
 		(fields_autoplaced yes)
 		(uuid "3032cdd4-1afd-4317-9246-cb840e39b825")
 		(property "Reference" "#PWR061"
-			(at 231.14 111.76 0)
+			(at 215.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 110.49 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 105.41 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +10632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 105.41 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 105.41 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11389,7 +11378,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 243.84 105.41 0)
+		(at 228.6 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11398,7 +11387,7 @@
 		(fields_autoplaced yes)
 		(uuid "494be65d-24af-4769-adc8-6b97a86a4952")
 		(property "Reference" "#PWR076"
-			(at 243.84 111.76 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,7 +11396,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 110.49 0)
+			(at 228.6 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11415,7 +11404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 105.41 0)
+			(at 228.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11424,7 +11413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 105.41 0)
+			(at 228.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 105.41 0)
+			(at 228.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +12337,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 262.89 105.41 0)
+		(at 247.65 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12357,7 +12346,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f8c895a-ea0f-4d30-85b5-1e7acee47f45")
 		(property "Reference" "#PWR085"
-			(at 262.89 111.76 0)
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12366,7 +12355,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 110.49 0)
+			(at 247.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,7 +12363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 105.41 0)
+			(at 247.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12383,7 +12372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 105.41 0)
+			(at 247.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12392,7 +12381,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 105.41 0)
+			(at 247.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13374,7 +13363,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 231.14 101.6 0)
+		(at 215.9 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13382,7 +13371,7 @@
 		(dnp no)
 		(uuid "7aabd0d4-dad7-4055-8b41-e2442758135a")
 		(property "Reference" "C5"
-			(at 226.06 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +13380,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 228.6 102.87 0)
+			(at 213.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13401,7 +13390,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 232.1052 105.41 0)
+			(at 216.8652 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13410,7 +13399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 101.6 0)
+			(at 215.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +13408,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 231.14 101.6 0)
+			(at 215.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13514,7 +13503,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 250.19 101.6 0)
+		(at 234.95 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13522,7 +13511,7 @@
 		(dnp no)
 		(uuid "7ecae9a5-3348-4f00-af4f-1f13bba6d9a8")
 		(property "Reference" "C8"
-			(at 247.142 99.568 0)
+			(at 231.902 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13531,7 +13520,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 247.65 102.87 0)
+			(at 232.41 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13541,7 +13530,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 251.1552 105.41 0)
+			(at 235.9152 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13550,7 +13539,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 101.6 0)
+			(at 234.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +13548,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 250.19 101.6 0)
+			(at 234.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15843,7 +15832,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 237.49 105.41 0)
+		(at 222.25 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15852,7 +15841,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac7ab730-ef47-478d-85cb-9220db348346")
 		(property "Reference" "#PWR065"
-			(at 237.49 111.76 0)
+			(at 222.25 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +15850,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 110.49 0)
+			(at 222.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15869,7 +15858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 105.41 0)
+			(at 222.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +15867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 105.41 0)
+			(at 222.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +15876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 105.41 0)
+			(at 222.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16764,7 +16753,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 256.54 105.41 0)
+		(at 241.3 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16773,7 +16762,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc05d9a0-0a5b-4cbd-8671-fe3a0cddbaa8")
 		(property "Reference" "#PWR084"
-			(at 256.54 111.76 0)
+			(at 241.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,7 +16771,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 110.49 0)
+			(at 241.3 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16790,7 +16779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 105.41 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16799,7 +16788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 105.41 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16808,7 +16797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 105.41 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17674,7 +17663,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 250.19 105.41 0)
+		(at 234.95 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17683,7 +17672,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2f7d384-c11b-4500-9dd4-82e2e61a1f41")
 		(property "Reference" "#PWR083"
-			(at 250.19 111.76 0)
+			(at 234.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17692,7 +17681,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 110.49 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17700,7 +17689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 105.41 0)
+			(at 234.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17709,7 +17698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 105.41 0)
+			(at 234.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17718,7 +17707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 105.41 0)
+			(at 234.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18574,11 +18563,12 @@
 			)
 		)
 		(property "Value" "0603-resistor-680ohm-ERJ3EKF6800V"
-			(at 208.28 108.966 0)
+			(at 203.454 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "ERJ3EKF6800V:RES_ERJ3EKF6800V"
@@ -18868,7 +18858,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 256.54 101.6 0)
+		(at 241.3 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18876,7 +18866,7 @@
 		(dnp no)
 		(uuid "eb79fe32-2d46-4242-8f82-24345e2f37a0")
 		(property "Reference" "C9"
-			(at 253.492 99.568 0)
+			(at 238.252 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18885,7 +18875,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 254 102.87 0)
+			(at 238.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18895,7 +18885,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 257.5052 105.41 0)
+			(at 242.2652 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18904,7 +18894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 101.6 0)
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18913,7 +18903,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 256.54 101.6 0)
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19145,7 +19135,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 237.49 101.6 0)
+		(at 222.25 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19153,7 +19143,7 @@
 		(dnp no)
 		(uuid "ef4e6197-dbc7-41ad-947d-89734f08e3c8")
 		(property "Reference" "C6"
-			(at 234.188 99.568 0)
+			(at 218.948 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19162,7 +19152,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 234.95 102.87 0)
+			(at 219.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19172,7 +19162,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 238.4552 105.41 0)
+			(at 223.2152 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19181,7 +19171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 101.6 0)
+			(at 222.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19190,7 +19180,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 237.49 101.6 0)
+			(at 222.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19506,7 +19496,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.84 101.6 0)
+		(at 228.6 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19514,7 +19504,7 @@
 		(dnp no)
 		(uuid "fa43a9b4-022b-498f-960f-2e7b79025ab2")
 		(property "Reference" "C7"
-			(at 240.792 99.568 0)
+			(at 225.552 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19523,7 +19513,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 241.3 102.87 0)
+			(at 226.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19533,7 +19523,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 244.8052 105.41 0)
+			(at 229.5652 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19542,7 +19532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 101.6 0)
+			(at 228.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19551,7 +19541,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 243.84 101.6 0)
+			(at 228.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

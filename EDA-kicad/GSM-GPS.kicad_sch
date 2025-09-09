@@ -7436,9 +7436,9 @@
 		(at 323.85 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "af43c7b0-a479-424d-a042-3966ff497487")
 		(property "Reference" "U9"
