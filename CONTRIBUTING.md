@@ -24,7 +24,8 @@ if both are unavailable use whatever you think is reasonable.
 8. When adding new components in KiCad please be sure to properly annotate them in the schematics and use the update PCB from schematic tool.
 the schematics and PCB must be in sync at all times!
 
-9. All new components should have a Value, Datasheet, MPN field with the correct information filled in. (See power schematic for examples).
+9. All new components should have a Value, Datasheet, MPN field with the correct information filled in. (See power schematic for examples). Exception to save time:
+Resistors and Capacitors don't need the Datasheet field.
 
 10. Please use the newest major release of KiCad.
 
