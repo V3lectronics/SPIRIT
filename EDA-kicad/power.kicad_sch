@@ -3755,7 +3755,7 @@
 					)
 				)
 			)
-			(property "Value" "battery-37V2AhLP504783JU"
+			(property "Value" "Li-ion-3.7 35Ah"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -3772,7 +3772,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.jauch.com/downloadfile/649e9f79226030849a0f5aea667759677/matd_251919_20230626_lp685077jupcm2_wires_70mm.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3782,6 +3782,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LP504783JU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4935,6 +4944,18 @@
 		(uuid 1b07358e-7533-446f-bda1-96954895910d)
 	)
 	(rectangle
+		(start 137.16 114.3)
+		(end 213.36 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f55e806-ca58-43af-886d-722534e6469a)
+	)
+	(rectangle
 		(start 144.78 218.44)
 		(end 226.06 271.78)
 		(stroke
@@ -5311,6 +5332,12 @@
 		(uuid "07b1986c-e586-4c6a-902f-13b22c1e6845")
 	)
 	(junction
+		(at 195.58 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5f1430-43fb-4078-bab5-1efe2e2c66d0")
+	)
+	(junction
 		(at 379.73 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5383,18 +5410,6 @@
 		(uuid "4efb70bb-835a-4b37-bb43-15cb4ba6de32")
 	)
 	(junction
-		(at 176.53 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fda4866-64e0-4d3a-bd51-fa584944bd82")
-	)
-	(junction
-		(at 195.58 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5667aee3-56fe-4bc8-94fd-603b411e065a")
-	)
-	(junction
 		(at 88.9 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5417,6 +5432,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef616ec-7b85-4604-9f01-a992e33b1f5a")
+	)
+	(junction
+		(at 176.53 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "605a8aa0-4e9c-4646-a38b-c6e6cd6b5700")
 	)
 	(junction
 		(at 379.73 175.26)
@@ -5471,6 +5492,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c7d0afd-5a3f-402b-9b68-5f3b408edd4d")
+	)
+	(junction
+		(at 182.88 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "763641b2-4fe6-47ed-bdf1-6957def5a79b")
 	)
 	(junction
 		(at 138.43 100.33)
@@ -5563,12 +5590,6 @@
 		(uuid "a02ceb5f-868d-4c92-b3e9-418e0ae8b10d")
 	)
 	(junction
-		(at 182.88 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a68e6fa9-b8ce-4f44-b3e7-a15bbac47a2d")
-	)
-	(junction
 		(at 304.8 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5653,12 +5674,6 @@
 		(uuid "d2909398-53d1-44da-b69f-4f353f132114")
 	)
 	(junction
-		(at 189.23 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4fec66e-c9b6-4855-98fe-78291117da03")
-	)
-	(junction
 		(at 157.48 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5723,6 +5738,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b8bbfb-a037-4285-9b54-a2f124af6672")
+	)
+	(junction
+		(at 189.23 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96f7b2c-60f7-4d7e-9016-2df29adc527d")
 	)
 	(junction
 		(at 163.83 238.76)
@@ -5909,16 +5930,6 @@
 			(type default)
 		)
 		(uuid "0f7c9a00-c2d0-4c84-9ffd-4c5b3a336e18")
-	)
-	(wire
-		(pts
-			(xy 182.88 115.57) (xy 189.23 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10318a40-cdba-4ed9-9fc8-38cd66764951")
 	)
 	(wire
 		(pts
@@ -6219,16 +6230,6 @@
 			(type default)
 		)
 		(uuid "2faab5ab-dcca-4321-ae7a-e4d76c6224a0")
-	)
-	(wire
-		(pts
-			(xy 195.58 115.57) (xy 201.93 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3201d3c4-7596-4d86-b124-77d9ec125d84")
 	)
 	(wire
 		(pts
@@ -6649,6 +6650,16 @@
 			(type default)
 		)
 		(uuid "63a57117-68d3-4f74-9845-3ff7f3fd8c33")
+	)
+	(wire
+		(pts
+			(xy 189.23 115.57) (xy 195.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647cc405-666a-4c3e-a2bc-408337fbac05")
 	)
 	(wire
 		(pts
@@ -7202,6 +7213,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 115.57) (xy 182.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1f786d-722e-446a-b157-399638216194")
+	)
+	(wire
+		(pts
+			(xy 195.58 115.57) (xy 201.93 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d24addf-db29-48a6-a360-a686e8541b3b")
+	)
+	(wire
+		(pts
 			(xy 62.23 248.92) (xy 52.07 248.92)
 		)
 		(stroke
@@ -7372,7 +7403,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 115.57) (xy 195.58 115.57)
+			(xy 170.18 115.57) (xy 176.53 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7519,16 +7550,6 @@
 			(type default)
 		)
 		(uuid "c1418a7e-a0b9-4012-952b-95a7b8c869d6")
-	)
-	(wire
-		(pts
-			(xy 170.18 115.57) (xy 176.53 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2153cec-2910-41dc-b7b8-6d28d0d2a5b0")
 	)
 	(wire
 		(pts
@@ -7832,16 +7853,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 115.57) (xy 182.88 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42747b2-5b9a-4572-9e27-3c6e06f95013")
-	)
-	(wire
-		(pts
 			(xy 53.34 228.6) (xy 57.15 228.6)
 		)
 		(stroke
@@ -7909,6 +7920,16 @@
 			(type default)
 		)
 		(uuid "eb2364ba-914d-4339-8173-4f7032a4feec")
+	)
+	(wire
+		(pts
+			(xy 182.88 115.57) (xy 189.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb25ab95-8bb0-4be9-8d02-178de91d7cf3")
 	)
 	(wire
 		(pts
@@ -9932,7 +9953,43 @@
 			"AAAAOAAAAE4AAAByAAAANAAAAFYAAABDAAAAYgAAAFkAAABiAAAAUAAAAGEAAABEAAAAUwAAAE8A"
 			"AABFAAAARQAAAEIAAABFAAAALwAAAE4AAABmAAAAYgAAADQAAABtAAAAdgAAAG4AAABMAAAAVAAA"
 			"ADcAAAAzAAAANgAAAGkAAAByAAAAZgAAAHcAAABQAAAAQgAAADUAAAB2AAAAdwAAAG8AAABRAAAA"
-			"SgAAAFYAAABsAA=="
+			"SgAAAFYAAABsAEFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQWEAAABzAAAAZQAAACAAAABDAAAAdQAAAHQAAAAsAAAAIAAAAEQAAABpAAAAbQAA"
+			"AG0AAABlAAAAcgAAACAAAABDAAAAbwAAAG4AAAB0AAAAcgAAAG8AAABsAAAAbAAAAGUAAAByAAAA"
+			"LAAAACAAAABTAAAAUwAAAE8AAABQAAAALQAAADEAAABAAwAAAAAAANAAAAAAAAAASAAAAGkAAABn"
+			"AAAAaAAAACAAAABhAAAAbgAAAGQAAAAgAAAATAAAAG8AAAB3AAAAIAAAAFMAAABpAAAAZAAAAGUA"
+			"AAAgAAAARAAAAHIAAABpAAAAdgAAAGUAAAByAAAALAAAACAAAAAyAAAAMAAAADAAAABWAAAALAAA"
+			"ACAAAAAzAAAALgAAADAAAAAvAAAAMwAAAC4AAAAwAAAAQQAAACwAAAAgAAAAUAAAAEQAAABJAAAA"
+			"UAAAAC0AAAAxAAAAQAcAAAAAAAAwAAAAAAAAAJlB8Y8gVgAAdAAAAGEAAABzAAAAaAAAAGUAAABl"
+			"AAAAcAcAAAAAAAAwAAAAAAAAAMlJ8Y8gVgAAbwAAAHQAAABwAAAAcgAAAGkAAABuAAAAdAAAAAAA"
+			"AAChAAAAAAAAAGBXOe0lVgAAgIOv7SVWAABWAAAAIAAAAFAAAABNAAAATwAAAFMAAAAtAAAATgAA"
+			"AE0AAABPAAAAUwAAACAAAABCAAAAcgAAAGkAAABkAAAAZwAAAGUAAAAgAAAARAAAAHIAAABpAAAA"
+			"dgAAAGUAAAByAAAALAAAACAAAABTAAAATwAAAEkAAABDAAAALQAAAAAJAAAAAAAAQAAAAAAAAAAJ"
+			"gGePIFYAAHMAAABjAAAAcgAAAGkAAABwAAAAdAAAAGkAAABvAAAAbgAAAAAAAABUAAAAAAAAAKEB"
+			"AAAAAAAAUPob7yVWAADQyI/rJVYAAC0AAABCAAAAcgAAAGkAAABkAAAAZwAAAGUAAAAgAAAARAAA"
+			"AHIAAABpAAAAdgAAAGUAAAByAAAALAAAACAAAAA2AAAAMAAAADAAAABWAAAALAAAACAAAAAyAAAA"
+			"MQAAADAAAAAvAAAAMwAAADYAAAAwAAAAbQAAAEEAAAAsAAAAIAAAAFAAAABEAAAASQAAAFAAAAAt"
+			"AAAAOAAAAC8AAABTAAAATwAAAEkAAABDAAAALQAAADgAAAAAAAAAAAAAAOAAAAAAAAAAwAAAAAAA"
+			"AABoAAAAYQAAAGwAAABmAAAALQAAAGIAAAByAAAAaQAAAGQAAABnAAAAZQAAACAAAABkAAAAcgAA"
+			"AGkAAAB2AAAAZQAAAHIAAAAsAAAAIAAAADYAAAAwAAAAMAAAAHYAAAAsAAAAIAAAADEAAAAuAAAA"
+			"OQAAAC8AAAAyAA=="
 		)
 	)
 	(global_label "PWM{slash}PFM"
@@ -11971,7 +12028,7 @@
 		(dnp no)
 		(uuid "24df144e-2f57-4b86-9709-c500369e4633")
 		(property "Reference" "C10"
-			(at 204.47 119.38 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,6 +12065,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX5R6BB106"
 			(at 201.93 119.38 0)
 			(effects
 				(font
@@ -12978,7 +13044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
 			(at 149.86 121.158 90)
 			(effects
 				(font
@@ -12998,6 +13064,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 149.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-3AEB103V"
+			(at 149.86 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13918,8 +13993,8 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 145.796 118.872 0)
+		(property "Value" "5mA 2V Fv"
+			(at 132.842 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13936,7 +14011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.qt-brightek.com/datasheet/QBLP601-R5.pdf"
 			(at 142.24 123.19 0)
 			(effects
 				(font
@@ -13955,6 +14030,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP601-R5"
 			(at 142.24 123.19 0)
 			(effects
 				(font
@@ -15063,6 +15147,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 170.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "776125fb-59a6-461a-b778-2d6217ee1b28")
 		)
@@ -15143,76 +15236,6 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 189.23 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ecae9a5-3348-4f00-af4f-1f13bba6d9a8")
-		(property "Reference" "C8"
-			(at 186.182 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10μF"
-			(at 186.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 190.1952 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5cb89d64-c53c-4278-8c02-3e3305c17439")
-		)
-		(pin "1"
-			(uuid "5de6ddd3-2a44-4eec-916c-426786683b64")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15496,20 +15519,19 @@
 		(dnp no)
 		(uuid "87cee992-ff54-4ad0-b60d-3e14bfd61892")
 		(property "Reference" "BAT2"
-			(at 35.814 192.278 0)
+			(at 35.814 190.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "battery_37V3500mAhLP685077JU"
-			(at 36.068 200.406 0)
+		(property "Value" "Li-ion-3.7 35Ah"
+			(at 35.687 192.151 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:battery_37V3500mAhLP685077JU"
@@ -15521,7 +15543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jauch.com/downloadfile/649e9f79226030849a0f5aea667759677/matd_251919_20230626_lp685077jupcm2_wires_70mm.pdf"
 			(at 35.687 193.421 0)
 			(effects
 				(font
@@ -15531,6 +15553,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.687 193.421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LP504783JU"
 			(at 35.687 193.421 0)
 			(effects
 				(font
@@ -15549,73 +15580,6 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "BAT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 140.97 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8909766a-77ae-4db3-add4-d3b3ffbbf5bf")
-		(property "Reference" "R36"
-			(at 143.256 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 138.938 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.748 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c908a94-ad5f-44a2-9d7d-a792c9bfca02")
-		)
-		(pin "1"
-			(uuid "ef26768f-2481-4d0f-8c51-d730e92a018c")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15686,6 +15650,85 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d21d922-ef68-443f-88fb-da04b0594570")
+		(property "Reference" "C16"
+			(at 189.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10μF"
+			(at 186.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+			(at 190.1952 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX5R6BB106"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb85a83c-7bd9-44fd-93fe-6d7d3eddd0a1")
+		)
+		(pin "1"
+			(uuid "6f08b2d5-f05d-469d-beea-d76a8467f208")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -16023,6 +16066,82 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "924ffa93-5ae2-4bb1-9fbd-38502d920c74")
+		(property "Reference" "R36"
+			(at 140.97 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.938 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 142.748 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-3AEB103V"
+			(at 140.97 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aebef40f-19e8-42d4-accf-3c726d069647")
+		)
+		(pin "1"
+			(uuid "51d3aa34-7894-4b2c-901a-67b7f877f062")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -17081,12 +17200,11 @@
 			)
 		)
 		(property "Value" "5.24k"
-			(at 74.422 120.142 90)
+			(at 75.184 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
@@ -18726,6 +18844,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 182.88 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c92aac51-7ce7-4b6f-8f8c-3945570edc81")
+		(property "Reference" "C17"
+			(at 183.134 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10μF"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+			(at 183.8452 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX5R6BB106"
+			(at 182.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1435d723-09eb-44f7-93a8-9cdaa199831b")
+		)
+		(pin "1"
+			(uuid "87477237-5907-423a-be96-cf230539a462")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_12")
 		(lib_id "power:GND")
 		(at 207.01 254 0)
@@ -19342,6 +19539,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 176.53 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de089428-644b-4dac-beff-a3f0afbf53d7")
+		(property "Reference" "C23"
+			(at 176.784 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10μF"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+			(at 177.4952 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX5R6BB106"
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "755652d5-3e35-4314-a157-fbf50976e25c")
+		)
+		(pin "1"
+			(uuid "87135d0c-0d2a-4e13-8ed5-860956356ec1")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 156.21 119.38 0)
 		(unit 1)
@@ -19694,13 +19970,12 @@
 				)
 			)
 		)
-		(property "Value" "0603-resistor-680ohm-ERJ3EKF6800V"
-			(at 157.734 129.286 0)
+		(property "Value" "680"
+			(at 149.86 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ERJ3EKF6800V:RES_ERJ3EKF6800V"
@@ -19768,6 +20043,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ3EKF6800V"
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -19989,76 +20273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 195.58 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb79fe32-2d46-4242-8f82-24345e2f37a0")
-		(property "Reference" "C9"
-			(at 192.532 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10μF"
-			(at 193.04 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 196.5452 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "199eb265-dd82-438f-a3d7-21a4ad104f24")
-		)
-		(pin "1"
-			(uuid "33210281-d226-4651-994f-707798cb826b")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
 		(at 254 82.55 0)
@@ -20197,15 +20411,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 119.38 0)
+		(at 195.58 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ef4e6197-dbc7-41ad-947d-89734f08e3c8")
-		(property "Reference" "C6"
-			(at 173.228 117.348 0)
+		(uuid "f0f66a60-8e10-4717-a95b-9d07ed9b7780")
+		(property "Reference" "C15"
+			(at 195.834 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20214,7 +20428,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 173.99 120.65 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20224,7 +20438,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 177.4952 123.19 0)
+			(at 196.5452 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20233,7 +20447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 119.38 0)
+			(at 195.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20242,7 +20456,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 119.38 0)
+			(at 195.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX5R6BB106"
+			(at 195.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20251,15 +20474,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fe21a01d-2005-47f1-8d86-121d33af4dbb")
+			(uuid "a71c4a45-61a4-4ab7-a968-b0e73bed4678")
 		)
 		(pin "1"
-			(uuid "8ddd1373-d18e-4cee-981a-fe1c3ddb59ba")
+			(uuid "9b88fa71-2920-4a5c-b363-b7452e144d72")
 		)
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "C6")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -20615,76 +20838,6 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#3.3V011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 182.88 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa43a9b4-022b-498f-960f-2e7b79025ab2")
-		(property "Reference" "C7"
-			(at 179.832 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10μF"
-			(at 180.34 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 183.8452 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2eb17227-8022-46a5-82db-b0dfc638eb9b")
-		)
-		(pin "1"
-			(uuid "a6c601e4-22ea-45b8-9726-559a1da262c4")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "C7")
 					(unit 1)
 				)
 			)
