@@ -22220,7 +22220,7 @@
 				)
 			)
 		)
-		(property "Value" "battery-37V2AhLP504783JU"
+		(property "Value" "Li-ion-3.7 35Ah"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -22237,7 +22237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jauch.com/downloadfile/649e9f79226030849a0f5aea667759677/matd_251919_20230626_lp685077jupcm2_wires_70mm.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22247,6 +22247,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LP504783JU"
 			(at 0 0 0)
 			(effects
 				(font
