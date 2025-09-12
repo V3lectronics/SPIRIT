@@ -3471,6 +3471,371 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SPIRIT-components:MP3429GL-Z"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MP3429GL-Z"
+				(at 20.066 -4.064 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SPIRIT-footprints:QFN-3x4_MP3429_MNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP3429GL-Z"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MP3429GL-Z"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MP3429GL-Z"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN-3x4_MP3429_MNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MP3429GL-Z_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -20.32)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -20.32) (xy 33.02 -20.32)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -20.32) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 1.27 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -6.35 0)
+					(length 7.62)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -11.43 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 12.7 270)
+					(length 7.62)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 16.51 -27.94 90)
+					(length 7.62)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 12.7 270)
+					(length 7.62)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 24.13 -27.94 90)
+					(length 7.62)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 40.64 1.27 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -6.35 180)
+					(length 7.62)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -15.24 180)
+					(length 7.62)
+					(name "FTY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SPIRIT-components:NMOS-BSC0902NSI"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9989,7 +10354,25 @@
 			"AAAAOAAAAC8AAABTAAAATwAAAEkAAABDAAAALQAAADgAAAAAAAAAAAAAAOAAAAAAAAAAwAAAAAAA"
 			"AABoAAAAYQAAAGwAAABmAAAALQAAAGIAAAByAAAAaQAAAGQAAABnAAAAZQAAACAAAABkAAAAcgAA"
 			"AGkAAAB2AAAAZQAAAHIAAAAsAAAAIAAAADYAAAAwAAAAMAAAAHYAAAAsAAAAIAAAADEAAAAuAAAA"
-			"OQAAAC8AAAAyAA=="
+			"OQAAAC8AAAAyAAAAQQAAAEkAAABMAAAAaAAAAHgAAAA0AAAAMAAAAFoAAABBAAAAUQAAAEUAAABC"
+			"AAAAdwAAAGMAAABIAAAAQgAAAHUAAABiAAAAdQAAADcAAAAzAAAAcQAAAGMAAAB5AAAAUAAAAEEA"
+			"AAB3AAAAawAAAE8AAABTAAAAQQAAADAAAABKAAAARAAAAGcAAABBAAAAQQAAAEEAAABBAAAAQQAA"
+			"AEEAAABRAAAASAAAADEAAAAyAAAAOQAAAE8AAABqAAAAUgAAADkAAAB1AAAAMwAAAGIAAABjAAAA"
+			"NwAAAGwAAABjAAAATAAAAHAAAABjAAAANwAAAGIAAAB0AAAAeQAAADQAAABiAAAANQAAADMAAABn"
+			"AAAAYQAAAEcAAAB0AAAAcgAAAGkAAAA0AAAATwAAAGIAAABOAAAAbQAAADMAAABhAAAAbAAAAEEA"
+			"AAB3AAAAcAAAAEIAAABBAAAASgAAAEIAAABSAAAARQAAAFIAAABFAAAAWQAAAEcAAABCAAAAZwAA"
+			"AGMAAABIAAAAQgAAAHcAAABkAAAAbgAAAGIAAAAyAAAATgAAADYAAAAzAAAARAAAAGoAAAA2AAAA"
+			"dwAAADQAAAB3AAAAUgAAAEUAAAB2AAAARQAAAHcAAABaAAAAUQAAAGMAAAAwAAAAaAAAAHcAAABB"
+			"AAAAQQAAAEEAAABBAAAAQQAAAEEAAABBAAAAQQAAAGYAAABrAAAAcAAAAHkAAABjAAAAbgAAAEwA"
+			"AABpAAAASAAAADIAAABSAAAAbAAAAFoAAABhAAAAcwAAAG8AAABGAAAAaAAAAG8AAABhAAAAeQAA"
+			"AG0AAABLAAAAeAAAAHgAAABEAAAAOQAAADMAAAA2AAAAZAAAAEoAAABGAAAAVAAAAFUAAAAwAAAA"
+			"dAAAAE0AAAB6AAAATwAAAHoAAABpAAAAaAAAADEAAABLAAAAMQAAAHoAAABkAAAARQAAAFMAAAAw"
+			"AAAAdAAAAEwAAABQAAAARgAAAFQAAABLAAAAMgAAAHQAAABxAAAANgAAADUAAABCAAAANgAAAEUA"
+			"AABRAAAAdQAAAEcAAAB0AAAAVwAAADcAAABjAAAAQwAAAEEAAABnAAAASwAAAEMAAABnAAAAbwAA"
+			"AEsAAAB5AAAAcwAAAHIAAABLAAAAawAAADIAAABIAAAATQAAADkAAABVAAAANQAAAHoAAABnAAAA"
+			"QQAAAEUAAABnAAAASwAAAEMAAABRAAAANAAAAEEAAABBAAAAQQAAAEEAAABBAAAAQQAAAE0AAABC"
+			"AAAAUAAAADYAAABlAAAAcgAAAFYAAABxAAAAMgAAADMAAABhAAAAdAAAAEsAAABGAAAAcAAAAE8A"
+			"AABpAAAAdwAAAA=="
 		)
 	)
 	(global_label "PWM{slash}PFM"
@@ -20550,6 +20933,120 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:MP3429GL-Z")
+		(at 48.26 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f49750be-018c-4b20-9305-32aacf1ec16d")
+		(property "Reference" "U3"
+			(at 74.5333 306.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP3429GL-Z"
+			(at 74.5333 308.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:QFN-3x4_MP3429_MNP"
+			(at 48.26 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP3429GL-Z"
+			(at 48.26 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MP3429GL-Z"
+			(at 48.26 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "db6c3d80-ebe2-4d09-9f07-5814cf77b8e6")
+		)
+		(pin "13"
+			(uuid "3b07ad54-94e9-4281-9458-7923f064854e")
+		)
+		(pin "5"
+			(uuid "3832a98f-142e-4b88-8f9e-e2afa9f702fc")
+		)
+		(pin "2"
+			(uuid "e285daac-e808-42cb-bf49-136fa86b48ee")
+		)
+		(pin "10"
+			(uuid "14afac49-f1a8-44ca-89bc-b3ad3089ee49")
+		)
+		(pin "4"
+			(uuid "3dccdb29-d02e-4e27-969f-df4e7e964753")
+		)
+		(pin "8"
+			(uuid "77536a7b-4d56-4bb3-80a5-42f7e6c482d4")
+		)
+		(pin "11"
+			(uuid "4d41ff14-d889-452d-8972-f4ffbefa382c")
+		)
+		(pin "12"
+			(uuid "3bbe2bb7-517b-4e7d-ae9e-d19d6559bd22")
+		)
+		(pin "7"
+			(uuid "e170cd6e-e19f-4d6f-a6a3-cd0e17458e4a")
+		)
+		(pin "9"
+			(uuid "d483f149-0aee-4e30-9f1f-1bf86eec5239")
+		)
+		(pin "1"
+			(uuid "aca7022e-d7ee-41ce-bc41-eea2ada31959")
+		)
+		(pin "3"
+			(uuid "d7ad45bb-4725-4af4-a7e0-ddc21f36a20f")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "U3")
 					(unit 1)
 				)
 			)
