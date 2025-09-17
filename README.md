@@ -4,11 +4,17 @@
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/V3lectronics/SPIRIT)
 [![Contribution Guide](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.com/invite/zBG4KdHJWx)
 
 Open source smartphone, from available components. Prioritizing user experience, performance, control, repairability, innovation and privacy.
-Contribution and feedback are very welcome! [Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md).
+Contribution and feedback are very welcome! **[Contribution Guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md)**.
 
-We are currently in the development phase, progress is documented here and on the V Electronics [YT channel](https://www.youtube.com/@V_Electronics). For information about the project please refer to the **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**.
+We are currently in the development phase, progress is documented here and on the V Electronics **[YT channel](https://www.youtube.com/@V_Electronics)**. For information about the project please refer to the **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**.
+
+> [!IMPORTANT]  
+> Watch out for fake websites and repositories!
+> 
+> Before making suggestions and opening new discussions, search the **[issue list](https://github.com/V3lectronics/SPIRIT/issues)**!
 
 # Quick links
 1. **[Technical specifications](https://github.com/V3lectronics/SPIRIT/wiki/Overview-technical-specs)**
