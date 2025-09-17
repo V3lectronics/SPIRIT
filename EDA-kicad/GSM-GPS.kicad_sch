@@ -5469,6 +5469,16 @@
 		)
 		(uuid "d61f0bac-4c31-4cad-8404-a1e1fc7139f2")
 	)
+	(text "need to be careful if 128 and 256 symbols and footprints are identical\n\nTODO rename them and double check"
+		(exclude_from_sim no)
+		(at 168.402 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e81fb101-ddc1-4cbe-a959-17d1783dd707")
+	)
 	(junction
 		(at 351.79 180.34)
 		(diameter 0)
