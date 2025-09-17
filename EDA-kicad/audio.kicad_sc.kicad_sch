@@ -4185,7 +4185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n                        \n                            4 conductor, 3.5 mm, SMT Audio Jack w/ Tip Switch\n                        \n"
+		(property "Description" "4 conductor, 3.5 mm, SMT Audio Jack w/ Tip Switch"
 			(at 187.96 119.38 0)
 			(effects
 				(font
