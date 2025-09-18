@@ -18543,8 +18543,8 @@
 		)
 		(symbol "TPS650250RHBR_0_0"
 			(rectangle
-				(start -17.78 -43.18)
-				(end 17.78 43.18)
+				(start -17.78 43.688)
+				(end 17.78 -43.18)
 				(stroke
 					(width 0.41)
 					(type default)
@@ -18554,7 +18554,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 33.02 0)
+				(at -22.86 41.91 0)
 				(length 5.08)
 				(name "DEFDCDC1"
 					(effects
@@ -18572,7 +18572,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 30.48 0)
+				(at -22.86 39.37 0)
 				(length 5.08)
 				(name "DEFDCDC2"
 					(effects
@@ -18590,7 +18590,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 27.94 0)
+				(at -22.86 36.83 0)
 				(length 5.08)
 				(name "DEFDCDC3"
 					(effects
@@ -18608,7 +18608,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 25.4 0)
+				(at -22.86 33.02 0)
 				(length 5.08)
 				(name "EN_DCDC1"
 					(effects
@@ -18626,7 +18626,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 22.86 0)
+				(at -22.86 30.48 0)
 				(length 5.08)
 				(name "EN_DCDC2"
 					(effects
@@ -18644,7 +18644,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 20.32 0)
+				(at -22.86 27.94 0)
 				(length 5.08)
 				(name "EN_DCDC3"
 					(effects
@@ -18662,7 +18662,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 17.78 0)
+				(at -22.86 24.13 0)
 				(length 5.08)
 				(name "EN_LDO"
 					(effects
@@ -18680,7 +18680,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 15.24 0)
+				(at -22.86 21.59 0)
 				(length 5.08)
 				(name "EN_VDD_ALIVE"
 					(effects
@@ -18698,43 +18698,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 12.7 0)
-				(length 5.08)
-				(name "FB_LDO1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 10.16 0)
-				(length 5.08)
-				(name "FB_LDO2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 7.62 0)
+				(at -22.86 15.24 0)
 				(length 5.08)
 				(name "MODE"
 					(effects
@@ -18752,7 +18716,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 5.08 0)
+				(at -22.86 7.62 0)
 				(length 5.08)
 				(name "PWRFAIL_SNS"
 					(effects
@@ -18769,17 +18733,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -22.86 2.54 0)
+			(pin power_in line
+				(at -22.86 1.27 0)
 				(length 5.08)
-				(name "VDCDC1"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "8"
+				(number "29"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18788,25 +18752,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 0 0)
-				(length 5.08)
-				(name "VDCDC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -2.54 0)
+				(at -22.86 -1.27 0)
 				(length 5.08)
 				(name "VINDCDC1"
 					(effects
@@ -18824,7 +18770,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -5.08 0)
+				(at -22.86 -3.81 0)
 				(length 5.08)
 				(name "VINDCDC2"
 					(effects
@@ -18842,7 +18788,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -7.62 0)
+				(at -22.86 -6.35 0)
 				(length 5.08)
 				(name "VINDCDC3"
 					(effects
@@ -18859,26 +18805,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -22.86 -10.16 0)
-				(length 5.08)
-				(name "VINLDO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -22.86 -15.24 0)
+				(at -22.86 -13.97 0)
 				(length 5.08)
 				(name "EP"
 					(effects
@@ -18888,6 +18816,42 @@
 					)
 				)
 				(number "33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -19.05 0)
+				(length 5.08)
+				(name "VDCDC1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -21.59 0)
+				(length 5.08)
+				(name "VDCDC2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18949,17 +18913,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 22.86 40.64 180)
+			(pin input line
+				(at -6.35 -48.26 90)
 				(length 5.08)
-				(name "VCC"
+				(name "FB_LDO1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "29"
+				(number "11"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -18967,17 +18931,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 22.86 38.1 180)
+			(pin input line
+				(at 6.35 -48.26 90)
 				(length 5.08)
-				(name "VDCDC3"
+				(name "FB_LDO2"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -19022,7 +18986,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 27.94 180)
+				(at 22.86 19.05 180)
 				(length 5.08)
 				(name "VLDO1"
 					(effects
@@ -19040,7 +19004,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 25.4 180)
+				(at 22.86 16.51 180)
 				(length 5.08)
 				(name "VLDO2"
 					(effects
@@ -19058,7 +19022,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -30.48 180)
+				(at 22.86 -29.21 180)
 				(length 5.08)
 				(name "AGND1"
 					(effects
@@ -19076,16 +19040,16 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -33.02 180)
+				(at 22.86 -31.75 180)
 				(length 5.08)
-				(name "PGND1"
+				(name "AGND2"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "7"
+				(number "13"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -19096,14 +19060,14 @@
 			(pin power_in line
 				(at 22.86 -35.56 180)
 				(length 5.08)
-				(name "AGND2"
+				(name "PGND1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "13"
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -19140,6 +19104,44 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS650250RHBR_1_0"
+			(pin input line
+				(at -22.86 -8.89 0)
+				(length 5.08)
+				(name "VINLDO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -24.13 0)
+				(length 5.08)
+				(name "VDCDC3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
