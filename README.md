@@ -30,9 +30,33 @@ We are currently in the development phase, progress is documented here and on th
 11. **[DIY build guide](https://github.com/V3lectronics/SPIRIT/wiki/DIY-build-guide)** _Coming soon!!!_
 12. **[Resources](https://github.com/barbarjan/SPIRIT#resources)**
 
-# Progress
+# Roadmap
 
-<img width="1302" height="976" alt="image" src="https://github.com/user-attachments/assets/4e440ce1-6015-4548-abbe-bc6eb94b810b" />
+```mermaid
+flowchart LR
+    subgraph Chassis
+        direction LR
+        J[Public Onshape project] --> K[Onshape 3D model <br> _in progress_] --> L[3D printable chassis] --> M[CNC chassis]
+        style Chassis fill:#000000, stroke:#ffffff
+  linkStyle default stroke:white
+    end
+
+
+    subgraph Electronics
+        direction LR
+        A[Select critical components] --> B[Footprints, symbols, <br> 3D models] --> C[Power system <br> _in progress_] --> D[Audio] --> E[GPS&GSM] --> F[LCD] --> G[Camera] --> H[Vibration & flashlight] --> I[Fingerprint scanner]
+        style Electronics fill:#000000, stroke:#ffffff
+  linkStyle default stroke:white
+    end
+
+classDef Complete fill:#222222,stroke:#0aad53,color:#ffffff,stroke-width:2px;
+classDef InProgress fill:#222222,stroke:#ad7f0a,color:#ffffff,stroke-width:2px;
+classDef Future fill:#222222,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+
+class A,B,J Complete;
+class C,K InProgress;
+class D,E,F,G,H,I,L,M Future;
+```
 
 # Early screenshots
 <small> (click to expand) </small>
