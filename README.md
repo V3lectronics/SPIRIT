@@ -23,7 +23,7 @@ We are currently in the development phase, progress is documented here and on th
 4. **[SPIRIT wiki](https://github.com/V3lectronics/SPIRIT/wiki)**
 5. **[Community](https://github.com/V3lectronics/SPIRIT/wiki/Community)**
 6. **[Contribution guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md)**
-7. **[Parts list](https://github.com/V3lectronics/SPIRIT/wiki/Parts-list)**
+7. **[Parts list](https://github.com/V3lectronics/SPIRIT/wiki/Parts-list)** _Coming soon!!!_
 8. **[Cost](https://github.com/V3lectronics/SPIRIT/wiki/Cost)** _Coming soon!!!_
 9. **[Ethical and environmental concerns](https://github.com/V3lectronics/SPIRIT/wiki/Ethical-and-environmental-concerns)**
 10. **[Compliance and legality](https://github.com/V3lectronics/SPIRIT/wiki/Compliance-and-legality)**
@@ -33,7 +33,7 @@ We are currently in the development phase, progress is documented here and on th
 # Roadmap
 
 ### **Chassis**  
-Public Onshape project → Onshape 3D model *(in progress)* → 3D printable chassis → CNC chassis
+[Public Onshape project](https://cad.onshape.com/documents/4e52c2512b67af09635f94b3/w/56ef775ef64c6c9cfce93a1f/e/4e6df7991d5269c6c76f6984) → Onshape 3D model *(in progress)* → 3D printable chassis → CNC chassis
 
 ### **Electronic systems**  
 Select critical components → Footprints, symbols, 3D models → Power system *(in progress)* → Audio → GPS & GSM → LCD → Camera → Vibration & flashlight → Fingerprint scanner
