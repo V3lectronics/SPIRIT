@@ -35,7 +35,7 @@ We are currently in the development phase, progress is documented here and on th
 ### **Chassis**  
 Public Onshape project → Onshape 3D model *(in progress)* → 3D printable chassis → CNC chassis
 
-### **Electronics systems**  
+### **Electronic systems**  
 Select critical components → Footprints, symbols, 3D models → Power system *(in progress)* → Audio → GPS & GSM → LCD → Camera → Vibration & flashlight → Fingerprint scanner
 
 ### **Integration**
