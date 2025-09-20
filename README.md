@@ -24,7 +24,7 @@ We are currently in the development phase, progress is documented here and on th
 5. **[Community](https://github.com/V3lectronics/SPIRIT/wiki/Community)**
 6. **[Contribution guide](https://github.com/V3lectronics/SPIRIT/blob/main/CONTRIBUTING.md)**
 7. **[Parts list](https://github.com/V3lectronics/SPIRIT/wiki/Parts-list)**
-8. **[Cost](https://github.com/V3lectronics/SPIRIT/wiki/Cost)**
+8. **[Cost](https://github.com/V3lectronics/SPIRIT/wiki/Cost)** _Coming soon!!!_
 9. **[Ethical and environmental concerns](https://github.com/V3lectronics/SPIRIT/wiki/Ethical-and-environmental-concerns)**
 10. **[Compliance and legality](https://github.com/V3lectronics/SPIRIT/wiki/Compliance-and-legality)**
 11. **[DIY build guide](https://github.com/V3lectronics/SPIRIT/wiki/DIY-build-guide)** _Coming soon!!!_
@@ -32,31 +32,18 @@ We are currently in the development phase, progress is documented here and on th
 
 # Roadmap
 
-```mermaid
-flowchart LR
-    subgraph Chassis
-        direction LR
-        J[Public Onshape project] --> K[Onshape 3D model <br> _in progress_] --> L[3D printable chassis] --> M[CNC chassis]
-        style Chassis fill:#000000, stroke:#ffffff
-  linkStyle default stroke:white
-    end
+### **Chassis**  
+Public Onshape project → Onshape 3D model *(in progress)* → 3D printable chassis → CNC chassis
 
+### **Electronics systems**  
+Select critical components → Footprints, symbols, 3D models → Power system *(in progress)* → Audio → GPS & GSM → LCD → Camera → Vibration & flashlight → Fingerprint scanner
 
-    subgraph Electronics
-        direction LR
-        A[Select critical components] --> B[Footprints, symbols, <br> 3D models] --> C[Power system <br> _in progress_] --> D[Audio] --> E[GPS&GSM] --> F[LCD] --> G[Camera] --> H[Vibration & flashlight] --> I[Fingerprint scanner]
-        style Electronics fill:#000000, stroke:#ffffff
-  linkStyle default stroke:white
-    end
+### **Integration**
+Integrate systems into one motherboard or modular setup.
 
-classDef Complete fill:#222222,stroke:#0aad53,color:#ffffff,stroke-width:2px;
-classDef InProgress fill:#222222,stroke:#ad7f0a,color:#ffffff,stroke-width:2px;
-classDef Future fill:#222222,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+### **OS**
+Documented separately, see [OS article](https://github.com/V3lectronics/SPIRIT/wiki/Operating-system).
 
-class A,B,J Complete;
-class C,K InProgress;
-class D,E,F,G,H,I,L,M Future;
-```
 
 # Early screenshots
 <small> (click to expand) </small>
