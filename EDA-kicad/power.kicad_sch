@@ -5673,18 +5673,6 @@
 		(uuid 1b07358e-7533-446f-bda1-96954895910d)
 	)
 	(rectangle
-		(start 137.16 114.3)
-		(end 213.36 154.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3f55e806-ca58-43af-886d-722534e6469a)
-	)
-	(rectangle
 		(start 147.32 162.56)
 		(end 228.6 215.9)
 		(stroke
@@ -6003,9 +5991,9 @@
 		)
 		(uuid "7d1c2c8b-2e8c-4a8e-aa95-e71397605c94")
 	)
-	(text "Recommended: 103AT-2 10kΩ thermistor"
+	(text "Recommended: 103AT-2 10kΩ thermistor, using different"
 		(exclude_from_sim no)
-		(at 40.64 127.762 0)
+		(at 48.514 127.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6047,6 +6035,16 @@
 			(justify left)
 		)
 		(uuid "a7aff66e-b65a-45f2-8a88-834d123527fb")
+	)
+	(text "replace with PWRFAIL to have UVLO???\n"
+		(exclude_from_sim no)
+		(at 330.962 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae0b503b-5f99-4f31-9da9-e6896e163a51")
 	)
 	(text "3.3V selected"
 		(exclude_from_sim no)
@@ -6826,6 +6824,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe9ebca0-7750-434d-89a7-cc189872457c")
+	)
+	(no_connect
+		(at 326.39 92.71)
+		(uuid "1c935532-382c-43c2-a21b-6ae3393cc1cf")
 	)
 	(no_connect
 		(at 369.57 163.83)
@@ -9232,6 +9234,16 @@
 			(type default)
 		)
 		(uuid "d44e2488-e6e5-4c86-beed-8697a8e4605b")
+	)
+	(wire
+		(pts
+			(xy 391.16 82.55) (xy 386.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d628dc3b-79ad-4f8d-b47b-784cf617b966")
 	)
 	(wire
 		(pts
@@ -11733,7 +11745,25 @@
 			"ADEAAABuAAAANwAAAE4AAABzAAAAOQAAAHgAAABWAAAASwAAAEoAAABaAAAAdAAAAEsAAABDAAAA"
 			"RgAAADUAAABlAAAATAAAAGIAAAB3AAAAZwAAAGgAAAB3AAAAdQAAAFIAAAAvAAAAVQAAAHgAAABo"
 			"AAAAQwAAAEMAAABDAAAAVwAAAG4AAABvAAAAcQAAAFoAAABRAAAAcwAAADUAAABhAAAAcAAAAHEA"
-			"AABpAAAAcAAAAA=="
+			"AABpAAAAcAAAAEwAAABuAAAAcAAAAFQAAAA1AAAAeAAAAFYAAABSAAAATwAAAFYAAABWAAAAWAAA"
+			"ADEAAAA5AAAATwAAAG4AAABUAAAANgAAAHUAAAByAAAAcQAAAGgAAABKAAAAQwAAAG8AAABxAAAA"
+			"QwAAAGcAAAB2AAAATAAAADYAAAAvAAAAbwAAADYAAABHAAAAaAAAAEMAAABpAAAATAAAAEsAAAB5"
+			"AAAAOAAAAHEAAABoAAAAUgAAAG8AAAArAAAAYgAAAE0AAABtAAAAUwAAAE0AAAB2AAAATAAAAHoA"
+			"AAA5AAAAeQAAADUAAABNAAAAaQAAAFAAAABIAAAAegAAACsAAAB1AAAAWAAAADcAAAArAAAAKwAA"
+			"AGwAAABtAAAAMwAAADcAAABkAAAAUQAAAGsAAAAvAAAAQgAAAEYAAAA5AAAAKwAAACsAAABIAAAA"
+			"dAAAAGIAAAB5AAAANQAAADYAAAA5AAAAZAAAAFgAAABmAAAAdAAAAEwAAABsAAAANwAAAC8AAABs"
+			"AAAATgAAAFgAAABVAAAAbwAAAFoAAABjAAAANQAAAGkAAAAvAAAAZgAAAFAAAAA1AAAAYwAAAHMA"
+			"AABmAAAAYgAAAFQAAAAyAAAAKwAAAEYAAABPAAAAWgAAADIAAAA3AAAAZAAAAHQAAABEAAAAawAA"
+			"AHgAAABhAAAAKwAAAEQAAABUAAAAaAAAAHkAAABKAAAAYgAAADMAAABpAAAAUAAAAEoAAABEAAAA"
+			"MwAAADYAAABOAAAAagAAAEoAAABPAAAANQAAAFAAAAArAAAANwAAAEcAAABUAAAAbAAAADIAAABN"
+			"AAAAZAAAAG8AAABsAAAAMAAAADkAAAA4AAAAZAAAAGEAAABFAAAAaAAAAGsAAAArAAAAaAAAAC8A"
+			"AAA4AAAAdgAAAHAAAAA4AAAAVwAAADYAAABmAAAARwAAAGQAAAByAAAAMQAAAGIAAABjAAAAMgAA"
+			"ADUAAABIAAAAMQAAACsAAABnAAAAagAAAEQAAAB3AAAAQQAAAEEAAAA4AAAASwAAAE8AAABRAAAA"
+			"YQAAAFMAAAB1AAAAZQAAAEEAAABvAAAAZAAAAEoAAAB1AAAAWAAAAHcAAAA2AAAAdQAAAFAAAAB5"
+			"AAAAagAAAHUAAAA0AAAASwAAAFkAAABvAAAAeQAAAHQAAABqAAAASwAAAG4AAAA0AAAAbgAAADgA"
+			"AAAvAAAANwAAAGMAAAB0AAAAcAAAAE8AAABUAAAAZQAAADMAAAB1AAAAWQAAAHMAAABUAAAAawAA"
+			"AHQAAAB1AAAAOQAAAHAAAABxAAAANwAAAFgAAABpAAAAVgAAAHoAAABQAAAAQQAAAEwAAABDAAAA"
+			"dgAAAGsAAABpAA=="
 		)
 	)
 	(image
@@ -14103,7 +14133,25 @@
 			"YzN2SDdad2FubGJIQjZCZ1VLSnZuTmg1NDhTcjloSWJHckF2TkNCSEtnSUFJWVNRckt6WVhSTkF6"
 			"bXZhdE9uTW1UUHQ3REx4TEQwVk16TXpjM056VlZXam82TlZOY3N2L1ZVVVplZk9uYU5IajM3SmNW"
 			"MnBOaE4vK0xxL3E0MHNsSWpqOHdmMlgzajhZWHJQNUROc0w5djNXM2RxcHJ1SkdyVjVjSjFoMitP"
-			"Zk85dWszc1M5R3orb3FFdSs4SFhaTmw4OS90QzY1K3FBcg=="
+			"Zk85dWszc1M5R3orb3FFdSs4SFhaTmw4OS90QzY1K3FBcjFxWmlxVEQ0K3IxV3BYV2RpRFowYXRY"
+			"cjdsejU2YjhIQmtaNmVMaWtqUDl3bGhrQ3llWG1sWExGTE10Sk9JamJsNE9DTHo2b0NEbER3Vjhl"
+			"Syt6K2ZQbjkralJJK1hudlh2Mzl1dlh6N2oxNExYU3BFa1RYMTlmSWNTVUtWT1dMbDFxN0hJQUlJ"
+			"Y3hCd2RBcnZEMDlLeFE0V1hyZ3pKRmtpUnJhK3ZzbmR1elo4L3AwNmRIUnFiYXFVWXUwbURvNHU5"
+			"R3R5aWhsOVRrVzM5TWZmL0RueTdFcHRWRE50c0RPVWlKdlhYaDJLMEx4aTRqdHhUdzRRRUFBT1E0"
+			"RWh3QXVXTEpraVZGaXhhMXNiSEorMHNyaXJKang0NDA0aHRkNlhkbXJKamZxNXFGTEpTWUM2dEhE"
+			"Smk0SXlTOTk0ZG50VDBBQUFBQTVCb1NIQUM1NHZMbHk5cWFPVzlTd1hQQm1ybWR5cHBLcXVIdW9k"
+			"bURobngvS2pLOTFVdFpiUThBQUFBQXVZa0VCOEJyUUhaNGUvcUtPWjNLbWtwcWNzaU9jZjArWEJl"
+			"VWFzdmhWMmtQQUFBQUFMbU1CQWRBZ1NlWGZIZkduRjZWekNTaGhPMmYxRy80dXFERUhHMFBBQUFB"
+			"QUxtT0JBZEFRV2ZXY01qSU5nNnlFR3JTNVoyL2hUZzFhZW1VWnJ2NFcrZE9CRDFRc3R3ZUFBQUFB"
+			"SElmQ1E2QXZGTzBhTkVpUllya2JKOEdnK0htelp1Szh0SWt4YlJCcDdabGRFSUlJWm00OUZ1NCtt"
+			"V2I4eWkzVi9kcTh0bmh4S3kyZjdYeUFRQUFBQ0JUU0hBQTVCRlBUOC81OCtmcmRMb2M3L25VcVZP"
+			"ZE8zZFdWVFd0ZzdKOWxVb09jdVk3eTJwN0FBQUFBTWdMSkRnQThrajE2dFZ6STc0UlFsU3BVa1d2"
+			"MXljbEphVjFVTG05ekxQY3NpejBsdFgyUWlqaHE3ektyWHJKd2FSVDA1cVZtZmJDaDFIcis1WmZu"
+			"NlZyQUFBQUFIak5rZUFBeUNNTEZ5NjhmLysrcmExdHpuWnJNQmkyYjkvK2t2Z0dBQUFBQUFvSUVo"
+			"d0FlZVRCZ3dlTEZpMHlkaFVBQUFBQWtDK3gyUU1BQUFBQUFJRFdrZUFBQUFBQUFBQm9IUWtPQUFB"
+			"QUFBQ0ExckVQRGdDamtXVzVlZlBtam82T21UL0ZZREFjUFhyMDl1M2J1VmNWQUFBQUFHZ1FDUTRB"
+			"b3hrK2ZQallzV096ZWxab2FHamp4bzBOQmtOdWxGUmdXRnRiVzF0Ykc3c0tBSzhqdm53QUFNZ2xK"
+			"RGdBakNZaElTRWJaeGtNQnVLYkRFbVNkT25TSldOWEFRQQ=="
 		)
 	)
 	(global_label "PWM{slash}PFM"
@@ -14152,7 +14200,7 @@
 	)
 	(global_label "~{PWRFAIL}"
 		(shape bidirectional)
-		(at 386.08 82.55 0)
+		(at 391.16 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14162,7 +14210,7 @@
 		)
 		(uuid "04fa8a40-f866-49ef-beda-f8720f827d4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.978 82.55 0)
+			(at 403.058 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14656,28 +14704,6 @@
 			)
 		)
 	)
-	(global_label "SYS"
-		(shape bidirectional)
-		(at 340.36 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62648897-eeb0-4a41-8574-a747d41df39f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 332.7559 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EN_DCDC1"
 		(shape output)
 		(at 525.78 260.35 180)
@@ -14823,6 +14849,28 @@
 		(uuid "7d0e7c1b-8d93-43a2-b040-a2bcbe7f3fd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 284.48 175.9471 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{PWRFAIL}"
+		(shape bidirectional)
+		(at 326.39 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d59e560-a548-41ea-92d5-f565cdeff804")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.492 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14999,6 +15047,28 @@
 		(uuid "b66f1489-97c8-4514-845d-f2db15cbf65b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.2311 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYS"
+		(shape bidirectional)
+		(at 340.36 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc72e884-24e6-47dc-a610-a4f95e5d09b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.7559 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23093,13 +23163,12 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 81.28 123.698 90)
+			(at 80.772 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
@@ -23111,7 +23180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf"
 			(at 83.82 121.92 0)
 			(effects
 				(font
@@ -23122,6 +23191,15 @@
 		)
 		(property "Description" "Variable resistor"
 			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERT-JZEG103FA"
+			(at 83.82 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23161,7 +23239,7 @@
 				)
 			)
 		)
-		(property "Value" "5.24k"
+		(property "Value" "5.23k"
 			(at 75.184 120.65 90)
 			(effects
 				(font
@@ -23189,6 +23267,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-075K23L"
+			(at 74.93 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23709,14 +23796,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30.31k"
-			(at 90.932 125.476 90)
+		(property "Value" "30k"
+			(at 91.694 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
@@ -23739,6 +23825,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-1330KL"
+			(at 88.9 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
