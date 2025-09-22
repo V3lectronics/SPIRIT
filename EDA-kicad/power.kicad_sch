@@ -6556,6 +6556,12 @@
 		(uuid "884ae408-8daa-415c-894e-20593b8c3abd")
 	)
 	(junction
+		(at 389.89 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8df872c1-f14d-481f-a5c0-6535d7f8204d")
+	)
+	(junction
 		(at 483.87 295.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7034,6 +7040,16 @@
 			(type default)
 		)
 		(uuid "10f54c71-2e2a-41b0-ab14-f5403bc5fa3a")
+	)
+	(wire
+		(pts
+			(xy 389.89 82.55) (xy 386.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ae5543-0c72-4173-8fe9-677dcec97425")
 	)
 	(wire
 		(pts
@@ -7914,6 +7930,16 @@
 			(type default)
 		)
 		(uuid "64dd3e6f-042c-49ac-94f8-e1ea488c3f67")
+	)
+	(wire
+		(pts
+			(xy 389.89 72.39) (xy 389.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f3c8bd-87c8-45c8-ac33-6905d771bf1f")
 	)
 	(wire
 		(pts
@@ -9197,6 +9223,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 81.28) (xy 389.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d333ac89-93ee-4aae-b3d7-5607847bca0b")
+	)
+	(wire
+		(pts
 			(xy 340.36 91.44) (xy 340.36 92.71)
 		)
 		(stroke
@@ -9237,7 +9273,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 82.55) (xy 386.08 82.55)
+			(xy 391.16 82.55) (xy 389.89 82.55)
 		)
 		(stroke
 			(width 0)
@@ -14436,6 +14472,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 389.89 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3af45e64-b7dd-4787-a26d-f68c914c41be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.3972 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -21642,6 +21700,84 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 389.89 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8965e40f-00f8-4dba-8b2a-407918ed3baa")
+		(property "Reference" "R45"
+			(at 384.048 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 384.048 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 388.112 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 389.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 389.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5497262-21ea-4a70-9e93-89d414d9ad79")
+		)
+		(pin "1"
+			(uuid "c7643503-9183-4646-9917-e54da730c788")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "R45")
 					(unit 1)
 				)
 			)
