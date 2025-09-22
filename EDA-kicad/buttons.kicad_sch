@@ -1089,7 +1089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25a88c88-84b2-4a56-8231-c3b8b9370ec6")
-		(property "Reference" "#3.3V02"
+		(property "Reference" "#3.3V08"
 			(at 119.38 77.47 0)
 			(effects
 				(font
@@ -1138,7 +1138,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "#3.3V02")
+					(reference "#3.3V08")
 					(unit 1)
 				)
 			)
