@@ -33794,6 +33794,16 @@
 			)
 		)
 	)
+	(gr_text "Design by a thousand of monkey with Kicad"
+		(at 50 27 0)
+		(layer "F.Cu")
+		(uuid "398aa51e-a902-4b77-b567-cbac5bb8d50e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
 	(gr_text "Prototype unit 1"
 		(at 35.5 37.405 0)
 		(layer "F.Cu")
