@@ -2596,7 +2596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ce2d0f9-1709-4ec6-8d26-e95f3bd9e467")
-		(property "Reference" "#3.3V01"
+		(property "Reference" "#3.3V02"
 			(at 185.42 110.49 0)
 			(effects
 				(font
@@ -2645,7 +2645,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/02797719-74e3-4dee-b809-c2968ee0cdff"
-					(reference "#3.3V01")
+					(reference "#3.3V02")
 					(unit 1)
 				)
 			)
@@ -2922,7 +2922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c23c11ed-275a-4aea-b58d-d2473d8048a5")
-		(property "Reference" "#1.8V01"
+		(property "Reference" "#1.8V02"
 			(at 96.52 105.41 0)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/02797719-74e3-4dee-b809-c2968ee0cdff"
-					(reference "#1.8V01")
+					(reference "#1.8V02")
 					(unit 1)
 				)
 			)

@@ -3145,7 +3145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5beeefdb-3bb3-40a2-a049-f40889170179")
-		(property "Reference" "#1.8V02"
+		(property "Reference" "#1.8V03"
 			(at 154.178 28.956 0)
 			(effects
 				(font
@@ -3194,7 +3194,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
-					(reference "#1.8V02")
+					(reference "#1.8V03")
 					(unit 1)
 				)
 			)
@@ -3339,7 +3339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7218b4a9-be19-4d48-8642-0d4404f6f432")
-		(property "Reference" "#3.3V04"
+		(property "Reference" "#3.3V05"
 			(at 157.48 33.02 0)
 			(effects
 				(font
@@ -3388,7 +3388,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
-					(reference "#3.3V04")
+					(reference "#3.3V05")
 					(unit 1)
 				)
 			)
@@ -3668,7 +3668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa8acbc5-57c4-46e9-ab74-62288b5dbe04")
-		(property "Reference" "#5V01"
+		(property "Reference" "#5V02"
 			(at 163.83 29.21 0)
 			(effects
 				(font
@@ -3717,7 +3717,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
-					(reference "#5V01")
+					(reference "#5V02")
 					(unit 1)
 				)
 			)
@@ -3984,7 +3984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9da9146-f7d3-4ea3-ba69-1018509b4984")
-		(property "Reference" "#3.3V03"
+		(property "Reference" "#3.3V04"
 			(at 143.51 29.21 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
-					(reference "#3.3V03")
+					(reference "#3.3V04")
 					(unit 1)
 				)
 			)
@@ -4328,7 +4328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd447911-bc38-4764-bf24-9bde16d2f58b")
-		(property "Reference" "#3.3V05"
+		(property "Reference" "#3.3V06"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -4377,7 +4377,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/dae24383-d996-4b63-b3a8-c19902a00c63"
-					(reference "#3.3V05")
+					(reference "#3.3V06")
 					(unit 1)
 				)
 			)

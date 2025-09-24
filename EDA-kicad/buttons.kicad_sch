@@ -1020,7 +1020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0355150e-e939-403d-a2aa-b7959f546a25")
-		(property "Reference" "SW2"
+		(property "Reference" "SW5"
 			(at 130.81 67.818 0)
 			(effects
 				(font
@@ -1074,7 +1074,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -1089,7 +1089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25a88c88-84b2-4a56-8231-c3b8b9370ec6")
-		(property "Reference" "#3.3V08"
+		(property "Reference" "#3.3V09"
 			(at 119.38 77.47 0)
 			(effects
 				(font
@@ -1138,7 +1138,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "#3.3V08")
+					(reference "#3.3V09")
 					(unit 1)
 				)
 			)
@@ -1155,7 +1155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75162ac9-7ac7-4c78-b98d-4d85cd9ff70a")
-		(property "Reference" "SW4"
+		(property "Reference" "SW7"
 			(at 130.81 88.392 0)
 			(effects
 				(font
@@ -1209,7 +1209,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "SW4")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -1226,7 +1226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87afebea-5094-48d6-9586-1b5d7b191223")
-		(property "Reference" "SW3"
+		(property "Reference" "SW6"
 			(at 130.81 77.978 0)
 			(effects
 				(font
@@ -1280,7 +1280,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "SW3")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -1296,7 +1296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ffc52c-ea7e-4b07-b136-f2ab3de39372")
-		(property "Reference" "SW5"
+		(property "Reference" "SW8"
 			(at 130.81 100.076 0)
 			(effects
 				(font
@@ -1350,7 +1350,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "SW5")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
