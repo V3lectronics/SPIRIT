@@ -2639,6 +2639,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SPIRIT-components:2-2uh-inductorETQP4M2R2KVC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.524 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "2-2uh-inductorETQP4M2R2KVC"
+				(at -12.192 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SPIRIT-footprints:2-2uh-inductorIND_ETQP4M2R2KVC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1-Feb-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.0 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "2-2uh-inductorETQP4M2R2KVC_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SPIRIT-components:22V-boost-AP3032KTR-G1"
 			(pin_names
 				(offset 0.254)
@@ -5833,16 +6038,6 @@
 		)
 		(uuid "52a938e9-043c-43eb-a1a4-699a08715d63")
 	)
-	(text "Old piano switch RIP"
-		(exclude_from_sim no)
-		(at 138.938 202.184 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "52ebb667-80a1-4840-8e8b-e584bfdbdce9")
-	)
 	(text "STAT pin 10k pullup is only needed if signal\nis used by a separate device.\n\nSTAT pin is not necessary if charging\nstatus isn't needed"
 		(exclude_from_sim no)
 		(at 160.782 138.684 0)
@@ -6256,6 +6451,17 @@
 			)
 		)
 		(uuid "e6ba7baa-5947-4243-9877-943e74e9592e")
+	)
+	(text "Total max current: 10.6A"
+		(exclude_from_sim no)
+		(at 43.688 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f01a5466-7cb6-4826-be31-e178e4f3e01c")
 	)
 	(text "datasheet problem - schottky instead of zener"
 		(exclude_from_sim no)
@@ -10568,7 +10774,43 @@
 			"29G929G929G929G929G929G929G929G929G929G929G929G929G929G929G929G929G929G929G9"
 			"29G929G929G929G929G929G929G929G929G929G929G929G929G929G929G929G929G929G9xr6s"
 			"MzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzSEZE29G929G929G9"
-			"29G929G929G92w=="
+			"29G929G929G92y8AAABXAAAAMQAAADMAAAAzAAAAUQAAAHUAAAB0AAAATwAAAGYAAAB4AAAAQwAA"
+			"ADQAAAArAAAALwAAAEkAAABCAAAAMwAAAHoAAABRAAAAVgAAADQAAAB1AAAARgAAAGwAAABvAAAA"
+			"bwAAACsAAAA4AAAAYgAAAEcAAABEAAAAZQAAAEcAAAB5AAAAdQAAAG4AAAB6AAAAOAAAAE8AAAA5"
+			"AAAAZgAAAGkAAABDAAAAZwAAAGYAAABiAAAAcQAAAHoAAABBAAAAawAAAHoAAAAyAAAAOQAAAGUA"
+			"AABTAAAANgAAAGEAAABPAAAAaQAAAGgAAAA5AAAAZgAAAHYAAAA1AAAAMAAAADUAAABhAAAAbgAA"
+			"AGcAAABUAAAASgAAAGUAAABMAAAAagAAADcAAABhAAAAdQAAAFAAAABxAAAANQAAADAAAABsAAAA"
+			"UgAAAFUAAABSAAAARQAAAFkAAABCAAAAaQAAADIAAABiAAAAZAAAAHMAAAAyAAAAQgAAAG8AAABQ"
+			"AAAAQgAAADQAAABYAAAAQQAAAEcAAABEAAAAaAAAAHcAAABvAAAAZgAAAC8AAABiAAAAaAAAAHcA"
+			"AAA0AAAAZgAAAEQAAABoAAAAZwAAADAAAAByAAAATAAAAEsAAAB6AAAANQAAAFIAAABsAAAAdAAA"
+			"AEEAAABEAAAAdgAAAEUAAAArAAAAKwAAAG0AAABMAAAAaQAAADcAAABFAAAANgAAAGQAAABpAAAA"
+			"RQAAAHAAAABtAAAAbAAAAHgAAABIAAAAWgAAAE0AAABlAAAAdQAAAEcAAABPAAAAVAAAADcAAAAw"
+			"AAAAbQAAAFQAAABOAAAAegAAADEAAABNAAAAQQAAAGUAAABIAAAAcAAAAE8AAAB0AAAAaAAAAGwA"
+			"AABDAAAASAAAAFMAAABVAAAAbAAAACsAAAA4AAAAcwAAADMAAABBAAAASAAAAGUAAAB1AAAAMwAA"
+			"AG4AAABrAAAAcgAAAEkAAABMAAAAWAAAADAAAAAxAAAAcgAAAG0AAABiAAAAYwAAAG8AAAA1AAAA"
+			"OAAAAHgAAABRAAAAZwAAAGkAAABSAAAAaAAAAEYAAABRAAAAcwAAACsAAABKAAAAYQAAAFoAAAAv"
+			"AAAAdQAAAFIAAABTAAAAWgAAAEUAAAB4AAAAVQAAAHkAAABOAAAARgAAAHoAAABEAAAANwAAADYA"
+			"AABVAAAAOAAAAFgAAAArAAAATAAAAC8AAAA1AAAAcQAAAFgAAABjAAAAZgAAAC8AAABNAAAAagAA"
+			"AEkAAABQAAAAVgAAAGYAAABXAAAAOAAAAEEAAABBAAAAQQAAAEQAAABBAAAAVAAAADAAAABYAAAA"
+			"dwAAADAAAAB4AAAAIAAAAAAAAAAHnLs4elUAADgAAABjAAAAIAgAAAAAAAAwAAAAAAAAACecuzh6"
+			"VQAAcgAAAHQAAABlAAAAeAAAAAAAAAAAAAAAkIKGPn9VAAAxAAAAAAAAACBpTW9/VQAAwCwxbZ1/"
+			"AAB0AAAAbwAAAG8AAAB0AAAA8B4AAAAAAABQAAAAAAAAANe9uzh6VQAAOAAAAGMAAAA0AAAAMgAA"
+			"ADQAAAA3AAAAbAAAAHEAAABpAAAALQAAAGIAAABsAAAANAAAADgAAAAzAAAAAAAAALEFAAAAAAAA"
+			"0EJNb39VAABAJ01vf1UAAAAAAAAAAAAAAAAAAAAAAAA0AAAAOAAAAC0AAABNAAAASAAAAHoAAAAg"
+			"AAAAQQAAAFIAAABNAAAArgAAACAAAABDAAAAbwAAAHIAAAB0AAAAZQAAAHgAAACuAAAALQAAAE0A"
+			"AAAwAAAALAAAACAAAAAxAAAAMgAAADgAAABLAAAAQgAAACAAAABGAAAAbAAAAGEAAABzAAAAaAAA"
+			"ACwAAAAgAAAAMQAAADYAAABrAAAAQgAAACAAAABTAAAAUgAAAEEAAABNAAAALAAAACAAAABOAAAA"
+			"TwAAACAAAABVAAAARAAAAEIAAAAsAAAAIAAAAEMAAABBAAAAUAAAAC0AAABTAAAARQAAAE4AAABT"
+			"AAAARQAAACAAAABXAAAALwAAACAAAABHAAAARQAAAFMAAABUAAAAVQAAAFIAAABFAAAALAAAACAA"
+			"AABMAAAAQwAAAEQAAAAgAAAARAAAAFIAAABJAAAAVgAAAEUAAAAAAAAAAAAAAAAAAABRAwAAAAAA"
+			"ACBdTW9/VQAAkIKGPn9VAABmAAAAbgAAACwAAAAgAAAANAAAADgAAAAtAAAAbQAAAGgAAAB6AAAA"
+			"IAAAAGEAAAByAAAAbQAAAK4AAAAgAAAAYwAAAG8AAAByAAAAdAAAAGUAAAB4AAAArgAAAC0AAABt"
+			"AAAAMAAAACwAAAAgAAAAMQAAADIAAAA4AAAAawAAAGIAAAAgAAAAZgAAAGwAAABhAAAAcwAAAGgA"
+			"AAAsAAAAIAAAADEAAAA2AAAAawAAAGIAAAAgAAAAcwAAAHIAAABhAAAAbQAAACwAAAAgAAAANAAA"
+			"ACAAAAB1AAAAZAAAAGIAAAAsAAAAIAAAAGMAAABhAAAAcAAAAC0AAABzAAAAZQAAAG4AAABzAAAA"
+			"ZQAAACAAAAB3AAAALwAAAG8AAAAgAAAAZwAAAGUAAABzAAAAdAAAAHUAAAByAAAAZQAAAHMAAAAs"
+			"AAAAIAAAAGwAAABjAAAAZAAAACAAAABkAAAAcgAAAGkAAAB2AAAAZQAAAJABAAAAAAAA4AAAAAAA"
+			"AABQAAAAYQAAAA=="
 		)
 	)
 	(image
@@ -13154,7 +13396,43 @@
 			"GhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhka"
 			"GhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhka"
 			"GhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhka"
-			"GhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGg=="
+			"GhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGhkaGkFBQVFRQUFBRUVBQUFCQkFBQUFRUUFB"
+			"QUVRQUFBQkJBQUFBTVFBQUFEVUFBQUJUQUFBQVl3QUFBRzRBQUFCUEFBQUFlZ0FBQUdvQUFBQTBB"
+			"QUFBT1FBQUFFOEFBQUIwQUFBQVZ3QUFBSG9BQUFCakFBQUFiZ0FBQUVvQUFBQTJBQUFBWlFBQUFH"
+			"b0FBQUJTQUFBQU5BQUFBRGtBQUFCcEFBQUFaQUFBQUVZQUFBQldBQUFBU2dBQUFGTUFBQUJJQUFB"
+			"QVFnQUFBRUVBQUFCaEFBQUFjZ0FBQUM4QUFBQnBBQUFBU0FBQUFIY0FBQUIzQUFBQVFRQUFBRUVB"
+			"QUFCQkFBQUFRUUFBQUVFQUFBQkJBQUFBUVFBQUFFSUFBQUE0QUFBQVFnQUFBSG9BQUFCRkFBQUFl"
+			"QUFBQUUwQUFBQlJBQUFBY3dBQUFGY0FBQUJNQUFBQVN3QUFBR2dBQUFBMkFBQUFaQUFBQUVZQUFB"
+			"QlhBQUFBZWdBQUFGb0FBQUJ6QUFBQU13QUFBSEVBQUFCMUFBQUFjQUFBQUhJQUFBQm1BQUFBY2dB"
+			"QUFFMEFBQUJMQUFBQWJRQUFBRU1BQUFCREFBQUFSUUFBQUdrQUFBQlJBQUFBWXdBQUFEWUFBQUEz"
+			"QUFBQVR3QUFBSGNBQUFCSEFBQUFOd0FBQURFQUFBQXpBQUFBYXdBQUFHUUFBQUFyQUFBQVV3QUFB"
+			"R1VBQUFCa0FBQUFTd0FBQUZZQUFBQnNBQUFBVVFBQUFIUUFBQUJqQUFBQUt3QUFBRXNBQUFCMkFB"
+			"QUFXZ0FBQUU0QUFBQmlBQUFBWXdBQUFEQUFBQUJUQUFBQVpnQUFBRWtBQUFCMEFBQUFZUUFBQUU0"
+			"QUFBQllBQUFBZUFBQUFDOEFBQUJLQUFBQWNRQUFBRE1BQUFCc0FBQUFWQUFBQUdFQUFBQkdBQUFB"
+			"VmdBQUFIb0FBQUI0QUFBQWVnQUFBRWdBQUFCcUFBQUFhQUFBQUdvQUFBQnVBQUFBWVFBQUFIUUFB"
+			"QUJVQUFBQVRnQUFBSElBQUFCd0FBQUFUUUFBQUdvQUFBQXJBQUFBTXdBQUFFTUFBQUJKQUFBQVVn"
+			"QUFBRlVBQUFBMUFBQUFad0FBQUdVQUFBQklBQUFBZUFBQUFITUFBQUJTQUFBQU53QUFBRWdBQUFC"
+			"bUFBQUFOQUFBQUc4QUFBQk9BQUFBS3dBQUFHUUFBQUJhQUFBQVFRQUFBRzRBQUFBeUFBQUFTZ0FB"
+			"QUdnQUFBQlZBQUFBVkFBQUFFVUFBQUI0QUFBQVRnQUFBRzRBQUFCYUFBQUFNZ0FBQUdNQUFBQnVB"
+			"QUFBU2dBQUFEWUFBQUJsQUFBQWJRQUFBRlFBQUFCYUFBQQAASodwf1UAADBLh3B/VQAA8EuHcH9V"
+			"AACwTIdwf1UAAHBNh3B/VQAAME6HcH9VAADwTodwf1UAALBPh3B/VQAAcFCHcH9VAAAwUYdwf1UA"
+			"APBRh3B/VQAAsFKHcH9VAABwU4dwf1UAADBUh3B/VQAA8FSHcH9VAACwVYdwf1UAAHBWh3B/VQAA"
+			"MFeHcH9VAADwV4dwf1UAALBYh3B/VQAAcFmHcH9VAAAwWodwf1UAAPBah3B/VQAAsFuHcH9VAABw"
+			"XIdwf1UAADBdh3B/VQAA8F2HcH9VAACwXodwf1UAAHBfh3B/VQAAMGCHcH9VAADwYIdwf1UAALBh"
+			"h3B/VQAAcGKHcH9VAAAwY4dwf1UAAAAAAAAAAAAAUQAAAAAAAADAorFHf1UAABAwhXB/VQAAFBQU"
+			"FBQUtD8UFBQUFBS0PxQUFBQUFLQ/AAAAAAAA8D8AAAAAFBQUFBQUAAD/AAAAkAIAAAAAAABQAAAA"
+			"AAAAAIHedSd6VQAAAAAAAAAAAADgaUg/f1UAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA"
+			"AAAAGAAAABgAAAAgAAAAAAAAAEEAAAAAAAAAkPi3an9VAAAwk4Rwf1UAAAUAAAAAAAAAEAAAAAAA"
+			"AACAGIVwf1UAABAAAAAQAAAAkCwAAAAAAAAwAAAAAAAAAGE+Zid6VQAAQN6McH9VAACgzJ0hnX8A"
+			"AAAAAAAAAAAAADeQcH9VAAARAgAAAAAAAAA8kXB/VQAAwCwxbZ1/AAAAAAAAAAAAAGooAAB/VQAA"
+			"AAAAAAAAAADhAQAAAAAAAAA8kXB/VQAAwCwxbZ1/AAAQ050hnX8AAAAAAAAAAAAAQGiIEX9VAACx"
+			"AQAAAAAAAACbk3B/VQAAIMR9cH9VAAAAAAAAAAAAAJEBAAAAAAAAYPNtcH9VAADwk+xsf1UAAACA"
+			"h3B/VQAAQGiIEX9VAAAAAAAAAAAAAACCh3B/VQAAQGiIEX9VAAAAAAAAAAAAAACFh3B/VQAAQGiI"
+			"EX9VAAAAAAAAAAAAAACHh3B/VQAAEIiHcH9VAADQiIdwf1UAAJCJh3B/VQAAUIqHcH9VAAAQi4dw"
+			"f1UAANCLh3B/VQAAkIyHcH9VAABQjYdwf1UAABCOh3B/VQAA0I6HcH9VAACQj4dwf1UAAFCQh3B/"
+			"VQAAEJGHcH9VAADQkYdwf1UAAJCSh3B/VQAAUJOHcH9VAAAQlIdwf1UAANCUh3B/VQAAkJWHcH9V"
+			"AABQlodwf1UAABCXh3B/VQAA0JeHcH9VAACQmIdwf1UAAFCZh3B/VQAAEJqHcH9VAADQmodwf1UA"
+			"AJCbh3B/VQAAUJyHcH9VAAAQnYdwf1UAANCdh3B/VQAAkA=="
 		)
 	)
 	(global_label "3V3B"
@@ -15802,8 +16080,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "361ac673-a9cd-4b60-a72b-622eb6c32133")
-		(property "Reference" "R4_1"
-			(at 86.106 74.93 90)
+		(property "Reference" "R4"
+			(at 86.36 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,12 +16089,11 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 87.63 76.962 90)
+			(at 90.932 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
@@ -15846,6 +16123,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 86.36 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5df8f4d9-3bca-44c1-89fc-07769a0182e7")
 		)
@@ -15855,7 +16141,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "R4_1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -17317,7 +17603,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.0μH"
+		(property "Value" "2.2µH"
 			(at 149.606 104.902 0)
 			(effects
 				(font
@@ -17345,6 +17631,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ETQ-P4M2R2KVC"
 			(at 148.59 104.14 0)
 			(effects
 				(font
@@ -21304,6 +21599,117 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:2-2uh-inductorETQP4M2R2KVC")
+		(at 180.34 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c13acc64-9894-4429-8f4c-504dbcc5a3ed")
+		(property "Reference" "L7"
+			(at 181.61 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2-2uh-inductorETQP4M2R2KVC"
+			(at 181.61 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:2-2uh-inductorIND_ETQP4M2R2KVC"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1-Feb-20"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.0 mm"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8235f0b6-8262-47a2-9634-a434850c52f2")
+		)
+		(pin "1"
+			(uuid "05a2ee04-1f99-4917-b5ca-426518d3d019")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "L7")
 					(unit 1)
 				)
 			)
