@@ -1,0 +1,114 @@
+(footprint "1-5uH-inductor-VLS5030EX-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "L"
+		(at 0.5 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "193d42c5-c317-4511-bec7-377833f3a5ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1.5uH"
+		(at 0.5 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00909d05-b5fa-4e8d-b881-7ccc5cc1cfbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.5 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87fba745-ef96-4fc9-b767-76be1b7254f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.5 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "118010ca-2067-428f-a119-4df0e44ee75f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "VLS5030EX-1R5N-D"
+		(at 0.5 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "23cd2a8a-c415-4bee-8f0a-ac3224ab876f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.2 0.1)
+		(end -0.6 4.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "102bb631-08da-414b-aefe-8e938f3ce57b")
+	)
+	(fp_rect
+		(start 0.6 0.1)
+		(end 3.2 4.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "700df18f-a2c3-42d1-a336-20425c0849ff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e4069c46-663a-44bd-aead-af9440e633fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1-5uH-inductor-VLS5030EX-1R5N-D-vls5030ex-d.step"
+		(offset
+			(xyz 0 -2 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,292 @@
+(footprint "3-3uH-MURATA_LQH44PN3R3MPRL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wire Wound Ferrite Inductor for Power Lines 3.3uH±20% 2000mA 0.066Ω 1515")
+	(property "Reference" "REF**"
+		(at 0.4 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "cb1f8767-d593-481c-972a-c2726fe4b17c")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MURATA_LQH44PN3R3MPRL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "63307dc1-49aa-4c5d-9d64-d52902aeeecc")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5002a436-788e-4957-bad6-bcdd00451220")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66328d9a-319c-4fc8-beef-0ed6bb82277e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -2.2 1.35) (xy -0.75 1.65) (xy -0.75 -1.65) (xy -2.2 -1.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "7092e078-20e6-465a-bcc6-7930072f4156")
+	)
+	(fp_poly
+		(pts
+			(xy 2.2 1.35) (xy 2.2 -1.35) (xy 0.75 -1.65) (xy 0.75 1.65)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "4d60e682-904f-4bdd-a01f-b78e4bb99c5d")
+	)
+	(fp_line
+		(start -2.1 -2.1)
+		(end 2.1 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4dc7421d-9468-439e-b71c-f99da5846066")
+	)
+	(fp_line
+		(start -2.1 -2.025)
+		(end -2.1 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca268a79-357f-4e91-87c6-fca14310ace7")
+	)
+	(fp_line
+		(start -2.1 2.1)
+		(end -2.1 2.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7708d67e-d5af-4e0d-87c8-9ed0ec92e6fb")
+	)
+	(fp_line
+		(start -2.1 2.1)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11c97ecc-bff8-40d6-a064-c0027079637d")
+	)
+	(fp_line
+		(start 2.1 -2.025)
+		(end 2.1 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21b0d5e6-f537-42e7-90f9-44ebd55a1cc1")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end 2.1 2.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a246b08c-ea4f-42f4-9290-62a479dd9993")
+	)
+	(fp_poly
+		(pts
+			(xy -2.2 1.35) (xy -0.75 1.65) (xy -0.75 -1.65) (xy -2.2 -1.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "c2b5f617-40af-4ca9-87db-35681bc4caed")
+	)
+	(fp_poly
+		(pts
+			(xy 2.2 1.35) (xy 2.2 -1.35) (xy 0.75 -1.65) (xy 0.75 1.65)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "05ba272f-38ad-4218-8976-eb9f6f51cd0c")
+	)
+	(fp_line
+		(start -2.3 -2.2)
+		(end 2.3 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "10c9f733-550a-4c79-bf02-f54665b230e1")
+	)
+	(fp_line
+		(start -2.3 2.2)
+		(end -2.3 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f45f094f-1bf0-4cb6-83f1-6f432bdbe3d3")
+	)
+	(fp_line
+		(start 2.3 -2.2)
+		(end 2.3 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8fd3d5c7-3bf0-46b8-85e9-b10cf59f2a56")
+	)
+	(fp_line
+		(start 2.3 2.2)
+		(end -2.3 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ee97a1d0-b8b1-4ffe-a9d7-a76e4f298c42")
+	)
+	(fp_line
+		(start -2.1 -2.1)
+		(end 2.1 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b11df55-4715-4065-a778-ccd2788102a2")
+	)
+	(fp_line
+		(start -2.1 2.1)
+		(end -2.1 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec4482c8-f84d-41ea-a21e-341d120a9f39")
+	)
+	(fp_line
+		(start 2.1 -2.1)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "119a4cee-0372-4fc2-957c-7eff2057f132")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end -2.1 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f1f5c9d-47fb-4468-9d36-efd594842bba")
+	)
+	(pad "1" smd custom
+		(at -1.475 0)
+		(size 1.305 1.305)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.725 1.35) (xy 0.725 1.65) (xy 0.725 -1.65) (xy -0.725 -1.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "98b437e7-f1fe-4b0f-a33d-519007643017")
+	)
+	(pad "2" smd custom
+		(at 1.475 0)
+		(size 1.305 1.305)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.725 1.35) (xy 0.725 -1.35) (xy -0.725 -1.65) (xy -0.725 1.65)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5e51802a-9f76-4c1b-bd19-42624aba1329")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/3-3uH-inductor-LQH44PN3R3MPRL--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

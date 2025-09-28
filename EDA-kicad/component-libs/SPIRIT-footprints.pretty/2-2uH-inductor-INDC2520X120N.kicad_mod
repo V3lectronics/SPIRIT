@@ -1,0 +1,190 @@
+(footprint "2-2uH-inductor-INDC2520X120N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.71 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "b27cd74c-1d44-4c7e-ad4b-59e85b1bda22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INDC2520X120N"
+		(at 1.29 1.7 0)
+		(layer "F.Fab")
+		(uuid "86bd0314-a024-4686-9155-7ffd12af61bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fff9b06-e3f6-491e-ad0c-0e71fa55fb28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c530cf61-737e-4e67-9220-83535d66f65f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "DFE252012P-2R2M=P2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "efcbf26f-c5af-4302-9867-eb6ab4cc5b7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.15 -1.1)
+		(end 0.15 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a040d85-5937-42d8-a6c7-f56c73e0d662")
+	)
+	(fp_line
+		(start -0.15 1.1)
+		(end 0.15 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59753857-ff00-4bc1-938c-94a5474cf8b0")
+	)
+	(fp_line
+		(start -1.958 -1.358)
+		(end 1.958 -1.358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "668dd134-9bc7-459f-8f4e-e88d46e7e2f9")
+	)
+	(fp_line
+		(start -1.958 1.358)
+		(end -1.958 -1.358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f7791d2-d2cc-41ed-a70a-5d02a6da975d")
+	)
+	(fp_line
+		(start -1.958 1.358)
+		(end 1.958 1.358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6bd44fbe-d7fc-415e-9160-ec090199521a")
+	)
+	(fp_line
+		(start 1.958 1.358)
+		(end 1.958 -1.358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87146844-a2ff-40c2-a1c0-149a083fb3a1")
+	)
+	(fp_line
+		(start -1.35 1.1)
+		(end -1.35 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ba15f11-ce1c-4344-bd0c-59cda0a1471c")
+	)
+	(fp_line
+		(start 1.35 -1.1)
+		(end -1.35 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9191ca8b-333d-4429-b0d9-1865ccefff13")
+	)
+	(fp_line
+		(start 1.35 1.1)
+		(end -1.35 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19827e5b-4529-46c6-b1c7-279f03529104")
+	)
+	(fp_line
+		(start 1.35 1.1)
+		(end 1.35 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0cc85e3f-5e27-4c64-a593-027d0f41ef11")
+	)
+	(pad "1" smd rect
+		(at -1.09 0)
+		(size 1.24 2.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "82beeb3d-1897-4f81-bdb8-e633c7685bfa")
+	)
+	(pad "2" smd rect
+		(at 1.09 0)
+		(size 1.24 2.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "90f0cfbb-8768-4078-b267-8908fc49b3c9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/2-2uH-inductor-DFE252012P-2R2M_P2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
