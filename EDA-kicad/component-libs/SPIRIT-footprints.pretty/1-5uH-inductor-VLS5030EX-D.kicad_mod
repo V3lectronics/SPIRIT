@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -3.2 0.1)
-		(end -0.6 4.1)
+		(start -3.4 -0.1)
+		(end 3.4 4.3)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -75,17 +75,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "102bb631-08da-414b-aefe-8e938f3ce57b")
-	)
-	(fp_rect
-		(start 0.6 0.1)
-		(end 3.2 4.1)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "700df18f-a2c3-42d1-a336-20425c0849ff")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.5 -4 0)
@@ -98,6 +87,20 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "1" smd rect
+		(at -1.9175 2.12625 90)
+		(size 4.0525 2.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "39c96ca0-083e-4cbb-9967-3bf03b175081")
+	)
+	(pad "2" smd rect
+		(at 1.9 2.1 90)
+		(size 4.0525 2.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c4dd8175-4e1e-4e62-9bd3-30130191175f")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/1-5uH-inductor-VLS5030EX-1R5N-D-vls5030ex-d.step"

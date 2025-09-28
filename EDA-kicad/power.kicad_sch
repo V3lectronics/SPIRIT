@@ -116,7 +116,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -134,7 +134,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2578,7 +2578,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2596,7 +2596,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2865,7 +2865,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3038,14 +3038,14 @@
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3056,14 +3056,14 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3737,7 +3737,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3755,7 +3755,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3885,7 +3885,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3903,7 +3903,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13093,10 +13093,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "18403ae1-7333-409a-b83d-a0260baa2685")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "64b5728f-2387-41e7-86bf-9a3f88c64915")
 		)
 		(instances
@@ -13482,7 +13482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:LED-INDICATOR"
+		(property "Footprint" "SPIRIT-footprints:LED-INDICATOR-RED-QBLP601-R5"
 			(at 142.24 123.19 0)
 			(effects
 				(font
@@ -14087,10 +14087,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "0e3b077b-fef5-4c77-a810-a1a1659101a5")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "68043db0-7022-49b5-92d7-149ca574dfec")
 		)
 		(instances
@@ -15142,10 +15142,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "3595feb7-b3e7-46e7-882d-8273d3a3f932")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "20f53fd8-46f9-4913-babe-77d0d1d1b6c6")
 		)
 		(instances
@@ -15794,7 +15794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ25792RQMR:QFN40P400X400X100-29N"
+		(property "Footprint" "SPIRIT-footprints:CHARGER-SWITCHER-RTE0016C"
 			(at 110.49 97.79 0)
 			(effects
 				(font
@@ -17544,7 +17544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
 			(at 137.16 84.328 90)
 			(effects
 				(font
@@ -17911,10 +17911,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "8235f0b6-8262-47a2-9634-a434850c52f2")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "05a2ee04-1f99-4917-b5ca-426518d3d019")
 		)
 		(instances
@@ -19541,7 +19541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERJ3EKF6800V:RES_ERJ3EKF6800V"
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
 			(at 150.368 121.158 0)
 			(effects
 				(font
@@ -19840,10 +19840,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "2c0332ae-9eee-4b3e-95c2-afbad594c0a4")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "0af3aacc-2702-4541-9757-6d91d8cb23eb")
 		)
 		(instances
@@ -20610,10 +20610,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "041a2d26-7f45-4a34-87f6-c0c0b8cfff14")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "03a9de12-58bc-4e30-90da-74726b4ae7df")
 		)
 		(instances
