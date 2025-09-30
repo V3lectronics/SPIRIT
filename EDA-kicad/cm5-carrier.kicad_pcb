@@ -1235,7 +1235,7 @@
 		(path "/dae24383-d996-4b63-b3a8-c19902a00c63/dba88bfb-cc5f-47f8-afa2-4b110e6d3b3a")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.75 -3.2)
 			(end 1.9 -3.2)
@@ -1584,7 +1584,7 @@
 		(path "/3e05fcb4-dd9a-4c73-b877-1d6aac71c390")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.718 -0.448)
 			(end 0.718 -0.448)
@@ -2190,7 +2190,7 @@
 		(path "/d2fbe87d-96d3-4506-b007-7dd38a42685d")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.718 -0.448)
 			(end 0.718 -0.448)
@@ -3307,7 +3307,7 @@
 		(path "/4d20c3c8-7f3b-4711-a43f-15c2a08af985/3b51122a-5843-4bb0-a156-0be716e961be")
 		(sheetname "/USB C/")
 		(sheetfile "USB-C.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.5715 -0.4191)
 			(end 0.5715 -0.4191)
@@ -3575,7 +3575,7 @@
 		(path "/7ec223ba-5b63-4970-8f4e-9b03f0ec9947/e1cb44ed-9c34-436d-b336-6935286bbcbb")
 		(sheetname "/Camera/")
 		(sheetfile "camera.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0.127 -0.508 270)
 			(unlocked yes)
@@ -3969,7 +3969,7 @@
 		(path "/1297454b-0b1d-459e-9de1-2b16d7982efe/ca560339-ba9f-43b7-adb0-5429211fc2eb")
 		(sheetname "/GSM-GPS/")
 		(sheetfile "GSM-GPS.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_poly
 			(pts
 				(xy -7.1 -8) (xy -9.3 -8) (xy -9.3 -10.7) (xy -8.8 -11.2) (xy -7.1 -11.2)
@@ -11773,7 +11773,7 @@
 		(path "/7ec223ba-5b63-4970-8f4e-9b03f0ec9947/b25f34e6-cc49-4da3-bbb1-35745acf6e2e")
 		(sheetname "/Camera/")
 		(sheetfile "camera.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0.127 -0.508 270)
 			(unlocked yes)
@@ -11850,7 +11850,7 @@
 		(path "/4d20c3c8-7f3b-4711-a43f-15c2a08af985/b2c8a973-0ff6-46d6-9d4c-1c7ab223e8e2")
 		(sheetname "/USB C/")
 		(sheetfile "USB-C.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_poly
 			(pts
 				(xy -0.68 -0.85) (xy -0.15 -0.85) (xy -0.15 -0.65) (xy -0.68 -0.65)
@@ -12514,7 +12514,7 @@
 		(path "/7d72c53e-b066-4e49-bdb9-37372138f009/0355150e-e939-403d-a2aa-b7959f546a25")
 		(sheetname "/Buttons/")
 		(sheetfile "buttons.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -4.0259 1.8796)
 			(end 4.0259 1.8796)
@@ -14834,7 +14834,7 @@
 		(path "/dae24383-d996-4b63-b3a8-c19902a00c63/bb8e2d5a-5f6b-4090-93fd-f65400be84e2")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -7.5 -0.47)
 			(end -7.5 3)
@@ -15894,7 +15894,7 @@
 		(path "/dae24383-d996-4b63-b3a8-c19902a00c63/362de10f-9bad-4f4b-bc7c-3d008233f0ac")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 7.5 3)
 			(end 7.5 -0.47)
@@ -17220,7 +17220,7 @@
 		(path "/b44a98f4-0347-4633-8437-b3dfeaa625db/3baf9764-a795-490d-8072-c1152bb4a413")
 		(sheetname "/Vibration/")
 		(sheetfile "vibration.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -2.21 -0.9)
 			(end 1.4 -0.9)
@@ -17598,7 +17598,7 @@
 		(path "/7d72c53e-b066-4e49-bdb9-37372138f009/75162ac9-7ac7-4c78-b98d-4d85cd9ff70a")
 		(sheetname "/Buttons/")
 		(sheetfile "buttons.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -4.0259 1.8796)
 			(end 4.0259 1.8796)
@@ -17861,7 +17861,7 @@
 		(path "/04699a32-fd99-404c-a4d5-4169f6777d95")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.718 -0.448)
 			(end 0.718 -0.448)
@@ -18099,7 +18099,7 @@
 		(path "/dae24383-d996-4b63-b3a8-c19902a00c63/b37662e8-8184-4ba0-9a5b-d68ba42e0b3f")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0.456 0)
@@ -18481,7 +18481,7 @@
 		(path "/02797719-74e3-4dee-b809-c2968ee0cdff/0280fe85-a20a-4e8c-8645-01346b1bfc4f")
 		(sheetname "/Screen/")
 		(sheetfile "screen.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0.127 -0.508 0)
 			(unlocked yes)
@@ -18949,7 +18949,7 @@
 		(path "/dae24383-d996-4b63-b3a8-c19902a00c63/b0493455-9218-497e-bb4b-f503bebc4888")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.28 -0.625)
 			(end 0.28 -0.625)
@@ -20673,7 +20673,7 @@
 		(path "/7d72c53e-b066-4e49-bdb9-37372138f009/96ffc52c-ea7e-4b07-b136-f2ab3de39372")
 		(sheetname "/Buttons/")
 		(sheetfile "buttons.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 4.0259 -1.8796)
 			(end -4.0259 -1.8796)
@@ -23320,7 +23320,7 @@
 		(path "/7d72c53e-b066-4e49-bdb9-37372138f009/87afebea-5094-48d6-9586-1b5d7b191223")
 		(sheetname "/Buttons/")
 		(sheetfile "buttons.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -4.0259 1.8796)
 			(end 4.0259 1.8796)
@@ -24070,7 +24070,7 @@
 		(path "/dae24383-d996-4b63-b3a8-c19902a00c63/ddf31fef-f065-4eaf-abeb-73a5ae95ead7")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 2.5 -2.5)
 			(end 2.205 -2.5)
@@ -24733,7 +24733,7 @@
 		(path "/b409b5f4-0f84-46c0-84e6-a0b4d149590c/0e4f1e0b-31bf-41fc-ac2b-cf79d1fb3b0c")
 		(sheetname "/Flashlight/")
 		(sheetfile "flashlight.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1 -1.59)
 			(end -0.1 -1.59)
@@ -25179,7 +25179,7 @@
 		(path "/02797719-74e3-4dee-b809-c2968ee0cdff/91303d0f-f0e4-442a-8126-a9410c73a2ff")
 		(sheetname "/Screen/")
 		(sheetfile "screen.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0.127 -0.508 0)
 			(unlocked yes)
@@ -25206,7 +25206,7 @@
 	(footprint "SPIRIT-footprints:VIBRATION-PUI_HD-EMB1205-3-SC-R"
 		(layer "F.Cu")
 		(uuid "870c9ea6-7182-405c-b9f9-b3654a0e5845")
-		(at 36 148)
+		(at 68 146.056399)
 		(property "Reference" "B1"
 			(at -2.825 -3.735 0)
 			(layer "F.SilkS")
@@ -25308,7 +25308,7 @@
 		(path "/b44a98f4-0347-4633-8437-b3dfeaa625db/ad42021a-0e02-4126-9901-b79cbab77623")
 		(sheetname "/Vibration/")
 		(sheetfile "vibration.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -5.85 -2.65)
 			(end 5.85 -2.65)
@@ -26114,7 +26114,7 @@
 		(path "/22a7f479-b60d-43d3-acd2-a72a0c1ab82c/8067c13e-b8a2-4e33-a760-1d4976cb8737")
 		(sheetname "/Fingerprint/")
 		(sheetfile "fingerprint.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -3.6322 -2.0447)
 			(end -3.6322 -0.060979)
@@ -27220,7 +27220,7 @@
 		(path "/b44a98f4-0347-4633-8437-b3dfeaa625db/51ee73f9-b167-4a79-8c79-e509a88ce5ff")
 		(sheetname "/Vibration/")
 		(sheetfile "vibration.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.28 -0.625)
 			(end 0.28 -0.625)
@@ -27969,7 +27969,7 @@
 		(path "/a5c85cc1-30b7-4b0e-b922-6502af31fe28")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.7747 -0.4191)
 			(end 0.7747 -0.4191)
@@ -28696,7 +28696,7 @@
 		(path "/657c9e73-26fd-4565-bf19-0c397fed4a45")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.718 -0.448)
 			(end 0.718 -0.448)
@@ -28913,7 +28913,7 @@
 		(path "/22a7f479-b60d-43d3-acd2-a72a0c1ab82c/fefdb6e5-d7b3-4052-b3c1-3bb57aae907c")
 		(sheetname "/Fingerprint/")
 		(sheetfile "fingerprint.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.28 0.625)
 			(end 0.28 0.625)
@@ -29319,7 +29319,7 @@
 		(path "/dae24383-d996-4b63-b3a8-c19902a00c63/0da2a5e0-e8d1-4a91-b63e-7bef4092862c")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.2 -0.1)
 			(end 0.2 -0.1)
@@ -31137,7 +31137,7 @@
 		(path "/b44a98f4-0347-4633-8437-b3dfeaa625db/c97867d9-f5e7-41d4-b0dc-845e225bb5eb")
 		(sheetname "/Vibration/")
 		(sheetfile "vibration.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.68 -1.214)
 			(end 0.68 -1.214)
@@ -32724,7 +32724,7 @@
 		(path "/02797719-74e3-4dee-b809-c2968ee0cdff/f2d956d2-fda1-40de-9721-bf05db0b0119")
 		(sheetname "/Screen/")
 		(sheetfile "screen.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -6.35 -1.75)
 			(end -6.35 1.7)
@@ -33697,7 +33697,7 @@
 		(path "/dae24383-d996-4b63-b3a8-c19902a00c63/7ec72541-9614-4910-9c55-29d2aa6dd3a6")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sc.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.2 -0.1)
 			(end 0.2 -0.1)
@@ -34174,7 +34174,7 @@
 		(path "/4d20c3c8-7f3b-4711-a43f-15c2a08af985/bc77b879-9867-4799-a0bf-059c7b0ce345")
 		(sheetname "/USB C/")
 		(sheetfile "USB-C.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_poly
 			(pts
 				(xy -3.075 -3.09) (xy -2.675 -3.09) (xy -2.675 -2.09) (xy -3.075 -2.09)
@@ -36306,7 +36306,7 @@
 		(path "/1297454b-0b1d-459e-9de1-2b16d7982efe/28fd0aa5-df1b-426a-bddf-cdbf50592ca3")
 		(sheetname "/GSM-GPS/")
 		(sheetfile "GSM-GPS.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -4.88 7)
 			(end 4.88 7)
@@ -36658,7 +36658,7 @@
 		(path "/b409b5f4-0f84-46c0-84e6-a0b4d149590c/dda2b24c-bc70-46d7-932a-fce0ca333646")
 		(sheetname "/Flashlight/")
 		(sheetfile "flashlight.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.68 -1.214)
 			(end 0.68 -1.214)
@@ -38666,7 +38666,7 @@
 		(path "/f7a10176-eeaf-4bfd-837b-4802de577fa7")
 		(sheetname "/")
 		(sheetfile "cm5-carrier.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 33 51.5)
 			(end 0 51.5)
@@ -41157,7 +41157,7 @@
 		(path "/7ec223ba-5b63-4970-8f4e-9b03f0ec9947/876ca469-6737-4a1a-bcc9-4b79cfc5528e")
 		(sheetname "/Camera/")
 		(sheetfile "camera.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_poly
 			(pts
 				(xy -8.69569 2.25552) (xy -9.99109 2.25552) (xy -9.99109 0.29972) (xy -8.69569 0.29972)
