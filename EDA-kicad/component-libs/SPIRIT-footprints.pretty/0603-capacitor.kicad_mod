@@ -16,13 +16,13 @@
 		)
 	)
 	(property "Value" "C"
-		(at 1.567324 1.206786 0)
+		(at 1.7 0 0)
 		(layer "F.Fab")
 		(uuid "1b3535b4-8d08-47dd-ada5-51a7bc3cd058")
 		(effects
 			(font
-				(size 0.1 0.1)
-				(thickness 0.025)
+				(size 0.64 0.64)
+				(thickness 0.15)
 			)
 		)
 	)

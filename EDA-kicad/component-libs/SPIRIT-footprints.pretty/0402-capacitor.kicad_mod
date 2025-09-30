@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "C"
-		(at 0 1 0)
+		(at 1.4 0 0)
 		(layer "F.Fab")
 		(uuid "9d6624cd-4905-4c28-936d-81a2a06856e0")
 		(effects
