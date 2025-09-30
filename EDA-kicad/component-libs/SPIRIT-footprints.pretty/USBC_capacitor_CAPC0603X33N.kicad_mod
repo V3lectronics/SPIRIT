@@ -1,7 +1,7 @@
 (footprint "USBC_capacitor_CAPC0603X33N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.53 -0.76 0)
@@ -23,18 +23,6 @@
 			(font
 				(size 0.393701 0.393701)
 				(thickness 0.098425)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a45dcb76-bb4f-4b34-9b3f-dd560b2f0da3")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -146,17 +134,18 @@
 	(pad "1" smd rect
 		(at -0.281 0)
 		(size 0.38 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "28618624-6dc9-4874-b243-268324fd43c6")
 	)
 	(pad "2" smd rect
 		(at 0.281 0)
 		(size 0.38 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "153f5c14-cfc4-4f16-840b-6a4034242937")
 	)
+	(embedded_fonts no)
 	(model "/home/jan/kicad/custom-libs/SPIRIT-3D-models/USBC_capacitor_GRM033R60J334ME90D.step"
 		(offset
 			(xyz 0 -0.17 0.15)

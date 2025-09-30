@@ -19849,17 +19849,6 @@
 			)
 		)
 		(symbol "TPS650250RHBR_0_0"
-			(rectangle
-				(start -17.78 43.688)
-				(end 17.78 -43.18)
-				(stroke
-					(width 0.41)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin input line
 				(at -22.86 41.91 0)
 				(length 5.08)
@@ -20420,6 +20409,17 @@
 			)
 		)
 		(symbol "TPS650250RHBR_1_0"
+			(rectangle
+				(start -17.78 43.688)
+				(end 17.78 -43.18)
+				(stroke
+					(width 0.41)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin input line
 				(at -22.86 -8.89 0)
 				(length 5.08)

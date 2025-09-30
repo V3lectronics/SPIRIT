@@ -1,10 +1,10 @@
-(footprint "0603-resistor"
+(footprint "0402-capacitor"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.1 0)
+		(at 0.3 -0.9 0)
 		(layer "F.SilkS")
 		(uuid "f66bdc01-46e5-433e-b466-0fbb93d30e27")
 		(effects
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "R"
-		(at 5.2024 1.3564 0)
+	(property "Value" "C"
+		(at 0 1 0)
 		(layer "F.Fab")
 		(uuid "9d6624cd-4905-4c28-936d-81a2a06856e0")
 		(effects
@@ -51,8 +51,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.1 -0.2)
-		(end 0.1 -0.2)
+		(start -0.1 -0.1)
+		(end 0.1 -0.1)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -61,18 +61,8 @@
 		(uuid "e3fab852-53ec-493c-9c40-c2e8d5a8cc35")
 	)
 	(fp_line
-		(start -0.1 0.2)
-		(end -0.1 -0.2)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "94dd1e61-46d3-4735-ac5b-cb4f1c706180")
-	)
-	(fp_line
-		(start -0.1 0.2)
-		(end 0.1 0.2)
+		(start -0.1 0.1)
+		(end 0.1 0.1)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -81,8 +71,8 @@
 		(uuid "f7038432-7f03-49b1-897f-d64def786031")
 	)
 	(fp_line
-		(start 0 -0.2)
-		(end 0 -0.4)
+		(start 0 -0.1)
+		(end 0 -0.3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -91,8 +81,8 @@
 		(uuid "87ef00a7-e09b-4ffa-9d11-428243de30ce")
 	)
 	(fp_line
-		(start 0 0.4)
-		(end 0 0.2)
+		(start 0 0.3)
+		(end 0 0.1)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -100,59 +90,20 @@
 		(layer "F.SilkS")
 		(uuid "da944881-da1f-4079-b885-3841a4dd94d1")
 	)
-	(fp_line
-		(start 0.1 0.2)
-		(end 0.1 -0.2)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "227fe9f6-4ef1-40cd-9f1d-e3fad4e0037e")
-	)
-	(fp_line
-		(start -1.3 -0.7)
-		(end -1.3 0.7)
+	(fp_rect
+		(start -1 -0.5)
+		(end 1 0.5)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4e435d03-5779-4d1f-8b6f-ef97a656494a")
+		(uuid "28ab0398-d670-4850-8312-d6770ec09eca")
 	)
 	(fp_line
-		(start -1.3 0.7)
-		(end 1.3 0.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b1e1c628-c4e4-4a44-a95a-e9049dda8121")
-	)
-	(fp_line
-		(start 1.3 -0.7)
-		(end -1.3 -0.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "af2d79af-b599-4e33-93d8-612f10feba42")
-	)
-	(fp_line
-		(start 1.3 0.7)
-		(end 1.3 -0.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1ca1f452-bff8-4baa-b888-91caef388477")
-	)
-	(fp_line
-		(start -0.8 -0.4)
-		(end -0.8 0.4)
+		(start -0.8 -0.3)
+		(end -0.8 0.3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -161,8 +112,8 @@
 		(uuid "793789cb-48cd-4623-a578-a6aefcc0e3fc")
 	)
 	(fp_line
-		(start -0.8 -0.4)
-		(end 0.8 -0.4)
+		(start -0.8 -0.3)
+		(end 0.8 -0.3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -171,8 +122,8 @@
 		(uuid "a62c71cd-2f72-46fc-90c4-f58b28af543e")
 	)
 	(fp_line
-		(start -0.8 0.4)
-		(end 0.8 0.4)
+		(start -0.8 0.3)
+		(end 0.8 0.3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -181,8 +132,8 @@
 		(uuid "8d8ce610-cc2b-42a2-8d76-0b05454a5864")
 	)
 	(fp_line
-		(start 0.8 -0.4)
-		(end 0.8 0.4)
+		(start 0.8 -0.3)
+		(end 0.8 0.3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -191,18 +142,18 @@
 		(uuid "dd9f057a-68de-41b5-ac4e-148e3d85f953")
 	)
 	(pad "1" smd rect
-		(at -0.725 0)
-		(size 0.65 0.9)
+		(at -0.5 0)
+		(size 0.5 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "6c88bfeb-931e-4bc1-b4f0-eaead3e2ca69")
 	)
 	(pad "2" smd rect
-		(at 0.725 0)
-		(size 0.65 0.9)
+		(at 0.5 0)
+		(size 0.5 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "9dc3d017-f4f9-4b7b-8f18-3ef7d61cd6d5")
+		(uuid "94636e81-9921-4547-b760-d7dae62c1dd4")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/0603-resistor.step"
