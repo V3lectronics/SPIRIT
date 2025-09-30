@@ -152,7 +152,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U11"
+			(property "Reference" "U4"
 				(at 0 38.1 0)
 				(effects
 					(font
@@ -168,7 +168,7 @@
 					)
 				)
 			)
-			(property "Footprint" "BQ25792RQMR:QFN40P400X400X100-29N"
+			(property "Footprint" "SPIRIT-footprints:CHARGER-SWITCHER-RTE0016C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -188,6 +188,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "EVM datasheet" "https://www.ti.com/lit/ug/sluucb5e/sluucb5e.pdf?ts=1756794755662"
 				(at 0 0 0)
 				(effects
 					(font
@@ -236,27 +245,7 @@
 					(hide yes)
 				)
 			)
-			(property "EVM datasheet" "https://www.ti.com/lit/ug/sluucb5e/sluucb5e.pdf?ts=1756794755662"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "BQ25792RQMR_0_0"
-				(rectangle
-					(start -15.24 -35.56)
-					(end 15.24 33.02)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin input line
 					(at -20.32 25.4 0)
 					(length 5.08)
@@ -777,6 +766,19 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(symbol "BQ25792RQMR_1_0"
+				(rectangle
+					(start -15.24 33.02)
+					(end 15.24 -35.56)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -4887,17 +4889,6 @@
 				)
 			)
 			(symbol "TPS650250RHBR_0_0"
-				(rectangle
-					(start -17.78 43.688)
-					(end 17.78 -43.18)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin input line
 					(at -22.86 41.91 0)
 					(length 5.08)
@@ -5458,6 +5449,17 @@
 				)
 			)
 			(symbol "TPS650250RHBR_1_0"
+				(rectangle
+					(start -17.78 43.688)
+					(end 17.78 -43.18)
+					(stroke
+						(width 0.41)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input line
 					(at -22.86 -8.89 0)
 					(length 5.08)
@@ -10988,7 +10990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 162.2552 102.87 0)
 			(effects
 				(font
@@ -11250,7 +11252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 168.6052 102.87 0)
 			(effects
 				(font
@@ -11526,7 +11528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 202.8952 123.19 0)
 			(effects
 				(font
@@ -12024,7 +12026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 304.4952 157.48 0)
 			(effects
 				(font
@@ -12100,7 +12102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(property "Footprint" "SPIRIT-footprints:0805-resistor"
 			(at 86.36 76.708 90)
 			(effects
 				(font
@@ -12245,7 +12247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 295.6052 129.54 0)
 			(effects
 				(font
@@ -12901,7 +12903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0402-capacitor"
 			(at 205.4352 95.25 0)
 			(effects
 				(font
@@ -12979,7 +12981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 305.7652 127 0)
 			(effects
 				(font
@@ -14408,7 +14410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 171.1452 123.19 0)
 			(effects
 				(font
@@ -14486,7 +14488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 312.1152 152.4 0)
 			(effects
 				(font
@@ -14640,7 +14642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 296.8752 162.56 0)
 			(effects
 				(font
@@ -15482,7 +15484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 181.3052 102.87 0)
 			(effects
 				(font
@@ -15561,7 +15563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 190.1952 123.19 0)
 			(effects
 				(font
@@ -15717,7 +15719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 148.2852 81.28 0)
 			(effects
 				(font
@@ -16359,7 +16361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(property "Footprint" "SPIRIT-footprints:0805-resistor"
 			(at 68.072 77.47 90)
 			(effects
 				(font
@@ -16582,7 +16584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(property "Footprint" "SPIRIT-footprints:0805-resistor"
 			(at 82.042 121.92 90)
 			(effects
 				(font
@@ -16658,7 +16660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(property "Footprint" "SPIRIT-footprints:0805-resistor"
 			(at 74.93 119.888 90)
 			(effects
 				(font
@@ -17003,7 +17005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(property "Footprint" "SPIRIT-footprints:0805-resistor"
 			(at 87.122 121.92 90)
 			(effects
 				(font
@@ -17324,7 +17326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 174.9552 102.87 0)
 			(effects
 				(font
@@ -17953,7 +17955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 315.9252 124.46 0)
 			(effects
 				(font
@@ -18399,7 +18401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 183.8452 123.19 0)
 			(effects
 				(font
@@ -18678,7 +18680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 158.4452 81.28 0)
 			(effects
 				(font
@@ -18829,7 +18831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+		(property "Footprint" "SPIRIT-footprints:0805-resistor"
 			(at 71.628 67.31 90)
 			(effects
 				(font
@@ -18907,7 +18909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 69.85 228.2952 0)
 			(effects
 				(font
@@ -18986,7 +18988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 177.4952 123.19 0)
 			(effects
 				(font
@@ -19727,7 +19729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 127.9652 246.38 0)
 			(effects
 				(font
@@ -20107,7 +20109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 196.5452 123.19 0)
 			(effects
 				(font

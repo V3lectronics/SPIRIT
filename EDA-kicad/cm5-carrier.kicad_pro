@@ -769,6 +769,186 @@
           "label": "MPN",
           "name": "MPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFG_PACKAGE_IDENT_REV",
+          "name": "MFG_PACKAGE_IDENT_REV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER_PART_NUMBER",
+          "name": "MOUSER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPOSITION",
+          "name": "COMPOSITION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG_PACKAGE_IDENT_DATE",
+          "name": "MFG_PACKAGE_IDENT_DATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CORE_MATERIAL",
+          "name": "CORE_MATERIAL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AUTOMOTIVE",
+          "name": "AUTOMOTIVE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT_VARIANT_NAME_0",
+          "name": "FOOTPRINT_VARIANT_NAME_0",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CENTROID_NOT_SPECIFIED",
+          "name": "CENTROID_NOT_SPECIFIED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE_CLASS_L1",
+          "name": "DEVICE_CLASS_L1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PREFIX",
+          "name": "PREFIX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE_CLASS_L2",
+          "name": "DEVICE_CLASS_L2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INDUCTANCE",
+          "name": "INDUCTANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD_FREE",
+          "name": "LEAD_FREE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE_CLASS_L3",
+          "name": "DEVICE_CLASS_L3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RMS_CURRENT",
+          "name": "RMS_CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS",
+          "name": "ROHS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SATURATION_CURRENT",
+          "name": "SATURATION_CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SELF_RESONANT_FREQUENCY",
+          "name": "SELF_RESONANT_FREQUENCY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SERIES_RESISTANCE",
+          "name": "SERIES_RESISTANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SHIELDING",
+          "name": "SHIELDING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY_DESCRIPTION",
+          "name": "DIGIKEY_DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY_PART_NUMBER",
+          "name": "DIGIKEY_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG_PACKAGE_IDENT",
+          "name": "MFG_PACKAGE_IDENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE_RANGE_HIGH",
+          "name": "TEMPERATURE_RANGE_HIGH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE_RANGE_LOW",
+          "name": "TEMPERATURE_RANGE_LOW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEST_FREQUENCY",
+          "name": "TEST_FREQUENCY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFICATION_VERSION",
+          "name": "VERIFICATION_VERSION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG_PACKAGE_IDENT_COMPONENT_ID",
+          "name": "MFG_PACKAGE_IDENT_COMPONENT_ID",
+          "show": false
         }
       ],
       "filter_string": "",

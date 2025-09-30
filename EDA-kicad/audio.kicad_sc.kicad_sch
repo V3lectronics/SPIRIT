@@ -4068,7 +4068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CC0603KRX7R7BB104:CAPC1608X90"
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
 			(at 195.58 73.66 0)
 			(effects
 				(font
