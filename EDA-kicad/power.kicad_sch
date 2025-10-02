@@ -7473,6 +7473,18 @@
 		)
 		(uuid "e6ba7baa-5947-4243-9877-943e74e9592e")
 	)
+	(text "FORGOR 2.8V rail ???"
+		(exclude_from_sim no)
+		(at 258.318 242.57 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "edada2d5-90b4-4915-a751-c978801d0ab2")
+	)
 	(text "Total max current: 10.6A"
 		(exclude_from_sim no)
 		(at 43.688 35.814 0)
@@ -7598,6 +7610,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cb7588e-eff6-47f3-b3e5-d62377932824")
+	)
+	(junction
+		(at 302.26 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45ba17bc-3329-44e2-9e36-6a39f4ee9ec2")
 	)
 	(junction
 		(at 302.26 204.47)
@@ -8114,6 +8132,16 @@
 			(type default)
 		)
 		(uuid "2305b7cc-e79e-49dc-8892-338127ac60f2")
+	)
+	(wire
+		(pts
+			(xy 306.07 226.06) (xy 302.26 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241f3e9d-661b-4861-911d-5e77fbbed863")
 	)
 	(wire
 		(pts
@@ -10129,6 +10157,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BACKLIGHT-"
+		(shape input)
+		(at 306.07 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86455879-d090-45a3-a7a3-a3b3d4efa4c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 320.7272 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15796,7 +15846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:CHARGER-SWITCHER-RTE0016C"
+		(property "Footprint" "SPIRIT-footprints:charger-bq25792-QFN40P400X400X100-29N"
 			(at 110.49 97.79 0)
 			(effects
 				(font
