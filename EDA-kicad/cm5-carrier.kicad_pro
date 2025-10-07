@@ -129,7 +129,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -141,7 +141,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
@@ -198,7 +198,11 @@
         0.0,
         0.15,
         0.25,
+        0.3,
+        0.35,
+        0.4,
         0.5,
+        0.9,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -493,7 +497,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

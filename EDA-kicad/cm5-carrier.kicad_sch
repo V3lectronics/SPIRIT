@@ -9362,7 +9362,7 @@
 	)
 	(text "POWER SECTION labels\n"
 		(exclude_from_sim no)
-		(at 342.138 173.482 0)
+		(at 335.788 146.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)
