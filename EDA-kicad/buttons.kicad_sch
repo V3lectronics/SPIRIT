@@ -921,93 +921,49 @@
 		)
 		(uuid "ed1a31b6-a593-4049-b156-d2965c066cde")
 	)
-	(global_label "GPIO17"
-		(shape input)
-		(at 147.32 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e62d9a4-e4a5-4701-b0f3-6f6245d86b5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.1995 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO3"
-		(shape input)
-		(at 148.59 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40cfcfae-a4a7-4efc-a537-4a859c97ba90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO4"
-		(shape input)
-		(at 148.59 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5122be6a-c3c2-488b-a1d0-7bd83163c401")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.26 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO2"
-		(shape input)
+	(hierarchical_label "GPIO2^{POW}"
+		(shape output)
 		(at 148.59 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "db29142d-c4f8-4042-b667-fd4100fca62c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "26b92aac-c48d-4fbd-8e8c-7d9f91d2ae01")
+	)
+	(hierarchical_label "GPIO17^{PROG}"
+		(shape output)
+		(at 147.32 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "7a0b02d1-06fe-4bc4-aadd-9bc30c6f030f")
+	)
+	(hierarchical_label "GPIO3^{VOL+}"
+		(shape output)
+		(at 148.59 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88000158-31a5-497e-ab3b-cd65b5f778a4")
+	)
+	(hierarchical_label "GPIO4^{VOL-}"
+		(shape output)
+		(at 148.59 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e51d8706-85e2-46e7-b645-b3ec039c1cb4")
 	)
 	(symbol
 		(lib_name "TL3330AF260QG_1")
@@ -1020,8 +976,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0355150e-e939-403d-a2aa-b7959f546a25")
-		(property "Reference" "SW4"
-			(at 130.81 67.818 0)
+		(property "Reference" "SW4GPIO17"
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1029,7 +985,7 @@
 			)
 		)
 		(property "Value" "PROG"
-			(at 130.81 71.628 0)
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1074,7 +1030,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "SW4")
+					(reference "SW4GPIO17")
 					(unit 1)
 				)
 			)
@@ -1155,8 +1111,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "75162ac9-7ac7-4c78-b98d-4d85cd9ff70a")
-		(property "Reference" "SW6"
-			(at 130.81 88.392 0)
+		(property "Reference" "SW6GPIO3"
+			(at 130.81 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1164,7 +1120,7 @@
 			)
 		)
 		(property "Value" "VOL+"
-			(at 130.81 92.202 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1209,7 +1165,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "SW6")
+					(reference "SW6GPIO3")
 					(unit 1)
 				)
 			)
@@ -1226,8 +1182,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "87afebea-5094-48d6-9586-1b5d7b191223")
-		(property "Reference" "SW5"
-			(at 130.81 77.978 0)
+		(property "Reference" "SW5GPIO4"
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1235,7 +1191,7 @@
 			)
 		)
 		(property "Value" "VOL-"
-			(at 130.81 81.788 0)
+			(at 130.81 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1280,7 +1236,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "SW5")
+					(reference "SW5GPIO4")
 					(unit 1)
 				)
 			)
@@ -1296,8 +1252,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "96ffc52c-ea7e-4b07-b136-f2ab3de39372")
-		(property "Reference" "SW7"
-			(at 130.81 100.076 0)
+		(property "Reference" "SW7GPIO2"
+			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1305,7 +1261,7 @@
 			)
 		)
 		(property "Value" "POW"
-			(at 130.81 103.886 0)
+			(at 130.81 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1350,7 +1306,7 @@
 		(instances
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
-					(reference "SW7")
+					(reference "SW7GPIO2")
 					(unit 1)
 				)
 			)

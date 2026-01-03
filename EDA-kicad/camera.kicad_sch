@@ -1424,9 +1424,19 @@
 		)
 		(uuid "10adc561-1b1c-4639-9301-507bbad90b8d")
 	)
+	(text "where's d2?????"
+		(exclude_from_sim no)
+		(at 165.354 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "298f16d3-b601-4216-a3e2-100adc67d2a4")
+	)
 	(text "3.3V"
 		(exclude_from_sim no)
-		(at 163.83 76.2 0)
+		(at 167.386 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1597,225 +1607,115 @@
 		)
 		(uuid "db450818-42c3-466a-abd8-e5c79d020a7b")
 	)
-	(global_label "CAM_SDA"
-		(shape input)
+	(hierarchical_label "CAM_SDA"
+		(shape bidirectional)
 		(at 135.89 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "16a8f4cc-6144-4708-8e48-b2573e731a75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6488 77.3906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "10b17a54-a5db-4577-a12d-1b7e81507196")
 	)
-	(global_label "CAM_CK_N"
-		(shape input)
-		(at 135.89 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23768a84-0505-46cd-a086-c0b606cfca36")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9188 92.6306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_CK_P"
-		(shape input)
-		(at 135.89 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "33d05de5-8cbc-4000-b764-c92cfe6a0813")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8583 90.0906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_D1_N"
-		(shape input)
-		(at 135.89 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "341e9f41-5415-464d-946a-90ebe5328801")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8583 100.2506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_D0_P"
-		(shape input)
-		(at 135.89 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f42bbc3-da4d-4174-8029-0ff571090405")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7979 105.3306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_IO0"
-		(shape input)
-		(at 148.59 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c2ce9ad-471b-4266-9af8-714c872b1b17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9255 85.0106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM-SWITCH"
-		(shape input)
+	(hierarchical_label "CAM-SWITCH^{3.3V}"
+		(shape bidirectional)
 		(at 148.59 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "995a7f0f-d2ac-46df-b390-e4ab99764fc7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.2193 74.8506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "19626006-6a46-4729-b02c-9898c073df11")
 	)
-	(global_label "CAM_D0_N"
-		(shape input)
-		(at 135.89 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bfcfa01-89c3-426c-a280-68b06797679c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8583 107.8706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM_SCL"
-		(shape input)
+	(hierarchical_label "CAM_SCL"
+		(shape bidirectional)
 		(at 135.89 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d0f33c51-ae5c-4b9f-bb05-80715f141ff1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.5883 79.9306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "35d3fada-e956-4ecf-a221-1d2ed74b7da6")
 	)
-	(global_label "CAM_D1_P"
-		(shape input)
-		(at 135.89 97.79 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "CAM_D1_N"
+		(shape bidirectional)
+		(at 135.89 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e9c33ff0-e7c8-48dd-b0dc-8535a3c3dcd2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7979 97.7106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "450a34e4-d8eb-4359-a99f-920b476d4f91")
+	)
+	(hierarchical_label "CAM_IO0"
+		(shape bidirectional)
+		(at 148.59 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "5fdb9f4c-e8c4-42cc-8728-0eb4ee807747")
+	)
+	(hierarchical_label "CAM_D0_P"
+		(shape bidirectional)
+		(at 135.89 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95439e37-f0a0-4d64-a49f-9190455f27b2")
+	)
+	(hierarchical_label "CAM_CK_P"
+		(shape bidirectional)
+		(at 135.89 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad105d61-4c7a-47f3-af8d-5faf42c83bde")
+	)
+	(hierarchical_label "CAM_CK_N"
+		(shape bidirectional)
+		(at 135.89 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccb8a603-ae0f-4fc2-8783-74aa35043ce3")
+	)
+	(hierarchical_label "CAM_D0_N"
+		(shape bidirectional)
+		(at 135.89 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eef8ce7c-dcf9-445d-8c84-91bdf89d690f")
+	)
+	(hierarchical_label "CAM_D1_P"
+		(shape bidirectional)
+		(at 135.89 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fabbc5c2-9e2c-4fdc-8d56-0042b3aed1ac")
 	)
 	(symbol
 		(lib_name "GND_2")
