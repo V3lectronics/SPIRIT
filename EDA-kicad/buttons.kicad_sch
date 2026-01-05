@@ -5,6 +5,130 @@
 	(uuid "495222f6-6ba7-490a-892b-426ddbe925d6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SPIRIT-components:TL3330AF260QG"
 			(pin_names
 				(offset 0.254)
@@ -800,9 +924,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 15.24 15.24)
+		(end 77.47 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c1cd3190-acc0-4ced-b92a-e6aa9dca2447)
+	)
 	(text "BUTTONS"
 		(exclude_from_sim no)
-		(at 114.554 61.722 0)
+		(at 18.288 23.876 0)
 		(effects
 			(font
 				(size 4 4)
@@ -813,9 +949,19 @@
 		)
 		(uuid "985b5117-dcc2-4ada-a96a-fef8a4b858c2")
 	)
+	(text "We use E12/E24 standard values for encoding the buttons\n"
+		(exclude_from_sim no)
+		(at 43.942 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef767634-c8a4-4228-9f12-067c7a31143d")
+	)
 	(text "one GPIO can be used for all buttons, just use different value resistors for each button"
 		(exclude_from_sim no)
-		(at 147.32 114.554 0)
+		(at 58.674 79.502 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,26 +970,54 @@
 		(uuid "f45bc78f-12a7-48a0-856d-ae85913c60bf")
 	)
 	(junction
-		(at 123.19 74.93)
+		(at 55.88 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a8abd5d-e70a-4b86-a53a-5652b6969df3")
+	)
+	(junction
+		(at 55.88 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5063fb9e-fb04-4f90-83ce-19ac3d395f09")
+	)
+	(junction
+		(at 55.88 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f09aec9-644b-453b-beb1-bf3b6f475583")
+	)
+	(junction
+		(at 33.02 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81863775-3469-448f-a673-4563872e2d03")
 	)
 	(junction
-		(at 123.19 96.52)
+		(at 33.02 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d79e9f04-7e66-4519-8b9c-b29f1cc121d9")
 	)
 	(junction
-		(at 123.19 85.09)
+		(at 33.02 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fed86555-cf89-4e9e-81cc-2b995e520762")
 	)
 	(wire
 		(pts
-			(xy 123.19 74.93) (xy 123.19 85.09)
+			(xy 55.88 46.99) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04466f44-c35b-4b55-acbf-ead099a0924b")
+	)
+	(wire
+		(pts
+			(xy 33.02 36.83) (xy 33.02 46.99)
 		)
 		(stroke
 			(width 0)
@@ -853,47 +1027,27 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 148.59 96.52)
+			(xy 55.88 58.42) (xy 55.88 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d34bc5a-9654-45be-ad13-154837cf80bd")
+		(uuid "5f6db69d-1ddf-4177-b696-7f1969ede2d8")
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 123.19 74.93)
+			(xy 55.88 36.83) (xy 55.88 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b436421-f954-4ab9-b8f9-bdbd7e9bda96")
+		(uuid "8c9d0d72-058d-4dd5-b594-efd1e4c51607")
 	)
 	(wire
 		(pts
-			(xy 138.43 74.93) (xy 147.32 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927aae55-d162-42b8-a973-d3e1d1fe3897")
-	)
-	(wire
-		(pts
-			(xy 138.43 107.95) (xy 148.59 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2453691-ba11-49da-bced-cc464f8044d1")
-	)
-	(wire
-		(pts
-			(xy 123.19 85.09) (xy 123.19 96.52)
+			(xy 33.02 46.99) (xy 33.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -903,7 +1057,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 123.19 107.95)
+			(xy 55.88 69.85) (xy 63.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44b4008-a2c8-4847-9d46-e1baf27b4985")
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42) (xy 33.02 69.85)
 		)
 		(stroke
 			(width 0)
@@ -911,85 +1075,9 @@
 		)
 		(uuid "c3d788e8-1a63-495f-8f34-0e387aab5519")
 	)
-	(wire
-		(pts
-			(xy 138.43 85.09) (xy 148.59 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1a31b6-a593-4049-b156-d2965c066cde")
-	)
-	(global_label "GPIO17"
-		(shape input)
-		(at 147.32 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e62d9a4-e4a5-4701-b0f3-6f6245d86b5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.1995 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO3"
-		(shape input)
-		(at 148.59 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40cfcfae-a4a7-4efc-a537-4a859c97ba90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO4"
-		(shape input)
-		(at 148.59 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5122be6a-c3c2-488b-a1d0-7bd83163c401")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.26 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO2"
 		(shape input)
-		(at 148.59 107.95 0)
+		(at 63.5 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -999,7 +1087,7 @@
 		)
 		(uuid "db29142d-c4f8-4042-b667-fd4100fca62c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.26 107.95 0)
+			(at 72.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,16 +1100,16 @@
 	(symbol
 		(lib_name "TL3330AF260QG_1")
 		(lib_id "SPIRIT-components:TL3330AF260QG")
-		(at 123.19 74.93 0)
+		(at 33.02 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0355150e-e939-403d-a2aa-b7959f546a25")
 		(property "Reference" "SW4"
-			(at 130.81 67.818 0)
+			(at 40.64 29.718 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1029,7 +1117,7 @@
 			)
 		)
 		(property "Value" "PROG"
-			(at 130.81 71.628 0)
+			(at 40.64 33.528 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1037,7 +1125,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:buttonSW_TL3330_EWI"
-			(at 121.92 64.77 0)
+			(at 31.75 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,7 +1135,7 @@
 			)
 		)
 		(property "Datasheet" "TL3330AF260QG"
-			(at 123.19 71.12 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1145,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 74.93 0)
+			(at 33.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,24 +1169,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 119.38 74.93 0)
+		(lib_id "Device:R")
+		(at 52.07 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "25a88c88-84b2-4a56-8231-c3b8b9370ec6")
-		(property "Reference" "#3.3V09"
-			(at 119.38 77.47 0)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21ee5b5d-011b-4ff6-bdb2-964da4b57e0f")
+		(property "Reference" "R27"
+			(at 52.07 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 119.38 69.85 0)
+		(property "Value" "1.0k"
+			(at 52.07 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1195,74 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 74.93 0)
+			(at 52.07 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f910a0cd-88c4-4200-802a-2b9e6be9fd58")
+		)
+		(pin "2"
+			(uuid "c6eaa192-84ff-4878-a688-07d0d6a9a4e4")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 25.4 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25a88c88-84b2-4a56-8231-c3b8b9370ec6")
+		(property "Reference" "#3.3V09"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 25.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 74.93 0)
+			(at 25.4 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1280,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 74.93 0)
+			(at 25.4 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,16 +1303,16 @@
 	(symbol
 		(lib_name "TL3330AF260QG_3")
 		(lib_id "SPIRIT-components:TL3330AF260QG")
-		(at 123.19 96.52 0)
+		(at 33.02 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75162ac9-7ac7-4c78-b98d-4d85cd9ff70a")
 		(property "Reference" "SW6"
-			(at 130.81 88.392 0)
+			(at 40.64 50.292 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1164,7 +1320,7 @@
 			)
 		)
 		(property "Value" "VOL+"
-			(at 130.81 92.202 0)
+			(at 40.64 54.102 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1172,7 +1328,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:buttonSW_TL3330_EWI"
-			(at 121.92 86.36 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1338,7 @@
 			)
 		)
 		(property "Datasheet" "TL3330AF260QG"
-			(at 123.19 92.71 0)
+			(at 33.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 96.52 0)
+			(at 33.02 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,16 +1374,16 @@
 	(symbol
 		(lib_name "TL3330AF260QG_2")
 		(lib_id "SPIRIT-components:TL3330AF260QG")
-		(at 123.19 85.09 0)
+		(at 33.02 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87afebea-5094-48d6-9586-1b5d7b191223")
 		(property "Reference" "SW5"
-			(at 130.81 77.978 0)
+			(at 40.64 39.878 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1235,7 +1391,7 @@
 			)
 		)
 		(property "Value" "VOL-"
-			(at 130.81 81.788 0)
+			(at 40.64 43.688 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1243,7 +1399,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:buttonSW_TL3330_EWI"
-			(at 121.92 74.93 0)
+			(at 31.75 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1409,7 @@
 			)
 		)
 		(property "Datasheet" "TL3330AF260QG"
-			(at 123.19 81.28 0)
+			(at 33.02 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1419,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 85.09 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,17 +1443,85 @@
 		)
 	)
 	(symbol
-		(lib_id "SPIRIT-components:TL3330AF260QG")
-		(at 123.19 107.95 0)
+		(lib_id "Device:R")
+		(at 52.07 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95ea7ed5-d00e-46d7-bac7-f1764c706501")
+		(property "Reference" "R30"
+			(at 52.07 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 52.07 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58ea1a2e-c4b5-41eb-a08c-aca6310a2c74")
+		)
+		(pin "2"
+			(uuid "7c70c9b9-0daa-46db-8504-2369b5eba681")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:TL3330AF260QG")
+		(at 33.02 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ffc52c-ea7e-4b07-b136-f2ab3de39372")
 		(property "Reference" "SW7"
-			(at 130.81 100.076 0)
+			(at 40.64 61.976 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1305,7 +1529,7 @@
 			)
 		)
 		(property "Value" "POW"
-			(at 130.81 103.886 0)
+			(at 40.64 65.786 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1313,7 +1537,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:buttonSW_TL3330_EWI"
-			(at 121.92 97.79 0)
+			(at 31.75 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1547,7 @@
 			)
 		)
 		(property "Datasheet" "TL3330AF260QG"
-			(at 123.19 104.14 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1557,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 107.95 0)
+			(at 33.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,6 +1575,210 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
 					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5ffeae5-cde4-4b22-ba7d-5c68e9c7b47e")
+		(property "Reference" "R28"
+			(at 52.07 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 52.07 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0212c6bc-21a9-488b-8d4d-7b3fa96dc2da")
+		)
+		(pin "2"
+			(uuid "d8fed904-4b67-409a-8b44-ea474f0911ae")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2c141f7-e9a9-4d1a-b917-6b5800ddb04d")
+		(property "Reference" "R29"
+			(at 52.07 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 52.07 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92d52871-e374-4274-b3ea-eaf4d3420747")
+		)
+		(pin "2"
+			(uuid "9a2f9bc3-f48e-4ea4-9f92-76f5cf44b7ae")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 29.21 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f620fd35-6805-4878-ada3-36a1ed7302dc")
+		(property "Reference" "R26"
+			(at 29.21 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 29.21 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4d0a5ff-4a0e-42cc-a473-5fd6f3951058")
+		)
+		(pin "2"
+			(uuid "ae5aadb5-f024-4d0c-8c22-75e94d85475e")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/7d72c53e-b066-4e49-bdb9-37372138f009"
+					(reference "R26")
 					(unit 1)
 				)
 			)
