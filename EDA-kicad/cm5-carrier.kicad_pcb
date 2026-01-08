@@ -161,7 +161,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -1523,7 +1522,7 @@
 	(footprint "SPIRIT-footprints:35mmJACK-CUI_SJ2-35894B-SMT-TR"
 		(layer "F.Cu")
 		(uuid "04d6ebdb-ff4d-4614-a08b-c09947f41ced")
-		(at 67 179.75 90)
+		(at 67 180 90)
 		(property "Reference" "J4"
 			(at -4.5 -5.5 90)
 			(layer "F.SilkS")
@@ -1991,7 +1990,7 @@
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "05fa57fe-70b2-4567-ad43-7edf5a8d337a")
-		(at 76.281 182.804)
+		(at 76.281 183.054)
 		(property "Reference" "C3"
 			(at 0.53 -0.76 0)
 			(layer "F.SilkS")
@@ -2597,7 +2596,7 @@
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "08219286-85eb-4c2f-9236-de131d4a16e6")
-		(at 76.281 184.75)
+		(at 76.281 185)
 		(property "Reference" "C4"
 			(at 0.53 -0.76 0)
 			(layer "F.SilkS")
@@ -13790,7 +13789,7 @@
 	(footprint "SPIRIT-footprints:USB-ESD-protection-diode-PESD5V0C1USFYL-SOD962-2_DSN0603-2_NEX"
 		(layer "F.Cu")
 		(uuid "2daa85a2-f971-47da-8835-0d3a0349fd91")
-		(at 80 184.25)
+		(at 80 184.5)
 		(tags "PESD5V0C1USFYL ")
 		(property "Reference" "ZD2"
 			(at 0 -1.25 0)
@@ -15377,7 +15376,7 @@
 	(footprint "SPIRIT-footprints:SPEAKER_CMR-15062S-67"
 		(layer "F.Cu")
 		(uuid "3bc131bc-8a06-40ab-a06a-5e0529aa04b4")
-		(at 118 182.25)
+		(at 118 182.5)
 		(property "Reference" "LS2"
 			(at -9.5 0 0)
 			(layer "F.SilkS")
@@ -18219,7 +18218,7 @@
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "535be1ad-1df2-4440-843c-945262d44789")
-		(at 76.281 180.858)
+		(at 76.281 181.108)
 		(property "Reference" "C2"
 			(at 0.53 -0.76 0)
 			(layer "F.SilkS")
@@ -18385,7 +18384,7 @@
 	(footprint "SPIRIT-footprints:microphone_SPH0645LM4H-B"
 		(layer "F.Cu")
 		(uuid "58fac282-4d43-45c5-87c1-40fdc61578f8")
-		(at 85.1 184.502)
+		(at 85.1 184.752)
 		(property "Reference" "MK1"
 			(at 0 -3.302 0)
 			(layer "F.SilkS")
@@ -25415,7 +25414,7 @@
 	(footprint "SPIRIT-footprints:test-pad-1"
 		(layer "F.Cu")
 		(uuid "8b4175c7-004d-430a-a71b-331afd39a56e")
-		(at 83.185 177.724)
+		(at 83.185 177.974)
 		(property "Reference" "TP8"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -28117,7 +28116,7 @@
 	(footprint "SPIRIT-footprints:TVS-array-IC_PUSB3AB6Z"
 		(layer "F.Cu")
 		(uuid "98c35471-e6f4-4f59-836b-e38653b54298")
-		(at 82.415 182.25)
+		(at 82.415 182.5)
 		(property "Reference" "TVS-PUSB2"
 			(at 0.762 -2.3114 0)
 			(layer "F.SilkS")
@@ -28556,7 +28555,7 @@
 	(footprint "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
 		(layer "F.Cu")
 		(uuid "9d00db65-7ce7-4a75-8a57-462df8766e3b")
-		(at 76.281 178.912)
+		(at 76.281 179.162)
 		(property "Reference" "C1"
 			(at 0.53 -0.76 0)
 			(layer "F.SilkS")
@@ -31180,7 +31179,7 @@
 	(footprint "SPIRIT-footprints:test-pad-1"
 		(layer "F.Cu")
 		(uuid "ba83ddc3-7108-40a2-b356-ae770a268021")
-		(at 79 177.724)
+		(at 79 177.974)
 		(property "Reference" "TP7"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -33907,7 +33906,7 @@
 	(footprint "SPIRIT-footprints:USB-4-0-HIROSE_CX90MW9-24P1"
 		(layer "F.Cu")
 		(uuid "dbb9b2ca-3917-4601-9853-eae7e1049807")
-		(at 95 184)
+		(at 95 184.25)
 		(property "Reference" "J1"
 			(at -2.325 -7.135 0)
 			(layer "F.SilkS")
@@ -43837,8 +43836,8 @@
 		(uuid "ea71ae11-5bbf-4b65-a7e9-5f263e16b9ce")
 	)
 	(gr_line
-		(start 107 182.75)
-		(end 105 182.75)
+		(start 107 183)
+		(end 105 183)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -43887,8 +43886,8 @@
 		(uuid "24690cdd-3da8-4ec1-a5d6-353bfb8f4980")
 	)
 	(gr_line
-		(start 70.5 173.25)
-		(end 63.5 173.25)
+		(start 70.5 173.5)
+		(end 63.5 173.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43897,8 +43896,8 @@
 		(uuid "27e73a4d-6230-4826-95f9-203ade1c1e3e")
 	)
 	(gr_line
-		(start 63.5 185.75)
-		(end 63.5 173.25)
+		(start 63.5 186)
+		(end 63.5 173.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43907,8 +43906,8 @@
 		(uuid "38092a9c-cd3c-44bf-85d8-35089453a632")
 	)
 	(gr_line
-		(start 105 185.75)
-		(end 72 185.75)
+		(start 105 186)
+		(end 72 186)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43917,8 +43916,8 @@
 		(uuid "38f3f338-fa4e-49ec-99a3-170589ecc929")
 	)
 	(gr_line
-		(start 131 185.75)
-		(end 107 185.75)
+		(start 131 186)
+		(end 107 186)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43937,8 +43936,8 @@
 		(uuid "3d5a3135-09ae-4cd4-aa5a-597348551148")
 	)
 	(gr_line
-		(start 72 185.75)
-		(end 70.5 185.75)
+		(start 72 186)
+		(end 70.5 186)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -43968,7 +43967,7 @@
 		(uuid "4b0eb56e-41b7-4567-a0b7-088a35f76143")
 	)
 	(gr_line
-		(start 54 180.75)
+		(start 54 181)
 		(end 54 94)
 		(stroke
 			(width 0.1)
@@ -43979,7 +43978,7 @@
 	)
 	(gr_line
 		(start 136 175)
-		(end 136 180.75)
+		(end 136 181)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44028,8 +44027,8 @@
 		(uuid "74d71da0-5bc2-41d4-b587-4928fa853609")
 	)
 	(gr_line
-		(start 107 185.75)
-		(end 107 182.75)
+		(start 107 186)
+		(end 107 183)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44038,8 +44037,8 @@
 		(uuid "77ef77b7-aec8-4b27-a181-a2f18ddd3c16")
 	)
 	(gr_circle
-		(center 60 180.75)
-		(end 61.35 180.75)
+		(center 60 181)
+		(end 61.35 181)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44049,8 +44048,8 @@
 		(uuid "785ae989-fd51-4920-8fa5-cde21ebc1209")
 	)
 	(gr_line
-		(start 70.5 173.25)
-		(end 70.5 185.75)
+		(start 70.5 173.5)
+		(end 70.5 186)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44059,8 +44058,8 @@
 		(uuid "80107321-3b40-4377-8b15-efcb565f7357")
 	)
 	(gr_line
-		(start 63.5 185.75)
-		(end 59 185.75)
+		(start 63.5 186)
+		(end 59 186)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44079,8 +44078,8 @@
 		(uuid "933ff01a-8511-42f8-8a68-e2469e9bc46f")
 	)
 	(gr_circle
-		(center 130 180.75)
-		(end 131.35 180.75)
+		(center 130 181)
+		(end 131.35 181)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44120,8 +44119,8 @@
 		(uuid "b35fb49f-619a-4e98-851f-ed9171880cc7")
 	)
 	(gr_line
-		(start 105 182.75)
-		(end 105 185.75)
+		(start 105 183)
+		(end 105 186)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44130,8 +44129,8 @@
 		(uuid "c1836dce-2e1d-4419-926e-94be815f9450")
 	)
 	(gr_line
-		(start 136 180.75)
-		(end 131 185.75)
+		(start 136 181)
+		(end 131 186)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44170,8 +44169,8 @@
 		(uuid "d6641e29-a6db-4b82-aeec-57ba8a84d736")
 	)
 	(gr_line
-		(start 59 185.75)
-		(end 54 180.75)
+		(start 59 186)
+		(end 54 181)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44231,8 +44230,8 @@
 		(uuid "ffa5ed2c-9fe9-4b4e-b66b-b88aa5de6149")
 	)
 	(gr_line
-		(start 118 34.5)
-		(end 118 181)
+		(start 118 34.75)
+		(end 118 181.25)
 		(stroke
 			(width 0.15)
 			(type dash_dot)
@@ -44251,8 +44250,8 @@
 		(uuid "0805d941-7f96-4864-8675-8e7fddccc8ef")
 	)
 	(gr_line
-		(start 130 36)
-		(end 130 180.75)
+		(start 130 36.25)
+		(end 130 181)
 		(stroke
 			(width 0.15)
 			(type dash_dot)
@@ -44291,8 +44290,8 @@
 		(uuid "92db2f9f-6362-4e64-895d-198f9d01b340")
 	)
 	(gr_line
-		(start 95 190)
-		(end 95 21.5)
+		(start 95 190.25)
+		(end 95 21.75)
 		(stroke
 			(width 0.15)
 			(type dash_dot)
@@ -44301,8 +44300,8 @@
 		(uuid "afae76c7-8904-413a-aa82-a31de6f43b28")
 	)
 	(gr_line
-		(start 60 180.75)
-		(end 130 180.75)
+		(start 60 181)
+		(end 130 181)
 		(stroke
 			(width 0.15)
 			(type dash_dot)
