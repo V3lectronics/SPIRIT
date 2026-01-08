@@ -5482,115 +5482,60 @@
 			"QlNGRkJRVUZDY0VGQlFVRXdVUUFBQUFBQUFCQWJBQUFBQUFBQVNNZjRPNWwvQUFBQg=="
 		)
 	)
-	(global_label "SPI0_CLK"
-		(shape input)
-		(at 121.92 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7bc46a48-b967-4598-9469-ba02b0417dfe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1053 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI0_RDY"
-		(shape input)
-		(at 121.92 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a7baf16-e554-4a84-91d7-75d95177687d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.0448 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI0_MISO"
-		(shape input)
-		(at 121.92 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b394625c-aece-466f-88fc-2ab738cd28c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.0772 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI0_CS"
+	(hierarchical_label "SPI0_CS"
 		(shape input)
 		(at 121.92 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c27c21ea-6b8a-45c7-9f9c-3afca102a8e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.1939 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "1ffbc248-090f-4254-872d-70149cd15744")
 	)
-	(global_label "SPI0_MOSI"
+	(hierarchical_label "SPI0_RDY"
+		(shape bidirectional)
+		(at 121.92 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3966db03-8f85-4583-a814-b81846f251c6")
+	)
+	(hierarchical_label "SPI0_MISO"
+		(shape output)
+		(at 121.92 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "419774ba-a349-4946-ace8-2bf1fd7de905")
+	)
+	(hierarchical_label "SPI0_MOSI"
 		(shape input)
 		(at 121.92 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e1f64cf1-16e3-4544-9a1e-e426cb691c81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.0772 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "a9b825e6-c4a6-420c-ab87-52ee0f37d801")
+	)
+	(hierarchical_label "SPI0_CLK"
+		(shape bidirectional)
+		(at 121.92 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "d4d474db-5483-48b4-8205-941049732838")
 	)
 	(symbol
 		(lib_name "GND_3")

@@ -3587,6 +3587,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 92.71) (xy 91.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de8e63f-a9a8-4068-a0d5-8a9d5b1e1163")
+	)
+	(wire
+		(pts
 			(xy 88.9 130.81) (xy 88.9 133.35)
 		)
 		(stroke
@@ -3594,6 +3604,16 @@
 			(type default)
 		)
 		(uuid "2739b9da-7f74-49ec-b5b8-6b7487044551")
+	)
+	(wire
+		(pts
+			(xy 238.76 58.42) (xy 231.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f08887c-8134-4c07-a7f4-904c4dc30352")
 	)
 	(wire
 		(pts
@@ -3634,6 +3654,16 @@
 			(type default)
 		)
 		(uuid "6af9de8d-a983-4c3f-ac75-2d2c7ece1e5d")
+	)
+	(wire
+		(pts
+			(xy 91.44 97.79) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710565ef-8bcc-476b-87ff-34b5555360a0")
 	)
 	(wire
 		(pts
@@ -3697,6 +3727,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 87.63) (xy 34.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ee1208-fbb2-439a-923a-b6405898976c")
+	)
+	(wire
+		(pts
 			(xy 144.78 60.96) (xy 149.86 60.96)
 		)
 		(stroke
@@ -3727,6 +3767,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 63.5) (xy 231.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db873668-14c3-4918-b86c-ba2dee7e43de")
+	)
+	(wire
+		(pts
 			(xy 172.72 69.85) (xy 172.72 66.04)
 		)
 		(stroke
@@ -3747,6 +3797,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 95.25) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f524367e-a50c-47aa-a34d-fe1450b0c3f0")
+	)
+	(wire
+		(pts
 			(xy 149.86 63.5) (xy 149.86 60.96)
 		)
 		(stroke
@@ -3755,203 +3815,35 @@
 		)
 		(uuid "f5e9b3de-3dcb-49a5-9c8c-66095a8801aa")
 	)
-	(global_label "AUDIO_BCLK_I2S"
-		(shape input)
-		(at 85.09 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 25.4 85.09) (xy 34.29 85.09)
 		)
-		(uuid "1e008326-9137-4572-ab05-5870a694b896")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4967 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "fb13d95b-d8ad-4f09-a90d-3b2810f36025")
 	)
-	(global_label "AUDIO_WCLK_I2S"
-		(shape input)
-		(at 231.14 63.5 0)
-		(fields_autoplaced yes)
+	(label "AUDIO_WCLK_I2S"
+		(at 234.95 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "4f8f6e37-6e4e-44b1-b673-e851583b274a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.7281 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "b582fddc-8316-449b-a398-eb51c528efa8")
 	)
-	(global_label "AUDIO_SCL"
-		(shape input)
-		(at 34.29 85.09 180)
-		(fields_autoplaced yes)
+	(label "AUDIO_BCLK_I2S"
+		(at 238.76 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "56a6c139-f0ff-4597-9082-793291d91f0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.2052 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MIC-SWITCH"
-		(shape input)
-		(at 168.91 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59c1f13d-628c-45a1-97d8-54250ff633a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7645 65.9606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_WCLK_I2S"
-		(shape input)
-		(at 85.09 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a75c7d3b-6389-45d8-8b01-557a57f325cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6781 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_MIC_DATA"
-		(shape input)
-		(at 144.78 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab1a7596-5ea4-4766-b138-c33d7fb9e341")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.4942 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_BCLK_I2S"
-		(shape input)
-		(at 231.14 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b72a1796-a1a6-4f8b-8fea-5be5f6b38bc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.5467 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_MCLK"
-		(shape input)
-		(at 85.09 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca3183fc-48d9-4519-b1d1-f1c6d69f1dda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.6867 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_SDA"
-		(shape input)
-		(at 34.29 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e9d0008c-c84c-4bfe-8c97-a6000c4c5591")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.1447 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "beccb35a-2d36-4f6a-bd36-df4858175f45")
 	)
 	(global_label "JACK-IN"
 		(shape passive)
@@ -3975,6 +3867,83 @@
 			)
 		)
 	)
+	(hierarchical_label "AUDIO_MIC_DATA"
+		(shape bidirectional)
+		(at 144.78 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "063fa57e-1915-4067-990a-0a565784af11")
+	)
+	(hierarchical_label "AUDIO_SDA"
+		(shape bidirectional)
+		(at 25.4 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dd286e0-1c50-4596-ad8a-e0aa61a424fe")
+	)
+	(hierarchical_label "AUDIO_SCL"
+		(shape bidirectional)
+		(at 25.4 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60110be6-b9ed-427b-88ee-c1276a2cfa2c")
+	)
+	(hierarchical_label "AUDIO_MCLK"
+		(shape bidirectional)
+		(at 91.44 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "780a7eb6-8b13-4673-9522-911fa30dcf6d")
+	)
+	(hierarchical_label "MIC-SWITCH"
+		(shape bidirectional)
+		(at 168.91 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7d112f3-2e91-4cea-912d-cd599acbe8cc")
+	)
+	(hierarchical_label "AUDIO_BCLK_I2S"
+		(shape bidirectional)
+		(at 91.44 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0e51666-5502-4aa1-9311-001d3a4e31d6")
+	)
+	(hierarchical_label "AUDIO_WCLK_I2S"
+		(shape bidirectional)
+		(at 91.44 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f490fedd-f592-465a-ad12-af3525639b59")
+	)
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
@@ -3983,7 +3952,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0450c1af-444b-4061-bbdc-e30e6aa1cd1f")
 		(property "Reference" "#PWR070"
 			(at 195.58 83.82 0)
@@ -4351,7 +4320,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "62bdf2da-6375-43b6-af44-42b298cb8813")
 		(property "Reference" "#PWR069"
 			(at 172.72 83.82 0)
@@ -4482,7 +4451,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7873fd67-9adb-4f68-8957-c1e5bd96f40d")
 		(property "Reference" "#PWR066"
 			(at 85.09 41.91 0)
@@ -4684,7 +4653,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a461d24e-393c-48c0-9b96-b4e9e5c8c968")
 		(property "Reference" "#PWR071"
 			(at 149.86 90.17 0)
@@ -5678,7 +5647,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5b8baaf-df8d-430e-ab65-3d5c3ebf2f87")
 		(property "Reference" "#PWR072"

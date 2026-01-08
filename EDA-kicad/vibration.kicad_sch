@@ -1217,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 149.86 110.49)
+			(xy 146.05 110.49) (xy 149.86 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1266,7 @@
 		(uuid "e552b28f-3bc9-4737-acac-82ca2db4b01a")
 	)
 	(image
-		(at 118.618 93.726)
+		(at 135.128 61.976)
 		(uuid "2fd7093d-9c32-4d3a-a27c-ce9f149ecbde")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAagAAAGYCAIAAACYquE6AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOydd5wU1dKG3zqTNrBklpwkSlCCICAIApIkCYISBAMYQT9zwMhVFEFMYESCklFEoiJxkSw5Sc4Z"
@@ -2823,27 +2823,16 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
-	(global_label "GPIO27"
+	(hierarchical_label "GPIO27^{VIB}"
 		(shape input)
-		(at 147.32 110.49 180)
-		(fields_autoplaced yes)
+		(at 146.05 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "33db16f8-3ad9-4062-9629-31fc6eb6bb97")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.4405 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "20d20f78-f21e-4c63-bc17-5fa697885a4e")
 	)
 	(symbol
 		(lib_id "power:GND")

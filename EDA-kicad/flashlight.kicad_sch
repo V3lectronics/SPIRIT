@@ -912,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 133.35 104.14)
+			(xy 127 104.14) (xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2145,27 +2145,16 @@
 			"AAAAAAAAAAAAAAAAAA=="
 		)
 	)
-	(global_label "GPIO22"
+	(hierarchical_label "GPIO22^{FLASHLIGHT}"
 		(shape input)
-		(at 129.54 104.14 180)
-		(fields_autoplaced yes)
+		(at 127 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f8412918-334d-420b-9dcc-388e04dc02c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.6605 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "2d925288-e3b6-4800-ada2-85617f44ad47")
 	)
 	(symbol
 		(lib_id "SPIRIT-components:Flash-LED-Lumiled")
