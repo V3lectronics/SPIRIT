@@ -24,4 +24,3 @@ shutil.copyfile(os.path.join(folder_path, lib_files[0]), target_lib)
 for lib in lib_files[1:]:
     lib_path = os.path.join(folder_path, lib)
     subprocess.run(["merge-kicad-sym", target_lib, lib_path], check=True)
-
