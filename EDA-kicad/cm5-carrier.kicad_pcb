@@ -33906,7 +33906,7 @@
 	(footprint "SPIRIT-footprints:USB-4-0-HIROSE_CX90MW9-24P1"
 		(layer "F.Cu")
 		(uuid "dbb9b2ca-3917-4601-9853-eae7e1049807")
-		(at 95 184.25)
+		(at 95 184.2)
 		(property "Reference" "J1"
 			(at -2.325 -7.135 0)
 			(layer "F.SilkS")
@@ -34330,7 +34330,7 @@
 		)
 		(fp_line
 			(start -4.75 -1.94)
-			(end -4.75 1.81)
+			(end -4.75 2)
 			(stroke
 				(width 0.01)
 				(type solid)
@@ -34339,14 +34339,14 @@
 			(uuid "1bfb3b90-4fc2-464c-9df5-e8b44b0a0fdf")
 		)
 		(fp_line
-			(start -4.75 1.81)
-			(end 4.75 1.81)
+			(start -4.75 2)
+			(end 4.75 2)
 			(stroke
 				(width 0.01)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "54dae07d-e8b4-47b1-9bee-6b6d71895f00")
+			(uuid "0ef4ce2a-1898-41c0-98ab-2ae1759c9cfc")
 		)
 		(fp_line
 			(start 4.25 -1.94)
@@ -34359,7 +34359,7 @@
 			(uuid "b104a242-0cfb-4d58-a3e5-f5eb3663dcb2")
 		)
 		(fp_line
-			(start 4.75 1.81)
+			(start 4.75 2)
 			(end 4.75 -1.94)
 			(stroke
 				(width 0.01)
@@ -34474,7 +34474,7 @@
 		)
 		(fp_line
 			(start -5.6 1.81)
-			(end 8.75 1.81)
+			(end 5.6 1.81)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -43836,16 +43836,6 @@
 		(uuid "ea71ae11-5bbf-4b65-a7e9-5f263e16b9ce")
 	)
 	(gr_line
-		(start 107 183)
-		(end 105 183)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "05bb50e0-00dd-4c22-863d-a6c8a3ef5ab2")
-	)
-	(gr_line
 		(start 54.5 66.25)
 		(end 54 66.25)
 		(stroke
@@ -43906,7 +43896,7 @@
 		(uuid "38092a9c-cd3c-44bf-85d8-35089453a632")
 	)
 	(gr_line
-		(start 105 186)
+		(start 131 186)
 		(end 72 186)
 		(stroke
 			(width 0.1)
@@ -43914,16 +43904,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "38f3f338-fa4e-49ec-99a3-170589ecc929")
-	)
-	(gr_line
-		(start 131 186)
-		(end 107 186)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3b5b5deb-1976-4f01-a152-d1d4e19a0699")
 	)
 	(gr_line
 		(start 54.5 66.25)
@@ -44026,16 +44006,6 @@
 		(layer "Edge.Cuts")
 		(uuid "74d71da0-5bc2-41d4-b587-4928fa853609")
 	)
-	(gr_line
-		(start 107 186)
-		(end 107 183)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "77ef77b7-aec8-4b27-a181-a2f18ddd3c16")
-	)
 	(gr_circle
 		(center 60 181)
 		(end 61.35 181)
@@ -44117,16 +44087,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "b35fb49f-619a-4e98-851f-ed9171880cc7")
-	)
-	(gr_line
-		(start 105 183)
-		(end 105 186)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c1836dce-2e1d-4419-926e-94be815f9450")
 	)
 	(gr_line
 		(start 136 181)
