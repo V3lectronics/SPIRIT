@@ -43,7 +43,9 @@ everyone if you split your contribution into small, atomic pieces (within reason
 
 # Tasks to do
 
-Here is the [issues list](https://github.com/V3lectronics/SPIRIT/issues). Good luck and please stick to the guidelines for smooth cooperation!
+Here is the [issues list](https://github.com/V3lectronics/SPIRIT/issues). You can filter them using the "good first issue" label.
+
+Good luck and please stick to the guidelines for smooth cooperation!
 
 # Contact
 
