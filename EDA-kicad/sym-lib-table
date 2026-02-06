@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "5-1KOhm-SMD-1perc-0125W-RTE0016C_NV")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-symbol-libs/5-1KOhm-SMD-1perc-0125W-RTE0016C_NV.kicad_sym")(options "")(descr ""))
-  (lib (name "R1202N723A-TR-FE")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-symbol-libs/R1202N723A-TR-FE.kicad_sym")(options "")(descr ""))
-  (lib (name "MP3429")(type "KiCad")(uri "${KIPRJMOD}/component-libs/SPIRIT-symbol-libs/MP3429.kicad_sym")(options "")(descr ""))
-)
