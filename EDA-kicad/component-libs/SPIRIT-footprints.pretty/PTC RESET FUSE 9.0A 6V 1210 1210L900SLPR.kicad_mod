@@ -1,0 +1,131 @@
+(footprint "PTC RESET FUSE 9.0A 6V 1210 1210L900SLPR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "polyfuse fuse reset")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32fc9b0c-e4b8-4d0a-b314-a7c161c68ac1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RESET FUSE 9.0A 6V"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "96176ea4-edf5-43b4-aae6-0d2539e88fe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.littelfuse.com/assetdocs/low-rho-datasheet-update?assetguid=b786faf0-de16-4763-9d22-6b8080943caf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a156dfb5-cf70-4c32-8a09-3aa5278dc9d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PTC RESET FUSE 9.0A 6V 1210"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2bbd117-e4d9-471c-883e-98006660d5aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "1210L900SLPR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7e3eeac7-8dc8-483a-81a8-cd67d1927f82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.1 0.4)
+		(end 2.1 3.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b8463c8c-aab2-476f-b54a-e73940307078")
+	)
+	(fp_text user "F"
+		(at -0.5 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3b05f97-6b7f-4a83-828a-bff4e3a1dd1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1ef6418-f111-44c4-8e01-884e993cf11d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 1.8 90)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4bb466b1-122a-4027-b1c1-6af44803be70")
+	)
+	(pad "2" smd rect
+		(at 1.5 1.8 90)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8ea8555d-4a22-4039-9e53-879da071df1b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/reset-fuse-1210L900SLPR-Part.step"
+		(offset
+			(xyz -1.75 -0.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
