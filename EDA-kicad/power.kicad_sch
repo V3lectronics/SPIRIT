@@ -4835,6 +4835,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SPIRIT-components:PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "9A_6V"
+				(at 1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SPIRIT-footprints:PTC RESET FUSE 9.0A 6V 1210 1210L900SLPR"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.048)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.556) (xy -0.762 -3.556) (xy 0.762 -1.524) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SPIRIT-components:TPS65023BRSBR"
 			(pin_names
 				(offset 0.254)
@@ -7411,6 +7560,17 @@
 		)
 		(uuid "7b267729-805e-4bbf-b159-87cf579a69f5")
 	)
+	(text "resettable fuse: \nI_{hold} = 9A\nI_{trip} = 18A"
+		(exclude_from_sim no)
+		(at 19.05 205.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f1de9b9-b16d-40d9-be06-ff35626e08c0")
+	)
 	(text "Recommended: 103AT-2 10kΩ thermistor, using different"
 		(exclude_from_sim no)
 		(at 48.514 127.254 0)
@@ -8706,16 +8866,6 @@
 			(type default)
 		)
 		(uuid "3bf8d900-08c4-460c-a46f-849a673ea278")
-	)
-	(wire
-		(pts
-			(xy 20.32 187.96) (xy 44.45 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d098c4c-10ec-4a78-ba53-070cad199f57")
 	)
 	(wire
 		(pts
@@ -10086,6 +10236,16 @@
 			(type default)
 		)
 		(uuid "db9e5189-9aa5-42e3-a312-029d01ce4ba0")
+	)
+	(wire
+		(pts
+			(xy 20.32 187.96) (xy 39.37 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd413c9-339e-428a-90bb-1b687ce298d5")
 	)
 	(wire
 		(pts
@@ -22292,6 +22452,75 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR")
+		(at 41.91 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9d14cca-2da7-4c20-919b-382f354e545b")
+		(property "Reference" "F1"
+			(at 41.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9A 6V"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:PTC RESET FUSE 9.0A 6V 1210 1210L900SLPR"
+			(at 43.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
+			(at 41.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "745db5f7-d8a0-4394-a31e-f04e1474c901")
+		)
+		(pin "1"
+			(uuid "75b66381-f738-4e99-ac5a-ea94ceea7328")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "F1")
 					(unit 1)
 				)
 			)
