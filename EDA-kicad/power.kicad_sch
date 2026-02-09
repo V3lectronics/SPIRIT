@@ -8869,7 +8869,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 194.31) (xy 66.04 190.5)
+			(xy 62.23 194.31) (xy 62.23 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9839,7 +9839,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 196.469) (xy 44.45 190.5)
+			(xy 40.64 196.469) (xy 40.64 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10239,7 +10239,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 187.96) (xy 39.37 187.96)
+			(xy 20.32 187.96) (xy 40.64 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10319,7 +10319,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.433 196.469) (xy 44.45 196.469)
+			(xy 35.433 196.469) (xy 40.64 196.469)
 		)
 		(stroke
 			(width 0)
@@ -11535,6 +11535,28 @@
 			)
 		)
 	)
+	(global_label "BAT+"
+		(shape bidirectional)
+		(at 67.31 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0b820a8-159e-4e28-8e1b-e832ad75f84a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.3051 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "INT"
 		(shape bidirectional)
 		(at 363.22 138.43 0)
@@ -11548,28 +11570,6 @@
 		(uuid "f1beeb9d-987b-4ca1-bd61-df672c720189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 375.118 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape bidirectional)
-		(at 66.04 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f26c81fe-6abd-4b06-9dc7-d607b8b9b9d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0351 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13328,7 +13328,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:BAT-CONNECTOR-FLTS22WR00")
-		(at 54.61 185.42 0)
+		(at 50.8 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13336,7 +13336,7 @@
 		(dnp no)
 		(uuid "33d713e7-7df6-46be-963e-3e9beb59d730")
 		(property "Reference" "U6"
-			(at 54.61 185.166 0)
+			(at 50.8 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13344,7 @@
 			)
 		)
 		(property "Value" "BAT-CONNECTOR-FLTS22WR00"
-			(at 54.61 193.04 0)
+			(at 50.8 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13353,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:BAT-CONNECTOR-FLTS22WR00"
-			(at 52.07 185.42 0)
+			(at 48.26 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13362,7 +13362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 185.42 0)
+			(at 48.26 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13371,7 +13371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 185.42 0)
+			(at 50.8 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22237,7 +22237,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 66.04 194.31 0)
+		(at 62.23 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22246,7 +22246,7 @@
 		(fields_autoplaced yes)
 		(uuid "e72d83d4-12f3-4f8d-986b-77132738efea")
 		(property "Reference" "#PWR0107"
-			(at 66.04 200.66 0)
+			(at 62.23 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22255,7 +22255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 199.39 0)
+			(at 62.23 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22263,7 +22263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 194.31 0)
+			(at 62.23 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22272,7 +22272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 194.31 0)
+			(at 62.23 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22281,7 +22281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 194.31 0)
+			(at 62.23 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22459,7 +22459,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR")
-		(at 41.91 185.42 0)
+		(at 64.77 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22468,7 +22468,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9d14cca-2da7-4c20-919b-382f354e545b")
 		(property "Reference" "F1"
-			(at 41.91 181.61 0)
+			(at 64.77 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22476,7 +22476,7 @@
 			)
 		)
 		(property "Value" "9A 6V"
-			(at 41.91 184.15 0)
+			(at 64.77 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22484,7 +22484,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:PTC RESET FUSE 9.0A 6V 1210 1210L900SLPR"
-			(at 43.18 190.5 0)
+			(at 66.04 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22494,7 +22494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 185.42 0)
+			(at 64.77 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22503,7 +22503,7 @@
 			)
 		)
 		(property "Description" "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
-			(at 41.91 185.42 0)
+			(at 64.77 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22518,7 +22518,7 @@
 			(uuid "75b66381-f738-4e99-ac5a-ea94ceea7328")
 		)
 		(instances
-			(project ""
+			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "F1")
 					(unit 1)
