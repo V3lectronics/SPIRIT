@@ -4853,7 +4853,7 @@
 					)
 				)
 			)
-			(property "Value" "9A_6V"
+			(property "Value" "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
 				(at 1.905 0 0)
 				(effects
 					(font
@@ -4880,7 +4880,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8939,6 +8939,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 187.96) (xy 63.5 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485f55d7-7d51-48ff-aa99-73e453be88e9")
+	)
+	(wire
+		(pts
 			(xy 246.38 96.52) (xy 246.38 97.79)
 		)
 		(stroke
@@ -9266,6 +9276,16 @@
 			(type default)
 		)
 		(uuid "6afddd1e-c88c-474d-ae84-e108edf3b226")
+	)
+	(wire
+		(pts
+			(xy 20.32 187.96) (xy 40.64 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b474465-0bea-4984-8fba-d99947d5b9f8")
 	)
 	(wire
 		(pts
@@ -9819,6 +9839,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 187.96) (xy 68.58 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a049d35e-516c-4c31-bfaf-c8de5c52db99")
+	)
+	(wire
+		(pts
 			(xy 87.63 102.87) (xy 90.17 102.87)
 		)
 		(stroke
@@ -10236,16 +10266,6 @@
 			(type default)
 		)
 		(uuid "db9e5189-9aa5-42e3-a312-029d01ce4ba0")
-	)
-	(wire
-		(pts
-			(xy 20.32 187.96) (xy 40.64 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd413c9-339e-428a-90bb-1b687ce298d5")
 	)
 	(wire
 		(pts
@@ -11535,28 +11555,6 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape bidirectional)
-		(at 67.31 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0b820a8-159e-4e28-8e1b-e832ad75f84a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.3051 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "INT"
 		(shape bidirectional)
 		(at 363.22 138.43 0)
@@ -11570,6 +11568,28 @@
 		(uuid "f1beeb9d-987b-4ca1-bd61-df672c720189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 375.118 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape bidirectional)
+		(at 69.85 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f26c81fe-6abd-4b06-9dc7-d607b8b9b9d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.8451 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,6 +11720,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11763,6 +11789,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11844,6 +11876,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11922,6 +11960,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11986,6 +12030,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12064,6 +12114,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -12184,6 +12240,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12252,6 +12314,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12316,6 +12384,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12397,6 +12471,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12460,6 +12540,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12530,6 +12616,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12596,6 +12688,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12659,6 +12757,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12772,6 +12876,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12838,6 +12948,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12901,6 +13017,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12977,6 +13099,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -13058,6 +13186,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13122,6 +13256,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13192,6 +13332,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13254,6 +13400,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13321,6 +13473,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13395,6 +13553,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -13474,6 +13638,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13538,6 +13708,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13614,6 +13790,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -13695,6 +13877,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13773,6 +13961,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13836,6 +14030,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13918,6 +14118,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13982,6 +14188,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14063,6 +14275,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14139,6 +14357,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14202,6 +14426,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14283,6 +14513,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14358,6 +14594,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -14439,6 +14681,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14503,6 +14751,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14585,6 +14839,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14663,6 +14923,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14727,6 +14993,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14796,6 +15068,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14862,6 +15140,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14925,6 +15209,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -14997,6 +15287,12 @@
 			(project ""
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -15075,6 +15371,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -15164,6 +15466,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15228,6 +15536,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15304,6 +15618,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15368,6 +15688,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15453,6 +15779,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15517,6 +15849,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15587,6 +15925,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15651,6 +15995,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15764,6 +16114,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15840,6 +16196,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15910,6 +16272,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15974,6 +16342,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16044,6 +16418,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16108,6 +16488,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16189,6 +16575,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16253,6 +16645,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16331,6 +16729,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -16413,6 +16817,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16491,6 +16901,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16557,6 +16973,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16620,6 +17042,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -16696,6 +17124,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "BAT1")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "BAT?")
 					(unit 1)
 				)
 			)
@@ -16777,6 +17211,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16855,6 +17295,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16930,6 +17376,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -17012,6 +17464,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17087,6 +17545,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C46")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -17200,6 +17664,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17278,6 +17748,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17353,6 +17829,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -17555,6 +18037,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17628,6 +18116,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -17710,6 +18204,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17788,6 +18288,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17852,6 +18358,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -17933,6 +18445,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17995,6 +18513,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18076,6 +18600,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18154,6 +18684,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18220,6 +18756,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18283,6 +18825,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18365,6 +18913,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18443,6 +18997,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18506,6 +19066,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18582,6 +19148,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -18695,6 +19267,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18758,6 +19336,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18825,6 +19409,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18906,6 +19496,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18970,6 +19566,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19046,6 +19648,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19130,6 +19738,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19208,6 +19822,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19271,6 +19891,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19352,6 +19978,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19425,6 +20057,12 @@
 			(project ""
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19506,6 +20144,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19573,6 +20217,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19636,6 +20286,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19749,6 +20405,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19824,6 +20486,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -19947,6 +20615,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20011,6 +20685,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20091,6 +20771,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20155,6 +20841,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20236,6 +20928,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20314,6 +21012,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20389,6 +21093,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -20471,6 +21181,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20535,6 +21251,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20613,6 +21335,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "L7")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "L?")
 					(unit 1)
 				)
 			)
@@ -20726,6 +21454,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20790,6 +21524,81 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR")
+		(at 66.04 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d818c9-1ea9-4a50-8725-85b6f86eb481")
+		(property "Reference" "F1"
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9A 6V"
+			(at 66.04 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:PTC RESET FUSE 9.0A 6V 1210 1210L900SLPR"
+			(at 67.31 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4da098cc-bb8b-4233-98be-082184bd4738")
+		)
+		(pin "2"
+			(uuid "f8dd19bb-57b4-43fa-90dc-d6bddd5fb9f4")
+		)
+		(instances
+			(project ""
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -20871,6 +21680,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20946,6 +21761,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -21028,6 +21849,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21098,6 +21925,12 @@
 			(project ""
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -21176,6 +22009,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -21366,6 +22205,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21441,6 +22286,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -21554,6 +22405,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21633,6 +22490,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21700,6 +22563,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21762,6 +22631,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#3.3V07")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#3.3V?")
 					(unit 1)
 				)
 			)
@@ -21832,6 +22707,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21898,6 +22779,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21961,6 +22848,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -22042,6 +22935,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22112,6 +23011,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -22232,6 +23137,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22296,6 +23207,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -22377,6 +23294,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22455,72 +23378,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "SPIRIT-components:PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR")
-		(at 64.77 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9d14cca-2da7-4c20-919b-382f354e545b")
-		(property "Reference" "F1"
-			(at 64.77 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "9A 6V"
-			(at 64.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:PTC RESET FUSE 9.0A 6V 1210 1210L900SLPR"
-			(at 66.04 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
-			(at 64.77 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "745db5f7-d8a0-4394-a31e-f04e1474c901")
-		)
-		(pin "1"
-			(uuid "75b66381-f738-4e99-ac5a-ea94ceea7328")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "F1")
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -22587,6 +23447,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -22669,6 +23535,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22733,6 +23605,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -22815,6 +23693,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22879,6 +23763,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -23282,6 +24172,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23357,6 +24253,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -23439,6 +24341,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23517,6 +24425,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23581,6 +24495,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -23659,6 +24579,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -23775,6 +24701,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23854,6 +24786,12 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23915,6 +24853,12 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#3.3V08")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#3.3V?")
 					(unit 1)
 				)
 			)
@@ -23985,6 +24929,18 @@
 					(unit 1)
 				)
 			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
