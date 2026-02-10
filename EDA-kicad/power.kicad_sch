@@ -7456,11 +7456,12 @@
 	)
 	(text "~{PWRFAIL}:\nOpen-drain output. \nActive low when PWRFAIL comparator \nindicates low VBAT condition."
 		(exclude_from_sim no)
-		(at 263.652 145.542 0)
+		(at 238.76 144.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "63cbc638-4e92-4a6e-a855-165fa8e7c867")
 	)
@@ -7772,11 +7773,12 @@
 	)
 	(text "HOT_RESET_N:\nPush button input that \nreboots or wakes up the \ncompute module through the \nRESPWRON output pin."
 		(exclude_from_sim no)
-		(at 289.56 121.92 0)
+		(at 238.506 126.492 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "d004f0a4-8e2b-4787-b0d4-75c4915b1da7")
 	)
@@ -8310,10 +8312,6 @@
 		(uuid "178a148c-c13d-40e3-844c-5a227b6e8ad6")
 	)
 	(no_connect
-		(at 303.53 125.73)
-		(uuid "1d44649c-dfc0-4014-b889-889f6df62734")
-	)
-	(no_connect
 		(at 303.53 120.65)
 		(uuid "3f6f5046-7236-4d11-be36-dd4065f8aac2")
 	)
@@ -8696,6 +8694,16 @@
 			(type default)
 		)
 		(uuid "25d84df2-7a7f-4003-9627-bde77056b0ea")
+	)
+	(wire
+		(pts
+			(xy 298.45 123.19) (xy 303.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6ef82e-63c6-49ee-bfee-34577eb59fb5")
 	)
 	(wire
 		(pts
@@ -9256,6 +9264,16 @@
 			(type default)
 		)
 		(uuid "6aae2a71-caff-437b-a7ed-8b27671390a7")
+	)
+	(wire
+		(pts
+			(xy 303.53 123.19) (xy 303.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae8a41c-6f93-4a69-acad-4d484d85abac")
 	)
 	(wire
 		(pts
@@ -19636,6 +19654,72 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_11")
+		(lib_id "power:GND")
+		(at 298.45 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be88b523-ee39-4123-8470-1d3ea8a5c44c")
+		(property "Reference" "#PWR0152"
+			(at 298.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 298.45 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 298.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14a3735-0675-49b1-b398-119bcdf33df4")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
