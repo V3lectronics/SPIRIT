@@ -1,0 +1,14 @@
+The calculations are carried out in Octave, a free and open source program often described as a Matlab alternative. It is possible to run them in Matlab as well because the synthax is mostly compatible.
+
+Octave website:
+https://octave.org/
+
+Octave download:
+https://octave.org/download
+
+TERMINAL
+To run a file for example "test.m", simply execute the command:
+
+$ octave test.m
+
+This should start executing commands from the file line by line.
