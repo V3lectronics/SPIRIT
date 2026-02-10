@@ -11238,7 +11238,7 @@
 			)
 		)
 	)
-	(global_label "~{INT}"
+	(global_label "~{BQ INT}"
 		(shape bidirectional)
 		(at 149.86 128.27 0)
 		(fields_autoplaced yes)
@@ -11250,7 +11250,7 @@
 		)
 		(uuid "a8533fa1-0040-455b-9faf-750f403ea707")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.8594 128.27 0)
+			(at 160.4275 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,7 +11678,7 @@
 			)
 		)
 	)
-	(global_label "INT"
+	(global_label "~{TPS INT}"
 		(shape bidirectional)
 		(at 363.22 138.43 0)
 		(fields_autoplaced yes)
@@ -11690,7 +11690,7 @@
 		)
 		(uuid "f1beeb9d-987b-4ca1-bd61-df672c720189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.118 138.43 0)
+			(at 374.6341 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
