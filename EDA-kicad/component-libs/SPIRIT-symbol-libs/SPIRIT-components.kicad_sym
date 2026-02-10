@@ -18506,7 +18506,7 @@
 				)
 			)
 		)
-		(property "Value" "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
+		(property "Value" "9A_6V"
 			(at 1.905 0 0)
 			(effects
 				(font
@@ -18533,7 +18533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+		(property "Description" "PTC_RESET_FUSE_9A_6V_1210_polyfuse-1210L900SLPR"
 			(at 0 0 0)
 			(effects
 				(font
