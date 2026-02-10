@@ -26198,12 +26198,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "test-pad-1"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(hide yes)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -26221,7 +26215,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:test-pad-1"
@@ -26252,6 +26245,18 @@
 			)
 		)
 		(symbol "test-pad-1_0_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy -3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 0 -1.27)
 				(radius 1.27)
@@ -26266,7 +26271,7 @@
 		)
 		(symbol "test-pad-1_1_1"
 			(pin passive line
-				(at -3.81 -1.27 0)
+				(at -6.35 -1.27 0)
 				(length 2.54)
 				(name "A"
 					(effects
