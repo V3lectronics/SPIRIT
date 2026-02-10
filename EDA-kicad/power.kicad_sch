@@ -11676,7 +11676,7 @@
 			)
 		)
 	)
-	(global_label "INT"
+	(global_label "~{TPS INT}"
 		(shape bidirectional)
 		(at 363.22 138.43 0)
 		(fields_autoplaced yes)
@@ -11698,7 +11698,7 @@
 			)
 		)
 	)
-	(global_label "~{TPS INT}"
+	(global_label "BAT+"
 		(shape bidirectional)
 		(at 69.85 187.96 0)
 		(fields_autoplaced yes)
