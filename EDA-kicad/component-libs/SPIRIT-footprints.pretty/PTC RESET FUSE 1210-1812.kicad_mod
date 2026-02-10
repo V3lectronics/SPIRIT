@@ -1,0 +1,244 @@
+(footprint "PTC RESET FUSE 1210-1812"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "polyfuse fuse reset")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "302a10f0-dcbd-420d-b565-ac77d64d655c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RESET FUSE 9.0A 6V"
+		(at 0 -0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef8effc2-c081-4833-b5d9-75c6dd2b702d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2899286e-95fe-43ca-9506-2f9eabe86131")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PTC RESET FUSE 1210-1812"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "219719d2-947c-4321-9a97-69c3f4abcd34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 -1.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e3eeac7-8dc8-483a-81a8-cd67d1927f82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7973 -1.790633)
+		(end -2.7973 1.765367)
+		(stroke
+			(width 0.152)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4067a155-d0fe-481f-820b-978c0ec55ee0")
+	)
+	(fp_line
+		(start -2.5433 -2.024833)
+		(end -1.2382 -2.024833)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "417c6df7-9067-43b7-b0c3-5f4ae2178df2")
+	)
+	(fp_line
+		(start -1.2733 2.039167)
+		(end -2.5433 2.039167)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37acf2f7-45e8-4b65-988b-64adff5bb441")
+	)
+	(fp_line
+		(start 1 -1.4)
+		(end -1 -1.4)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f399448-7d70-404f-aec5-662f227df4f4")
+	)
+	(fp_line
+		(start 1 1.4)
+		(end -1 1.4)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9de30b9-f4da-41a7-8414-d44f57afbd24")
+	)
+	(fp_line
+		(start 1.2667 2.039167)
+		(end 2.5367 2.039167)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ac3f8d0-af2f-4a0e-8bdd-42d91d3bb223")
+	)
+	(fp_line
+		(start 2.5367 -2.024833)
+		(end 1.2667 -2.024833)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ec61182-e48e-4522-961e-0243026e108d")
+	)
+	(fp_line
+		(start 2.7907 -1.770833)
+		(end 2.7907 1.785167)
+		(stroke
+			(width 0.152)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36a09dbd-d0f7-4a65-ab30-1f7af42db873")
+	)
+	(fp_circle
+		(center -2.2784 1.627167)
+		(end -2.2484 1.627167)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "c1e47b47-8cfa-4bae-a081-4b64f844b872")
+	)
+	(fp_text user "F"
+		(at -0.5 0.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3b05f97-6b7f-4a83-828a-bff4e3a1dd1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1ef6418-f111-44c4-8e01-884e993cf11d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -1.8567 0.007167)
+		(size 1.4067 3.4992)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -100)
+		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.6983 -1.752167) (xy -0.6983 1.752833) (xy 0.7117 1.752833) (xy 0.7117 1.242833) (xy 0.8567 1.242833)
+					(xy 0.8567 -1.257167) (xy 0.7117 -1.257167) (xy 0.7117 -1.752167)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b7788e89-dff9-49b6-b748-e22e848798c2")
+	)
+	(pad "2" smd custom
+		(at 1.849225 0.005883)
+		(size 1.40845 3.501766)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -100)
+		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.705775 -1.750883) (xy 0.705775 1.754117) (xy -0.704225 1.754117) (xy -0.704225 1.244117)
+					(xy -0.849225 1.244117) (xy -0.849225 -1.255883) (xy -0.704225 -1.255883) (xy -0.704225 -1.750883)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e8e96447-91c7-4ffa-8dd5-29fe0dc037fb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component-libs/SPIRIT-3D-models/reset-fuse-1210L900SLPR-Part.step"
+		(offset
+			(xyz -1.7 1.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
