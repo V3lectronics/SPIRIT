@@ -8419,6 +8419,10 @@
 		(uuid "6644810d-303a-401a-a670-9ee0f3854763")
 	)
 	(no_connect
+		(at 354.33 143.51)
+		(uuid "6eb2a61c-38b3-4469-8279-553cc6e34d00")
+	)
+	(no_connect
 		(at 303.53 130.81)
 		(uuid "82754124-168a-4ff3-9a3b-aa403004239b")
 	)
@@ -8647,16 +8651,6 @@
 			(type default)
 		)
 		(uuid "16416161-d22e-4dba-ab3f-4dbc8bac6a2f")
-	)
-	(wire
-		(pts
-			(xy 354.33 143.51) (xy 363.22 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16eec19d-12a5-4ad5-a754-e83e25146276")
 	)
 	(wire
 		(pts
@@ -8977,6 +8971,16 @@
 			(type default)
 		)
 		(uuid "3bf8d900-08c4-460c-a46f-849a673ea278")
+	)
+	(wire
+		(pts
+			(xy 283.21 138.43) (xy 303.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d97c9b2-2d1d-4e33-813d-58daf90b0480")
 	)
 	(wire
 		(pts
@@ -9660,7 +9664,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 147.32) (xy 363.22 143.51)
+			(xy 372.11 147.32) (xy 372.11 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9807,6 +9811,16 @@
 			(type default)
 		)
 		(uuid "920a37d4-b952-4597-be18-7995957924d5")
+	)
+	(wire
+		(pts
+			(xy 283.21 139.7) (xy 283.21 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f2df64-b1b5-45ef-9ed1-4377b510f6a6")
 	)
 	(wire
 		(pts
@@ -10170,7 +10184,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 147.32) (xy 370.84 147.32)
+			(xy 383.54 147.32) (xy 379.73 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10240,7 +10254,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 138.43) (xy 303.53 138.43)
+			(xy 281.94 139.7) (xy 283.21 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10796,9 +10810,9 @@
 			)
 		)
 	)
-	(global_label "RESPWRON"
+	(global_label "~{RESPWRON}"
 		(shape bidirectional)
-		(at 363.22 143.51 0)
+		(at 372.11 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10808,7 +10822,7 @@
 		)
 		(uuid "277b3562-728f-4ee1-9777-656eca31f4df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.118 143.51 0)
+			(at 386.4874 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11744,7 +11758,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 374.65 147.32 0)
+		(at 383.54 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11754,7 +11768,7 @@
 		)
 		(uuid "fb50e532-ace1-420b-8bc4-1f2be47927fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.1428 147.32 0)
+			(at 390.0328 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13523,7 +13537,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 287.02 138.43 0)
+		(at 281.94 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13531,7 +13545,7 @@
 		(dnp no)
 		(uuid "31519d3e-a92c-4afc-9084-15bafff612f6")
 		(property "Reference" "#PWR0142"
-			(at 287.02 144.78 0)
+			(at 281.94 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13540,7 +13554,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 287.02 142.24 0)
+			(at 281.94 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13548,7 +13562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 138.43 0)
+			(at 281.94 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13557,7 +13571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 138.43 0)
+			(at 281.94 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13566,7 +13580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 287.02 138.43 0)
+			(at 281.94 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23102,15 +23116,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 367.03 147.32 90)
+		(at 375.92 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e520b21d-6c45-45e8-9737-15665eaac33a")
 		(property "Reference" "R30"
-			(at 364.49 148.336 90)
+			(at 373.38 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23119,7 +23133,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 374.396 148.336 90)
+			(at 383.286 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23128,7 +23142,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:0603-resistor"
-			(at 367.03 149.098 90)
+			(at 375.92 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23137,7 +23151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 367.03 147.32 0)
+			(at 375.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23146,7 +23160,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 367.03 147.32 0)
+			(at 375.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23155,7 +23169,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0747KL"
-			(at 367.03 147.32 0)
+			(at 375.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
