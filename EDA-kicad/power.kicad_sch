@@ -7337,16 +7337,6 @@
 		)
 		(uuid "036288ad-9fae-47ae-bc7a-5f655fb9e16d")
 	)
-	(text "TODO: PWRFAIL should be used to switch\na master transistor to disconnect the battery"
-		(exclude_from_sim no)
-		(at 328.676 57.912 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0e8124e9-fe2c-4290-a12a-051c41336681")
-	)
 	(text "Target current can be modified by changing\nresistor values in the divider"
 		(exclude_from_sim no)
 		(at 21.082 73.152 0)
@@ -7511,16 +7501,6 @@
 		)
 		(uuid "52a938e9-043c-43eb-a1a4-699a08715d63")
 	)
-	(text "3.2V selected for comparator."
-		(exclude_from_sim no)
-		(at 292.608 104.648 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "56c20f0f-972a-4037-8544-f57223491024")
-	)
 	(text "STAT pin 10k pullup is only needed if signal\nis used by a separate device.\n\nSTAT pin is not necessary if charging\nstatus isn't needed"
 		(exclude_from_sim no)
 		(at 160.782 138.684 0)
@@ -7618,16 +7598,6 @@
 			)
 		)
 		(uuid "72fceb14-89ea-433e-be11-ce5fe6bc1590")
-	)
-	(text "https://en.wikipedia.org/wiki/Ripple_(electrical)"
-		(exclude_from_sim no)
-		(at 321.056 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7458b9ea-6e44-4960-be1d-bd3cfe1ab009")
 	)
 	(text "A potentiometer could be used\nto quickly modify the temp window\nand the target current"
 		(exclude_from_sim no)
