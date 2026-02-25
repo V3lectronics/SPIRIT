@@ -50,3 +50,24 @@ deltaI_L = V_out * ( ( 1-(V_out/V_in) ) / ( L*f ) )
 % Maximum inductor current
 I_outmax = 0.8;
 I_Lmax = I_outmax + deltaI_L/2
+
+display("")
+display("LOWBAT_SNS divider")
+V_BAT_target = 3.2
+V_SNS = 1; %comparator triggers at 1V
+R1 = 1000 * 10^3; %(VBAT to SNS)
+R2 = 470 * 10^3; %(GND to SNS)
+
+% original equation: V_SNS = V_BAT * R2/(R1+R2)
+V_BAT = 1/ ( ( R2/(R1+R2) ) / V_SNS )
+
+display("")
+display("PWRSAIL_SNS divider")
+V_BAT_target = 2.5
+V_SNS = 1; %comparator triggers at 1V
+R1 = 680 * 10^3; %(VBAT to SNS)
+R2 = 470 * 10^3; %(GND to SNS)
+
+% original equation: V_SNS = V_BAT * R2/(R1+R2)
+V_BAT = 1/ ( ( R2/(R1+R2) ) / V_SNS )
+
