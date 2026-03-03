@@ -10801,7 +10801,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SDA PMIC"
 		(shape bidirectional)
 		(at 354.33 77.47 0)
 		(fields_autoplaced yes)
@@ -10813,7 +10813,7 @@
 		)
 		(uuid "4c1e6133-8710-4590-b450-741f62daf530")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.9946 77.47 0)
+			(at 367.5584 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11109,7 +11109,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SCL PMIC"
 		(shape bidirectional)
 		(at 354.33 74.93 0)
 		(fields_autoplaced yes)
@@ -11121,7 +11121,7 @@
 		)
 		(uuid "b04883ba-65ef-4ca0-b4f9-46fd7b1cabec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.9341 74.93 0)
+			(at 367.4979 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
