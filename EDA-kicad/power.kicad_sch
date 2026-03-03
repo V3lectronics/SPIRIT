@@ -12683,8 +12683,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "0Ω Jumper"
-			(at 381.508 113.03 0)
+		(property "Value" "0Ω"
+			(at 382.27 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12719,43 +12719,12 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "3/1/2020"
-			(at 383.286 106.934 0)
+		(property "MPN" "RC0805JR-070RL"
+			(at 382.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 384.048 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 379.984 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 373.888 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -12775,6 +12744,401 @@
 			(project "power"
 				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
+		(at 269.24 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(property "Reference" "R35"
+			(at 268.478 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 269.24 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+			(at 269.748 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+		)
+		(pin "2"
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
+		(at 259.08 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(property "Reference" "R12"
+			(at 258.318 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 259.08 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+			(at 259.588 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+		)
+		(pin "2"
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
+		(at 279.4 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(property "Reference" "R36"
+			(at 278.638 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 279.4 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+			(at 279.908 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 279.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+		)
+		(pin "2"
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
+		(at 382.27 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(property "Reference" "R10"
+			(at 381.508 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 382.27 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+			(at 382.778 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 382.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+		)
+		(pin "2"
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
+		(at 382.27 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(property "Reference" "R11"
+			(at 381.508 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 382.27 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
+			(at 382.778 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 382.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+		)
+		(pin "2"
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15865,122 +16229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
-		(at 382.27 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6707b70c-0bd9-4c97-bb68-69bc0be74cbd")
-		(property "Reference" "R36"
-			(at 381.508 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "0Ω Jumper"
-			(at 381.508 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
-			(at 382.778 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 382.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 383.286 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 384.048 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 379.984 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 373.888 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a30c3dd3-fb21-4a2c-9893-214bfaa3b9c3")
-		)
-		(pin "2"
-			(uuid "c8631c66-1a86-4d97-9cb8-f59436fc634d")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 248.92 109.22 180)
 		(unit 1)
@@ -17310,122 +17558,6 @@
 			(project "power"
 				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
-		(at 269.24 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f2787b7-6418-4d1c-a77b-289e17bf3381")
-		(property "Reference" "R39"
-			(at 268.478 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "0Ω Jumper"
-			(at 278.13 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
-			(at 269.748 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 270.256 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 271.018 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 266.954 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 260.858 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78fedf1c-71b5-4359-9599-b977644ef155")
-		)
-		(pin "2"
-			(uuid "77c958e6-5324-4d44-bedd-91f38785b602")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19913,122 +20045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
-		(at 279.4 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf9e7e67-f039-45d2-a9fb-2bbc1dc86dc8")
-		(property "Reference" "R41"
-			(at 280.162 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "0Ω Jumper"
-			(at 288.036 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
-			(at 278.892 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 279.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 278.384 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 277.622 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 281.686 98.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 287.782 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb46056b-eccf-4afe-bc4e-bbbe477b6ab5")
-		)
-		(pin "2"
-			(uuid "9eef480b-5b5b-4394-bdb2-c515703fd5a7")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SPIRIT-components:2-2uh-inductorETQP4M2R2KVC")
 		(at 148.59 104.14 90)
 		(unit 1)
@@ -20469,6 +20485,90 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 373.38 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6e5d99b-2a0e-4426-8117-cc7a14df42b4")
+		(property "Reference" "C47"
+			(at 375.666 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22μF"
+			(at 375.158 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
+			(at 374.3452 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 373.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603MRX6S5BB226"
+			(at 373.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "307568f6-dbe8-4c50-8c41-45892bc61266")
+		)
+		(pin "1"
+			(uuid "4ec64632-613d-43fd-a86e-4ca79d6461b5")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 373.38 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20618,90 +20718,6 @@
 			(project "cm5-carrier"
 				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 373.38 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6e5d99b-2a0e-4426-8117-cc7a14df42b4")
-		(property "Reference" "C47"
-			(at 375.666 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22μF"
-			(at 375.158 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
-			(at 374.3452 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 373.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 373.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603MRX6S5BB226"
-			(at 373.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "307568f6-dbe8-4c50-8c41-45892bc61266")
-		)
-		(pin "1"
-			(uuid "4ec64632-613d-43fd-a86e-4ca79d6461b5")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -21028,122 +21044,6 @@
 			(project "power"
 				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
 					(reference "L?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
-		(at 259.08 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d194597f-540a-4e4c-a486-684cc88c1e47")
-		(property "Reference" "R40"
-			(at 258.318 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "0Ω Jumper"
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
-			(at 259.588 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 260.096 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 260.858 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 256.794 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 250.698 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51c86638-2720-465e-a5a7-c46e7f88edff")
-		)
-		(pin "2"
-			(uuid "2551d9bd-b4f9-4cc3-8e0c-01303505127b")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -21979,122 +21879,6 @@
 			(project "power"
 				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
-		(at 382.27 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dda4936f-4ec3-46ee-9c43-dfcd351dfac6")
-		(property "Reference" "R35"
-			(at 381.508 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "0Ω Jumper"
-			(at 381.508 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:1K-05W-0805-RES_ERJP06J102V"
-			(at 382.778 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 382.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 383.286 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 384.048 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 379.984 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 373.888 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a9da4aa-4345-4cda-bd53-f6c9948273fe")
-		)
-		(pin "2"
-			(uuid "3f051a39-6808-4f51-bfe7-9aa89d01908c")
-		)
-		(instances
-			(project ""
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
-					(reference "R?")
 					(unit 1)
 				)
 			)
