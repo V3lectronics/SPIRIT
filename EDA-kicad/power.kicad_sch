@@ -8004,12 +8004,6 @@
 		(uuid "f7ebc598-31df-46a9-8b4a-e1afadf8d8f2")
 	)
 	(junction
-		(at 373.38 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02dd5bad-40cd-4019-a2b4-6955aa68b857")
-	)
-	(junction
 		(at 83.82 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8026,6 +8020,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11da65f1-0376-4a30-8be1-22014b0dbd3e")
+	)
+	(junction
+		(at 373.38 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16fb0380-28ad-448d-bbf4-e3d205f18383")
 	)
 	(junction
 		(at 147.32 73.66)
@@ -8110,6 +8110,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b13f130-ca1f-4b35-8e2a-f960f0265309")
+	)
+	(junction
+		(at 373.38 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c239706-f701-4421-aedf-671e33b9abfe")
 	)
 	(junction
 		(at 86.36 125.73)
@@ -8280,12 +8286,6 @@
 		(uuid "b0a24368-310c-4ca3-bf43-4cb528918033")
 	)
 	(junction
-		(at 373.38 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8de19e6-802a-4274-ae9f-8f1982b5a604")
-	)
-	(junction
 		(at 370.84 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8428,16 +8428,6 @@
 			(type default)
 		)
 		(uuid "0431bee0-390f-46a1-b1b4-74c19913895d")
-	)
-	(wire
-		(pts
-			(xy 373.38 90.17) (xy 378.46 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0442ded2-dc4f-454f-8775-3d609a82402d")
 	)
 	(wire
 		(pts
@@ -8911,6 +8901,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 102.87) (xy 378.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38607407-7467-4bc8-91ac-e0b538e0538e")
+	)
+	(wire
+		(pts
 			(xy 254 90.17) (xy 252.73 88.9)
 		)
 		(stroke
@@ -9191,7 +9191,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 102.87) (xy 378.46 102.87)
+			(xy 363.22 102.87) (xy 373.38 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9661,13 +9661,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 130.81) (xy 356.87 130.81)
+			(xy 373.38 90.17) (xy 378.46 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ec7c083-7722-44e4-aba4-7da87ca9c0a8")
+		(uuid "8d1f4682-cfec-4c84-afd8-51e15b31f025")
 	)
 	(wire
 		(pts
@@ -10121,16 +10121,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 102.87) (xy 373.38 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c86f5bb8-9f9b-454c-8793-1de3bdde5eb4")
-	)
-	(wire
-		(pts
 			(xy 290.83 128.27) (xy 290.83 129.54)
 		)
 		(stroke
@@ -10298,16 +10288,6 @@
 			(type default)
 		)
 		(uuid "e03d74df-120a-4497-a4f6-e935950b9e15")
-	)
-	(wire
-		(pts
-			(xy 354.33 123.19) (xy 356.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e16ea1cd-5edd-4420-845e-a7d5e703b13b")
 	)
 	(wire
 		(pts
@@ -12614,7 +12594,7 @@
 	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
-		(at 356.87 123.19 0)
+		(at 354.33 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12622,7 +12602,7 @@
 		(dnp no)
 		(uuid "1913da70-18b3-4480-b663-93584412be9c")
 		(property "Reference" "#PWR0144"
-			(at 356.87 129.54 0)
+			(at 354.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +12611,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 126.746 0)
+			(at 354.33 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,7 +12620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 123.19 0)
+			(at 354.33 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +12629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 123.19 0)
+			(at 354.33 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12658,7 +12638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 356.87 123.19 0)
+			(at 354.33 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16697,91 +16677,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 373.38 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c7dc086-21b1-4108-818a-a09ae97777ee")
-		(property "Reference" "C49"
-			(at 379.476 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10μF"
-			(at 380.238 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
-			(at 372.4148 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 373.38 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 373.38 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX5R6BB106"
-			(at 373.38 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d0948e6-5262-4986-9b8d-eb36b0e4a11a")
-		)
-		(pin "1"
-			(uuid "1828d267-0d02-45da-a066-a73c32466aa7")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "C49")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 284.48 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18391,7 +18286,7 @@
 	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
-		(at 356.87 130.81 0)
+		(at 354.33 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18399,7 +18294,7 @@
 		(dnp no)
 		(uuid "9ff97866-a594-489c-bec0-da7e8e745004")
 		(property "Reference" "#PWR0145"
-			(at 356.87 137.16 0)
+			(at 354.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18408,7 +18303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 134.366 0)
+			(at 354.33 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18417,7 +18312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 130.81 0)
+			(at 354.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18426,7 +18321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 130.81 0)
+			(at 354.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18435,7 +18330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 356.87 130.81 0)
+			(at 354.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20574,6 +20469,162 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 373.38 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6e5d99b-2a0e-4426-8117-cc7a14df42b4")
+		(property "Reference" "C24"
+			(at 375.666 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22μF"
+			(at 375.158 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
+			(at 374.3452 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 373.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603MRX6S5BB226"
+			(at 373.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "307568f6-dbe8-4c50-8c41-45892bc61266")
+		)
+		(pin "1"
+			(uuid "4ec64632-613d-43fd-a86e-4ca79d6461b5")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 373.38 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6e5d99b-2a0e-4426-8117-cc7a14df42b4")
+		(property "Reference" "C25"
+			(at 375.666 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22μF"
+			(at 375.158 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
+			(at 374.3452 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 373.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603MRX6S5BB226"
+			(at 373.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "307568f6-dbe8-4c50-8c41-45892bc61266")
+		)
+		(pin "1"
+			(uuid "4ec64632-613d-43fd-a86e-4ca79d6461b5")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 373.38 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20590,7 +20641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "22μF"
 			(at 375.158 121.158 0)
 			(effects
 				(font
@@ -20626,7 +20677,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX5R6BB106"
+		(property "MPN" "CC0603MRX6S5BB226"
 			(at 373.38 119.38 0)
 			(effects
 				(font
@@ -23091,91 +23142,6 @@
 			(project "power"
 				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 373.38 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb70facb-f648-4f60-ab53-2c60ded022a2")
-		(property "Reference" "C48"
-			(at 379.476 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10μF"
-			(at 380.238 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:0603-capacitor"
-			(at 372.4148 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 373.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 373.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX5R6BB106"
-			(at 373.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88a8e52b-a88e-4a0c-8a9e-cf4142837564")
-		)
-		(pin "1"
-			(uuid "b5e0eb0e-57c3-4922-9554-ce89219bae5a")
-		)
-		(instances
-			(project "cm5-carrier"
-				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
-					(reference "C?")
 					(unit 1)
 				)
 			)
