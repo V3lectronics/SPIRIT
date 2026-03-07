@@ -8471,7 +8471,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 74.93) (xy 82.55 74.93)
+			(xy 78.74 74.93) (xy 82.55 74.93)
 		)
 		(stroke
 			(width 0)
@@ -10041,7 +10041,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 147.32) (xy 379.73 147.32)
+			(xy 384.81 147.32) (xy 379.73 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11529,7 +11529,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 383.54 147.32 0)
+		(at 384.81 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11539,7 +11539,7 @@
 		)
 		(uuid "fb50e532-ace1-420b-8bc4-1f2be47927fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 390.0328 147.32 0)
+			(at 391.3028 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,7 +11568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "6.8kΩ"
 			(at 101.6 262.8899 0)
 			(effects
 				(font
@@ -11718,8 +11718,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 293.878 96.52 0)
+		(property "Value" "100kΩ"
+			(at 292.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11802,7 +11802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 25.4 245.364 0)
 			(effects
 				(font
@@ -12016,7 +12016,7 @@
 		(dnp no)
 		(uuid "0c94dec8-e78f-4730-960d-b6648a6983f0")
 		(property "Reference" "C11"
-			(at 156.21 99.06 0)
+			(at 161.544 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,8 +12024,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF"
-			(at 155.448 102.108 0)
+		(property "Value" "0.1uF"
+			(at 161.544 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 167.64 103.378 0)
 			(effects
 				(font
@@ -12757,7 +12757,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a6")
 		(property "Reference" "R35"
 			(at 268.478 81.534 0)
 			(effects
@@ -12814,10 +12814,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5f")
 		)
 		(pin "2"
-			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c9417")
 		)
 		(instances
 			(project "cm5-carrier"
@@ -12836,7 +12836,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a7")
 		(property "Reference" "R12"
 			(at 258.318 78.994 0)
 			(effects
@@ -12893,10 +12893,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b60")
 		)
 		(pin "2"
-			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c9418")
 		)
 		(instances
 			(project "cm5-carrier"
@@ -12915,7 +12915,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a8")
 		(property "Reference" "R36"
 			(at 278.638 84.074 0)
 			(effects
@@ -12972,10 +12972,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b61")
 		)
 		(pin "2"
-			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c9419")
 		)
 		(instances
 			(project "cm5-carrier"
@@ -12994,7 +12994,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a9")
 		(property "Reference" "R10"
 			(at 381.508 99.314 0)
 			(effects
@@ -13051,10 +13051,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b62")
 		)
 		(pin "2"
-			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c941a")
 		)
 		(instances
 			(project "cm5-carrier"
@@ -13073,7 +13073,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24a5")
+		(uuid "1ba72996-54c2-45e3-b06a-5a12ba7a24aa")
 		(property "Reference" "R11"
 			(at 381.508 86.614 0)
 			(effects
@@ -13130,10 +13130,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b5e")
+			(uuid "02bc2f45-9358-49d5-96f8-4a80c3172b63")
 		)
 		(pin "2"
-			(uuid "60c956c9-0539-4f1e-8d80-3810577c9416")
+			(uuid "60c956c9-0539-4f1e-8d80-3810577c941b")
 		)
 		(instances
 			(project "cm5-carrier"
@@ -13306,8 +13306,8 @@
 				)
 			)
 		)
-		(property "Value" "1M 1%"
-			(at 260.858 113.792 0)
+		(property "Value" "1MΩ 1%"
+			(at 260.096 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13389,7 +13389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 207.264 121.92 0)
 			(effects
 				(font
@@ -13969,15 +13969,15 @@
 		(dnp no)
 		(uuid "361ac673-a9cd-4b60-a72b-622eb6c32133")
 		(property "Reference" "R5"
-			(at 85.598 77.216 90)
+			(at 82.296 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7K"
-			(at 89.662 77.216 90)
+		(property "Value" "4.7KΩ"
+			(at 91.948 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,8 +14131,8 @@
 				)
 			)
 		)
-		(property "Value" "182K"
-			(at 271.272 164.084 0)
+		(property "Value" "182KΩ"
+			(at 270.764 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14214,7 +14214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 139.7 246.634 0)
 			(effects
 				(font
@@ -14371,7 +14371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "200kΩ"
 			(at 113.03 251.4599 0)
 			(effects
 				(font
@@ -14528,7 +14528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 266.446 95.25 0)
 			(effects
 				(font
@@ -14611,7 +14611,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 151.638 117.348 90)
 			(effects
 				(font
@@ -14766,7 +14766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 130.81 246.634 0)
 			(effects
 				(font
@@ -15461,7 +15461,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "10Ω"
 			(at 248.92 71.12 90)
 			(effects
 				(font
@@ -15538,7 +15538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 46.99 261.874 0)
 			(effects
 				(font
@@ -16012,7 +16012,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 81.28 74.93 0)
+		(at 78.74 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16021,7 +16021,7 @@
 		(fields_autoplaced yes)
 		(uuid "65d49546-a3d7-48cc-972e-376fea5b3e9e")
 		(property "Reference" "#PWR073"
-			(at 81.28 81.28 0)
+			(at 78.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16030,7 +16030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 80.01 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16038,7 +16038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 74.93 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16047,7 +16047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 74.93 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16056,7 +16056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 74.93 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16245,8 +16245,8 @@
 				)
 			)
 		)
-		(property "Value" "470k 1%"
-			(at 243.332 109.982 0)
+		(property "Value" "470kΩ 1%"
+			(at 242.824 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16321,8 +16321,8 @@
 				)
 			)
 		)
-		(property "Value" "470k 1%"
-			(at 259.842 121.158 0)
+		(property "Value" "470kΩ 1%"
+			(at 259.334 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16699,7 +16699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 19.05 245.364 0)
 			(effects
 				(font
@@ -16857,7 +16857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF"
+		(property "Value" "0.1uF"
 			(at 164.338 122.428 0)
 			(effects
 				(font
@@ -16941,7 +16941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 286.512 95.504 0)
 			(effects
 				(font
@@ -17179,7 +17179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 31.75 245.364 0)
 			(effects
 				(font
@@ -17328,7 +17328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 180.34 103.378 0)
 			(effects
 				(font
@@ -17412,7 +17412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 186.69 120.65 0)
 			(effects
 				(font
@@ -17497,7 +17497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 256.54 94.742 0)
 			(effects
 				(font
@@ -17581,7 +17581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 319.278 209.55 0)
 			(effects
 				(font
@@ -17665,7 +17665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 150.876 81.026 0)
 			(effects
 				(font
@@ -17953,8 +17953,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 137.668 134.62 0)
+		(property "Value" "10kΩ"
+			(at 136.906 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18037,7 +18037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "750kΩ"
 			(at 113.03 243.8399 0)
 			(effects
 				(font
@@ -18121,7 +18121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 276.098 95.758 0)
 			(effects
 				(font
@@ -18349,8 +18349,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 63.246 78.232 0)
+		(property "Value" "100kΩ"
+			(at 62.23 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18579,7 +18579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7μF"
+		(property "Value" "4.7uF"
 			(at 193.04 97.7899 0)
 			(effects
 				(font
@@ -18655,15 +18655,15 @@
 		(dnp no)
 		(uuid "a0cba872-f760-42e4-834c-a030e1ac6b3a")
 		(property "Reference" "C23"
-			(at 269.24 138.176 90)
+			(at 270.002 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7μF"
-			(at 269.24 140.716 90)
+		(property "Value" "4.7uF"
+			(at 277.114 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18739,8 +18739,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 78.74 123.19 0)
+		(property "Value" "10kΩ"
+			(at 77.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18888,15 +18888,15 @@
 		(dnp no)
 		(uuid "a2e6bc64-f3a4-45bb-9949-abea37ec2da1")
 		(property "Reference" "R13"
-			(at 74.676 120.396 90)
+			(at 74.93 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.23k"
-			(at 75.184 122.682 90)
+		(property "Value" "5.23kΩ"
+			(at 75.184 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19123,7 +19123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "30kΩ"
 			(at 90.17 123.444 0)
 			(effects
 				(font
@@ -19280,8 +19280,8 @@
 				)
 			)
 		)
-		(property "Value" "680k 1%"
-			(at 243.078 102.616 0)
+		(property "Value" "680kΩ 1%"
+			(at 242.57 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19450,7 +19450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 174.244 103.378 0)
 			(effects
 				(font
@@ -19689,7 +19689,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100Ω"
 			(at 137.16 80.01 90)
 			(effects
 				(font
@@ -19772,7 +19772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 147.32 246.634 0)
 			(effects
 				(font
@@ -20417,7 +20417,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7μF"
+		(property "Value" "4.7uF"
 			(at 32.766 260.35 0)
 			(effects
 				(font
@@ -20501,7 +20501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 375.158 121.158 0)
 			(effects
 				(font
@@ -20575,7 +20575,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c6e5d99b-2a0e-4426-8117-cc7a14df42b4")
+		(uuid "c6e5d99b-2a0e-4426-8117-cc7a14df42b5")
 		(property "Reference" "C24"
 			(at 375.666 106.68 0)
 			(effects
@@ -20585,7 +20585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 375.158 108.458 0)
 			(effects
 				(font
@@ -20631,10 +20631,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "307568f6-dbe8-4c50-8c41-45892bc61266")
+			(uuid "307568f6-dbe8-4c50-8c41-45892bc61267")
 		)
 		(pin "1"
-			(uuid "4ec64632-613d-43fd-a86e-4ca79d6461b5")
+			(uuid "4ec64632-613d-43fd-a86e-4ca79d6461b6")
 		)
 		(instances
 			(project "cm5-carrier"
@@ -20653,7 +20653,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c6e5d99b-2a0e-4426-8117-cc7a14df42b4")
+		(uuid "c6e5d99b-2a0e-4426-8117-cc7a14df42b6")
 		(property "Reference" "C25"
 			(at 375.666 93.98 0)
 			(effects
@@ -20663,7 +20663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22uF"
 			(at 375.158 95.758 0)
 			(effects
 				(font
@@ -20709,10 +20709,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "307568f6-dbe8-4c50-8c41-45892bc61266")
+			(uuid "307568f6-dbe8-4c50-8c41-45892bc61268")
 		)
 		(pin "1"
-			(uuid "4ec64632-613d-43fd-a86e-4ca79d6461b5")
+			(uuid "4ec64632-613d-43fd-a86e-4ca79d6461b7")
 		)
 		(instances
 			(project "cm5-carrier"
@@ -20741,8 +20741,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5"
-			(at 298.704 230.886 0)
+		(property "Value" "5Ω"
+			(at 297.942 230.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20825,7 +20825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 180.34 120.65 0)
 			(effects
 				(font
@@ -21209,7 +21209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 161.29 78.994 0)
 			(effects
 				(font
@@ -21285,7 +21285,7 @@
 		(dnp no)
 		(uuid "d548027b-6b3b-40e8-bfa0-6ad180414d0a")
 		(property "Reference" "R31"
-			(at 360.68 133.858 90)
+			(at 360.68 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21293,8 +21293,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 369.57 133.858 90)
+		(property "Value" "100kΩ"
+			(at 369.316 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21378,8 +21378,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 304.546 145.796 90)
+		(property "Value" "100kΩ"
+			(at 306.07 145.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21541,8 +21541,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "127k"
-			(at 63.5 67.564 0)
+		(property "Value" "127kΩ"
+			(at 62.23 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21818,7 +21818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF"
+		(property "Value" "0.1uF"
 			(at 71.12 220.218 90)
 			(effects
 				(font
@@ -21902,7 +21902,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 173.99 120.65 0)
 			(effects
 				(font
@@ -22349,8 +22349,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 383.286 148.336 90)
+		(property "Value" "100kΩ"
+			(at 384.81 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22511,7 +22511,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "680Ω"
 			(at 151.638 125.222 0)
 			(effects
 				(font
@@ -22708,7 +22708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF"
+		(property "Value" "0.1uF"
 			(at 120.65 245.11 0)
 			(effects
 				(font
@@ -23588,7 +23588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "10uF"
 			(at 193.04 120.65 0)
 			(effects
 				(font
@@ -23673,7 +23673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 246.38 221.996 0)
 			(effects
 				(font
@@ -23830,8 +23830,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820k"
-			(at 268.986 157.988 0)
+		(property "Value" "820kΩ"
+			(at 267.716 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)

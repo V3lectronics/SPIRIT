@@ -37305,7 +37305,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33 µF coupling cap"
+		(property "Value" "0.33 uF coupling cap"
 			(at 463.55 140.97 0)
 			(effects
 				(font
@@ -38777,7 +38777,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33 µF coupling cap"
+		(property "Value" "0.33 uF coupling cap"
 			(at 463.55 152.4 0)
 			(effects
 				(font
@@ -39176,7 +39176,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33 µF coupling cap"
+		(property "Value" "0.33 uF coupling cap"
 			(at 463.55 130.81 0)
 			(effects
 				(font
@@ -40959,7 +40959,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33 µF coupling cap"
+		(property "Value" "0.33 uF coupling cap"
 			(at 463.55 162.56 0)
 			(effects
 				(font
