@@ -5836,7 +5836,7 @@
 				)
 			)
 		)
-		(property "Value" "270K-05W-0805-RES_ERJP06J102V"
+		(property "Value" "270KΩ 0.5W"
 			(at 101.6 107.95 0)
 			(effects
 				(font

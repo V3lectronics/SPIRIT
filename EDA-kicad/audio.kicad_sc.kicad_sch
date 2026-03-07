@@ -4059,7 +4059,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "01-uf-CC0603KRX7R7BB104"
+		(property "Value" "0.1uF"
 			(at 199.39 74.93 90)
 			(effects
 				(font
@@ -4558,8 +4558,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200-pf-CC0603KRX7R7BB104"
-			(at 159.512 76.2 90)
+		(property "Value" "200pF"
+			(at 164.084 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,8 +4826,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K-0805-resistor-ERA6AEB104V"
-			(at 112.776 76.962 90)
+		(property "Value" "100KΩ"
+			(at 153.162 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
