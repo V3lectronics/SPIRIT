@@ -71,3 +71,28 @@ R2 = 470 * 10^3; %(GND to SNS)
 % original equation: V_SNS = V_BAT * R2/(R1+R2)
 V_BAT = 1/ ( ( R2/(R1+R2) ) / V_SNS )
 
+display("")
+display("main power trace thickness to BQ25792 external")
+
+% For IPC-2221 internal layers: k = 0.024, b = 0.44, c = 0.725
+% For IPC-2221 external layers: k = 0.048, b = 0.44, c = 0.725
+% Where k, b, and c are constants resulting from curve fitting to the IPC-2221 curves.
+
+current_A = 5; %system can draw much more but this should be prevented
+thickness_oz = 1;
+T_rise = 60;
+T_ambient = 20;
+T_length = 27;
+
+k = 0.048;
+b = 0.44;
+c = 0.725;
+
+area = ( current_A / (k * T_rise^b) ) ^ (1/c);
+width_mils = area / (thickness_oz * 1.378)
+width_mm = width_mils * 0.0254
+
+
+
+
+
