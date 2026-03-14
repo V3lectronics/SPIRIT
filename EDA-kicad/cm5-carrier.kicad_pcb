@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.511)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -61,11 +61,11 @@
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0175)
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.13)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -76,7 +76,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 0.535)
+				(thickness 0.43)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -87,7 +87,7 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.196)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -97,8 +97,8 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 4"
-				(type "prepreg")
-				(thickness 0.535)
+				(type "core")
+				(thickness 0.43)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -109,14 +109,14 @@
 			)
 			(layer "dielectric 5"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.13)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0175)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
@@ -129,7 +129,7 @@
 				(type "Bottom Silk Screen")
 			)
 			(copper_finish "None")
-			(dielectric_constraints no)
+			(dielectric_constraints yes)
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
