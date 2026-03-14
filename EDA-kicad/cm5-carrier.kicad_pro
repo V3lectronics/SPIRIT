@@ -549,7 +549,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "motherboard-BOM.csv",
+    "bom_export_filename": "cm5-carrier.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -602,14 +602,14 @@
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "AVAILABILITY",
-          "name": "AVAILABILITY",
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": false
         },
         {
@@ -959,6 +959,24 @@
           "label": "MFG_PACKAGE_IDENT_COMPONENT_ID",
           "name": "MFG_PACKAGE_IDENT_COMPONENT_ID",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": true
         }
       ],
       "filter_string": "",

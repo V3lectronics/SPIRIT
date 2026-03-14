@@ -2252,7 +2252,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1KΩ 0.5W"
 			(at 143.51 100.33 0)
 			(effects
 				(font
